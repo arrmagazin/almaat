@@ -8,13 +8,13 @@ keywords: [math, sets]
 
 ## Sets
 
-**`Set`** := an `Azon` whose `Spons` are either `fixed` or `empty`.
+**`Set`** := an `Azon` whose `Toks` are either `fixed` or `empty`.
 
 > `Set := x → (x | Zero)`
 
 ---
 
-**`Element`** := a `valent` `Spon` of a `Set`.
+**`Element`** := a `valent` `Tok` of a `Set`.
 
 > `a ∈ S ⟺ S(a) = a`
 
@@ -34,27 +34,45 @@ keywords: [math, sets]
 
 *NOTE*: Reflexive: s`⊆ S`. Transitive: `A ⊆ B ∧ B ⊆ C ⟹ A ⊆ C`. Min/Max: `0 ⊆ S ⊆ 1`.
 
+## Domain and Codomain
+
 ---
 
-**`Domain`** := `Set` of valent Stims of an `Azon`.
+**`Domain`** := `Set` of `valent` `Tiks` of an `Azon`.
 
 > `DOM(A) := {x : A(x) ≠ 0}`
 
 ---
 
-**`Codomain`** := `Set` of valent Spons of an `Azon`.
+**`Codomain`** := `Set` of `valent` `Toks` of an `Azon`.
 
 > `COD(A) := {y : ∃x, A(x) = y ∧ y ≠ 0}`
 
-*DEF*: An `Azon` is **endogenous** if `DOM(A) = COD(A)`.
+---
+
+*DEF*: An `Azon` is **`Endogenous*`** if `DOM(A) = COD(A)`.
 
 *NOTE*: Any `Set` is endogenous.
 
-*DEF*: `Azons` are **endemic** if `DOM(A₁) = DOM(A₂) ∧ COD(A₁) = COD(A₂)`.
+---
+
+*DEF*: `Azons` are **`Endemic`** if `DOM(A₁) = DOM(A₂) ∧ COD(A₁) = COD(A₂)`.
 
 *NOTE*: Let say: `Azon` *from* `Domain` *into* `Codomain` and use *⇒* to note it: `A := DOM(A) ⇒ COD(A)`.
 
-*DEF*: a `Azon` with a single `Spon` is *called* `Principle`; with two `Spons` - `Predicate`.
+---
+
+*DEF*: `Azon` is **`Injective`** if distinct `Tiks` never respond with the same `Tok`.
+
+> `Injective(A: x → y) := A(x) = A(y) ⟹ x = y`
+
+---
+
+*DEF*: `Azon` is **`Surjective`** *onto* a given `Set` when its `Codomain` *is* that `Set`.
+
+> `Surjective(A, S) := COD(A) == S`
+
+*NOTE*: the `Set` must be given — `Codomain` *is* the image, so every `Azon` is `Surjective` onto its own `Codomain`.
 
 ## Presence and Absence
 
@@ -128,7 +146,7 @@ keywords: [math, sets]
 
 ---
 
-**`Cluster`** := A `Collection` that is non-intersecting AND saturated to a reference `Set`.
+**`Cluster`** := A `Collection` of (`Sets` := **`Fragment`**) that is non-intersecting AND saturated to a reference `Set`.
 
 > `Cluster(S) :: K{ F } (∀F₁ ≠ F₂ ∈ K: ⋂{F₁, F₂} = 0) ∧ ⋃K = S`
 

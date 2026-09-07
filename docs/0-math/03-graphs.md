@@ -13,7 +13,7 @@ keywords: [math, graphs]
 > `Graph := {[x,y]}`
 ---
 
-**`Vertex`** := one of `Stim` or `Spon` of `Arrows` of `Graph`.
+**`Vertex`** := one of `Tik` or `Tok` of `Arrows` of `Graph`.
 
 > `Vertex<G> :: ∃A ∈ G, Vertex ∈ DOM(A) ∨ Vertex ∈ COD(A)`
 

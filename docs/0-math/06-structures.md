@@ -10,18 +10,31 @@ keywords: [math, structures]
 
 ---
 
-**`Dependency<Form>`** := `Azon`
+**`Dependency<Form, SourceMask, TargetMask>`** := `Azon` that responds
 
-- *from* (one `View<Form>` := `**Source**`)
-- *into* (another `View<Form>` := `**Target**`).
+- to the `Abstraction` of a `Point` under (one `Mask` := **`SourceMask`**)
+- with the `Abstraction` of the *same* `Point` under (another `Mask` := **`TargetMask`**),
+for *every* `Point` of the `Form`.
 
-> `Dependency<Form> := Source<Form> ⇒ Target<Form>`
+> `Dependency<Form, SourceMask, TargetMask> := SourceMask.p → TargetMask.p :: ∀p ∈ Form`
+
+*NOTE*: the `Form` holds the `Dependency` only if the response is single-valued — `Points` sharing an `Abstraction` under `SourceMask` share it under `TargetMask` too.
 
 ---
 
-**`KeyMask`** := `Mask` that preserves `Bijective` correspondence between the `Points` of `Origin` and its (`Points` of `View` := `**Key**`).
+**`KeyMask<Origin>`** := `Mask` whose `Abstraction` responds *back* with its own `Point`, for *every* `Point` of the `Origin`.
 
-> `KeyMask<Origin> := Mask :: ∃(Mask.p → p)`
+> `KeyMask<Origin> :: ∀p ∈ Origin: ∃(KeyMask.p → p)`
+
+*NOTE*: equivalently, `Dependency<Origin, Mask, Identity>` holds — the `Abstraction` determines the whole `Point`. Hence the `Mask` is `Bijective` from the `Origin` onto its `View`: distinct `Points` never share an `Abstraction`.
+
+---
+
+**`Key<KeyMask>`** := `Abstraction` of a `Point` under a `KeyMask`.
+
+> `Key<KeyMask> := KeyMask.p :: p ∈ Origin`
+
+*NOTE*: a `Key` identifies its `Point` — no two `Points` of the `Origin` carry the same `Key`, and the `View` under a `KeyMask` is the `Set` of all `Keys` of the `Origin`.
 
 ---
 

@@ -8,12 +8,6 @@ keywords: [reality, system, participant, communication]
 
 ## Thing and Trajectory
 
-**`Thing(Entity)`** := a `Queue` of [`View`](../0-math/07-views.md)s of a single `Entity` across a [`Flow`](02-process.md#parts-of-a-process).
-
-> `Thing(Entity) := [View(Entity, Step[i])]`
-
----
-
 **`Transition(Thing)`** := a change of `State` of a `Thing` between consecutive `Step` — a triple of moment, before-state, after-state.
 
 > `Transition(Thing) := (Step[i], State(Thing, Step[i]), State(Thing, Step[i+1]))`

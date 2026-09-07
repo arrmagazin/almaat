@@ -16,23 +16,23 @@ The book builds one ontology from a single primitive (the `Azon`) up through the
 
 The formal core: the primitive `Azon` and the structures built directly from it.
 
-- [Azon](0-math/00-azon.md) — Azon is the framework's sole primitive: an ability to respond to each given Stim with a specific Spon, constrained by three axioms.
+- [Azon](0-math/00-azon.md) — Azon is the framework's sole primitive: an ability to respond to each given Tik with a specific Tok, constrained by three axioms.
 - [Sets, Equivalence, Topology](0-math/01-sets.md) — Set and its Elements, the equivalence relations that compare Azons, and the topological structures over Collections of Sets.
 - [Composition](0-math/02-composition.md) — The Arrow and its Vertex, and the Composition that feeds one Azon's output into another — associativity, Identity, Null, and Currying.
 - [Graph](0-math/03-graphs.md) — Graph as a Set of Arrows, the Vertex types classified by in/out connectivity, the Path and Tree built on them, and what makes a Graph connected.
 - [Numerals](0-math/04-numerals.md) — Natural numbers (Number), intervals, sequences, and selections.
 - [Spaces](0-math/05-spaces.md) — The Space as a Tuple of Attributes, and the Basis, Point, Volume, and Place built on it.
 - [Structures](0-math/06-structures.md) — The Structure: a Set equipped with Operations constrained by Laws, and the standard algebras built from them — magmas, ringoids, and lattices.
-- [Presentational View](0-math/07-views.md) — Matter as a Basis equipped with Attributes, and the Entity, Type, Point, Place, Relation, and Schema built on it.
-- [Formal Language](0-math/08-language.md) — How a Language is built from binary Code up through Alphabet, Word and Dictionary, the Rules and Grammar that transform them, and the Theory derivable from an Axiom.
+- [Formal Language](0-math/08-language.md) — How a Language is built from binary Code up through Alphabet, Word and Dictionary, the Rules and Grammar that transform them, the Theory derivable from an Axiom, and the four nested classes of Grammar.
+- [Probability](0-math/09-probability.md) — The SampleSpace and its Events, the Probability Measure and Distribution over them, conditioning up to Bayes' Theorem, Random Variables with their moments, and the limit laws over a growing Sample.
 
 ## 1 — Reality · Dynamics & Metaphysics
 
-How static primitives become living systems that act, and how `Reality` itself is read: Process → System → Probability → Entropy → Evolution → Being.
+How static primitives become living systems that act, and how `Reality` itself is read: Process → System → Entropy → Evolution → Being.
 
-- [Dynamic Processes](1-reality/02-process.md) — The Process as a controlled Queue of Words: its Circuit, the kinds of Circuit, and the landmarks of a Flow.
+- [Matter](1-reality/01-matter.md) — Matter as a Tuple of Attributes read over a common Time, and the Attribution, Entity, Content, Keys, Schema, and Quality built on it.
+- [Dynamic Processes](1-reality/02-process.md) — The Process as a controlled Queue of Words: its Circuit, the kinds of Circuit, the landmarks of a Flow, and what a Flow settles into over many Steps.
 - [Systems](1-reality/07-system.md) — Things as queues of presentations over a flow: the participants, the communication that couples them, and what the whole exhibits that no part does.
-- [Probability](1-reality/01-probability.md) — How likelihood is measured over a Random Variable, updated by evidence, and what a Flow settles into over many Steps.
 - [Entropy](1-reality/14-entropy.md) — Entropy is the bridge between the State of a System and the passage of Steps: Order is never free, and a System holds Entropy back only by drawing Communication from its Environment.
 - [Evolution](1-reality/15-evolution.md) — Evolution is the dynamics of a Paradigm: how it improves, adapts, stagnates, or regresses as Circumstances shift.
 - [Limits](1-reality/16-limits.md) — What bounds development: the Communication an Agent is free of, the Constraint it navigates, and the ceiling that Improvement approaches and Breakthrough escapes.

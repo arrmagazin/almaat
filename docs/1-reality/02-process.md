@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Processes"
-description: "The Process as a controlled Queue of Words: its Circuit, the kinds of Circuit, and the landmarks of a Flow."
-keywords: [reality, process, circuit, flow]
+description: "The Process as a controlled Queue of Words: its Circuit, the kinds of Circuit, the landmarks of a Flow, and what a Flow settles into over many Steps."
+keywords: [reality, process, circuit, flow, ergodic]
 ---
 
 # Dynamic Processes
@@ -10,61 +10,35 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Process`** := controlled `Queue` of `Words` from the same `SampleSpace`.
+**`Process`** := `Flow` produced by some `Generator` from initial `[Moment...]{0..n}`.
 
-> `Process := Queue<Word ∈ SampleSpace> :: controlled`
-
----
-
-**`Flow`** := the `Queue` of `States` a `Process` unrolls across successive `Step`s.
-
-> `Flow := [State(Step[i])]`
-
-*NOTE*: the `Circuit` is the rule; the `Flow` is what running it produces.
+> `Process<Generator> := Queue :: Moment[i+n+1] = Generator(Queue[i..i+n] : ∀i > n)`
 
 ---
 
-**`Ingress<Schema>`** := the `State` presented to a `Controller<Schema>` at a given `Step`, typed by that `Schema`.
+**`State`** := the `Event` a `Process` is in at a given `Moment`.
+
+> `State(t) := Event :: Moment[t] ∈ Event`
 
 ---
 
-**`Controller<Schema>`** := an `Azon` that responds to a State-`Ingress` with a `Probability Distribution` over `Volume`.
-
-> `Ingress<Schema> ⇒ PD(Volume<Schema>)`
-
----
-
-**`Text<Dictionary>` / `Plan`** := `Tuple` of `Words` from the same `Dictionary`.
-
-> `Text<Dictionary> : [ Word ∈ Dictionary, ...]`
-
----
-
-**`Circuit`** := `Set` of `MutuallyExclusiveEvents` with same-sized `Contexts` under the `Law of Total Probability`.
-
-> `Circuit := {Event} :: LTP`
-
----
-
-**`Law of Total Probability`** := the `Probability` values of `MutuallyExclusiveEvents` sum to 1.
-
----
-
-**`MutuallyExclusiveEvents`** := set of `Event` with the same `Context`, whose `States` comprise a `Cluster` of `SampleSpace`.
-
----
-
-**`Independent Events`** := presence or absence of one `Event`'s `State` in the `Context` of another does not affect the other's `Probability`.
-
----
-
-**`Random Variable`** := context-free `Circuit` — for all `Events` with the same `State`, the `Probability` is also the same.
-
----
-
-**`Probability Distribution`** := `Azon` that responds with a `Probability` to the `States` of a `Random Variable`.
+**`Ingress`** := the `State` presented to a `Controller<Schema>` at a given `Step`, typed by that `Schema`.
 
 ## Kinds of Circuit
+
+---
+
+**`Generator`** := an `Azon` that responds to a `Ingress` with a next `Moment`.
+
+> `Generator := Ingress ⇒ Moment`
+
+---
+
+**`Circuit`** := `Set` of `MutuallyExclusiveEvents` with same-sized `Contexts` under `Normalization`.
+
+> `Circuit := {Event} :: Normalization`
+
+*NOTE*: a [`Conditional Distribution`](../0-math/09-probability.md#conditioning) whose conditions are the `Contexts` of one length `n` — the `Circuit` responds to the last `n` `Words` with a `PD` over the next. The `Chain Rule` turns it into a `Probability Measure` over whole `Flows`.
 
 *DEF*: a `Circuit` is **memoryless** if its distribution depends only on the present `State`, not on prior history: `P(State[i+1] | State[i], ..., State[0]) = P(State[i+1] | State[i])`.
 
@@ -72,7 +46,13 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`TransitionMatrix`** := a matrix of transition probabilities between `State`s.
+*DEF*: a `Circuit` is **context-free** if its distribution does not depend on the `Context` at all — for all `Conditional Events` with the same `Event`, the `Probability` is the same.
+
+*NOTE*: its `Flow` is a [`Sample`](../0-math/09-probability.md#limit-laws): `Independent` draws from one `Distribution`, to which the `Law of Large Numbers` and `Central Limit Theorem` apply directly. A context-free `Circuit` is `memoryless` with nothing to remember.
+
+---
+
+**`TransitionMatrix`** := a [`Stochastic Matrix`](../0-math/09-probability.md#measure) of transition probabilities between `State`s.
 
 > `T[i][j] := P(State → j | State = i) :: rows sum to 1`
 
@@ -80,7 +60,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-*DEF*: a `Circuit` is **deterministic** if its distribution is a point mass — one `State` carries all the probability: `∃Point<i> :: i → PD(x) = x IS Point ? 1 : 0`.
+*DEF*: a `Circuit` is **deterministic** if its distribution is a [`Point Mass`](../0-math/09-probability.md#measure) — one `State` carries all the probability: `∃Point<i> :: i → PD(x) = x IS Point ? 1 : 0`.
 
 ---
 
@@ -94,13 +74,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Paradigm`** := a method that generates `Plans` for a `System`.
-
-> `Paradigm :: System ⇒ {Plan}`
-
----
-
-**`Potency`** := an evaluation of a `Plan`, or of the `Paradigm` that generates `Plan`s, under given `Circumstances`.
+**`Potency`** := an evaluation of a `Plan`, under given `Circumstances`.
 
 *NOTE*: written `Potency(Plan, Circumstances)` for one `Plan`, `Potency(Paradigm, Circumstances)` for the `Paradigm` as a whole, and `Potency(Plan, Paradigm, Circumstances)` where a `Plan` is evaluated within a specific `Paradigm`.
 
@@ -112,7 +86,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Halt` / `Absorbing State`** := a `State` whose `Circuit` distribution is the point mass on itself — once entered, never left.
+**`Halt` / `Absorbing State`** := a `State` whose `Circuit` distribution is the `Point Mass` on itself — once entered, never left.
 
 > `Circuit(State) = δ_Step`, `P(State | State) = 1`, `T[i][i] = 1`
 
@@ -120,8 +94,38 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Bifurcation`** := a `State` whose `Circuit` distribution has more than one `State` of non-zero probability.
+**`Bifurcation`** := a `State` whose `Circuit` distribution has more than one `State` in its [`Support`](../0-math/09-probability.md#measure).
 
 > `|support(Circuit(State))| > 1`
 
 *NOTE*: a weighted branch — the `Circuit` assigns each next `State` its transition probability. The realized choice samples from that distribution; `Communication` from outside the `State` biases the weights. [`Crisis`](15-evolution.md) is a `State` at a `Bifurcation`.
+
+## Long-Run Behavior
+
+**`Recurrent`** := a `State` returned to with probability 1.
+
+> `recurrent(State) ⟺ P(return to State) = 1`
+
+---
+
+**`Transient`** := a `State` eventually abandoned — returned to with probability less than 1.
+
+> `transient(State) ⟺ P(return to State) < 1`
+
+*NOTE*: recurrent `State` are the long-run support of the `Flow`; the stochastic generalization of a `Circuit`. Transient `State` carry only the approach.
+
+---
+
+**`Stationary Distribution`** := a `Probability Distribution` over `State` left unchanged by the `Circuit`'s `TransitionMatrix` `T`.
+
+> `π T = π`, `Σ π = 1`
+
+*NOTE*: the stochastic [`Equilibrium`](07-system.md#the-whole): applying the `Circuit` reproduces the same distribution. Not a single resting `State` but a stable *mixture* of `State`.
+
+---
+
+**`Ergodic`** := the `Flow` converges to a unique `Stationary Distribution` regardless of the starting `State`.
+
+> `lim T^k → π` for every initial `State`
+
+*NOTE*: requires irreducibility (every `State` reachable) and aperiodicity (no fixed cycle length). The long-run fraction of time in each `State` equals `π`, independent of where the `Flow` began.

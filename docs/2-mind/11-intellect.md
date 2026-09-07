@@ -98,6 +98,12 @@ A `Mind` realizes its [`Paradigm`](../1-reality/02-process.md#landmarks-of-a-flo
 
 ---
 
+**`Paradigm`** := a method that generates `Plans` for a `System`.
+
+> `Paradigm :: System ⇒ {Plan}`
+
+---
+
 **`Strategy`** := A method of making `Solution` within `Communication` considering external `Circumstances`.
 
 > `Strategy :: Communication × external-Circumstances ⇒ Solution-shape`

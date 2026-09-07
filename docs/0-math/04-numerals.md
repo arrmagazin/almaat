@@ -18,7 +18,7 @@ keywords: [math, numerals]
 
 ---
 
-**`Plus`** := The `Azon` that responds to a `Stim` with its `Singleton`.
+**`Plus`** := The `Azon` that responds to a `Tik` with its `Singleton`.
 
 > `Plus := x → {x}`
 
@@ -66,7 +66,7 @@ keywords: [math, numerals]
 
 ---
 
-**`Ratio`** := `Arrow` between two `Numbers` with a non-unit `Spon`.
+**`Ratio`** := `Arrow` between two `Numbers` with a non-unit `Tok`.
 
 > `Ratio := [p, q], q ≠ Unit` — written `p/q`
 

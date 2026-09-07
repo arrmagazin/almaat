@@ -1,6 +1,6 @@
 ---
 title: "Azon"
-description: "Azon is the framework's sole primitive: an ability to respond to each given Stim with a specific Spon, constrained by three axioms."
+description: "Azon is the framework's sole primitive: an ability to respond to each given Tik with a specific Tok, constrained by three axioms."
 keywords: [math, azon]
 ---
 
@@ -8,25 +8,37 @@ keywords: [math, azon]
 
 ## Definitions
 
-**`Azon`** := an *ability* to assign any (`Azon`:= **`Stim`**) with a corresponding (`Azon`:= **`Spon`**). I is made under to the Axioms below
+**`Azon`** := an *ability* to assign any (`Azon`:= **`Tik`**) with a corresponding (`Azon`:= **`Tok`**). I is made under to the Axioms below
 
 > `Azon := x → y`
 
 ---
 
-**`Zero`** := `Azon` that *always* responds with itself to any `Stim`.
+**`Zero`** := `Azon` that *always* responds with itself to any `Tik`.
 
 > `Zero := x → Zero`
 
-*DEF*: a response with `Zero` is *called* `empty`; any other is `valent`.
+---
+
+*DEF*: a response with `Zero` is *called* **`empty`**; any other is **`valent`**.
 
 ---
 
-**`Unit`** := `Azon` that *always* responds with the `Stim` itself, *except* with `Zero` — to itself.
+**`Unit`** := `Azon` that *always* responds with the `Tik` itself, *except* with `Zero` — to itself.
 
 > `Unit := x → (x IS Unit ? Zero : x)`
 
-*DEF*: a response with the `Stim` itself is *called* `fixed`.
+---
+
+*DEF*: a response with the `Tik` itself is *called* **`fixed`**.
+
+---
+
+*DEF*: a `Azon` that *always* responds with `Unit` or `Zero` *called* **`Predicate`**.
+
+---
+
+*DEF*: a `Predicate` that responds with `Zero` only to itself *called* **`Principle`**.
 
 ## Axioms
 

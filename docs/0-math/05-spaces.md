@@ -36,6 +36,12 @@ keywords: [math, spaces]
 
 ---
 
+**`View`** := A `Form` consists of same-`Mask` `Abstractions` on ALL `Points` of  (given `Form` := `**Origin**`).
+
+> `View<Form, Mask> := { Mask.Point :: ∀ Point ∈ Form }`
+
+---
+
 **`Subspace`** := `Abstraction` of `Space`.
 
 > `Subspace<Space, Mask> := Mask.Space`
@@ -51,14 +57,6 @@ keywords: [math, spaces]
 **`Region`** := `Volume` of the `Zone` of `Space`.
 
 > `Region := Set₁ ⊆ COD(a₁) × Set₂ ⊆ COD(a₂) × ... × Setₙ ⊆ COD(aₙ)`
-
-## Views
-
----
-
-**`View`** := A `Form` consists of `Abstractions` on ALL `Points` of  ( given `Form` := `**Origin**`).
-
-> `View<Origin, Mask> := { Mask.Point :: ∀ Point ∈ Origin }`
 
 ## Endo-space
 

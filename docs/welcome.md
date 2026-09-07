@@ -6,7 +6,7 @@ keywords: [welcome]
 
 # Welcome to ALMAAT
 
-Everything rests on one irreducible primitive, the [`Azon`](0-math/00-azon.md) — an ability that responds to each given `Stim` with a specific `Spon`. `Set`, `Graph`, `Numerals` and `Language` are built from it; `Process`, `System` and `Evolution` put it in motion; `Knowledge`, `Agent` and `Mind` make it know and act; and the applied sections carry that vocabulary into a life.
+Everything rests on one irreducible primitive, the [`Azon`](0-math/00-azon.md) — an ability that responds to each given `Tik` with a specific `Tok`. `Set`, `Graph`, `Numerals` and `Language` are built from it; `Process`, `System` and `Evolution` put it in motion; `Knowledge`, `Agent` and `Mind` make it know and act; and the applied sections carry that vocabulary into a life.
 
 ## The Sections
 

@@ -46,8 +46,8 @@ Content lives under numbered section folders, each one ontological layer or appl
 
 | Folder         | Domain                                                                         | File numbers      |
 |----------------|--------------------------------------------------------------------------------|-------------------|
-| `0-math`       | Formal foundations: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Space`, `Structures`, presentational view, formal `Language`. | `00`–`08`         |
-| `1-reality`    | Dynamics & metaphysics: `Process`, `System`, `Probability`, `Entropy`, `Evolution`, `Limits`, `Being`, transcendence, the given. | `02`, `07`, `10`, `14`–`16`, `22`, `24`, `27` |
+| `0-math`       | Formal foundations: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Space`, `Structures`, formal `Language`, `Probability`. | `00`–`06`, `08`, `09` |
+| `1-reality`    | Dynamics & metaphysics: `Matter`, `Process`, `System`, `Entropy`, `Evolution`, `Limits`, `Being`, transcendence, the given. | `01`, `02`, `07`, `14`–`16`, `22`, `24`, `27` |
 | `2-mind`       | Knowing & mind: knowing, `Knowledge`, `Proof`, `Computation`, `Reasoning`, `Teleos`, free will, `Intellect`, `Mind`, the predictive brain, scientific method. | `04`–`13`, `90` |
 | `4-human`      | The human: `Human`, `Rajdo` and approaching it, truth & faith, happiness & greatness, `Animal`, the self & death, the `Manifesto`. | `21`, `23`–`26`, `28`, `29`, `98` |
 | `7-mastery`    | Mastery and its stages: mastery, mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, clear thinking. | own domain, `01`–`11` |
@@ -84,7 +84,7 @@ Special top-level files, prefixed with `_` or named `welcome`:
 
 Content files are `NN-topic.md`, lowercase hyphenated slug, `NN` a two-digit ordering
 number. Across the ontology folders (`0-math`, `1-reality`, `2-mind`, `4-human`,
-`8-socium`) the numbers **ascend roughly with ontological depth** — `0-math` `00`–`08`,
+`8-socium`) the numbers **ascend roughly with ontological depth** — `0-math` `00`–`09`,
 `1-reality` `02`–`27`, `2-mind` `04`–`90`, `4-human` `21`–`98`, `8-socium` `30`–`37` —
 with `90` and `98` reserved for capstones (the scientific method, the manifesto).
 
@@ -176,10 +176,10 @@ Navigation lives in `INDEX.md`; cross-reference a specific Term where it is used
   … each given (`Azon`:= **`Term`**) …        an inline coinage inside a definiens
   ```
 
-  The inline form names a role within the enclosing definition (`Stim`, `Spon` in
+  The inline form names a role within the enclosing definition (`Tik`, `Tok` in
   `0-math/00-azon.md`); it declares the Term without a standalone entry. It attaches
-  tight, no space before the paren: `` (`Azon`:= **`Stim`**) ``. It replaced the older
-  colon-pair coinage `X:Y` (`Set:Basis`, `Stim:Subject`) on 2026-09-05; no colon-pair
+  tight, no space before the paren: `` (`Azon`:= **`Tik`**) ``. It replaced the older
+  colon-pair coinage `X:Y` (`Set:Basis`, `Tik:Subject`) on 2026-09-05; no colon-pair
   remains. A Term merely *mentioned* in a definiens, without the marker, is still not
   declared.
 - When a new canonical Term is coined, add it to `_translations.md` under the section for

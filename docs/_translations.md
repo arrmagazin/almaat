@@ -17,8 +17,8 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Azon` | Az |
 | `Zero` | Puston |
 | `Unit` | Proston |
-| `Stim` | Stym* |
-| `Spon` | Spon* |
+| `Tik` | Tyk* |
+| `Tok` | Tok* |
 
 ## Sets, Equivalence, Topology — `0-math/01-sets`
 
@@ -69,7 +69,9 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Subject` | Dzejnik* |
 | `Object` | Pradmet* |
 | `Singleton` | Ton |
+| `Fitted` | Prygnany* |
 | `Injective` | Adnaznaqnae* |
+| `Surjective` | Nakryvalnae* |
 | `Bijective` | Uzaemna Adnaznaqnae* |
 | `Currying` | Karyng* |
 | `Identity` | Tojesnasc* |
@@ -81,6 +83,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
+| `Text<Dictionary>` | Tekst<Slogvar>* |
 | `Code` | Kod |
 | `Alphabet` | Bukvar |
 | `Word` | Slogva |
@@ -94,6 +97,10 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Language` | Mova |
 | `Axiom` | Padvalina* |
 | `Theory` | Vyznanne |
+| `Unrestricted Grammar` | Volny Pravapis* |
+| `Context-sensitive Grammar` | Kantekstny Pravapis* |
+| `Context-free Grammar` | Bezkantekstny Pravapis* |
+| `Regular Grammar` | Regularny Pravapis* |
 
 ## Numerals — `0-math/04-numerals`
 
@@ -122,34 +129,75 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 |---|---|
 | `Space` | Shyr* |
 | `Subspace` | Padshyr* |
-| `Attribute` | Prykmeta* |
-| `Basis` | Asnova* |
 | `Point` | Kropka |
 | `Volume` | Obshar |
 | `Place` | Mesto |
+| `View` | Vid |
+| `Origin` | Vytok* |
+| `Region` | Ramka |
 
 ## Structures — `0-math/06-structures`
 
 | Term | Belarusian |
 |---|---|
-| `KeySpace` | Shyr Kliuchow* |
+| `Dependency` | Zaleznasc* |
+| `KeyMask` | Zrez Kliuchow* |
 | `Key` | Kliuch* |
 | `Law` | Zakon* |
 | `Operation` | Aperacyja* |
 | `Structure` | Stroj |
 
-## Presentational View — `0-math/07-views`
+
+## Probability — `0-math/09-probability`
 
 | Term | Belarusian |
 |---|---|
-| `View` | Vid |
+| `SampleSpace` | Prastor Vynikaw* |
+| `Outcome` | Vynik* |
+| `Event` | Zjava |
+| `Context` | Ataqenne* |
+| `Conditional Event` | Umownaja Zjava* |
+| `MutuallyExclusiveEvents` | Nesumiashqalnyja Zjavy* |
+| `Probability` | Veragodnasc* |
+| `Probability Measure` / `P` | Mera Veragodnasci* |
+| `Probability Space` | Shyr Veragodnasci* |
+| `Normalization` | Narmavanne* |
+| `Probability Distribution` / `PD` | Razmerkavanne Veragodnasci* |
+| `Stochastic Vector` | Staxastyqny Vektar* |
+| `Stochastic Matrix` | Staxastyqnaja Mantra* |
+| `Support` | Nosbit* |
+| `Point Mass` / `δ` | Kropkavaja Masa* |
+| `Conditional Probability` | Umownaja Veragodnasc* |
+| `Chain Rule` / `Multiplication Rule` | Pravilo Lancuga* |
+| `Law of Total Probability` / `LTP` | Zakon Pownaj Veragodnasci* |
+| `Bayes' Theorem` | Tearema Bajesa* |
+| `Independent Events` / `Independent` | Nezaleznyja Zjavy* |
+| `Conditional Distribution` / `Kernel` | Umownae Razmerkavanne* |
+| `Random Variable` / `RV` | Vypadkovaja Veliqynia* |
+| `Indicator` | Indykatar* |
+| `Distribution` | Razmerkavanne* |
+| `Joint Distribution` | Sumesnae Razmerkavanne* |
+| `Expected Value` / `Mean` | Qakanae Znaqenne* |
+| `Variance` | Dyspersija* |
+| `Standard Deviation` | Standartnae Adxilenne* |
+| `Covariance` | Kavaryjacyja* |
+| `Sample` | Vybarka* |
+| `Sample Mean` | Serednjae Vybarki* |
+| `Law of Large Numbers` / `LLN` | Zakon Vialikix Likaw* |
+| `Central Limit Theorem` / `CLT` | Centralnaja Graniqnaja Tearema* |
+
+## Matter — `1-reality/01-matter`
+
+| Term | Belarusian |
+|---|---|
+| `Attribute` | Prykmeta* |
+| `Basis` | Asnova* |
 | `Matter` | Materia |
-| `Origin` | Vytok* |
+| `Time` | Chas* |
 | `Content` | Zmest |
-| `Key` | Kliuq |
+| `KeyAttribute` | Prykmeta Kliuchow* |
 | `Relation` | Adnosiny |
 | `Schema` | Skema |
-| `Region` | Ramka |
 | `Projection` | Vid-zboku |
 | `Taxon` | Taksa |
 | `Principle` *(1-value Quality)* | Kon |
@@ -166,30 +214,24 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
+| `State` | Stan |
+| `Ergodic` | Ergadyqny* |
+| `Recurrent` | Zvarotny* |
+| `Stationary Distribution` | Stalae Razmerkavanne* |
+| `Transient` | Perexodny* |
 | `Paradigm` | Vega |
 | `Engine` | Ruxavik |
 | `Flow` | Rux |
 | `Plan` | Zaduma* |
 | `Step` | Mig |
-| `Event` | Zjava |
 | `Circuit` | Dvigun |
 | `Halt` / `Absorbing State` | Krant |
 | `Bifurcation` | Razvoda* |
 | `Input` | Podaqa |
-| `Context` | Ataqenne* |
 | `Controller<Schema>` | Kirawnik<Skema>* |
-| `Independent Events` | Nezaleznyja Zjavy* |
 | `Ingress` | Uvod* |
-| `Law of Total Probability` | Zakon Pownaj Veragodnasci* |
-| `MutuallyExclusiveEvents` | Nesumiashqalnyja Zjavy* |
-| `SampleSpace` | Prastor Vynikaw* |
-| `Probability` | Veragodnasc* |
-| `Probability Distribution` | Razmerkavanne Veragodnasci* |
 | `Process` | Praces* |
-| `Random Variable` | Vypadkovaja Veliqynia* |
-| `Text<Dictionary>` | Tekst<Slogvar>* |
 | `TransitionMatrix` | Mantra Perexodaw* |
-| `State` | Stan |
 | `Future` | Majbutnee |
 | `Potency` | Magna |
 | `Circumstances` | Varunki |
@@ -213,22 +255,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Feedback` | Vodguk |
 | `Emergence` | Uznika* |
 | `Equilibrium` | Roynja* |
-
-## Probability — `1-reality/01-probability`
-
-| Term | Belarusian |
-|---|---|
-| `Bayes' Theorem` | Tearema Bajesa* |
-| `Central Limit Theorem` | Centralnaja Graniqnaja Tearema* |
-| `Conditional Probability` | Umownaja Veragodnasc* |
-| `Ergodic` | Ergadyqny* |
-| `Expected Value` | Qakanae Znaqenne* |
-| `Law of Large Numbers` | Zakon Vialikix Likaw* |
-| `Recurrent` | Zvarotny* |
-| `Standard Deviation` | Standartnae Adxilenne* |
-| `Stationary Distribution` | Stalae Razmerkavanne* |
-| `Transient` | Perexodny* |
-| `Variance` | Dyspersija* |
 
 ## Entropy — `1-reality/14-entropy`
 
