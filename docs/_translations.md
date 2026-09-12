@@ -520,12 +520,18 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
+| `Constitution` | Kanstytucyja* |
+| `Dictatorship` | Dyktatura* |
 | `Elite` | Viarxi* |
 | `Legitimacy` | Legitymnasc* |
+| `Nation` | Nacyja* |
+| `Nationalism` | Nacyjanalizm* |
 | `Plebs` | Nizy* |
 | `Power` | Ulada* |
+| `Republic` | Respublika* |
 | `Sovereign-State` | Dzjarzhava* |
 | `Status` | Stanovishqa* |
+| `Totalitarianism` | Tatalitaryzm* |
 
 ## Vision — `7-mastery/03-vision`
 

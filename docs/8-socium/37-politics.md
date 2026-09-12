@@ -53,18 +53,29 @@ An `Agent` who cannot be a threat is, to `Power`, a tool — axiom 6 of the [soc
 
 **`Sovereign-State`** := Centralized, sovereign power over a defined territory, providing predictable rules of engagement, security enabling long-term cooperation, mechanisms for collective action, and formal bureaucratic procedure.
 
+---
 
-| Form | Definition |
-| --- | --- |
-| **Dictatorship** | Power held by one closed `Elite`, usually under a single boss. Personal rights are suppressed in favor of state or elite objectives, with no accountability mechanism |
-| **Totalitarianism** | Rule through a single enforced ideology. All declare identical values, doubt is treated as crime, dissenters are corrected, isolated, or destroyed |
-| **Nationalism** | Ideology placing one people's standing above all other values, splitting humanity into insiders and outsiders. Spreads by populist propaganda and black-and-white narratives |
-| **Republic** | A state built on principles rather than expedience. Citizens grant `Legitimacy` in exchange for guaranteed rights, balance of interests, and stable development; elite power is bounded by the citizens' capacity to resist it, up to removing power that turns criminal. Participation is universal and equal |
-| **Constitution** | The formal agreement between `Elite` and society — the supreme law. Defines shared values, goals, mutual rights and obligations, and commitment to human rights |
-| **Nation** | A unity based on shared mentality, heritage, and culture — a cultural-psychological phenomenon, not a biological one |
+**`Dictatorship`** := Power held by one closed `Elite`, usually under a single boss. Personal rights are suppressed in favor of state or elite objectives, with no accountability mechanism.
 
+---
 
+**`Totalitarianism`** := Rule through a single enforced ideology. All declare identical values, doubt is treated as crime, dissenters are corrected, isolated, or destroyed.
 
+---
+
+**`Nationalism`** := Ideology placing one people's standing above all other values, splitting humanity into insiders and outsiders. Spreads by populist propaganda and black-and-white narratives.
+
+---
+
+**`Republic`** := A state built on principles rather than expedience. Citizens grant `Legitimacy` in exchange for guaranteed rights, balance of interests, and stable development; elite power is bounded by the citizens' capacity to resist it, up to removing power that turns criminal. Participation is universal and equal.
+
+---
+
+**`Constitution`** := The formal agreement between `Elite` and society — the supreme law. Defines shared values, goals, mutual rights and obligations, and commitment to human rights.
+
+---
+
+**`Nation`** := A unity based on shared mentality, heritage, and culture — a cultural-psychological phenomenon, not a biological one.
 
 ## Instruments of Control
 

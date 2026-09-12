@@ -39,15 +39,19 @@
       "type": "blob"
     },
     {
-      "path": "docs/0-math/05-structures.md",
+      "path": "docs/0-math/05-spaces.md",
       "type": "blob"
     },
     {
-      "path": "docs/0-math/06-views.md",
+      "path": "docs/0-math/06-structures.md",
       "type": "blob"
     },
     {
-      "path": "docs/0-math/07-language.md",
+      "path": "docs/0-math/08-language.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/0-math/09-probability.md",
       "type": "blob"
     },
     {
@@ -55,15 +59,15 @@
       "type": "tree"
     },
     {
+      "path": "docs/1-reality/01-matter.md",
+      "type": "blob"
+    },
+    {
       "path": "docs/1-reality/02-process.md",
       "type": "blob"
     },
     {
       "path": "docs/1-reality/07-system.md",
-      "type": "blob"
-    },
-    {
-      "path": "docs/1-reality/01-probability.md",
       "type": "blob"
     },
     {
@@ -259,26 +263,6 @@
       "type": "tree"
     },
     {
-      "path": "docs/8-sustain/01-sustain.md",
-      "type": "blob"
-    },
-    {
-      "path": "docs/8-sustain/02-vitality.md",
-      "type": "blob"
-    },
-    {
-      "path": "docs/8-sustain/03-recovery.md",
-      "type": "blob"
-    },
-    {
-      "path": "docs/8-sustain/04-nutrition.md",
-      "type": "blob"
-    },
-    {
-      "path": "docs/8-sustain/05-energy.md",
-      "type": "blob"
-    },
-    {
       "path": "docs/8-sustain/06-security.md",
       "type": "blob"
     },
@@ -311,6 +295,34 @@
       "type": "blob"
     },
     {
+      "path": "docs/8-sustain/index.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/9-vitality",
+      "type": "tree"
+    },
+    {
+      "path": "docs/9-vitality/02-vitality.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/9-vitality/03-recovery.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/9-vitality/04-nutrition.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/9-vitality/05-energy.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/9-vitality/index.md",
+      "type": "blob"
+    },
+    {
       "path": "docs/CLAUDE.md",
       "type": "blob"
     },
@@ -335,111 +347,15 @@
       "type": "tree"
     },
     {
-      "path": "graphify-out",
-      "type": "tree"
-    },
-    {
-      "path": "images",
-      "type": "tree"
-    },
-    {
-      "path": "images/0-math",
-      "type": "tree"
-    },
-    {
-      "path": "images/0-math/00-azon.svg",
+      "path": "done/first-customer-finder-taalmoed.html",
       "type": "blob"
     },
     {
-      "path": "images/0-math/01-set.svg",
+      "path": "done/yt-M2exXwKXN7M.md",
       "type": "blob"
     },
     {
-      "path": "images/0-math/02-graph.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/0-math/04-numerals.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/0-math/05-space.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/1-nature",
-      "type": "tree"
-    },
-    {
-      "path": "images/1-nature/06-process.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/1-nature/07-system.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/1-nature/09-agency.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/1-nature/11-intellect.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/2-human",
-      "type": "tree"
-    },
-    {
-      "path": "images/2-human/21-human.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/2-human/22-psycho.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/2-human/23-productivity.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/2-human/24-vitality.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/2-human/99-mindset.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/3-socium",
-      "type": "tree"
-    },
-    {
-      "path": "images/3-socium/30-socium.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/3-socium/31-security.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/3-socium/37-politics.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/3-socium/98-manifesto.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/_quotes.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/_translations.svg",
-      "type": "blob"
-    },
-    {
-      "path": "images/welcome.svg",
+      "path": "done/yt-PfYDm7qY6HI.md",
       "type": "blob"
     },
     {
@@ -447,7 +363,19 @@
       "type": "tree"
     },
     {
+      "path": "input/youtube.md",
+      "type": "blob"
+    },
+    {
+      "path": "outputs",
+      "type": "tree"
+    },
+    {
       "path": "package.json",
+      "type": "blob"
+    },
+    {
+      "path": "ralph-prompt.md",
       "type": "blob"
     },
     {
@@ -463,11 +391,15 @@
       "type": "blob"
     },
     {
-      "path": "scripts/gen-banners.mjs",
+      "path": "scripts/wl-absorb.mjs",
       "type": "blob"
     },
     {
-      "path": "scripts/wl-absorb.mjs",
+      "path": "scripts/yt-fetch.mjs",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/yt-fetch.test.mjs",
       "type": "blob"
     },
     {
