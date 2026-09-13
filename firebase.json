@@ -1,0 +1,33 @@
+{
+  "hosting": {
+    "site": "almaat",
+    "public": "www",
+    "ignore": [
+      "firebase.json",
+      "**/*.js.map",
+      "**/.*",
+      "site/CLAUDE.md",
+      "site/.*/**",
+      "site/**/.*/**",
+      "site/node_modules/**",
+      "site/**/__pycache__/**"
+    ],
+    "headers": [
+      {
+        "source": "version",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-store"
+          }
+        ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "*.html",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

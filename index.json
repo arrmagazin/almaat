@@ -11,6 +11,14 @@
       "type": "blob"
     },
     {
+      "path": "app",
+      "type": "tree"
+    },
+    {
+      "path": "app/src",
+      "type": "tree"
+    },
+    {
       "path": "docs",
       "type": "tree"
     },
@@ -359,6 +367,18 @@
       "type": "blob"
     },
     {
+      "path": "firebase.almaat.json",
+      "type": "blob"
+    },
+    {
+      "path": "index.css",
+      "type": "blob"
+    },
+    {
+      "path": "index.ts",
+      "type": "blob"
+    },
+    {
       "path": "input",
       "type": "tree"
     },
@@ -375,10 +395,6 @@
       "type": "blob"
     },
     {
-      "path": "ralph-prompt.md",
-      "type": "blob"
-    },
-    {
       "path": "scripts",
       "type": "tree"
     },
@@ -388,6 +404,10 @@
     },
     {
       "path": "scripts/check-docs.mjs",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/gen-site-index.ts",
       "type": "blob"
     },
     {
@@ -432,6 +452,70 @@
     },
     {
       "path": "texts/99-science_branches.md",
+      "type": "blob"
+    },
+    {
+      "path": "www",
+      "type": "tree"
+    },
+    {
+      "path": "www/dist",
+      "type": "tree"
+    },
+    {
+      "path": "www/dist/index.css",
+      "type": "blob"
+    },
+    {
+      "path": "www/dist/index.js",
+      "type": "blob"
+    },
+    {
+      "path": "www/dist/index.js.map",
+      "type": "blob"
+    },
+    {
+      "path": "www/favicon",
+      "type": "tree"
+    },
+    {
+      "path": "www/favicon/favicon-152x152.png",
+      "type": "blob"
+    },
+    {
+      "path": "www/favicon/favicon-196x196.png",
+      "type": "blob"
+    },
+    {
+      "path": "www/favicon/favicon-32x32.png",
+      "type": "blob"
+    },
+    {
+      "path": "www/favicon/favicon-48x48.png",
+      "type": "blob"
+    },
+    {
+      "path": "www/favicon.ico",
+      "type": "blob"
+    },
+    {
+      "path": "www/favicon.svg",
+      "type": "blob"
+    },
+    {
+      "path": "www/index.html",
+      "type": "blob"
+    },
+    {
+      "path": "www/service-worker.js",
+      "type": "blob"
+    },
+    {
+      "path": "www/site.webmanifest",
+      "type": "blob"
+    },
+    {
+      "path": "www/version",
       "type": "blob"
     }
   ]

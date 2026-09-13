@@ -1,11 +1,46 @@
 {
-  "name": "almaat-docs",
-  "version": "1.0.0",
+  "name": "almaat",
   "private": true,
   "type": "module",
-  "description": "ALMAAT documentation",
+  "description": "almaat",
+  "displayName": "Books",
+  "version": "1.0.0",
+  "author": "almaat",
+  "keywords": [
+    "almaat"
+  ],
+  "email": "contact@almaat.web.app",
+  "copyright": "© 2025. Almaat,  All rights reserved.",
   "scripts": {
+    "dev": "PORT=8091 npm run start",
+    "prestart": "npm run gen:docs-index",
+    "start": "npm run stop && npx --yes npm-run-all --parallel start:*",
+    "start:serve": "bun ./scripts/serve.ts",
+    "start:css": "npm run build:css -- --watch",
+    "start:open": "npx --yes wait-on http://localhost:${PORT:?no port} && open http://localhost:${PORT:?no port}/",
+    "stop": "lsof -t -sTCP:LISTEN -i tcp:${PORT:-8091} | xargs -r kill -9",
+    "prebuild": "npm run gen:docs-index",
+    "build": "npx --yes npm-run-all --parallel build:*",
+    "build:ts": "bun ./scripts/build.ts",
+    "build:css": "npx --yes @tailwindcss/cli -i index.css -o \"www/dist/index.css\"",
+    "predeploy": "npm run build",
+    "deploy": "bun ./scripts/bump-version.ts ./www/version && firebase deploy --only hosting --config ./firebase.json -P parlang",
+    "gen:docs-index": "bun ./scripts/gen-docs-index.ts",
     "absorb-watch-later": "node scripts/wl-absorb.mjs",
-    "check-docs": "node scripts/check-docs.mjs"
+    "check-docs": "node scripts/check-docs.mjs",
+    "postinstall": "npm run link",
+    "link": "npx npm-run-all --parallel link:*",
+    "link:arrmatura-web": "cd node_modules && ln -sfn ../../arrmatura-web arrmatura-web",
+    "link:ultimus": "cd node_modules && ln -sfn ../../ultimus ultimus",
+    "link:site": "cd www/site && ln -sfn ../../docs docs",
+    "link:index": "cd www/site && ln -sfn ../../index.json index.json"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.1"
+  },
+  "dependencies": {
+    "daisyui": "^5.7.37",
+    "esbuild": "^0.28.2",
+    "tailwindcss": "^4.3.3"
   }
 }

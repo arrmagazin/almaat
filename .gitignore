@@ -1,7 +1,6 @@
 .DS_Store
-graphify-out
-.venv
-.apikey
-scripts/.cache
-.claude/*.local.md
+.cache
 done
+node_modules
+www/site/docs
+www/site/index.json
