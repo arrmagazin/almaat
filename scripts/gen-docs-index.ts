@@ -1,10 +1,10 @@
-// Generates the static file index the opmaat app fetches at /site/index.json.
+// Generates the static file index the almaat site fetches at /site/index.json.
 // The shape mirrors GitHub's recursive git-tree response, which is what the app's
 // scopeSiteTree() consumes:
 //   { sha, truncated: false, tree: [{ path, type: "blob" | "tree" }] }
 //
-// Run:  bun scripts/codegen/gen-site-index.ts                  (writes ../dutch-opmaat-docs/index.json)
-//       DOCS_ROOT=/some/where bun scripts/codegen/gen-site-index.ts
+// Run:  bun scripts/gen-docs-index.ts               (writes ./index.json at the repo root)
+//       DOCS_ROOT=/some/where bun scripts/gen-docs-index.ts
 
 import fs from "node:fs";
 import path from "node:path";
@@ -13,7 +13,7 @@ export type SiteTreeEntry = { path: string; type: "blob" | "tree" };
 export type SiteIndex = { sha: string; truncated: false; tree: SiteTreeEntry[] };
 
 const INDEX_FILE = "index.json";
-const IGNORE = new Set([".git", ".DS_Store", "node_modules", "__pycache__", "build", INDEX_FILE]);
+const IGNORE = new Set([".git", ".DS_Store", "node_modules", "__pycache__", "build", "www", INDEX_FILE]);
 
 /** Recursively lists every directory (tree) and file (blob) under `dir`, paths relative to it. */
 export function walkTree(dir: string, base = ""): SiteTreeEntry[] {
@@ -45,10 +45,11 @@ export function writeIndex(root: string): boolean {
   return true;
 }
 
-const meta = (import.meta as any);
+const meta = import.meta as any;
 if (meta.main) {
-  const here = meta.dirname ?? meta.dir;
-  const root = path.resolve(path.join( "docs"));
+  // The docs and the app live in one repo, so the index is rooted at the repo root:
+  // tree paths keep their `docs/` prefix, which is what DocsService's `scope` strips.
+  const root = path.resolve(process.env.DOCS_ROOT ?? process.cwd());
   const changed = writeIndex(root);
   console.log(`${changed ? "✍️  wrote" : "✓  up to date"} ${path.join(root, INDEX_FILE)}`);
 }

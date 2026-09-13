@@ -11,14 +11,6 @@
       "type": "blob"
     },
     {
-      "path": "app",
-      "type": "tree"
-    },
-    {
-      "path": "app/src",
-      "type": "tree"
-    },
-    {
       "path": "docs",
       "type": "tree"
     },
@@ -367,15 +359,11 @@
       "type": "blob"
     },
     {
-      "path": "firebase.almaat.json",
+      "path": "firebase.json",
       "type": "blob"
     },
     {
       "path": "index.css",
-      "type": "blob"
-    },
-    {
-      "path": "index.ts",
       "type": "blob"
     },
     {
@@ -391,12 +379,24 @@
       "type": "tree"
     },
     {
+      "path": "package-lock.json",
+      "type": "blob"
+    },
+    {
       "path": "package.json",
       "type": "blob"
     },
     {
       "path": "scripts",
       "type": "tree"
+    },
+    {
+      "path": "scripts/build.ts",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/bump-version.ts",
+      "type": "blob"
     },
     {
       "path": "scripts/check-docs.baseline.txt",
@@ -407,7 +407,19 @@
       "type": "blob"
     },
     {
-      "path": "scripts/gen-site-index.ts",
+      "path": "scripts/files.ts",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/gen-docs-index.ts",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/getEsbuildOptions.ts",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/serve.ts",
       "type": "blob"
     },
     {
@@ -420,6 +432,14 @@
     },
     {
       "path": "scripts/yt-fetch.test.mjs",
+      "type": "blob"
+    },
+    {
+      "path": "src",
+      "type": "tree"
+    },
+    {
+      "path": "src/index.ts",
       "type": "blob"
     },
     {
@@ -455,67 +475,7 @@
       "type": "blob"
     },
     {
-      "path": "www",
-      "type": "tree"
-    },
-    {
-      "path": "www/dist",
-      "type": "tree"
-    },
-    {
-      "path": "www/dist/index.css",
-      "type": "blob"
-    },
-    {
-      "path": "www/dist/index.js",
-      "type": "blob"
-    },
-    {
-      "path": "www/dist/index.js.map",
-      "type": "blob"
-    },
-    {
-      "path": "www/favicon",
-      "type": "tree"
-    },
-    {
-      "path": "www/favicon/favicon-152x152.png",
-      "type": "blob"
-    },
-    {
-      "path": "www/favicon/favicon-196x196.png",
-      "type": "blob"
-    },
-    {
-      "path": "www/favicon/favicon-32x32.png",
-      "type": "blob"
-    },
-    {
-      "path": "www/favicon/favicon-48x48.png",
-      "type": "blob"
-    },
-    {
-      "path": "www/favicon.ico",
-      "type": "blob"
-    },
-    {
-      "path": "www/favicon.svg",
-      "type": "blob"
-    },
-    {
-      "path": "www/index.html",
-      "type": "blob"
-    },
-    {
-      "path": "www/service-worker.js",
-      "type": "blob"
-    },
-    {
-      "path": "www/site.webmanifest",
-      "type": "blob"
-    },
-    {
-      "path": "www/version",
+      "path": "tsconfig.json",
       "type": "blob"
     }
   ]

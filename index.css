@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap";
 @import "tailwindcss";
 
-@source "../../node_modules/arrmatura-web/**/*.xml";
+@source "./node_modules/arrmatura-web/**/*.xml";
 
 @plugin "daisyui" {
   themes:
