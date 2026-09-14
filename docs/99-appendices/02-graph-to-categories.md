@@ -6,19 +6,22 @@ keywords: [appendices, categories, morphism, functor]
 
 # Correspondence from Graphs to Category Theory
 
-**`Category`** := A `Set` of `Azon` closed under `Composition`, containing an `Unit` for each `Domain` / `Codomain` of its members.
+Category
+: A `Set` of `Azon` closed under `Composition`, containing an `Unit` for each `Domain` / `Codomain` of its members.
 
 > `C ⊆ 1` such that `∀A, B ∈ C: COD(B) ⊆ DOM(A) ⟹ A.B ∈ C`, and `∀X ∈ Obj(C): 1_X ∈ C`
 
 ---
 
-**`Object`** := A `Domain` or `Codomain` of some `Azon` in `C` — itself a `Set` (hence an `Azon`, see [Sets](../01-math/01-sets.md)).
+Object
+: A `Domain` or `Codomain` of some `Azon` in `C` — itself a `Set` (hence an `Azon`, see [Sets](../01-math/01-sets.md)).
 
 > `Obj(C) := {DOM(A) : A ∈ C} ∪ {COD(A) : A ∈ C}`
 
 ---
 
-**`Morphism`** := An `Azon` `A ∈ C`, viewed structurally as `f: DOM(A) → COD(A)`.
+Morphism
+: An `Azon` `A ∈ C`, viewed structurally as `f: DOM(A) → COD(A)`.
 
 > `A: DOM(A) → COD(A)`
 
@@ -26,7 +29,8 @@ keywords: [appendices, categories, morphism, functor]
 
 ---
 
-**`Identity Morphism`** := The `Azon` that fixes every `Element` of an `Object` `X` and is empty elsewhere — `Unit` localized to `X` (see [Azon](../01-math/00-azon.md)).
+Identity Morphism
+: The `Azon` that fixes every `Element` of an `Object` `X` and is empty elsewhere — `Unit` localized to `X` (see [Azon](../01-math/00-azon.md)).
 
 > `1_X(a) := (a ∈ X ? a : 0)`
 
@@ -34,25 +38,29 @@ keywords: [appendices, categories, morphism, functor]
 
 ---
 
-**`Isomorphism`** := A bijective `Azon` — exactly the **Bijection** case above.
+Isomorphism
+: A bijective `Azon` — exactly the **Bijection** case above.
 
 > `A.A⁻¹ = 1_{COD(A)}` and `A⁻¹.A = 1_{DOM(A)}`
 
 ---
 
-**`Monoid`** := A `Category` over a single `Object` `X` — every member is endogenous on `X` (see [Sets](../01-math/01-sets.md)).
+Monoid
+: A `Category` over a single `Object` `X` — every member is endogenous on `X` (see [Sets](../01-math/01-sets.md)).
 
 > `∀A ∈ M: DOM(A) = COD(A) = X`
 
 ---
 
-**`Functor`** := An `Azon` that maps one `Category` into another, preserving `Composition` and `Unit` — equivalent to a **relational `Translation`** (see [Graphs](../01-math/03-graphs.md)).
+Functor
+: An `Azon` that maps one `Category` into another, preserving `Composition` and `Unit` — equivalent to a **relational `Translation`** (see [Graphs](../01-math/03-graphs.md)).
 
 > `F(A.B) = F(A).F(B)`, `F(1_X) = 1_{F(X)}`
 
 ---
 
-**`Natural Transformation`** := An `Azon` `η` assigning to each `Object` `X` an `Azon` `η_X: F(X) → G(X)` that commutes with two `Functor` `F, G`.
+Natural Transformation
+: An `Azon` `η` assigning to each `Object` `X` an `Azon` `η_X: F(X) → G(X)` that commutes with two `Functor` `F, G`.
 
 > `∀A ∈ C: η_{COD(A)} . F(A) = G(A) . η_{DOM(A)}`
 

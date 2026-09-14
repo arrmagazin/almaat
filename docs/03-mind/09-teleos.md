@@ -8,7 +8,8 @@ keywords: [mind, teleos]
 
 ## The Agent
 
-**`Agent`** := A `Participant` able to commit to a projected `Goal`, to select a `Solution` reaching it, and to sustain that commitment via `Will`.
+Agent
+: A `Participant` able to commit to a projected `Goal`, to select a `Solution` reaching it, and to sustain that commitment via `Will`.
 
 > `Agent :: Participant able<Goal + Solution + Will>`
 
@@ -16,7 +17,8 @@ keywords: [mind, teleos]
 
 ---
 
-**`Self-Efficacy`** := `Opinion` about the possibility of an `Agent`'s personal influence on the Future.
+Self-Efficacy
+: `Opinion` about the possibility of an `Agent`'s personal influence on the Future.
 
 > `Self-Efficacy :: Opinion(Agent → Future)`
 
@@ -24,7 +26,8 @@ keywords: [mind, teleos]
 
 ---
 
-**`Will`** := The sustained commitment of an `Agent` to a `Goal` across shifting `Circumstances`.
+Will
+: The sustained commitment of an `Agent` to a `Goal` across shifting `Circumstances`.
 
 > `Will :: Goal → const across Circumstances → Circumstances'`
 
@@ -32,7 +35,8 @@ keywords: [mind, teleos]
 
 ## Value and Drive
 
-**`Core-Value`** := A criterion for ranking `Future` such that, if a `Future` violates it, continued participation in the `System` is rated worse than ceasing.
+Core-Value
+: A criterion for ranking `Future` such that, if a `Future` violates it, continued participation in the `System` is rated worse than ceasing.
 
 > `Core-Value :: Future × Future ⇒ order`
 
@@ -40,7 +44,8 @@ keywords: [mind, teleos]
 
 ---
 
-**`Core-Need`** := What is deemed necessary for satisfying `Core-Value`.
+Core-Need
+: What is deemed necessary for satisfying `Core-Value`.
 
 > `Core-Need := necessary conditions for Core-Value-aligned Future`
 
@@ -48,7 +53,8 @@ keywords: [mind, teleos]
 
 ---
 
-**`Drive`** := A tension between evaluations of Being (actual) and Needed (required).
+Drive
+: A tension between evaluations of Being (actual) and Needed (required).
 
 > `Drive := evaluation(Being) − evaluation(Needed)`
 
@@ -56,7 +62,8 @@ keywords: [mind, teleos]
 
 ---
 
-**`Decision-Context`** := The conjunction of `Core-Need`, `Drive`, `Self-Efficacy`, `Potency`, and `Resources`.
+Decision-Context
+: The conjunction of `Core-Need`, `Drive`, `Self-Efficacy`, `Potency`, and `Resources`.
 
 > `Decision-Context := (Core-Need, Drive, Self-Efficacy, Potency, Resources)`
 
@@ -64,7 +71,8 @@ keywords: [mind, teleos]
 
 ## Goal and Means
 
-**`Goal`** := An image of a `Future` selected for achievement, given `Drive` and `Potency` across alternative `Plan`.
+Goal
+: An image of a `Future` selected for achievement, given `Drive` and `Potency` across alternative `Plan`.
 
 > `Goal := argmax_{Future} (Potency · alignment with Drive)`
 
@@ -72,7 +80,8 @@ keywords: [mind, teleos]
 
 ---
 
-**`Purpose`** := A method of using a given Entity to achieve a `Goal`.
+Purpose
+: A method of using a given Entity to achieve a `Goal`.
 
 > `Purpose :: Entity ⇒ role within Plan ⇒ Goal`
 
@@ -80,7 +89,8 @@ keywords: [mind, teleos]
 
 ---
 
-**`Quality-Attribute`** := An evaluation of an Entity's suitability for a given `Purpose`.
+Quality-Attribute
+: An evaluation of an Entity's suitability for a given `Purpose`.
 
 > `Quality-Attribute :: (Entity, Purpose) ⇒ Grade`
 
@@ -88,7 +98,8 @@ keywords: [mind, teleos]
 
 ---
 
-**`Resources`** := A series of Entities available for use according to their `Purpose`.
+Resources
+: A series of Entities available for use according to their `Purpose`.
 
 > `Resources := Row(Entity) consumed along Plan`
 
@@ -96,7 +107,8 @@ keywords: [mind, teleos]
 
 ## Commitment and Outcome
 
-**`Solution`** := A commitment to a specific `Plan`, chosen by trading expected `Core-Value`-satisfaction across `Potency`-weighted `Futures` against anticipated `Resources` `Cost` and accepted risk under `Circumstances`.
+Solution
+: A commitment to a specific `Plan`, chosen by trading expected `Core-Value`-satisfaction across `Potency`-weighted `Futures` against anticipated `Resources` `Cost` and accepted risk under `Circumstances`.
 
 > `Solution := argmax_{Plan} (Core-Value-utility × Potency − Cost − Risk | Circumstances)`
 
@@ -104,11 +116,13 @@ keywords: [mind, teleos]
 
 ---
 
-**`Outcome`** := What executing a `Solution` produces.
+Outcome
+: What executing a `Solution` produces.
 
 ---
 
-**`Success`** := Achievement of a `Goal` without worsening overall `Potency`.
+Success
+: Achievement of a `Goal` without worsening overall `Potency`.
 
 > `Success :: Goal achieved ∧ ΔPotency ≥ 0`
 
@@ -116,7 +130,8 @@ keywords: [mind, teleos]
 
 ---
 
-**`Victory`** := A `Solution` whose `Success` is at the expense of other `Agent`s.
+Victory
+: A `Solution` whose `Success` is at the expense of other `Agent`s.
 
 > `Victory :: Success(self) ∧ ∃A_other: Failure(A_other)`
 
@@ -124,7 +139,8 @@ keywords: [mind, teleos]
 
 ---
 
-**`Synergy`** := A `Solution` whose `Success` is shared by all participating `Agent`s.
+Synergy
+: A `Solution` whose `Success` is shared by all participating `Agent`s.
 
 > `Synergy :: ∀A ∈ Participants: Success(A)`
 
@@ -132,7 +148,8 @@ keywords: [mind, teleos]
 
 ---
 
-**`Cost`** := The `Resources` consumed in executing a `Solution`.
+Cost
+: The `Resources` consumed in executing a `Solution`.
 
 > `Cost(Solution) := ΔResources`
 

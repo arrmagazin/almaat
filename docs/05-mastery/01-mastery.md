@@ -12,7 +12,8 @@ The capacity for abundant, effective activity toward constant improvement in one
 
 ## Terms
 
-**`Practice`** := A recurring `Plan` whose `Behavior` updates the `Agent`'s `Skill` and `Knowledge` toward `Excellence`.
+Practice
+: A recurring `Plan` whose `Behavior` updates the `Agent`'s `Skill` and `Knowledge` toward `Excellence`.
 
 > `Practice :: repeated Behavior under varied Circumstances, feeding Validation and Learning`
 
@@ -20,7 +21,8 @@ The capacity for abundant, effective activity toward constant improvement in one
 
 ---
 
-**`Mastery`** := A `Paradigm` in which the `Agent`'s constituent `Skills` reliably reproduce `Excellence`-grade `Behavior` across `Circumstances`.
+Mastery
+: A `Paradigm` in which the `Agent`'s constituent `Skills` reliably reproduce `Excellence`-grade `Behavior` across `Circumstances`.
 
 > `Mastery :: Paradigm | ∀Circumstances: Behavior reproduces Excellence`
 
@@ -28,7 +30,8 @@ The capacity for abundant, effective activity toward constant improvement in one
 
 ---
 
-**`Calling`** := A `Goal` whose `Success` is a `Core-Need` for the preservation of the `Agent`'s `Core-Value`.
+Calling
+: A `Goal` whose `Success` is a `Core-Need` for the preservation of the `Agent`'s `Core-Value`.
 
 > `Calling := Goal | Success(Goal) ∈ Core-Need(Core-Value)`
 
@@ -36,7 +39,8 @@ The capacity for abundant, effective activity toward constant improvement in one
 
 ---
 
-**`Surplus`** := What an `Agent` returns beyond what it consumed.
+Surplus
+: What an `Agent` returns beyond what it consumed.
 
 > `Surplus := given − taken`
 
@@ -44,7 +48,8 @@ The capacity for abundant, effective activity toward constant improvement in one
 
 ---
 
-**`Body of Work`** := The accumulated `Outcomes` an `Agent` has produced and can be judged by.
+Body of Work
+: The accumulated `Outcomes` an `Agent` has produced and can be judged by.
 
 > `Body of Work := [Outcome(Practice[i])]`
 
@@ -52,7 +57,8 @@ The capacity for abundant, effective activity toward constant improvement in one
 
 ---
 
-**`Super-Goal`** := A `Goal` whose horizon exceeds any single `Plan`, and which orders the `Goals` beneath it.
+Super-Goal
+: A `Goal` whose horizon exceeds any single `Plan`, and which orders the `Goals` beneath it.
 
 > `Super-Goal :: Goal :: ∀Plan: horizon(Super-Goal) > horizon(Plan)`
 

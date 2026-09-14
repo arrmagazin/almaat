@@ -8,7 +8,8 @@ keywords: [human, rajdo]
 
 ## What Rajdo Is
 
-**`Rajdo`** := process of discovering, perceiving, and accepting Being `as-is`:
+Rajdo
+: process of discovering, perceiving, and accepting Being `as-is`:
 
 - as an entire mental process unfolded from one single root,
 - as a unity where everything is interweaving,
@@ -23,7 +24,8 @@ It is not magic nor a superpower, but a slight shift in perspective. A person in
 
 ## What Rajdo Entails
 
-**`Awareness`** := conscious alignment with `Rajdo` in every moment.
+Awareness
+: conscious alignment with `Rajdo` in every moment.
 
 - beyond any mental illusions, preconcepts, and frameworks — aware of them, but not bound by them,
 - without strong division into inner and external; dissociated from Ego, body, mind, emotions,
@@ -31,14 +33,16 @@ It is not magic nor a superpower, but a slight shift in perspective. A person in
 
 ---
 
-**`Acceptance`** := accepting the Present exactly as it is — without evaluation, comparison, resistance, or denial.
+Acceptance
+: accepting the Present exactly as it is — without evaluation, comparison, resistance, or denial.
 
 - have no expectations; daydream about a better future without obsession,
 - ready to accept any outcome calmly.
 
 ---
 
-**`Self-Acceptance`** := accepting oneself as one of the manifestations of God.
+Self-Acceptance
+: accepting oneself as one of the manifestations of God.
 
 - as a whole, both dark and light sides,
 - tracking one's ego, without identifying with it,
@@ -47,7 +51,8 @@ It is not magic nor a superpower, but a slight shift in perspective. A person in
 
 ---
 
-**`Moderation`** := contentment with less than the most that is possible.
+Moderation
+: contentment with less than the most that is possible.
 
 - Recognize your finitude.
 - End relations that share only a distant past.
@@ -55,7 +60,8 @@ It is not magic nor a superpower, but a slight shift in perspective. A person in
 
 ---
 
-**`Gratitude`** := all-encompassing thanks; forgiving and asking forgiveness for everything.
+Gratitude
+: all-encompassing thanks; forgiving and asking forgiveness for everything.
 
 - toward oneself, family, every person met, the universe as a whole,
 - holding no grudges, taking nothing personally,
@@ -63,7 +69,8 @@ It is not magic nor a superpower, but a slight shift in perspective. A person in
 
 ---
 
-**`Love`** := openness, curiosity, mutual attraction, understanding, compassion, admiration, and respect.
+Love
+: openness, curiosity, mutual attraction, understanding, compassion, admiration, and respect.
 
 How it is approached is in [Approaching Rajdo](24-approach.md).
 

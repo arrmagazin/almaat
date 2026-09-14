@@ -21,7 +21,8 @@ framework a `Queue` is an `Azon` over a `Ray`, an unbounded sequence, not a disc
 
 ## Indexed
 
-**`Array<X>`** := `Tuple` all of whose `Toks` are `Elements` of a single `Set`.
+Array<X>
+: `Tuple` all of whose `Toks` are `Elements` of a single `Set`.
 
 > `Array<X> :: Tuple :: DOM = Interval(n), COD ⊆ X`
 
@@ -31,7 +32,8 @@ carrier of sorting and searching.
 
 ---
 
-**`Linked List<X>`** := `Path` whose `Vertex` are `Elements` of a `Set`.
+Linked List<X>
+: `Path` whose `Vertex` are `Elements` of a `Set`.
 
 > `Linked List<X> := Path<G> :: Vertex ⊆ X, ∀V: |out(V)| ≤ 1`
 
@@ -41,7 +43,8 @@ the carrier of `Stack` and `Fifo`.
 
 ---
 
-**`Stack`** := `Linked List` admitting insertion and removal at the same end.
+Stack
+: `Linked List` admitting insertion and removal at the same end.
 
 > `Stack :: push: x → V₀, pop: V₀ → x`
 
@@ -50,7 +53,8 @@ evaluation, backtracking, call frames.
 
 ---
 
-**`Fifo`** := `Linked List` admitting insertion at one end and removal at the other.
+Fifo
+: `Linked List` admitting insertion at one end and removal at the other.
 
 > `Fifo :: push: x → Vₙ, pop: V₀ → x`
 
@@ -59,7 +63,8 @@ scheduling, event processing, waiting lists.
 
 ## Keyed
 
-**`Map<K,V>`** := `Azon` from a `Set` of `Keys` into a `Set` of `Values`.
+Map<K,V>
+: `Azon` from a `Set` of `Keys` into a `Set` of `Values`.
 
 > `Map<K,V> := k → v :: k ∈ K, v ∈ V`
 
@@ -69,7 +74,8 @@ scheduling, event processing, waiting lists.
 
 ---
 
-**`Hash Table`** := `Map` reached by `Composition` with a `Scoring` `Azon` sending every `Key` into
+Hash Table
+: `Map` reached by `Composition` with a `Scoring` `Azon` sending every `Key` into
 an `Interval`.
 
 > `Hash Table := Array.hash :: hash: K ⇒ Interval(m)`
@@ -80,7 +86,8 @@ carrier of database indexes, caches and dictionaries.
 
 ---
 
-**`Bloom Filter`** := `Array` of bits marked by `n` distinct hash `Azons`, tested by their
+Bloom Filter
+: `Array` of bits marked by `n` distinct hash `Azons`, tested by their
 conjunction.
 
 > `add(x) :: ∀i ∈ Interval(n): B[hashᵢ(x)] = 1`
@@ -92,7 +99,8 @@ stored: spell checkers, router tables, deduplication.
 
 ## Tree-shaped
 
-**`Trie`** := `Tree` whose `Arrows` are labelled by `Codes` of an `Alphabet`, so each `Path` from
+Trie
+: `Tree` whose `Arrows` are labelled by `Codes` of an `Alphabet`, so each `Path` from
 the `Root` spells a `Word`.
 
 > `Trie<Alphabet> := Tree :: label: Arrow ⇒ Alphabet, Path(Root → V) ≃ Word`
@@ -102,7 +110,8 @@ a shared `Path`. String matching, spell checkers, IP routing tables.
 
 ---
 
-**`Suffix Tree`** := `Trie` holding every suffix of one `Word`.
+Suffix Tree
+: `Trie` holding every suffix of one `Word`.
 
 > `Suffix Tree<w> := Trie :: {Path(Root → Leaf)} = {suffix(w, i) :: i ∈ Interval(|w|)}`
 
@@ -111,7 +120,8 @@ substring search reduces to one descent. Longest repeated substring, occurrence 
 
 ---
 
-**`Heap`** := `Tree` whose every `Vertex` precedes its children under a `Total Order`.
+Heap
+: `Tree` whose every `Vertex` precedes its children under a `Total Order`.
 
 > `Heap :: ∀V, ∀C ∈ children(V): V ≤ C`
 
@@ -121,7 +131,8 @@ priority queues, selection, heapsort.
 
 ---
 
-**`Balanced Tree<k>`** := `Tree` whose `Root`-to-`Leaf` `Paths` differ in length by at most `k`.
+Balanced Tree<k>
+: `Tree` whose `Root`-to-`Leaf` `Paths` differ in length by at most `k`.
 
 > `Balanced Tree<k> :: ∀P, P' ∈ Path(Root → Leaf): ||P| − |P'|| ≤ k`
 
@@ -131,7 +142,8 @@ disciplines for maintaining that bound under insertion.
 
 ---
 
-**`B-tree<m>`** := `Balanced Tree<0>` whose `Fan-Out` lies between `m/2` and `m`.
+B-tree<m>
+: `Balanced Tree<0>` whose `Fan-Out` lies between `m/2` and `m`.
 
 > `B-tree<m> := Balanced Tree<0> :: ∀V ≠ Root: m/2 ≤ |out(V)| ≤ m`
 
@@ -140,7 +152,8 @@ falls as `log_m` and each level costs a single read. The carrier of on-disk inde
 
 ---
 
-**`AVL Tree`** := `Balanced Tree<1>` with binary `Fan-Out`, measured on subtree height.
+AVL Tree
+: `Balanced Tree<1>` with binary `Fan-Out`, measured on subtree height.
 
 > `AVL :: |out(V)| ≤ 2 ∧ ∀V: |height(left(V)) − height(right(V))| ≤ 1`
 
@@ -149,7 +162,8 @@ costlier to write.
 
 ---
 
-**`Red-Black Tree`** := binary `Tree` two-coloured so that every `Root`-to-`Leaf` `Path` carries
+Red-Black Tree
+: binary `Tree` two-coloured so that every `Root`-to-`Leaf` `Path` carries
 equally many black `Vertex`, and no red `Vertex` has a red parent.
 
 > `RB :: colour: Vertex ⇒ {red, black} :: ∀P: |black(P)| = const ∧ ¬(red(V) ∧ red(parent(V)))`
@@ -159,7 +173,8 @@ bought with fewer rotations per write. The usual choice for in-memory ordered `M
 
 ---
 
-**`Segment Tree<S, op>`** := `Tree` whose `Vertex` are `Ranges` — the `Root` the whole `Range`,
+Segment Tree<S, op>
+: `Tree` whose `Vertex` are `Ranges` — the `Root` the whole `Range`,
 each `Vertex` the `Union` of its children's — carrying `op` folded over its own `Range`.
 
 > `Segment Tree<S, op> :: Root = Range(0, n), V = ⋃ children(V), value(V) = op(S ∩ V)`
@@ -169,7 +184,8 @@ rather than a scan, and a point update repairs one `Path`. Range minimum, sum, a
 
 ---
 
-**`Fenwick Tree`** := `Array` whose cell `i` holds the `Add`-fold of the `Range` ending at `i` whose
+Fenwick Tree
+: `Array` whose cell `i` holds the `Add`-fold of the `Range` ending at `i` whose
 length is the lowest set bit of `i`.
 
 > `Fenwick[i] := Σ S[j] :: i − lowbit(i) < j ≤ i`
@@ -180,7 +196,8 @@ invertible `Operations`: prefix sums, running counts.
 
 ---
 
-**`K-Tree<Space>`** := `Tree` over a `Space` in which each level splits its `Points` on one `Axis`,
+K-Tree<Space>
+: `Tree` over a `Space` in which each level splits its `Points` on one `Axis`,
 cycling through the `Axes`.
 
 > `K-Tree<Space> :: level(d) splits on Axis(d mod k)`
@@ -191,7 +208,8 @@ and computer graphics.
 
 ## Shared
 
-**`Tuple Space`** := `Set` of `Tuples` shared between participants and read by `Mask` rather than by
+Tuple Space
+: `Set` of `Tuples` shared between participants and read by `Mask` rather than by
 `Key`.
 
 > `read(Mask, pattern) ⇒ {t ∈ S :: Abstraction(Mask, t) = pattern}`

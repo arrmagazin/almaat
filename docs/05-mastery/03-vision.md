@@ -8,7 +8,8 @@ keywords: [mastery, vision]
 
 ## Determination
 
-**`Determination`** := an attitude toward the process rather than the outcome, which allows a decision to be made without waiting for perfect conditions.
+Determination
+: an attitude toward the process rather than the outcome, which allows a decision to be made without waiting for perfect conditions.
 
 *NOTE*: requires control over the [`Animal`](../04-human/28-animal.md) and over the [`Dark Shadow`](../06-socium/34-identity.md).
 

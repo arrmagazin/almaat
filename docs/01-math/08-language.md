@@ -8,31 +8,36 @@ keywords: [math, language]
 
 ## Codes and Words
 
-**`Code`** := finite `Tuple` of `0` and `1`.
+Code
+: finite `Tuple` of `0` and `1`.
 
 > `Code := [ 0 | 1 ]`
 
 ---
 
-**`Alphabet`** := finite `Set` of same-length `Code`s.
+Alphabet
+: finite `Set` of same-length `Code`s.
 
 > `Alphabet<N> := { Code :: |Code| = N }`
 
 ---
 
-**`Word`** := `Tuple` of `Codes` of given `Alphabet`.
+Word
+: `Tuple` of `Codes` of given `Alphabet`.
 
 > `Word<Alphabet> := [Codeᵢ, ...] :: Codeᵢ ∈ Alphabet`
 
 ---
 
-**`Dictionary`** := `Set` of `Words` of the same `Alphabet`.
+Dictionary
+: `Set` of `Words` of the same `Alphabet`.
 
 > `Dictionary<Alphabet> := { Word<Alphabet> }`
 
 ---
 
-**`Text<Dictionary>` / `Plan`** := `Tuple` of `Words` from the same `Dictionary`.
+Text<Dictionary> / Plan
+: `Tuple` of `Words` from the same `Dictionary`.
 
 > `Text<Dictionary> : [ Word ∈ Dictionary, ...]`
 
@@ -40,73 +45,85 @@ keywords: [math, language]
 
 ## Rules and Grammar
 
-**`Rule`** := `Arrow` between `Words` from same `Dictionary`.
+Rule
+: `Arrow` between `Words` from same `Dictionary`.
 
 > `Rule<Dictionary> := [T, T'] :: T, T' ∈ Dictionary`
 
 ---
 
-**`Grammar`** := `Graph` of `Rules` on given `Dictionary`.
+Grammar
+: `Graph` of `Rules` on given `Dictionary`.
 
 > `Grammar<Dictionary> := { Rule<Dictionary> }`
 
 ---
 
-**`Conclusion`** := `Composition` of some `Path` in given `Grammar`.
+Conclusion
+: `Composition` of some `Path` in given `Grammar`.
 
 > `Conclusion<Grammar> := Composition([Rule₁, …, Ruleₙ] ∈ Grammar)`
 
 ## Theories
 
-**`Expression`** := `Word` produced by a `Conclusion` from a given input `Word`.
+Expression
+: `Word` produced by a `Conclusion` from a given input `Word`.
 
 > `Expression<Word, Grammar> := Conclusion<Grammar>(Word)`
 
 ---
 
-**`Theory`** := `Dictionary` of all `Expressions` derived from the `Word` within the `Grammar`.
+Theory
+: `Dictionary` of all `Expressions` derived from the `Word` within the `Grammar`.
 
 > `Theory<Word, Grammar> := { Expression<Word, Grammar> }`
 
 ---
 
-**`Axiom`** := `Word` that cannot be expressed in given `Grammar`.
+Axiom
+: `Word` that cannot be expressed in given `Grammar`.
 
 > `Axiom<Grammar> := ¬∃ Theory :: Axiom ∈ Theory`
 
 ---
 
-**`Terminal`** := `Word` that nothing can be derived from in given `Grammar`.
+Terminal
+: `Word` that nothing can be derived from in given `Grammar`.
 
 > `Terminal<Grammar> := Word :: Theory<Word, Grammar> = Zero`
 
 ---
 
-**`Language`** := `Dictionary` of all `Terminals` expressed from given `Axioms` within given `Grammar`.
+Language
+: `Dictionary` of all `Terminals` expressed from given `Axioms` within given `Grammar`.
 
 > `Language<{Axiom}, Grammar> := { Terminal ∈ Theory<A, Grammar> : A ∈ {Axiom} }`
 
 ## Classification of Grammars
 
-**`Unrestricted Grammar`** := `Grammar` that constrains its `Rules` in no way.
+Unrestricted Grammar
+: `Grammar` that constrains its `Rules` in no way.
 
 > `Unrestricted := { Rule[T, T'] }`
 
 ---
 
-**`Context-sensitive Grammar`** := `Grammar` whose every `Rule` has an `Object` no shorter than its `Subject`.
+Context-sensitive Grammar
+: `Grammar` whose every `Rule` has an `Object` no shorter than its `Subject`.
 
 > `Context-sensitive := { Rule[T, T'] :: |T| ≤ |T'| }`
 
 ---
 
-**`Context-free Grammar`** := `Grammar` whose every `Rule` takes a single non-`Terminal` `Code` as its `Subject`.
+Context-free Grammar
+: `Grammar` whose every `Rule` takes a single non-`Terminal` `Code` as its `Subject`.
 
 > `Context-free := { Rule[T, T'] :: |T| = 1 ∧ T ∉ Terminal }`
 
 ---
 
-**`Regular Grammar`** := `Context-free Grammar` whose `Object` carries `Terminal` `Codes` and at most one non-`Terminal`, always at the same end.
+Regular Grammar
+: `Context-free Grammar` whose `Object` carries `Terminal` `Codes` and at most one non-`Terminal`, always at the same end.
 
 > `Regular := { Rule[T, T'] :: |T| = 1 ∧ (T' = [t] ∨ T' = [t, N]) :: t ∈ Terminal, N ∉ Terminal }`
 

@@ -12,7 +12,8 @@ Truth and falsity are not a separate Boolean type — they are the *survival* or
 
 ---
 
-**`Predicate`** := A `Set` regarded as a truth-test over the `World`.
+Predicate
+: A `Set` regarded as a truth-test over the `World`.
 
 > `P(x) ∈ {x, 0}`
 
@@ -20,7 +21,8 @@ Truth and falsity are not a separate Boolean type — they are the *survival* or
 
 ---
 
-**`Tautology`** := Predicate satisfied by every `Element` of the `World`.
+Tautology
+: Predicate satisfied by every `Element` of the `World`.
 
 > `⊤ := P`
 
@@ -28,7 +30,8 @@ Truth and falsity are not a separate Boolean type — they are the *survival* or
 
 ---
 
-**`Contradiction`** := Predicate satisfied by no `Azon`.
+Contradiction
+: Predicate satisfied by no `Azon`.
 
 > `⊥ := 0`
 
@@ -36,7 +39,8 @@ Truth and falsity are not a separate Boolean type — they are the *survival* or
 
 ---
 
-**`Conjunction`** := Both predicates hold.
+Conjunction
+: Both predicates hold.
 
 > `A ∧ B := A ∩ B`
 
@@ -44,7 +48,8 @@ Truth and falsity are not a separate Boolean type — they are the *survival* or
 
 ---
 
-**`Disjunction`** := At least one predicate holds.
+Disjunction
+: At least one predicate holds.
 
 > `A ∨ B := A ∪ B`
 
@@ -52,7 +57,8 @@ Truth and falsity are not a separate Boolean type — they are the *survival* or
 
 ---
 
-**`Negation`** := Predicate fails.
+Negation
+: Predicate fails.
 
 > `¬A := !A`
 
@@ -60,7 +66,8 @@ Truth and falsity are not a separate Boolean type — they are the *survival* or
 
 ---
 
-**`Implication`** := A entails B.
+Implication
+: A entails B.
 
 > `A → B :: A ⊆ B`
 
@@ -68,7 +75,8 @@ Truth and falsity are not a separate Boolean type — they are the *survival* or
 
 ---
 
-**`Biconditional`** := A and B have the same extension.
+Biconditional
+: A and B have the same extension.
 
 > `A ↔ B :: A = B`
 
@@ -76,7 +84,8 @@ Truth and falsity are not a separate Boolean type — they are the *survival* or
 
 ---
 
-**`Universal`** := Predicate holds throughout a `Set`.
+Universal
+: Predicate holds throughout a `Set`.
 
 > `∀x ∈ A: P(x) :: A ⊆ P`
 
@@ -84,7 +93,8 @@ Truth and falsity are not a separate Boolean type — they are the *survival* or
 
 ---
 
-**`Existential`** := Predicate holds somewhere in a `Set`.
+Existential
+: Predicate holds somewhere in a `Set`.
 
 > `∃x ∈ A: P(x) :: A ∩ P ≠ 0`
 

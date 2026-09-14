@@ -10,13 +10,15 @@ keywords: [reality, matter, attribute, time]
 
 ---
 
-**`Time`** := `Ray` whose `Numbers` order the readings of `Attributes`; a common `Domain` factor shared by every `Attribute` of a `Matter`.
+Time
+: `Ray` whose `Numbers` order the readings of `Attributes`; a common `Domain` factor shared by every `Attribute` of a `Matter`.
 
 > `Time := Ray`, `t ∈ Time`
 
 ---
 
-**`Attribute`** := `Azon` *from* a (`Set` := **`Basis`**) paired with `Time` *into* a `Fragment` of (`Cluster` := **`Palette`**).
+Attribute
+: `Azon` *from* a (`Set` := **`Basis`**) paired with `Time` *into* a `Fragment` of (`Cluster` := **`Palette`**).
 
 > `Attribute<Basis, Time, Palette> :: (Basis × Time) ⇒ elemOf(Palette)`
 
@@ -24,7 +26,8 @@ keywords: [reality, matter, attribute, time]
 
 ---
 
-**`Matter`** := `Tuple` of `Attributes` with the same `Basis`, `Time` and `Palette`.
+Matter
+: `Tuple` of `Attributes` with the same `Basis`, `Time` and `Palette`.
 
 > `Matter<Basis, Time, Palette> := M[ Attribute<Basis, Time, Palette>, ... ]`
 
@@ -34,13 +37,15 @@ keywords: [reality, matter, attribute, time]
 
 ---
 
-**`Field`** := `Volume` of `Space` made from  `Codomains` of respective `Attributes` of the `Matter`.
+Field
+: `Volume` of `Space` made from  `Codomains` of respective `Attributes` of the `Matter`.
 
 > `Field<Matter> := ×[COD(Matter[i],... : ∀i < n ]`
 
 ---
 
-**`Attribution`** := `Azon`
+Attribution
+: `Azon`
 *from* `Basis` and `Time`
 *into* `Volume` of `Codomains` of the `Matter`.
 
@@ -48,30 +53,36 @@ keywords: [reality, matter, attribute, time]
 
 ---
 
-**`Entity`** := `Element` of the `Basis` of the `Matter`.
+Entity
+: `Element` of the `Basis` of the `Matter`.
 
 > `Entity ∈ Matter:Basis`
 
 ---
 
-**`Moment`** :=  `Set` of `Attributions` of all `Entities` at the given Time.
+Moment
+: `Set` of `Attributions` of all `Entities` at the given Time.
 
 > `Moment(t) :=  { M[ A(E, t), ... over A in Matter ] : ∀E ∈ Basis }`
 
 ---
 
-**`Flow`** := the `Queue` of `Moments` over `Time`.
+Flow
+: the `Queue` of `Moments` over `Time`.
 
 > `Flow := t -> Moment(t) : ∀E ∈ Basis }`
 
 ---
-**`Thing(Entity)`** := a `Queue` of `Attributions` of a single `Entity` across a `Flow`.
+
+Thing(Entity)
+: a `Queue` of `Attributions` of a single `Entity` across a `Flow`.
 
 > `Thing(Entity) := t -> [Attribution(Entity, t)]`
 
 ---
 
-**`Content`** := `Set` of every `Entity` whose `Attribution` at a given `t ∈ Time` `Toks` falls within the `Form`.
+Content
+: `Set` of every `Entity` whose `Attribution` at a given `t ∈ Time` `Toks` falls within the `Form`.
 
 > `Content(Form, t) := { Entity :: Attribution(Entity, t) ∈ Form }`
 
@@ -79,27 +90,32 @@ keywords: [reality, matter, attribute, time]
 
 ## Keys, Relations, Schema
 
-**`KeyAttribute`** (primary key) := `Injective` `Attribute` — its singleton `Mask` is a `KeyMask` of the `Matter`.
+KeyAttribute (primary key)
+: `Injective` `Attribute` — its singleton `Mask` is a `KeyMask` of the `Matter`.
 
 > `∀a, b ∈ Basis, ∀t ∈ Time: KeyAttribute(a, t) = KeyAttribute(b, t) ⟹ a = b`
 
 ---
 
-**`Reference`** (foreign key) := `Attribute` who are `KeyAttribute` of other `Matters`.
+Reference (foreign key)
+: `Attribute` who are `KeyAttribute` of other `Matters`.
 
 ---
 
-**`Schema`** := `Graph` of `References` between `Matters`.
+Schema
+: `Graph` of `References` between `Matters`.
 
 > `Schema<{Type}> := ({Type}, {Relation})`
 
 ---
 
-**`Quality<Matter>`** := `Azon` *from* `Field` of `Matter`.
+Quality<Matter>
+: `Azon` *from* `Field` of `Matter`.
 
 ---
 
-**`Sigma<n>`** := smallest `Form` containing an `(n−1)/n` proportion of the `Basis`.
+Sigma<n>
+: smallest `Form` containing an `(n−1)/n` proportion of the `Basis`.
 
 > `Sigma<n> := argmin(|Place|) : |Content(Place, t)| ≥ ((n−1)/n) · |Basis|`
 

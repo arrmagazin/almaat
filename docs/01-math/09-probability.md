@@ -8,7 +8,8 @@ keywords: [math, probability, bayes, random variable]
 
 ## Sample Space and Events
 
-**`SampleSpace`** := `Dictionary` whose `Words` are the mutually exclusive outcomes of one trial.
+SampleSpace
+: `Dictionary` whose `Words` are the mutually exclusive outcomes of one trial.
 
 > `SampleSpace := Dictionary<Alphabet>`
 
@@ -16,13 +17,15 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Outcome`** := a `Word` of the `SampleSpace` — what one trial yields.
+Outcome
+: a `Word` of the `SampleSpace` — what one trial yields.
 
 > `Outcome := ω ∈ SampleSpace`
 
 ---
 
-**`Event`** := a `Subset` of a `SampleSpace`.
+Event
+: a `Subset` of a `SampleSpace`.
 
 > `Event := Subset ⊆ SampleSpace`
 
@@ -43,13 +46,15 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Context`** := the `Text<SampleSpace>` of `Outcomes` preceding an `Event`, or `Zero` where there is none.
+Context
+: the `Text<SampleSpace>` of `Outcomes` preceding an `Event`, or `Zero` where there is none.
 
 > `Context := Text<SampleSpace> | Zero`
 
 ---
 
-**`Conditional Event`** := pair of `Context`, `Event`.
+Conditional Event
+: pair of `Context`, `Event`.
 
 > `Conditional Event<SampleSpace> := [Context, Event]`
 
@@ -57,7 +62,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`MutuallyExclusiveEvents`** := `Set` of `Conditional Events` with the same `Context`, whose `Events` comprise a `Cluster` of the `SampleSpace`.
+MutuallyExclusiveEvents
+: `Set` of `Conditional Events` with the same `Context`, whose `Events` comprise a `Cluster` of the `SampleSpace`.
 
 > `MutuallyExclusiveEvents<Context> := { [Context, Event] } :: {Event} IS Cluster(SampleSpace)`
 
@@ -65,7 +71,8 @@ keywords: [math, probability, bayes, random variable]
 
 ## Measure
 
-**`Probability`** := a `Rational` from 0 to 1.
+Probability
+: a `Rational` from 0 to 1.
 
 > `Probability := Rational :: 0 ≤ Probability ≤ 1`
 
@@ -73,7 +80,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Probability Measure`** / `P` := `Azon` *from* the `PowerSet` of the `SampleSpace` *into* `Probability`, under three axioms.
+Probability Measure / P
+: `Azon` *from* the `PowerSet` of the `SampleSpace` *into* `Probability`, under three axioms.
 
 > `P := 2^SampleSpace ⇒ Probability`
 
@@ -96,7 +104,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Probability Space`** := pair of a `SampleSpace` and a `Probability Measure` on it.
+Probability Space
+: pair of a `SampleSpace` and a `Probability Measure` on it.
 
 > `Probability Space := [SampleSpace, P]`
 
@@ -104,7 +113,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Normalization`** := the `Probability` values over a `Cluster` of the `SampleSpace` sum to 1.
+Normalization
+: the `Probability` values over a `Cluster` of the `SampleSpace` sum to 1.
 
 > `Σ P(Event) = 1 over Event ∈ Cluster(SampleSpace)`
 
@@ -112,7 +122,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Probability Distribution`** / `PD` := `Azon` that responds with a `Probability` to each `Event` of a `Cluster` of the `SampleSpace`, under `Normalization`.
+Probability Distribution / PD
+: `Azon` that responds with a `Probability` to each `Event` of a `Cluster` of the `SampleSpace`, under `Normalization`.
 
 > `PD<Cluster> := Event ∈ Cluster ⇒ Probability :: Normalization`
 
@@ -120,7 +131,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Stochastic Vector`** := `Tuple` of `Probabilities` whose entries sum to 1.
+Stochastic Vector
+: `Tuple` of `Probabilities` whose entries sum to 1.
 
 > `Stochastic Vector := [p₀, …, pₙ₋₁] :: Σ pᵢ = 1`
 
@@ -128,7 +140,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Stochastic Matrix`** := `Matrix` whose every row is a `Stochastic Vector`.
+Stochastic Matrix
+: `Matrix` whose every row is a `Stochastic Vector`.
 
 > `Stochastic Matrix := M :: ∀i: Σⱼ M[i][j] = 1`
 
@@ -136,13 +149,15 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Support`** := `Set` of `Events` of a `Cluster` with non-zero `Probability`.
+Support
+: `Set` of `Events` of a `Cluster` with non-zero `Probability`.
 
 > `support(PD) := { Event ∈ Cluster : PD(Event) > 0 }`
 
 ---
 
-**`Point Mass`** / `δ` := `PD` whose `Support` is a `Singleton`.
+Point Mass / δ
+: `PD` whose `Support` is a `Singleton`.
 
 > `δ<a> := Event → (a ∈ Event ? 1 : 0)`
 
@@ -150,7 +165,8 @@ keywords: [math, probability, bayes, random variable]
 
 ## Conditioning
 
-**`Conditional Probability`** := the `Probability` of an `Event` A given that an `Event` B of non-zero `Probability` occurred.
+Conditional Probability
+: the `Probability` of an `Event` A given that an `Event` B of non-zero `Probability` occurred.
 
 > `P(A | B) := P(A ∩ B) / P(B) :: P(B) > 0`
 
@@ -158,7 +174,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Chain Rule`** / `Multiplication Rule` := the `Probability` of an `Intersection` is the product of successive `Conditional Probabilities`.
+Chain Rule / Multiplication Rule
+: the `Probability` of an `Intersection` is the product of successive `Conditional Probabilities`.
 
 > `P(A₁ ∩ A₂ ∩ … ∩ Aₙ) = P(A₁) · P(A₂ | A₁) · … · P(Aₙ | A₁ ∩ … ∩ Aₙ₋₁)`
 
@@ -166,7 +183,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Law of Total Probability`** / `LTP` := the `Probability` of an `Event` is the sum of its `Conditional Probabilities` over a `Cluster`, each weighted by the `Probability` of the condition.
+Law of Total Probability / LTP
+: the `Probability` of an `Event` is the sum of its `Conditional Probabilities` over a `Cluster`, each weighted by the `Probability` of the condition.
 
 > `P(A) = Σ P(A | Bᵢ) · P(Bᵢ) over Bᵢ ∈ Cluster(SampleSpace)`
 
@@ -174,7 +192,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Bayes' Theorem`** := reverses a `Conditional Probability`: the `Probability` of a hypothesis A given evidence B, from the `Probability` of B given A.
+Bayes' Theorem
+: reverses a `Conditional Probability`: the `Probability` of a hypothesis A given evidence B, from the `Probability` of B given A.
 
 > `P(A | B) = P(B | A) · P(A) / P(B)`, with `P(B) = Σ P(B | Aᵢ) · P(Aᵢ)` over a `Cluster` `{Aᵢ}` of hypotheses
 
@@ -182,7 +201,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Independent Events`** / `Independent` := `Events` whose joint `Probability` is the product of their `Probabilities`.
+Independent Events / Independent
+: `Events` whose joint `Probability` is the product of their `Probabilities`.
 
 > `Independent(A, B) := P(A ∩ B) = P(A) · P(B)` — equivalently `P(A | B) = P(A)` when `P(B) > 0`
 
@@ -190,7 +210,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Conditional Distribution`** / `Kernel` := `Azon` that responds to each condition of a `Set` with a `Probability Distribution` over one and the same `Cluster`.
+Conditional Distribution / Kernel
+: `Azon` that responds to each condition of a `Set` with a `Probability Distribution` over one and the same `Cluster`.
 
 > `Kernel<C, Cluster> := c ∈ C ⇒ PD<Cluster>`, `Kernel(c)(Event) = P(Event | c)`
 
@@ -198,7 +219,8 @@ keywords: [math, probability, bayes, random variable]
 
 ## Random Variables
 
-**`Random Variable`** / `RV` := `Azon` *from* the `SampleSpace` *into* the `Rationals`.
+Random Variable / RV
+: `Azon` *from* the `SampleSpace` *into* the `Rationals`.
 
 > `X := SampleSpace ⇒ Rational`
 
@@ -206,7 +228,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Indicator`** := `Random Variable` responding with 1 on an `Event` and 0 outside it.
+Indicator
+: `Random Variable` responding with 1 on an `Event` and 0 outside it.
 
 > `1<A> := ω → (ω ∈ A ? 1 : 0)`
 
@@ -214,7 +237,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Distribution`** := the `Probability Distribution` a `Random Variable` induces over its `Taxon`.
+Distribution
+: the `Probability Distribution` a `Random Variable` induces over its `Taxon`.
 
 > `PD<X>(x) := P(X = x) = P({ω : X(ω) = x})`
 
@@ -222,7 +246,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Joint Distribution`** := the `Distribution` of a `Tuple` of `Random Variables`, over the pairwise `Intersections` of their `Taxons`.
+Joint Distribution
+: the `Distribution` of a `Tuple` of `Random Variables`, over the pairwise `Intersections` of their `Taxons`.
 
 > `PD<X, Y>(x, y) := P(X = x ∩ Y = y)`
 
@@ -230,7 +255,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Expected Value`** / `Mean` := the `Probability`-weighted sum of the values of a `Random Variable`.
+Expected Value / Mean
+: the `Probability`-weighted sum of the values of a `Random Variable`.
 
 > `E(X) := Σ x · P(X = x) over x ∈ COD(X)`
 
@@ -238,7 +264,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Variance`** := the `Expected Value` of the squared deviation from the `Expected Value`.
+Variance
+: the `Expected Value` of the squared deviation from the `Expected Value`.
 
 > `Var(X) := E[(X − E(X))²] = E(X²) − E(X)²`
 
@@ -246,7 +273,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Standard Deviation`** := the square root of the `Variance`.
+Standard Deviation
+: the square root of the `Variance`.
 
 > `SD(X) := √Var(X)`
 
@@ -254,7 +282,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Covariance`** := the `Expected Value` of the product of two deviations.
+Covariance
+: the `Expected Value` of the product of two deviations.
 
 > `Cov(X, Y) := E[(X − E(X)) · (Y − E(Y))] = E(X·Y) − E(X)·E(Y)`
 
@@ -275,7 +304,8 @@ keywords: [math, probability, bayes, random variable]
 
 ## Limit Laws
 
-**`Sample`** := `Tuple` (or `Queue`) of `Independent` `Random Variables` sharing one `Distribution`.
+Sample
+: `Tuple` (or `Queue`) of `Independent` `Random Variables` sharing one `Distribution`.
 
 > `Sample<n> := [X₁, …, Xₙ] :: Independent ∧ ∀i: PD<Xᵢ> = PD<X>`
 
@@ -283,7 +313,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Sample Mean`** := the average of a `Sample`.
+Sample Mean
+: the average of a `Sample`.
 
 > `X̄ₙ := (1/n) · Σ Xᵢ over i ≤ n`
 
@@ -291,7 +322,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Law of Large Numbers`** / `LLN` := the `Sample Mean` approaches the `Expected Value` as the `Sample` grows.
+Law of Large Numbers / LLN
+: the `Sample Mean` approaches the `Expected Value` as the `Sample` grows.
 
 > `X̄ₙ → E(X)` as `n → ∞`
 
@@ -299,7 +331,8 @@ keywords: [math, probability, bayes, random variable]
 
 ---
 
-**`Central Limit Theorem`** / `CLT` := for a `Sample` of finite `Variance`, the standardized `Sample Mean` approaches the standard normal distribution as the `Sample` grows.
+Central Limit Theorem / CLT
+: for a `Sample` of finite `Variance`, the standardized `Sample Mean` approaches the standard normal distribution as the `Sample` grows.
 
 > `√n · (X̄ₙ − E(X)) / SD(X) → Normal(0, 1)` as `n → ∞`
 

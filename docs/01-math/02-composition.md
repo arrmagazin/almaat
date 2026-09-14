@@ -8,13 +8,15 @@ keywords: [math, composition]
 
 ## Definitions
 
-**`Arrow`** := an `Azon` that responds with `Object` only once - to the `Subject`, otherwise - `emptily`.
+Arrow
+: an `Azon` that responds with `Object` only once - to the `Subject`, otherwise - `emptily`.
 
 > `Arrow[Subject, Object] := x → (x IS Subject ? Object : Zero)`
 
 ---
 
-**`Composition`** := The `Azon` built on `Arrow` by *assuming* the output of `Subject` as the input of the `Object`.
+Composition
+: The `Azon` built on `Arrow` by *assuming* the output of `Subject` as the input of the `Object`.
 
 > `.[a,b] := x → b(a(x))`
 
@@ -26,7 +28,8 @@ keywords: [math, composition]
 
 ---
 
-**`Identity<A>`** := Composition-preserving (neutral) `Azon` for A.
+Identity<A>
+: Composition-preserving (neutral) `Azon` for A.
 
 > `Id :: Id.A = A.Id = A`
 
@@ -34,7 +37,8 @@ keywords: [math, composition]
 
 ---
 
-**`Null`** := Composition-absorbing (annihilating) `Azon`.
+Null
+: Composition-absorbing (annihilating) `Azon`.
 
 > `Null.A = A.Null = Null`
 
@@ -60,7 +64,8 @@ keywords: [math, composition]
 
 ---
 
-**`Currying`** := Azon from `Azons` over `[x,y]` into an `Azons` that responds to `x` with another `Azon` awaiting `y`.
+Currying
+: Azon from `Azons` over `[x,y]` into an `Azons` that responds to `x` with another `Azon` awaiting `y`.
 
 > `curry :: ([x,y] → z) ≃ (x → (y → z))`
 
@@ -68,7 +73,8 @@ keywords: [math, composition]
 
 ---
 
-**`Partial Application`** := The `Azon` obtained by supplying some, but not all, of the `Tiks` a curried `Azon` expects.
+Partial Application
+: The `Azon` obtained by supplying some, but not all, of the `Tiks` a curried `Azon` expects.
 
 > `PartialApp(A, x) := curry(A)(x)`
 

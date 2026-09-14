@@ -6,7 +6,8 @@ keywords: [human, happiness, greatness]
 
 # Happiness and Greatness
 
-**`Happiness`** := the internal perception of the saturation of life.
+Happiness
+: the internal perception of the saturation of life.
 
 - in the moment of now, and overall,
 - filled with meaning, interest, excitement, tension,
@@ -19,11 +20,13 @@ keywords: [human, happiness, greatness]
 
 ---
 
-**`Mission`** := the chosen way of being happy — where one's personal `Truth`, `Faith`, and `Inspiration` are applied the most, in a chosen field. [[18,19]]
+Mission
+: the chosen way of being happy — where one's personal `Truth`, `Faith`, and `Inspiration` are applied the most, in a chosen field. [[18,19]]
 
 ---
 
-**`Greatness`** := self-respect earned through consistent, faithful, aimed effort.
+Greatness
+: self-respect earned through consistent, faithful, aimed effort.
 
 - through perseverance, with resilience and determination,
 - regardless of emotional state, changed circumstances, and unexpected outcomes,
@@ -33,7 +36,8 @@ keywords: [human, happiness, greatness]
 
 ---
 
-**`Kapot`** := the boundary beyond which a person irreversibly abandons their `Dignity`.
+Kapot
+: the boundary beyond which a person irreversibly abandons their `Dignity`.
 
 As long as a person maintains their own attitude, holds even the smallest `Goal`, and moves toward it — the line has not been crossed. What death measures is whether that line was held: see [The Self and Death](29-self.md#death).
 

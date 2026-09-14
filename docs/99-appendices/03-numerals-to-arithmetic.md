@@ -10,45 +10,55 @@ Arithmetic is not introduced as a new primitive — it is *recovered* from `Numb
 
 ---
 
-**`0`** := `Zero` : `0 := Zero`
+0
+: `Zero` : `0 := Zero`
 
 ---
 
-**`Successor`** :=  `Plusator` :  `succ(n) := n -> {n}`
+Successor
+: `Plusator` :  `succ(n) := n -> {n}`
 
 ---
 
-**`1`** := The successor of `Zero` : `1 := succ(0) = {0}`
+1
+: The successor of `Zero` : `1 := succ(0) = {0}`
 
 ---
 
-**`Predecessor`** := The `Inverse` of `Successor` on non-zero `Number` : `pred(n) := n -> m :: succ(m) = n , pred(0) = 0`
+Predecessor
+: The `Inverse` of `Successor` on non-zero `Number` : `pred(n) := n -> m :: succ(m) = n , pred(0) = 0`
 
 ---
 
-**`Addition`** := `Composition` of two : `a + b :=  a.b`
+Addition
+: `Composition` of two : `a + b :=  a.b`
 
 ---
 
-**`Subtraction`** :=  `b - a := c :: a + c =b` — defined only when `a ≤ b`
+Subtraction
+: `b - a := c :: a + c =b` — defined only when `a ≤ b`
 
 ---
 
-**`Multiplication`** := `Composition` of a `Matrix` of `a` rows, each of length `b` : `a * b := ⊕ (Row_b)^a`
+Multiplication
+: `Composition` of a `Matrix` of `a` rows, each of length `b` : `a * b := ⊕ (Row_b)^a`
 
 ---
 
-**`Exponentiation`** := The count of `Tuple` of length `a` over `BI(b)` — i.e., functions `BI(a) → BI(b)` : `b^a := |{f : BI(a) → BI(b)}|`
+Exponentiation
+: The count of `Tuple` of length `a` over `BI(b)` — i.e., functions `BI(a) → BI(b)` : `b^a := |{f : BI(a) → BI(b)}|`
 
 ---
 
-**`Less-than`** := `Subset` on the Von Neumann encoding.
+Less-than
+: `Subset` on the Von Neumann encoding.
 
 > `a < b ⟺ a ∈ b ⟺ a ⊊ b`; `a ≤ b ⟺ a ⊆ b`
 
 ---
 
-**`Divisibility`** := `a` divides `b` iff some `c` makes `b = a × c`.
+Divisibility
+: `a` divides `b` iff some `c` makes `b = a × c`.
 
 > `a ∣ b ⟺ ∃c: b = a × c`
 

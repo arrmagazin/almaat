@@ -138,21 +138,27 @@ in a content file, cross-reference a specific Term where it is used.
 
 - **Canonical Terms are capitalized and backticked**: `Azon`, `Set`, `Agent`, `Flow`.
   Cross-reference related Terms with relative links, e.g. `[Systems](02-reality/07-system.md)`.
-- **Formal definitions are prose, not tables.** A definition opens with the bolded backticked
-  Term, then `:=`, then the defining clause; the formula follows as a blockquote, and `---`
-  separates consecutive definitions. See `01-math/00-azon.md`, the reference example:
+- **Formal definitions are definition lists.** The Term stands alone on its own line — plain,
+  no bold, no backticks — and the defining clause follows on the next line after `: `; the
+  formula follows as a blockquote, and `---` separates consecutive definitions. See
+  `01-math/00-azon.md`, the reference example:
 
   ```markdown
-  **`Zero`** := `Azon` that *always* responds with itself
+  Zero
+  : `Azon` that *always* responds with itself
 
   > `Zero := x → Zero`
 
   *DEF*: response with `Zero` *called* `empty`, otherwise - `valent`.
   ```
 
-  (This rule previously mandated `Term | Definition | Formula | Notes` tables, which no file in
-  the ontology layers has ever used — including the reference example it cited. Corrected
-  2026-08-16 in favour of what the tree actually does.)
+  The term line must not open with `*`, `-`, `+`, `>`, `|`, `#`, a digit-dot or a fence: the
+  renderer's pandoc-style extension reads such a line as a block of its own, and the pair
+  degrades to one paragraph with a literal colon printed. That is why the Term is plain here
+  while every *reference* to it stays backticked.
+
+  (This rule mandated `Term | Definition | Formula | Notes` tables until 2026-08-16, then
+  `**`Term`** := clause` prose until 2026-09-14, when all 467 definitions were converted.)
 - **Two arrows in formulas** (adopted 2026-09-06). `⇒` is the signature arrow between
   Terms/Sets — a mapping stated at the Set level, introduced in `01-math/01-sets.md`:
   `Operation<S> := S^ⁿ ⇒ S`, `Cognition :: (Signal, Knowledge) ⇒ Knowledge'`.
@@ -170,7 +176,8 @@ in a content file, cross-reference a specific Term where it is used.
   resolve to a definition somewhere in `docs/`. Enumeration tables bold their first column
   without backticks (`**Deduction**`, `**Monoid**`), because those rows name entries, not
   Terms. An external concept the book does not own stays lowercase — *modules*, *vector
-  spaces*, *ego depletion*.
+  spaces*, *ego depletion*. The declaration site is the one exception: a definition-list term
+  line carries its Term plain, for the parser reason above.
 - **A definition may only name Terms from its own folder or an earlier one.** Dependencies
   run downward through the layer order above. Where a definition needs a higher-layer Term,
   either the Term belongs lower (move it) or the definition should generalize to a
@@ -178,9 +185,15 @@ in a content file, cross-reference a specific Term where it is used.
 - **Five forms declare a Term**, and all five count:
 
   ```markdown
-  **`Term`** := clause                        the ordinary form
-  **`Term` / `Alias`** := clause              two names, one definition
-  **`Term`** of arity `n` on a `Set` := …     a qualifier before the `:=`
+  Term                                        the ordinary form
+  : clause
+
+  Term / Alias                                two names, one definition
+  : clause
+
+  Term (qualifier)                            a qualifier after the Term
+  : clause
+
   *DEF*: a response with `Zero` is *called* `empty`   a label introduced in passing
   … each given (`Azon`:= **`Term`**) …        an inline coinage inside a definiens
   ```

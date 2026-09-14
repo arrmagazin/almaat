@@ -8,7 +8,8 @@ keywords: [mind, intellect]
 
 ## What Intellect Is
 
-**`Intellect`** := the capacity of a [`Mind`](12-mind.md) to form, validate, and apply its own [`Reality`](../02-reality/22-being.md#reality).
+Intellect
+: the capacity of a [`Mind`](12-mind.md) to form, validate, and apply its own [`Reality`](../02-reality/22-being.md#reality).
 
 *NOTE*: the sections below name its parts — `Cognition` forms, `Validation` corrects, `Learning` retains, `Skill` applies, and `Rationale` carries it under insufficient `Knowledge`.
 
@@ -20,7 +21,8 @@ keywords: [mind, intellect]
 
 ---
 
-**`Experience`** := `Knowledge` obtained through observation — whether everyday lived experience or deliberate experimentation.
+Experience
+: `Knowledge` obtained through observation — whether everyday lived experience or deliberate experimentation.
 
 > `Experience := Knowledge derived from Trajectory`
 
@@ -38,7 +40,8 @@ keywords: [mind, intellect]
 
 ## The Cognitive Cycle
 
-**`Cognition`** := The process of creating new or accessing existing `Knowledge`.
+Cognition
+: The process of creating new or accessing existing `Knowledge`.
 
 > `Cognition :: (Signal, Knowledge) ⇒ Knowledge'`
 
@@ -46,7 +49,8 @@ keywords: [mind, intellect]
 
 ---
 
-**`Validation`** := The rational transformation of existing `Knowledge` toward improvement.
+Validation
+: The rational transformation of existing `Knowledge` toward improvement.
 
 > `Validation :: Knowledge ⇒ Knowledge' refined`
 
@@ -54,7 +58,8 @@ keywords: [mind, intellect]
 
 ---
 
-**`Learning`** := The update of `Memory` — and thereby of `Knowledge` and `Skill` — driven by `Validation` against `Experience`.
+Learning
+: The update of `Memory` — and thereby of `Knowledge` and `Skill` — driven by `Validation` against `Experience`.
 
 > `Learning :: (Knowledge, Experience) ⇒ Knowledge'` where `Knowledge'` better predicts further `Experience`
 
@@ -62,7 +67,8 @@ keywords: [mind, intellect]
 
 ---
 
-**`Prediction`** := A `Thought` projected forward in `Step` according to current `Knowledge`.
+Prediction
+: A `Thought` projected forward in `Step` according to current `Knowledge`.
 
 > `Prediction(State, Knowledge) := expected State' under Knowledge's model of the System`
 
@@ -70,7 +76,8 @@ keywords: [mind, intellect]
 
 ---
 
-**`Skill`** := `Knowledge` operationalized through `Experience` into reliable `Behavior` under varying `Circumstances`.
+Skill
+: `Knowledge` operationalized through `Experience` into reliable `Behavior` under varying `Circumstances`.
 
 > `Skill :: Knowledge + Experience ⇒ Behavior reliable under Circumstances`
 
@@ -78,7 +85,8 @@ keywords: [mind, intellect]
 
 ---
 
-**`Bias`** := A systematic distortion in a `Mind`'s [`Codebook`](12-mind.md) that produces consistent mis-mapping of `Signal` to `Thought`.
+Bias
+: A systematic distortion in a `Mind`'s [`Codebook`](12-mind.md) that produces consistent mis-mapping of `Signal` to `Thought`.
 
 > `Bias :: systematic offset in Codebook(Signal) ≠ ground-truth Thought`
 
@@ -90,7 +98,8 @@ A `Mind` realizes its [`Paradigm`](../02-reality/02-process.md#landmarks-of-a-fl
 
 ## Under Uncertainty
 
-**`Rationale`** := A set of universal principles for making `Solution` under conditions of insufficient `Knowledge`.
+Rationale
+: A set of universal principles for making `Solution` under conditions of insufficient `Knowledge`.
 
 > `Rationale :: insufficient Knowledge ⇒ Solution heuristic`
 
@@ -98,13 +107,15 @@ A `Mind` realizes its [`Paradigm`](../02-reality/02-process.md#landmarks-of-a-fl
 
 ---
 
-**`Paradigm`** := a method that generates `Plans` for a `System`.
+Paradigm
+: a method that generates `Plans` for a `System`.
 
 > `Paradigm :: System ⇒ {Plan}`
 
 ---
 
-**`Strategy`** := A method of making `Solution` within `Communication` considering external `Circumstances`.
+Strategy
+: A method of making `Solution` within `Communication` considering external `Circumstances`.
 
 > `Strategy :: Communication × external-Circumstances ⇒ Solution-shape`
 
@@ -112,7 +123,8 @@ A `Mind` realizes its [`Paradigm`](../02-reality/02-process.md#landmarks-of-a-fl
 
 ---
 
-**`Wisdom`** := The integration of `Knowledge`, `Experience`, and `Rationale` into reliable `Solution` across diverse `Circumstances`.
+Wisdom
+: The integration of `Knowledge`, `Experience`, and `Rationale` into reliable `Solution` across diverse `Circumstances`.
 
 > `Wisdom :: (Knowledge, Experience, Rationale) ⇒ reliable Solution across Circumstances`
 

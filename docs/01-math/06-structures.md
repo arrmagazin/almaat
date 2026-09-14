@@ -10,7 +10,8 @@ keywords: [math, structures]
 
 ---
 
-**`Dependency<Form, SourceMask, TargetMask>`** := `Azon` that responds
+Dependency<Form, SourceMask, TargetMask>
+: `Azon` that responds
 
 - to the `Abstraction` of a `Point` under (one `Mask` := **`SourceMask`**)
 - with the `Abstraction` of the *same* `Point` under (another `Mask` := **`TargetMask`**),
@@ -22,7 +23,8 @@ for *every* `Point` of the `Form`.
 
 ---
 
-**`KeyMask<Origin>`** := `Mask` whose `Abstraction` responds *back* with its own `Point`, for *every* `Point` of the `Origin`.
+KeyMask<Origin>
+: `Mask` whose `Abstraction` responds *back* with its own `Point`, for *every* `Point` of the `Origin`.
 
 > `KeyMask<Origin> :: ∀p ∈ Origin: ∃(KeyMask.p → p)`
 
@@ -30,7 +32,8 @@ for *every* `Point` of the `Form`.
 
 ---
 
-**`Key<KeyMask>`** := `Abstraction` of a `Point` under a `KeyMask`.
+Key<KeyMask>
+: `Abstraction` of a `Point` under a `KeyMask`.
 
 > `Key<KeyMask> := KeyMask.p :: p ∈ Origin`
 
@@ -38,7 +41,8 @@ for *every* `Point` of the `Form`.
 
 ---
 
-**`Operation<Sⁿ>`** := `Dependency` *from* `S×ⁿ` *into* `S`.
+Operation<Sⁿ>
+: `Dependency` *from* `S×ⁿ` *into* `S`.
 
 > `Operation<S> := S^ⁿ ⇒ S`
 
@@ -51,7 +55,8 @@ for *every* `Point` of the `Form`.
 
 ---
 
-**`Law`** := a `Predicate` on the `Dependencies`.
+Law
+: a `Predicate` on the `Dependencies`.
 
 > `Law<B ⊆ Basis> := Predicate<{ Dependency }>`
 
@@ -72,25 +77,29 @@ for *every* `Point` of the `Form`.
 
 ---
 
-**`Structure`** := `Set` of `Dependencies` under the `Law`.
+Structure
+: `Set` of `Dependencies` under the `Law`.
 
 > `Structure<Dependencies,Law> := S{ Dependency } :: Law(S) === T`
 
 ## Common Structures
 
-**`Pointed Unary System`** :=`Structure` having `Units` with unary `Operation`.
+Pointed Unary System
+: `Structure` having `Units` with unary `Operation`.
 
 > `zero: () => 0, unit: () => 1, inv: (x) => x == 1 ? 0 : 1`
 
 ---
 
-**`POSet`** := partially ordered `Set`.
+POSet
+: partially ordered `Set`.
 
 > `≤: (a,b) => (a < b) ? T : F :: Reflexive + Antisymmetric + Transitive`
 
 ---
 
-**`Setoid`** := `Set` with equivalence.
+Setoid
+: `Set` with equivalence.
 
 > `eq: (a,b) => a == b ? T : F :: Reflexive + Symmetric + Transitive`
 
@@ -98,98 +107,118 @@ for *every* `Point` of the `Form`.
 
 ### Magma and Descendants
 
-**`Magma`** / `Groupoid` := `Structure` with a single binary `Operation`.
+Magma / Groupoid
+: `Structure` with a single binary `Operation`.
 
 > `op: (a,b) => c`
 
 ---
 
-**`Quasi-group`** := `Magma` under the Latin square `Law`.
+Quasi-group
+: `Magma` under the Latin square `Law`.
 
 > `∃! x, y: a * x = b ∧ y * a = b`
 
 ---
 
-**`Loop`** := `Quasi-group` with identity.
+Loop
+: `Quasi-group` with identity.
 
 ---
 
-**`Semi-group`** := associative `Magma`.
+Semi-group
+: associative `Magma`.
 
 > `combine: a,b => (...) => b(a(...))`
 
 ---
 
-**`Semi-lattice`** := idempotent and commutative `Semi-group`.
+Semi-lattice
+: idempotent and commutative `Semi-group`.
 
 ---
 
-**`Monoid`** := `Semi-group` with a `unit` (LR-identity).
+Monoid
+: `Semi-group` with a `unit` (LR-identity).
 
 > `unit: () => 1`
 
 ---
 
-**`Group`** := `Monoid` with an `inverse` (LR-inverse).
+Group
+: `Monoid` with an `inverse` (LR-inverse).
 
 > `inverse: a => -a`
 
 ---
 
-**`Abelian Group`** := `Group` with commutative `sum`.
+Abelian Group
+: `Group` with commutative `sum`.
 
 > `sum: (a,b) => c :: Associative + Commutative`
 
 ## Ringoid Structures
 
-**`Ringoid`** := `Set` with `add` and `multiply`, multiplication distributing over addition.
+Ringoid
+: `Set` with `add` and `multiply`, multiplication distributing over addition.
 
 ---
 
-**`Semiring`** := `Ringoid` that is also a `Monoid` under each `Operation`.
+Semiring
+: `Ringoid` that is also a `Monoid` under each `Operation`.
 
 ---
 
-**`Near-ring`** := `Set` whose `add` is a `Group` and whose `multiply` is a `Semi-group`, distributing on one side only.
+Near-ring
+: `Set` whose `add` is a `Group` and whose `multiply` is a `Semi-group`, distributing on one side only.
 
 ---
 
-**`Ring`** := `Semiring` whose `add` is an `Abelian Group`.
+Ring
+: `Semiring` whose `add` is an `Abelian Group`.
 
 ---
 
-**`Boolean Ring`** := commutative `Ring` with idempotent multiplication.
+Boolean Ring
+: commutative `Ring` with idempotent multiplication.
 
 ---
 
-**`Field`** := commutative `Ring` with a multiplicative `inverse` for every nonzero element.
+Field
+: commutative `Ring` with a multiplicative `inverse` for every nonzero element.
 
 ## Lattice Structures
 
-**`Lattice`** := `Poset` with `∧` (meet, infimum) and `∨` (join, supremum).
+Lattice
+: `Poset` with `∧` (meet, infimum) and `∨` (join, supremum).
 
 > `Lattice :: Commutative + Associative + Absorption`
 
 ---
 
-**`Complete Lattice`** := `Lattice` with arbitrary meets and joins.
+Complete Lattice
+: `Lattice` with arbitrary meets and joins.
 
 ---
 
-**`Bounded Lattice`** := `Lattice` with `1` (greatest, top) and `0` (least, bottom).
+Bounded Lattice
+: `Lattice` with `1` (greatest, top) and `0` (least, bottom).
 
 > `0 ≤ x ≤ 1 :: ∀x ∈ S`
 
 ---
 
-**`Complemented Lattice`** := `Bounded Lattice` with unary `⊥` complementation.
+Complemented Lattice
+: `Bounded Lattice` with unary `⊥` complementation.
 
 > `a ∨ a⊥ = 1 ∧ a ∧ a⊥ = 0`
 
 ---
 
-**`Distributive Lattice`** := `Lattice` where meet and join distribute over each other.
+Distributive Lattice
+: `Lattice` where meet and join distribute over each other.
 
 ---
 
-**`Boolean Algebra`** := `Complemented Lattice` that is also a `Distributive Lattice`.
+Boolean Algebra
+: `Complemented Lattice` that is also a `Distributive Lattice`.

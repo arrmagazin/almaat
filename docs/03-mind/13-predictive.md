@@ -6,7 +6,8 @@ keywords: [mind, prediction, mental-models]
 
 # The Predictive Brain
 
-**`Predictive-Perception`** := Perception as a running [`Prediction`](11-intellect.md) built from past `Experience` and corrected by sensory data, rather than assembled from sensory data alone.
+Predictive-Perception
+: Perception as a running [`Prediction`](11-intellect.md) built from past `Experience` and corrected by sensory data, rather than assembled from sensory data alone.
 
 > `Predictive-Perception :: Prediction(Experience) + error(Signal) ⇒ Thought`
 

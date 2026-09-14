@@ -6,7 +6,8 @@ keywords: [human, truth, faith]
 
 # Truth and Faith
 
-**`Truth`** := one's own answers to the existential questions:
+Truth
+: one's own answers to the existential questions:
 
 *Who am I indeed — where and why? What is going on? What is beyond, and what next?*
 
@@ -24,7 +25,8 @@ keywords: [human, truth, faith]
 
 ---
 
-**`Faith`** := unwavering acceptance of `Truth` and commitment to `Core-Value`s, valued more than individual `Life`.
+Faith
+: unwavering acceptance of `Truth` and commitment to `Core-Value`s, valued more than individual `Life`.
 
 - `Faith` is not blind belief — it is a choice made regardless of circumstances.
 - `Faith` may break the automatism that [*karma*](24-approach.md#the-mirror-and-the-two-intentions) names, and enables building oneself beyond what was predetermined.

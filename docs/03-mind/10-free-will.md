@@ -6,7 +6,8 @@ keywords: [mind, free-will, determinism]
 
 # Free Will
 
-**`Free-Will`** := The claimed capacity of an `Agent` to select a `Solution` independent of its prior `State`.
+Free-Will
+: The claimed capacity of an `Agent` to select a `Solution` independent of its prior `State`.
 
 > `Free-Will :: Solution chosen with ¬caused-by(prior State)`
 
@@ -14,7 +15,8 @@ keywords: [mind, free-will, determinism]
 
 ---
 
-**`Determinism`** := Every [`Transition`](../02-reality/07-system.md#thing-and-trajectory), including a `Solution`, follows necessarily from the prior `State` under fixed law.
+Determinism
+: Every [`Transition`](../02-reality/07-system.md#thing-and-trajectory), including a `Solution`, follows necessarily from the prior `State` under fixed law.
 
 > `Determinism :: State(t) ⟹ State(t+1)`
 
@@ -22,7 +24,8 @@ keywords: [mind, free-will, determinism]
 
 ---
 
-**`Authorship-Illusion`** := The conscious sense of being the source of a `Solution` that was in fact produced unconsciously.
+Authorship-Illusion
+: The conscious sense of being the source of a `Solution` that was in fact produced unconsciously.
 
 > `Authorship-Illusion :: report(Solution) mistaken for cause(Solution)`
 
@@ -32,7 +35,8 @@ keywords: [mind, free-will, determinism]
 
 ---
 
-**`Veto`** := The proposed capacity to cancel an impulse after it surfaces — "free won't" rather than free will.
+Veto
+: The proposed capacity to cancel an impulse after it surfaces — "free won't" rather than free will.
 
 > `Veto :: surfaced impulse → cancel`
 
@@ -40,7 +44,8 @@ keywords: [mind, free-will, determinism]
 
 ---
 
-**`Forward-Responsibility`** := Responsibility treated as a lever to change future `Behavior`, not as retributive blame for a freely chosen past act.
+Forward-Responsibility
+: Responsibility treated as a lever to change future `Behavior`, not as retributive blame for a freely chosen past act.
 
 > `Forward-Responsibility :: hold-to-account → modify future Behavior`
 
@@ -48,7 +53,8 @@ keywords: [mind, free-will, determinism]
 
 ---
 
-**`Computational-Irreducibility`** := The only way to learn what a `System` will do is to let it run; no shortcut predicts it.
+Computational-Irreducibility
+: The only way to learn what a `System` will do is to let it run; no shortcut predicts it.
 
 > `Computational-Irreducibility :: predict(State) ≈ run(State)`
 

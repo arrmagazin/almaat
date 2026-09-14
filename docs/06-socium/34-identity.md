@@ -18,13 +18,15 @@ keywords: [socium, identity, persona]
 2. **`Aspirational Self`** — who I want to become
 3. **[`Persona`](#persona)** — who I want others to perceive me as, defined below
 
-**`Aspirational Self`** := who a person wants to become.
+Aspirational Self
+: who a person wants to become.
 
 The gap between the three sides is psychically painful, and is also the source of emotional drive toward growth.
 
 ## Persona
 
-**`Persona` / `Social Mask`** := how a `Human Being` manifests in communication with other people — a set of principles and strategies for dealing with the social environment.
+Persona / Social Mask
+: how a `Human Being` manifests in communication with other people — a set of principles and strategies for dealing with the social environment.
 
 It seeks social connection over personal comfort:
 
@@ -39,7 +41,8 @@ To get them it hides the weak sides — shame, guilt, loneliness, pain, fear —
 
 ### Dark Shadow
 
-**`Dark Shadow`** := the hidden side of the `Persona` — suppressed during upbringing, forbidden by external social frameworks, and concealed under an opposing outward mask.
+Dark Shadow
+: the hidden side of the `Persona` — suppressed during upbringing, forbidden by external social frameworks, and concealed under an opposing outward mask.
 
 - `Persona` needs can suppress [`Animal`](../04-human/28-animal.md) ones and push them into the subconscious.
 - A strongly assigned mask calls up its opposite as an unlived counterpart.

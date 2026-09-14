@@ -10,25 +10,29 @@ Combinatorics is the *counting* discipline over finite `Set` and `Tuple`. Every 
 
 ---
 
-**`Cardinality`** := The unique `Number` `n` for which a bijective `Tuple` exists from `BI(n)` onto a finite `Set` `S`.
+Cardinality
+: The unique `Number` `n` for which a bijective `Tuple` exists from `BI(n)` onto a finite `Set` `S`.
 
 > `|S| := n`
 
 ---
 
-**`Tuple`** := A `Tuple` viewed as an ordered selection from a `Set`.
+Tuple
+: A `Tuple` viewed as an ordered selection from a `Set`.
 
 > `T :: BI(n) → S`
 
 ---
 
-**`Permutation`** := A bijective `Tuple` from `BI(n)` onto itself.
+Permutation
+: A bijective `Tuple` from `BI(n)` onto itself.
 
 > `π :: BI(n) → BI(n)` bijective
 
 ---
 
-**`Factorial`** := The count of `Permutation` of `BI(n)`.
+Factorial
+: The count of `Permutation` of `BI(n)`.
 
 > `n! := |{π : BI(n) → BI(n) bijective}|`
 
@@ -36,31 +40,36 @@ Combinatorics is the *counting* discipline over finite `Set` and `Tuple`. Every 
 
 ---
 
-**`Arrangement`** := A `Selection-Mask` of length `k` into `BI(n)` (order matters).
+Arrangement
+: A `Selection-Mask` of length `k` into `BI(n)` (order matters).
 
 > `A(n, k) := n! / (n − k)!`
 
 ---
 
-**`Combination`** := A `Selection-Mask` of length `k` into `BI(n)` taken modulo permutation of the source.
+Combination
+: A `Selection-Mask` of length `k` into `BI(n)` taken modulo permutation of the source.
 
 > `C(n, k) := A(n, k) / k! = n! / (k! × (n − k)!)`
 
 ---
 
-**`Binomial Coefficient`** := The count of `Subset` of size `k` of `BI(n)`.
+Binomial Coefficient
+: The count of `Subset` of size `k` of `BI(n)`.
 
 > `C(n, k) = |{S ⊆ BI(n) : |S| = k}|`
 
 ---
 
-**`Power-Count`** := The `Cardinality` of the `Power-Set` of a finite `Set` (see [Sets](../01-math/01-sets.md)).
+Power-Count
+: The `Cardinality` of the `Power-Set` of a finite `Set` (see [Sets](../01-math/01-sets.md)).
 
 > `|2^S| = 2^|S| = ∑_{k=0}^n C(n, k)`
 
 ---
 
-**`Multiset`** := A `Grade` whose `Codomain` is `Number` — counts occurrences.
+Multiset
+: A `Grade` whose `Codomain` is `Number` — counts occurrences.
 
 > `M :: S → Number`
 
@@ -68,7 +77,8 @@ Combinatorics is the *counting* discipline over finite `Set` and `Tuple`. Every 
 
 ---
 
-**`Composition-of-Number`** := A `Tuple` of positive `Number` summing to `n`.
+Composition-of-Number
+: A `Tuple` of positive `Number` summing to `n`.
 
 > `[n₁, ..., nₖ] : ∑nᵢ = n, nᵢ > 0`
 
@@ -76,7 +86,8 @@ Combinatorics is the *counting* discipline over finite `Set` and `Tuple`. Every 
 
 ---
 
-**`Partition-of-Number`** := A `Multiset` of positive `Number` summing to `n`.
+Partition-of-Number
+: A `Multiset` of positive `Number` summing to `n`.
 
 > `M : ∑(k · M(k)) = n, k > 0`
 

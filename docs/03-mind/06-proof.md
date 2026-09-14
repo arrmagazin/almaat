@@ -6,7 +6,8 @@ keywords: [mind, proof, logic]
 
 # Proof
 
-**`Proof`** := A [`Conclusion`](../01-math/08-language.md#rules-and-grammar) that yields `Thesis` under a given `Theory`.
+Proof
+: A [`Conclusion`](../01-math/08-language.md#rules-and-grammar) that yields `Thesis` under a given `Theory`.
 
 > `Proof<Theory> := Conclusion<Theory> :: Conclusion(Axiom) ∈ Thesis`
 
@@ -14,13 +15,15 @@ keywords: [mind, proof, logic]
 
 ---
 
-**`Formalism`** := A defined way to construct some theory — a formal or axiomatic system.
+Formalism
+: A defined way to construct some theory — a formal or axiomatic system.
 
 > `Formalism := (Axiom, Rule) generating a Theory`
 
 ## Interpretation
 
-**`Interpretation`** := A predefined mapping from each formula of a given theory into an external structure.
+Interpretation
+: A predefined mapping from each formula of a given theory into an external structure.
 
 > `Interpretation :: Formula ⇒ (Entity | {Predicate})`
 

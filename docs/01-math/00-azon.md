@@ -8,13 +8,15 @@ keywords: [math, azon]
 
 ## Definitions
 
-**`Azon`** := an *ability* to assign any (`Azon`:= **`Tik`**) with a corresponding (`Azon`:= **`Tok`**). I is made under to the Axioms below
+Azon
+: an *ability* to assign any (`Azon`:= **`Tik`**) with a corresponding (`Azon`:= **`Tok`**). I is made under to the Axioms below
 
 > `Azon := x → y`
 
 ---
 
-**`Zero`** := `Azon` that *always* responds with itself to any `Tik`.
+Zero
+: `Azon` that *always* responds with itself to any `Tik`.
 
 > `Zero := x → Zero`
 
@@ -24,7 +26,8 @@ keywords: [math, azon]
 
 ---
 
-**`Unit`** := `Azon` that *always* responds with the `Tik` itself, *except* with `Zero` — to itself.
+Unit
+: `Azon` that *always* responds with the `Tik` itself, *except* with `Zero` — to itself.
 
 > `Unit := x → (x IS Unit ? Zero : x)`
 
@@ -42,13 +45,15 @@ keywords: [math, azon]
 
 ## Axioms
 
-**`AXIOM-1`** (Halt) := The response to `Zero` is *always* `Zero`.
+AXIOM-1 (Halt)
+: The response to `Zero` is *always* `Zero`.
 
 > `∀A: A(0) = 0`
 
 ---
 
-**`AXIOM-2`** (Non-Self-Valent) := The response to oneself is *always* `Zero`.
+AXIOM-2 (Non-Self-Valent)
+: The response to oneself is *always* `Zero`.
 
 > `∀A: A(A) = 0`
 
@@ -56,6 +61,7 @@ keywords: [math, azon]
 
 ---
 
-**`AXIOM-3`** (Non-Self-Generation) := non-zero `Azon` cannot respond with itself
+AXIOM-3 (Non-Self-Generation)
+: non-zero `Azon` cannot respond with itself
 
 > `∀A ≠ 0, x: A(x) ISNT A`

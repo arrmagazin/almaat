@@ -8,13 +8,15 @@ keywords: [math, sets]
 
 ## Sets
 
-**`Set`** := an `Azon` whose `Toks` are either `fixed` or `empty`.
+Set
+: an `Azon` whose `Toks` are either `fixed` or `empty`.
 
 > `Set := x → (x | Zero)`
 
 ---
 
-**`Element`** := a `valent` `Tok` of a `Set`.
+Element
+: a `valent` `Tok` of a `Set`.
 
 > `a ∈ S ⟺ S(a) = a`
 
@@ -28,7 +30,8 @@ keywords: [math, sets]
 
 ---
 
-**`Subset`** := A `Set` all of whose `Elements` belong to a reference `Set`.
+Subset
+: A `Set` all of whose `Elements` belong to a reference `Set`.
 
 > `A ⊆ B :: ∀x: x ∈ A ⟹ x ∈ B`
 
@@ -38,13 +41,15 @@ keywords: [math, sets]
 
 ---
 
-**`Domain`** := `Set` of `valent` `Tiks` of an `Azon`.
+Domain
+: `Set` of `valent` `Tiks` of an `Azon`.
 
 > `DOM(A) := {x : A(x) ≠ 0}`
 
 ---
 
-**`Codomain`** := `Set` of `valent` `Toks` of an `Azon`.
+Codomain
+: `Set` of `valent` `Toks` of an `Azon`.
 
 > `COD(A) := {y : ∃x, A(x) = y ∧ y ≠ 0}`
 
@@ -76,7 +81,8 @@ keywords: [math, sets]
 
 ## Presence and Absence
 
-**`Presence`** := `Set` of all `Azon` whose `Domain` or `Codomain` contains the reference `Azon`.
+Presence
+: `Set` of all `Azon` whose `Domain` or `Codomain` contains the reference `Azon`.
 
 > `APPEAR(a) := {X : a ∈ DOM(X) ∨ a ∈ COD(X)}`
 
@@ -84,7 +90,8 @@ keywords: [math, sets]
 
 ---
 
-**`Universe`** := `Set` closed under `Presence`.
+Universe
+: `Set` closed under `Presence`.
 
 > `P :: ∀k ∈ P, APPEAR(k) ⊆ P`
 
@@ -92,7 +99,8 @@ keywords: [math, sets]
 
 ---
 
-**`Complement`** := Set of all Elements of Universe that do NOT belongs to the reference `Set`.
+Complement
+: Set of all Elements of Universe that do NOT belongs to the reference `Set`.
 
 > `!S := {x ∈ P : x ∉ S}`
 
@@ -100,7 +108,8 @@ keywords: [math, sets]
 
 ---
 
-**`Absence`** := `Set` of all `Azons` that do NOT belongs to the `Universe`.
+Absence
+: `Set` of all `Azons` that do NOT belongs to the `Universe`.
 
 > `Absence := {x : x ∉ P}`
 
@@ -108,13 +117,15 @@ keywords: [math, sets]
 
 ## Topology
 
-**`Collection`** := A `Set` of `Set`s.
+Collection
+: A `Set` of `Set`s.
 
 > `K := {S₁, S₂, ..., Sₙ}`
 
 ---
 
-**`Intersection`** := `Set` of `Elements` which belong to every `Set` of the `Collection`.
+Intersection
+: `Set` of `Elements` which belong to every `Set` of the `Collection`.
 
 > `⋂K := {x : ∀S ∈ K, x ∈ S}`
 
@@ -124,7 +135,8 @@ keywords: [math, sets]
 
 ---
 
-**`Union`** := `Set` of `Elements` which belong to at least one `Set` of the `Collection`.
+Union
+: `Set` of `Elements` which belong to at least one `Set` of the `Collection`.
 
 > `⋃K := {x : ∃S ∈ K, x ∈ S}`
 
@@ -134,19 +146,22 @@ keywords: [math, sets]
 
 ---
 
-**`Set-Difference`** := `Set` of `Elements` in the `Union` of the `Collection` but NOT in the reference `Set`.
+Set-Difference
+: `Set` of `Elements` in the `Union` of the `Collection` but NOT in the reference `Set`.
 
 > `SetDiff(K, S) := {x : x ∈ ⋃K ∧ x ∉ S}`
 
 ---
 
-**`PowerSet`** := The `Collection` of all `Subset` of the reference `Set`.
+PowerSet
+: The `Collection` of all `Subset` of the reference `Set`.
 
 > `2^S := {Q : Q ⊆ S}`
 
 ---
 
-**`Cluster`** := A `Collection` of (`Sets` := **`Fragment`**) that is non-intersecting AND saturated to a reference `Set`.
+Cluster
+: A `Collection` of (`Sets` := **`Fragment`**) that is non-intersecting AND saturated to a reference `Set`.
 
 > `Cluster(S) :: K{ F } (∀F₁ ≠ F₂ ∈ K: ⋂{F₁, F₂} = 0) ∧ ⋃K = S`
 
@@ -156,31 +171,36 @@ keywords: [math, sets]
 
 ---
 
-**`Taxon`** := A `Cluster` of the `Domain` of `Azon` split by shared values of its `Codomain`.
+Taxon
+: A `Cluster` of the `Domain` of `Azon` split by shared values of its `Codomain`.
 
 > `Taxon(A) := Cluster(Domain) :: ∧ ∀F ∈ Cluster: ∀a, b ∈ F: A(a) = A(b)`
 
 ## Equivalence Relations
 
-**`Intensional Distinguishability`** := There exists an `Azon`-probe that responds to `a` and `b` with different values.
+Intensional Distinguishability
+: There exists an `Azon`-probe that responds to `a` and `b` with different values.
 
 > `DIFF(a, b) := ∃x: x(a) ≠ x(b)`
 
 ---
 
-**`Extensional Equivalence`** := No `Azon` in the `Universe` receives different responses from `a` and `b`.
+Extensional Equivalence
+: No `Azon` in the `Universe` receives different responses from `a` and `b`.
 
 > `EEQ(a, b) := ¬∃x: a(x) ≠ b(x)`
 
 ---
 
-**`Total Equality`** := Both Intensionally non-Distinguishable by probes AND Extensionally equivalent in response.
+Total Equality
+: Both Intensionally non-Distinguishable by probes AND Extensionally equivalent in response.
 
 > `a = b := ¬DIFF(a, b) ∧ EEQ(a, b)`
 
 ---
 
-**`Partial Equality`** := The `Set` of inputs on which two `Azon` respond total-equally.
+Partial Equality
+: The `Set` of inputs on which two `Azon` respond total-equally.
 
 > `PEQ(a, b) := {x : a(x) = b(x)}`
 

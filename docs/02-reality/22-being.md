@@ -8,7 +8,8 @@ keywords: [reality, being, consciousness]
 
 ## The Three Sides
 
-**`Being`** := the transcendent process by which the whole experiences, invents, and instantiates itself from many points at once.
+Being
+: the transcendent process by which the whole experiences, invents, and instantiates itself from many points at once.
 
 `Being` is considered as comprised of three sides:
 
@@ -18,7 +19,8 @@ keywords: [reality, being, consciousness]
 
 ---
 
-**`Sensation`** := the perceptive side of `Being` — what is given before any representation is built from it.
+Sensation
+: the perceptive side of `Being` — what is given before any representation is built from it.
 
 > `Sensation :: Being ⇒ given`
 
@@ -26,7 +28,8 @@ keywords: [reality, being, consciousness]
 
 ---
 
-**`Consciousness`** := the transformative side of `Being` — that which experiences `Sensation` and builds `Reality` from it.
+Consciousness
+: the transformative side of `Being` — that which experiences `Sensation` and builds `Reality` from it.
 
 > `Consciousness :: Sensation ⇒ Reality`
 
@@ -34,7 +37,8 @@ keywords: [reality, being, consciousness]
 
 ## Reality
 
-**`Reality`** := a `System` used by `Consciousness` to represent perceived `Being` as a whole and in each of its parts — intended to be logically consistent, and to provide explanatory and predictive functions.
+Reality
+: a `System` used by `Consciousness` to represent perceived `Being` as a whole and in each of its parts — intended to be logically consistent, and to provide explanatory and predictive functions.
 
 *NOTE*: `Reality` is the readout, not the source.
 

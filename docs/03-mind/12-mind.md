@@ -12,7 +12,8 @@ In a `System`, a [`Source`](../01-math/01-sets.md#sets) is any `Azon` characteri
 
 ---
 
-**`Mind`** := A `System` of `Neuron` and `Sensor`.
+Mind
+: A `System` of `Neuron` and `Sensor`.
 
 > `Mind := System over {Neuron, Sensor}`
 
@@ -20,7 +21,8 @@ In a `System`, a [`Source`](../01-math/01-sets.md#sets) is any `Azon` characteri
 
 ---
 
-**`Sensor`** := A `Source` that outputs a numerical Weight in response to external `Communication`.
+Sensor
+: A `Source` that outputs a numerical Weight in response to external `Communication`.
 
 > `Sensor :: external-Communication ⇒ Weight ∈ Number`
 
@@ -28,7 +30,8 @@ In a `System`, a [`Source`](../01-math/01-sets.md#sets) is any `Azon` characteri
 
 ---
 
-**`Neuron`** := A `Source` that outputs a numerical Weight equal to the weighted sum of evaluations of `Neuron`s/`Sensors` in its Context.
+Neuron
+: A `Source` that outputs a numerical Weight equal to the weighted sum of evaluations of `Neuron`s/`Sensors` in its Context.
 
 > `Neuron(N) := ∑ wᵢ · Nᵢ` over Context
 
@@ -36,7 +39,8 @@ In a `System`, a [`Source`](../01-math/01-sets.md#sets) is any `Azon` characteri
 
 ---
 
-**`Thought`** := A distribution of Weight across `Neuron`s.
+Thought
+: A distribution of Weight across `Neuron`s.
 
 > `Thought :: Neuron ⇒ Weight`
 
@@ -44,7 +48,8 @@ In a `System`, a [`Source`](../01-math/01-sets.md#sets) is any `Azon` characteri
 
 ---
 
-**`Signal`** := A distribution of Weight across `Sensor`s.
+Signal
+: A distribution of Weight across `Sensor`s.
 
 > `Signal :: Sensor ⇒ Weight`
 
@@ -52,7 +57,8 @@ In a `System`, a [`Source`](../01-math/01-sets.md#sets) is any `Azon` characteri
 
 ---
 
-**`Codebook`** := the mapping a `Mind` holds between `Signal` and `Thought`.
+Codebook
+: the mapping a `Mind` holds between `Signal` and `Thought`.
 
 > `Codebook :: Signal ↔ Thought`
 
@@ -60,7 +66,8 @@ In a `System`, a [`Source`](../01-math/01-sets.md#sets) is any `Azon` characteri
 
 ---
 
-**`Message`** := A `Signal` intended by a `Source` to be decoded by a receiver's `Codebook`.
+Message
+: A `Signal` intended by a `Source` to be decoded by a receiver's `Codebook`.
 
 > `Message := Signal under (sender intent, receiver Codebook)`
 
@@ -68,7 +75,8 @@ In a `System`, a [`Source`](../01-math/01-sets.md#sets) is any `Azon` characteri
 
 ---
 
-**`Memory`** := A persistent modification of `Neuron` weights such that prior `Thought` can be re-evoked by partial `Signal`.
+Memory
+: A persistent modification of `Neuron` weights such that prior `Thought` can be re-evoked by partial `Signal`.
 
 > `Memory :: Signal_partial ⇒ Thought_re-evoked`
 

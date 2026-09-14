@@ -6,21 +6,25 @@ keywords: [mind, reasoning]
 
 # Reasoning
 
-**`Reasoning`** := The process of generating new *a priori* `Knowledge` (conclusions) from existing `Knowledge` (premises).
+Reasoning
+: The process of generating new *a priori* `Knowledge` (conclusions) from existing `Knowledge` (premises).
 
 ---
 
-**`Inference`** := A path of `Reasoning` that either validates a given `Opinion` or constructs a new valid `Opinion`.
+Inference
+: A path of `Reasoning` that either validates a given `Opinion` or constructs a new valid `Opinion`.
 
 *NOTE*: The mechanism by which [`Proof`](06-proof.md) is assembled.
 
 ---
 
-**`Logic`** := A constructive way of inferencing based on an *a priori* foundation.
+Logic
+: A constructive way of inferencing based on an *a priori* foundation.
 
 ---
 
-**`Intuition`** := A non-constructive, direct way of reasoning without need of external foundations or proof.
+Intuition
+: A non-constructive, direct way of reasoning without need of external foundations or proof.
 
 ## Types of Reasoning
 

@@ -8,13 +8,15 @@ keywords: [reality, system, participant, communication]
 
 ## Thing and Trajectory
 
-**`Transition(Thing)`** := a change of `State` of a `Thing` between consecutive `Step` — a triple of moment, before-state, after-state.
+Transition(Thing)
+: a change of `State` of a `Thing` between consecutive `Step` — a triple of moment, before-state, after-state.
 
 > `Transition(Thing) := (Step[i], State(Thing, Step[i]), State(Thing, Step[i+1]))`
 
 ---
 
-**`Trajectory(Thing)`** := the track of a `Thing`'s `States` across its `Step`s.
+Trajectory(Thing)
+: the track of a `Thing`'s `States` across its `Step`s.
 
 > `Trajectory(Thing) := [State(Thing, Step[i]) for Step[i] in indices(Thing)]`
 
@@ -22,13 +24,15 @@ keywords: [reality, system, participant, communication]
 
 ## System and Participant
 
-**`System`** := a `Set` of `Participants` coupled by mutual `Communication`.
+System
+: a `Set` of `Participants` coupled by mutual `Communication`.
 
 > `System := {Participant} :: ∀P ∈ System: ∃Q ∈ System: Communication(P → Q) ≠ 0 ∧ Communication(Q → P) ≠ 0`
 
 ---
 
-**`Participant`** := a `Thing` that produces `Communication` toward another `Thing`.
+Participant
+: a `Thing` that produces `Communication` toward another `Thing`.
 
 > `Participant(P) :: P IS Thing ∧ ∃Q ≠ P: Communication(P → Q) ≠ 0`
 
@@ -36,7 +40,8 @@ keywords: [reality, system, participant, communication]
 
 ---
 
-**`State of a Participant`** := the `State` of a `Participant` at a given `Step`.
+State of a Participant
+: the `State` of a `Participant` at a given `Step`.
 
 > `State(U, Step) :: State over the Views of U at Step`
 
@@ -44,7 +49,8 @@ keywords: [reality, system, participant, communication]
 
 ## Communication
 
-**`Communication`** := projection of one `Participant`'s `Behavior` into another's `Attention`.
+Communication
+: projection of one `Participant`'s `Behavior` into another's `Attention`.
 
 > `Communication(A → B) := Behavior(A) . Attention(B)`
 
@@ -52,7 +58,8 @@ keywords: [reality, system, participant, communication]
 
 ---
 
-**`Behavior`** := a `Participant`'s projection of its own `State` toward other `Participant`s.
+Behavior
+: a `Participant`'s projection of its own `State` toward other `Participant`s.
 
 > `Behavior(A) :: State(A) ⇒ View`
 
@@ -60,7 +67,8 @@ keywords: [reality, system, participant, communication]
 
 ---
 
-**`Attention`** := a `Participant`'s selection of *other* `Participant`s' `Behavior` into its own `State`.
+Attention
+: a `Participant`'s selection of *other* `Participant`s' `Behavior` into its own `State`.
 
 > `Attention(B) :: View ⇒ State(B)`
 
@@ -68,7 +76,8 @@ keywords: [reality, system, participant, communication]
 
 ## Coupling
 
-**`Environment`** := the part of the `System` that has mutual `Communication` with a `Participant`.
+Environment
+: the part of the `System` that has mutual `Communication` with a `Participant`.
 
 > `Environment(P) := {Q ∈ System : Communication(P → Q) ≠ 0 ∧ Communication(Q → P) ≠ 0}`
 
@@ -76,7 +85,8 @@ keywords: [reality, system, participant, communication]
 
 ---
 
-**`Interface`** := a constraint on the `Behavior` of `Participants` relative to each other.
+Interface
+: a constraint on the `Behavior` of `Participants` relative to each other.
 
 > `Interface :: admissible(Behavior, Attention) ⇒ {0, 1}`
 
@@ -84,13 +94,15 @@ keywords: [reality, system, participant, communication]
 
 ---
 
-**`Coupling`** := the persistence of mutual `Communication` between two `Participants` across multiple `Step`s.
+Coupling
+: the persistence of mutual `Communication` between two `Participants` across multiple `Step`s.
 
 > `Coupling(A, B) := | {Step[i] : Communication(A → B) ≠ 0 ∧ Communication(B → A) ≠ 0 at Step[i]}|`
 
 ---
 
-**`Feedback`** := a `Composition` in which a `Participant`'s `Behavior` flows, through other `Participant`s, back into its own `Attention`.
+Feedback
+: a `Composition` in which a `Participant`'s `Behavior` flows, through other `Participant`s, back into its own `Attention`.
 
 > `Feedback(A) :: ∃ path A → ... → A in the Coupling graph`
 
@@ -98,7 +110,8 @@ keywords: [reality, system, participant, communication]
 
 ## The Whole
 
-**`Emergence`** := a `Behavior` of a `System` not present in any individual `Participant`.
+Emergence
+: a `Behavior` of a `System` not present in any individual `Participant`.
 
 > `Emergence :: Behavior(System) ⊄ ⋃ Behavior(Participant)`
 
@@ -106,7 +119,8 @@ keywords: [reality, system, participant, communication]
 
 ---
 
-**`Equilibrium`** := a `State` of the `System` at which all `Communication` among `Participants` balance, yielding a [`Halt`](02-process.md#landmarks-of-a-flow) for the whole.
+Equilibrium
+: a `State` of the `System` at which all `Communication` among `Participants` balance, yielding a [`Halt`](02-process.md#landmarks-of-a-flow) for the whole.
 
 > `Equilibrium :: Circuit(State_sys) = δ_Step`
 

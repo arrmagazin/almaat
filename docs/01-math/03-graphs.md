@@ -8,12 +8,14 @@ keywords: [math, graphs]
 
 ## Definitions
 
-**`Graph`** := `Set` of `Arrows`.
+Graph
+: `Set` of `Arrows`.
 
 > `Graph := {[x,y]}`
 ---
 
-**`Vertex`** := one of `Tik` or `Tok` of `Arrows` of `Graph`.
+Vertex
+: one of `Tik` or `Tok` of `Arrows` of `Graph`.
 
 > `Vertex<G> :: ∃A ∈ G, Vertex ∈ DOM(A) ∨ Vertex ∈ COD(A)`
 
@@ -29,13 +31,15 @@ A `Vertex` is classified by how many `Arrows` enter and leave it, written `(in:o
 
 ---
 
-**`Path`** := `Composition` of `Arrows` of a `Graph`.
+Path
+: `Composition` of `Arrows` of a `Graph`.
 
 > `Path<G> := [A₁...Aₙ] :: ∀A ∈ G`
 
 ---
 
-**`Cycle`** := a `Path` that ends at its own starting `Vertex`.
+Cycle
+: a `Path` that ends at its own starting `Vertex`.
 
 > `Cycle<G> := Path<G> :: DOM(Path) = COD(Path)`
 
@@ -43,14 +47,17 @@ A `Vertex` is classified by how many `Arrows` enter and leave it, written `(in:o
 
 ---
 
-**`Tree`** := `Graph` with exactly one `Root`, and exactly one ingoing `Arrow` into every other `Vertex`.
+Tree
+: `Graph` with exactly one `Root`, and exactly one ingoing `Arrow` into every other `Vertex`.
 
 > `Tree<G> :: ∃! Root ∧ ∀V ≠ Root: ∃! A ∈ G, V ∈ COD(A)`
 
-**`Connected Graph`** :=  `Graph`, that for every proper subset `V'` of its `Vertex` set `V`, some `Arrow` crosses the boundary between `V'` and the rest.
+Connected Graph
+: `Graph`, that for every proper subset `V'` of its `Vertex` set `V`, some `Arrow` crosses the boundary between `V'` and the rest.
 
 > `∀V' ⊊ V: ∃Arrow ∈ Graph: (DOM(Arrow) ∩ V' ≠ 0 ∧ COD(Arrow) ⊄ V') ∨ (COD(Arrow) ∩ V' ≠ 0 ∧ DOM(Arrow) ⊄ V')`
 
-**`Functional Graph(Mapping)`** := `Graph` without `Fan-Outs`; it *is* the `Azon` responding to each `x` with single `y`.
+Functional Graph(Mapping)
+: `Graph` without `Fan-Outs`; it *is* the `Azon` responding to each `x` with single `y`.
 
 > `{[x,y]} ≃ (x → y)`

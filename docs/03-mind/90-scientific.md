@@ -8,13 +8,16 @@ keywords: [mind, scientific]
 
 ## Method
 
-**`Scientific Method`** := A generalized empirical *a posteriori* approach to earning `Scientific Knowledge` from experimental data, with awareness of cognitive abilities and `Bias`.
+Scientific Method
+: A generalized empirical *a posteriori* approach to earning `Scientific Knowledge` from experimental data, with awareness of cognitive abilities and `Bias`.
 
 ## Scientific Criteria
 
-**`Scientific Criteria`** := The nine requirements a `Knowledge` claim must satisfy, from Inner Correctness to Reproducibility.
+Scientific Criteria
+: The nine requirements a `Knowledge` claim must satisfy, from Inner Correctness to Reproducibility.
 
-**`Scientific Knowledge`** := `Knowledge` that definitely meets `Scientific Criteria`.
+Scientific Knowledge
+: `Knowledge` that definitely meets `Scientific Criteria`.
 
 ---
 
@@ -32,7 +35,8 @@ keywords: [mind, scientific]
 
 ## The Scientific Process
 
-**`Scientific Process`** := An iterative process to acquire new *a posteriori* `Knowledge`:
+Scientific Process
+: An iterative process to acquire new *a posteriori* `Knowledge`:
 
 1. **Characterizations** — observations, definitions, and measurements of the subject of inquiry.
 2. **Hypotheses** — theoretical, hypothetical explanations of observations and measurements.

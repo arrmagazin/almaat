@@ -8,13 +8,15 @@ keywords: [reality, freedom, constraint, excellence, breakthrough]
 
 ## External Bounds
 
-**`Freedom`** := a `Participant`'s independence from `Communication` that would coerce a change of its `Paradigm`.
+Freedom
+: a `Participant`'s independence from `Communication` that would coerce a change of its `Paradigm`.
 
 *NOTE*: the ability to act on one's own `Plan` without coercion from the `Environment`. Always conditional and relative to specified `Communication` — never absolute.
 
 ---
 
-**`Constraint`** := the set of `Communication` that limit the range of accessible `Plan` for a `Participant`.
+Constraint
+: the set of `Communication` that limit the range of accessible `Plan` for a `Participant`.
 
 > `Constraint := {Communication : restricts accessible Plan}`
 
@@ -22,7 +24,8 @@ keywords: [reality, freedom, constraint, excellence, breakthrough]
 
 ## The Ceiling
 
-**`Excellence`** := the ceiling of `Potency` achievable within a given `Paradigm`.
+Excellence
+: the ceiling of `Potency` achievable within a given `Paradigm`.
 
 > `Excellence(Paradigm, Circumstances) := max over Plan ∈ Paradigm of Potency(Plan, Paradigm, Circumstances)`
 
@@ -30,7 +33,8 @@ keywords: [reality, freedom, constraint, excellence, breakthrough]
 
 ---
 
-**`Improvement`** := intention toward `Excellence` *within* the bounds of the current `Paradigm`.
+Improvement
+: intention toward `Excellence` *within* the bounds of the current `Paradigm`.
 
 > `Improvement :: Paradigm = const, Potency → Excellence(Paradigm)`
 
@@ -38,7 +42,8 @@ keywords: [reality, freedom, constraint, excellence, breakthrough]
 
 ---
 
-**`Breakthrough`** := intention to escape the current `Paradigm` into a new one.
+Breakthrough
+: intention to escape the current `Paradigm` into a new one.
 
 > `Breakthrough :: Paradigm → Paradigm' ≠ Paradigm`
 

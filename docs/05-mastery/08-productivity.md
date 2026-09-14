@@ -6,7 +6,8 @@ keywords: [mastery, productivity]
 
 # Productivity
 
-**`Productivity`** := the output a steady cadence produces, multiplied by `Leverage` rather than by hours worked.
+Productivity
+: the output a steady cadence produces, multiplied by `Leverage` rather than by hours worked.
 
 ## Rhythms
 
@@ -44,7 +45,8 @@ On reading as an input, see [Learning → Reading](09-learning.md#reading).
 
 Effort has a ceiling — hours are finite, and raw labor pays only while you spend them.
 
-**`Leverage`** := what multiplies the output of the same effort, so that results scale with judgment rather than with hours worked.
+Leverage
+: what multiplies the output of the same effort, so that results scale with judgment rather than with hours worked.
 
 | Form | What it multiplies | Note |
 | ---- | ------------------ | ---- |
@@ -59,15 +61,18 @@ Discipline is the input; leverage is the multiplier.
 
 ## Economic Wisdom
 
-**`Save Early`** := automating savings, so the decision is made once.
+Save Early
+: automating savings, so the decision is made once.
 
 ---
 
-**`Live Below Means`** := spending less than you can, and never to impress.
+Live Below Means
+: spending less than you can, and never to impress.
 
 ---
 
-**`Invest Wisely`** := putting money to work in assets that grow over time.
+Invest Wisely
+: putting money to work in assets that grow over time.
 
 [[31]]
 
