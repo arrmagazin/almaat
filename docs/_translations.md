@@ -16,6 +16,11 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Unit` | Proston |
 | `Tik` | Tyk* |
 | `Tok` | Tok* |
+| `Coincidence` | Supadzenne* |
+| `Extensional Equality` | Zmestavaja Rownasc* |
+| `Intensional Distinguishability` | Sutnasnaja Adroznasc* |
+| `Intensional Equality` | Sutnasnaja Rownasc* |
+| `Total Equality` | Pownaja Rownasc* |
 
 ## Sets, Equivalence, Topology — `01-math/01-sets`
 
@@ -38,11 +43,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Set-Difference` | Dapasok |
 | `Power-Set` | Glyba |
 | `Cluster` | Kryga |
-| `Extensional Equivalence` | Zmestavaja Rownasc* |
-| `Intensional Distinguishability` | Sutnasnaja Adroznasc* |
-| `Partial Equality` | Qastkovaja Rownasc* |
-| `Total Equality` | Pownaja Rownasc* |
-| `Source` | Rodnik |
 
 ## Graph — `01-math/03-graphs`
 
@@ -143,7 +143,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Law` | Zakon* |
 | `Operation` | Aperacyja* |
 | `Structure` | Stroj |
-
 
 ## Probability — `01-math/09-probability`
 

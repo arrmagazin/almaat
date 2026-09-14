@@ -65,6 +65,8 @@ Law
 | **Symmetric** | `∀a, b ∈ S: a * b ⟹ b * a` | For relations; with reflexivity and transitivity, defines an equivalence |
 | **Antisymmetric** | `∀a, b ∈ S: (a * b ∧ b * a) ⟹ a = b` | Distinguishes orders from equivalences |
 | **Transitive** | `∀a, b, c ∈ S: (a * b ∧ b * c) ⟹ a * c` | Chains relate |
+| **Equivalence** | `Reflexive ∧ Symmetric ∧ Transitive` | Partitions `S` into classes of interchangeable elements; defines a setoid |
+| **Partial order** | `Reflexive ∧ Antisymmetric ∧ Transitive` | Orders `S` without requiring every pair to be comparable; defines a poset |
 | **Associative** | `(a * b) * c = a * (b * c)` | Order of grouping is irrelevant |
 | **Commutative** | `a * b = b * a` | Order of operands is irrelevant |
 | **Distributive** | `a * (b ⊕ c) = (a * b) ⊕ (a * c)` | One operation distributes over another |
@@ -91,14 +93,14 @@ Pointed Unary System
 POSet
 : partially ordered `Set`.
 
-> `≤: (a,b) => (a < b) ? T : F :: Reflexive + Antisymmetric + Transitive`
+> `≤: (a,b) => (a < b) ? T : F :: Partial order`
 
 ---
 
 Setoid
-: `Set` with equivalence.
+: `Set` with Equivalence.
 
-> `eq: (a,b) => a == b ? T : F :: Reflexive + Symmetric + Transitive`
+> `eq: (a,b) => a == b ? T : F :: Equivalence`
 
 *NOTE*: `Setoid` and `Poset` differ by one `Law`: Symmetric gives equivalence, Antisymmetric gives partial order.
 
