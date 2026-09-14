@@ -43,7 +43,7 @@ Cycle
 
 > `Cycle<G> := Path<G> :: DOM(Path) = COD(Path)`
 
-*NOTE*: the composite `Azon` of a `Cycle` is **endogenous**; a self-loop `[a,a]` is the minimal `Cycle`.
+*NOTE*: the composite `Azon` of a `Cycle` is `Endogenous`; a self-loop `[a,a]` is the minimal `Cycle`.
 
 ---
 

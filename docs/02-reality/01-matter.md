@@ -21,7 +21,7 @@ Attribute
 : `Azon` *from* a (`Set` := **`Basis`**) paired with `Time` *into* a `Fragment` of (`Cluster` := **`Palette`**).
 
 > `Attribute<Basis, Time, Palette> :: (Basis × Time) ⇒ elemOf(Palette)`
-
+>
 > `DOM(Attribute) == Basis × Time`, `COD(Attribute) ∈ Palette`
 
 ---
@@ -33,7 +33,8 @@ Matter
 
 *NOTE*: fixing `t ∈ Time` yields the **`Slide`** `M@t := M[ A(·, t), ... ]`, a `Matter` over `Basis` alone.
 
-*DEF*: A `Matter` whose `Attributes` ignore `t` is *called* **`static`**.
+static
+: A `Matter` whose `Attributes` ignore `t`.
 
 ---
 
@@ -111,6 +112,11 @@ Schema
 
 Quality<Matter>
 : `Azon` *from* `Field` of `Matter`.
+
+---
+
+Principle
+: a `Predicate` that responds with `Unit` on given `Form`.
 
 ---
 

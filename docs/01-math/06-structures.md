@@ -124,10 +124,12 @@ Quasi-group
 Loop
 : `Quasi-group` with identity.
 
+> `Loop :: Quasi-group :: ∃e ∈ S: e * a = a * e = a`
+
 ---
 
 Semi-group
-: associative `Magma`.
+: `associative` `Magma`.
 
 > `combine: a,b => (...) => b(a(...))`
 
@@ -135,6 +137,8 @@ Semi-group
 
 Semi-lattice
 : idempotent and commutative `Semi-group`.
+
+> `Semi-lattice :: Semi-group :: Idempotent + Commutative`
 
 ---
 
@@ -162,30 +166,42 @@ Abelian Group
 Ringoid
 : `Set` with `add` and `multiply`, multiplication distributing over addition.
 
+> `Ringoid := (S, +, ·) :: a·(b + c) = a·b + a·c`
+
 ---
 
 Semiring
 : `Ringoid` that is also a `Monoid` under each `Operation`.
+
+> `Semiring :: Ringoid :: Monoid(S, +) ∧ Monoid(S, ·)`
 
 ---
 
 Near-ring
 : `Set` whose `add` is a `Group` and whose `multiply` is a `Semi-group`, distributing on one side only.
 
+> `Near-ring := (S, +, ·) :: Group(S, +) ∧ Semi-group(S, ·) ∧ (a + b)·c = a·c + b·c`
+
 ---
 
 Ring
 : `Semiring` whose `add` is an `Abelian Group`.
+
+> `Ring :: Semiring :: Abelian Group(S, +)`
 
 ---
 
 Boolean Ring
 : commutative `Ring` with idempotent multiplication.
 
+> `Boolean Ring :: Ring :: a·b = b·a ∧ a·a = a`
+
 ---
 
 Field
 : commutative `Ring` with a multiplicative `inverse` for every nonzero element.
+
+> `Field :: Ring :: a·b = b·a ∧ ∀a ≠ 0: ∃a⁻¹ ∈ S: a·a⁻¹ = 1`
 
 ## Lattice Structures
 
@@ -198,6 +214,8 @@ Lattice
 
 Complete Lattice
 : `Lattice` with arbitrary meets and joins.
+
+> `Complete Lattice :: Lattice :: ∀K ⊆ S: ∃⋀K ∧ ∃⋁K`
 
 ---
 
@@ -218,7 +236,11 @@ Complemented Lattice
 Distributive Lattice
 : `Lattice` where meet and join distribute over each other.
 
+> `Distributive Lattice :: Lattice :: a ∧ (b ∨ c) = (a ∧ b) ∨ (a ∧ c)`
+
 ---
 
 Boolean Algebra
 : `Complemented Lattice` that is also a `Distributive Lattice`.
+
+> `Boolean Algebra :: Complemented Lattice ∧ Distributive Lattice`

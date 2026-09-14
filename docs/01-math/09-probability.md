@@ -40,7 +40,7 @@ Event
 | **A or B** | `Union` | `A ∪ B` |
 | **not A** | `Complement` | `!A` |
 | **A implies B** | `Subset` | `A ⊆ B` |
-| **mutually exclusive** | non-intersecting | `A ∩ B = 0` |
+| **mutually exclusive** | `non-intersecting` | `A ∩ B = 0` |
 | **exhaustive** | saturated to the `SampleSpace` | `⋃K = SampleSpace` |
 | **complete group of events** | `Cluster` | `Cluster(SampleSpace)` |
 
@@ -188,7 +188,7 @@ Law of Total Probability / LTP
 
 > `P(A) = Σ P(A | Bᵢ) · P(Bᵢ) over Bᵢ ∈ Cluster(SampleSpace)`
 
-*NOTE*: the `Cluster` splits A into non-intersecting pieces `A ∩ Bᵢ`; Additivity sums them, the `Chain Rule` factors each. With `A = SampleSpace` it reduces to `Normalization`.
+*NOTE*: the `Cluster` splits A into `non-intersecting` pieces `A ∩ Bᵢ`; Additivity sums them, the `Chain Rule` factors each. With `A = SampleSpace` it reduces to `Normalization`.
 
 ---
 
@@ -206,7 +206,7 @@ Independent Events / Independent
 
 > `Independent(A, B) := P(A ∩ B) = P(A) · P(B)` — equivalently `P(A | B) = P(A)` when `P(B) > 0`
 
-*NOTE*: conditioning on B leaves A unchanged. Not the same as mutually exclusive: non-intersecting `Events` of non-zero `Probability` are never `Independent`, since `P(A ∩ B) = 0 ≠ P(A) · P(B)`. A `Set` of `Events` is *mutually* independent when the product rule holds for every `Subset` of it; pairwise independence does not suffice.
+*NOTE*: conditioning on B leaves A unchanged. Not the same as mutually exclusive: `non-intersecting` `Events` of non-zero `Probability` are never `Independent`, since `P(A ∩ B) = 0 ≠ P(A) · P(B)`. A `Set` of `Events` is *mutually* independent when the product rule holds for every `Subset` of it; pairwise independence does not suffice.
 
 ---
 

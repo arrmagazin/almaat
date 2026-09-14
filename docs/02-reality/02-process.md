@@ -45,13 +45,15 @@ Circuit
 
 *NOTE*: a [`Conditional Distribution`](../01-math/09-probability.md#conditioning) whose conditions are the `Contexts` of one length `n` — the `Circuit` responds to the last `n` `Words` with a `PD` over the next. The `Chain Rule` turns it into a `Probability Measure` over whole `Flows`.
 
-*DEF*: a `Circuit` is **memoryless** if its distribution depends only on the present `State`, not on prior history: `P(State[i+1] | State[i], ..., State[0]) = P(State[i+1] | State[i])`.
+memoryless
+: a `Circuit` whose distribution depends only on the present `State`, not on prior history: `P(State[i+1] | State[i], ..., State[0]) = P(State[i+1] | State[i])`.
 
 *NOTE*: any finite-history process is recovered by enlarging the `State` to encode it.
 
 ---
 
-*DEF*: a `Circuit` is **context-free** if its distribution does not depend on the `Context` at all — for all `Conditional Events` with the same `Event`, the `Probability` is the same.
+context-free
+: a `Circuit` whose distribution does not depend on the `Context` at all — for all `Conditional Events` with the same `Event`, the `Probability` is the same.
 
 *NOTE*: its `Flow` is a [`Sample`](../01-math/09-probability.md#limit-laws): `Independent` draws from one `Distribution`, to which the `Law of Large Numbers` and `Central Limit Theorem` apply directly. A context-free `Circuit` is `memoryless` with nothing to remember.
 
@@ -66,11 +68,13 @@ TransitionMatrix
 
 ---
 
-*DEF*: a `Circuit` is **deterministic** if its distribution is a [`Point Mass`](../01-math/09-probability.md#measure) — one `State` carries all the probability: `∃Point<i> :: i → PD(x) = x IS Point ? 1 : 0`.
+deterministic
+: a `Circuit` whose distribution is a [`Point Mass`](../01-math/09-probability.md#measure) — one `State` carries all the probability: `∃Point<i> :: i → PD(x) = x IS Point ? 1 : 0`.
 
 ---
 
-*DEF*: a `Circuit` is **periodic** if it is a `Flow` composed of infinite repetitions of a `Plan`: `∃m, k: ∀n > k, State[m+n] = State[n]`.
+periodic
+: a `Circuit` that is a `Flow` composed of infinite repetitions of a `Plan`: `∃m, k: ∀n > k, State[m+n] = State[n]`.
 
 ## Landmarks of a Flow
 

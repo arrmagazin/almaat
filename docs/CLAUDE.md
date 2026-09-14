@@ -149,7 +149,17 @@ in a content file, cross-reference a specific Term where it is used.
 
   > `Zero := x → Zero`
 
-  *DEF*: response with `Zero` *called* `empty`, otherwise - `valent`.
+  ---
+
+  empty
+  : a response with `Zero`.
+
+  > `empty(A, x) :: A(x) = Zero`
+
+  valent
+  : any not `empty` response.
+
+  > `valent(A, x) :: A(x) ≠ Zero`
   ```
 
   The term line must not open with `*`, `-`, `+`, `>`, `|`, `#`, a digit-dot or a fence: the
@@ -182,7 +192,7 @@ in a content file, cross-reference a specific Term where it is used.
   run downward through the layer order above. Where a definition needs a higher-layer Term,
   either the Term belongs lower (move it) or the definition should generalize to a
   lower-layer one — `Freedom` takes a `Participant`, not an `Agent`.
-- **Five forms declare a Term**, and all five count:
+- **Four forms declare a Term**, and all four count:
 
   ```markdown
   Term                                        the ordinary form
@@ -194,7 +204,6 @@ in a content file, cross-reference a specific Term where it is used.
   Term (qualifier)                            a qualifier after the Term
   : clause
 
-  *DEF*: a response with `Zero` is *called* `empty`   a label introduced in passing
   … each given (`Azon`:= **`Term`**) …        an inline coinage inside a definiens
   ```
 
@@ -204,6 +213,10 @@ in a content file, cross-reference a specific Term where it is used.
   colon-pair coinage `X:Y` (`Set:Basis`, `Tik:Subject`) on 2026-09-05; no colon-pair
   remains. A Term merely *mentioned* in a definiens, without the marker, is still not
   declared.
+
+  `*DEF*:` was a fifth form — a label introduced in passing — until 2026-09-14, when all 19
+  such declarations became definition-list entries. It now marks notation only, never a Term:
+  the two survivors in `01-math/01-sets.md` give the binary spellings of `⋂` and `⋃`.
 - When a new canonical Term is coined, add it to `_translations.md` under the section for
   the file that defines it. Newly-proposed Belarusian forms get a trailing asterisk
   (`Razvoda*`); the asterisk marks a proposed *form*, not a proposed placement. A compound

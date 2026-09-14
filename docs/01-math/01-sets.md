@@ -20,13 +20,19 @@ Element
 
 > `a ∈ S ⟺ S(a) = a`
 
-*DEF*: An `Element` **belongs to** a `Set`; it is *inside* not *outside*.
+belongs to
+: An `Element` is *inside* a `Set`, not *outside*.
 
-*DEF*: the `Set` **contains** the `Element`.
+> `a ∈ S :: S(a) = a`
+
+contains
+: the converse, said of the `Set` toward the `Element`.
+
+> `S ∋ a ⟺ a ∈ S`
 
 *NOTE*: By `AXIOM-2`: s`∉ S`. By `AXIOM-1`: `0 ∉ S` and s`∉ 0`.
 
-*NOTE*: `Unit` as a Set contains all `Azons` except itself and `Zero`: `∀x ∉ {0, 1}: x ∈ 1`.
+*NOTE*: `Unit` as a `Set` contains all `Azons` except itself and `Zero`: `∀x ∉ {0, 1}: x ∈ 1`.
 
 ---
 
@@ -55,25 +61,33 @@ Codomain
 
 ---
 
-*DEF*: An `Azon` is **`Endogenous*`** if `DOM(A) = COD(A)`.
+Endogenous*
+: An `Azon` whose `Domain` and `Codomain` coincide.
 
-*NOTE*: Any `Set` is endogenous.
+> `Endogenous(A) :: DOM(A) = COD(A)`
+
+*NOTE*: Any `Set` is `Endogenous`.
 
 ---
 
-*DEF*: `Azons` are **`Endemic`** if `DOM(A₁) = DOM(A₂) ∧ COD(A₁) = COD(A₂)`.
+Endemic
+: `Azons` sharing both `Domain` and `Codomain`.
+
+> `Endemic(A₁, A₂) :: DOM(A₁) = DOM(A₂) ∧ COD(A₁) = COD(A₂)`
 
 *NOTE*: Let say: `Azon` *from* `Domain` *into* `Codomain` and use *⇒* to note it: `A := DOM(A) ⇒ COD(A)`.
 
 ---
 
-*DEF*: `Azon` is **`Injective`** if distinct `Tiks` never respond with the same `Tok`.
+Injective
+: `Azon` whose distinct `Tiks` never respond with the same `Tok`.
 
 > `Injective(A: x → y) := A(x) = A(y) ⟹ x = y`
 
 ---
 
-*DEF*: `Azon` is **`Surjective`** *onto* a given `Set` when its `Codomain` *is* that `Set`.
+Surjective
+: `Azon` *onto* a given `Set` — its `Codomain` *is* that `Set`.
 
 > `Surjective(A, S) := COD(A) == S`
 
@@ -95,12 +109,12 @@ Universe
 
 > `P :: ∀k ∈ P, APPEAR(k) ⊆ P`
 
-*NOTE*: The Universe of discourse for logical reasoning — every entity's full set of contexts is also inside.
+*NOTE*: The `Universe` of discourse for logical reasoning — every entity's full set of contexts is also inside.
 
 ---
 
 Complement
-: Set of all Elements of Universe that do NOT belongs to the reference `Set`.
+: `Set` of all `Elements` of `Universe` that do NOT belongs to the reference `Set`.
 
 > `!S := {x ∈ P : x ∉ S}`
 
@@ -113,7 +127,7 @@ Absence
 
 > `Absence := {x : x ∉ P}`
 
-*NOTE*: `Complement` is complement *within* `P`; `Absence` is complement *of* `P` — the impossible relative to a given Universe of discourse.
+*NOTE*: `Complement` is complement *within* `P`; `Absence` is complement *of* `P` — the impossible relative to a given `Universe` of discourse.
 
 ## Topology
 
@@ -129,7 +143,10 @@ Intersection
 
 > `⋂K := {x : ∀S ∈ K, x ∈ S}`
 
-*DEF*: A `Collection` is **non-intersecting** if no two of its `Sets` share an `Element`: `∀S₁ ≠ S₂ ∈ K: ⋂{S₁, S₂} = 0`.
+non-intersecting
+: A `Collection` no two of whose `Sets` share an `Element`.
+
+> `non-intersecting(K) :: ∀S₁ ≠ S₂ ∈ K: ⋂{S₁, S₂} = 0`
 
 *DEF*: for two `Set`s, `A ∩ B := ⋂{A, B}` — the binary form used where a `Collection` is not needed.
 
@@ -140,7 +157,10 @@ Union
 
 > `⋃K := {x : ∃S ∈ K, x ∈ S}`
 
-*DEF*: A `Collection` is **saturated to `S`** if `⋃K = S`.
+saturated to S
+: A `Collection` whose `Union` *is* the reference `Set`.
+
+> `saturated(K, S) :: ⋃K = S`
 
 *DEF*: for two `Set`s, `A ∪ B := ⋃{A, B}` — the binary form.
 
@@ -161,7 +181,7 @@ PowerSet
 ---
 
 Cluster
-: A `Collection` of (`Sets` := **`Fragment`**) that is non-intersecting AND saturated to a reference `Set`.
+: A `Collection` of (`Sets` := **`Fragment`**) that is `non-intersecting` AND saturated to a reference `Set`.
 
 > `Cluster(S) :: K{ F } (∀F₁ ≠ F₂ ∈ K: ⋂{F₁, F₂} = 0) ∧ ⋃K = S`
 

@@ -46,13 +46,15 @@ Null
 
 ## Properties
 
-*DEF*: a `Composition` is **`Fitted`** when its `Object` is valent on the entire output of its `Subject`:
+Fitted
+: a `Composition` whose `Object` is `valent` on the entire output of its `Subject`:
 
 > `A.B :: COD(A) = DOM(B)`.
 
 *NOTE*: `Fitted` *is* `Surjective` with the target `Set` supplied by the `Object` — `Fitted(A.B) ⟺ Surjective(A, DOM(B))`.
 
-*DEF*: `Azon` is **`Bijective`** if there *exists* an (`Azon`:= **`Inverse`**) whose left and right `Composition` give the `Domain` and `Codomain` of the `Azon`.
+Bijective
+: `Azon` for which there *exists* an (`Azon`:= **`Inverse`**) whose left and right `Composition` give the `Domain` and `Codomain` of the `Azon`.
 
 > `A.A⁻¹ = DOM(A) ∧ A⁻¹.A = COD(A)`
 
@@ -65,11 +67,11 @@ Null
 ---
 
 Currying
-: Azon from `Azons` over `[x,y]` into an `Azons` that responds to `x` with another `Azon` awaiting `y`.
+: `Azon` from `Azons` over `[x,y]` into an `Azons` that responds to `x` with another `Azon` awaiting `y`.
 
 > `curry :: ([x,y] → z) ≃ (x → (y → z))`
 
-*NOTE*: both sides respond with the same `z`; Currying unfolds any arity into a chain of single-`Tik` `Azons`.
+*NOTE*: both sides respond with the same `z`; `Currying` unfolds any arity into a chain of single-`Tik` `Azons`.
 
 ---
 
