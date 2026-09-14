@@ -6,7 +6,7 @@ keywords: [sustain, security, manipulation, conditioning]
 
 # Manipulation
 
-It works by triggering an emotional reflex — fear, guilt, urgency, belonging — so a decision is made before deliberation engages. Every tactic exploits a [cognitive bias](../7-mastery/11-thinking.md); the people who run them are typed in [Reading People](10-reading.md#counterpart-types).
+It works by triggering an emotional reflex — fear, guilt, urgency, belonging — so a decision is made before deliberation engages. Every tactic exploits a [cognitive bias](../05-mastery/11-thinking.md); the people who run them are typed in [Reading People](10-reading.md#counterpart-types).
 
 ## The Seven Levers
 
@@ -42,7 +42,7 @@ Cialdini's principles of influence are neutral tools — persuasion when honest,
 
 ## Conditioning
 
-Behavior is governed by its consequences, and *any predictable reaction you give is a consequence*. Comfort an outburst and you reward the outburst — it returns next week. Much of what is sold as "soft skills" is plain behavioral training: the methods used on animals work on people, because both run on the [Habit Loop](../7-mastery/05-habits.md#the-habit-loop) of cue and reward. You are conditioned whenever someone farms a reliable response out of you; you condition others by what you reinforce — and attention itself is the reward.
+Behavior is governed by its consequences, and *any predictable reaction you give is a consequence*. Comfort an outburst and you reward the outburst — it returns next week. Much of what is sold as "soft skills" is plain behavioral training: the methods used on animals work on people, because both run on the [Habit Loop](../05-mastery/05-habits.md#the-habit-loop) of cue and reward. You are conditioned whenever someone farms a reliable response out of you; you condition others by what you reinforce — and attention itself is the reward.
 
 | Lever | How it shapes behavior | Defensive use |
 | ----- | ---------------------- | ------------- |

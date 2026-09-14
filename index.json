@@ -15,335 +15,371 @@
       "type": "tree"
     },
     {
-      "path": "docs/0-math",
+      "path": "docs/01-math",
       "type": "tree"
     },
     {
-      "path": "docs/0-math/00-azon.md",
+      "path": "docs/01-math/00-azon.md",
       "type": "blob"
     },
     {
-      "path": "docs/0-math/01-sets.md",
+      "path": "docs/01-math/01-sets.md",
       "type": "blob"
     },
     {
-      "path": "docs/0-math/02-composition.md",
+      "path": "docs/01-math/02-composition.md",
       "type": "blob"
     },
     {
-      "path": "docs/0-math/03-graphs.md",
+      "path": "docs/01-math/03-graphs.md",
       "type": "blob"
     },
     {
-      "path": "docs/0-math/04-numerals.md",
+      "path": "docs/01-math/04-numerals.md",
       "type": "blob"
     },
     {
-      "path": "docs/0-math/05-spaces.md",
+      "path": "docs/01-math/05-spaces.md",
       "type": "blob"
     },
     {
-      "path": "docs/0-math/06-structures.md",
+      "path": "docs/01-math/06-structures.md",
       "type": "blob"
     },
     {
-      "path": "docs/0-math/08-language.md",
+      "path": "docs/01-math/08-language.md",
       "type": "blob"
     },
     {
-      "path": "docs/0-math/09-probability.md",
+      "path": "docs/01-math/09-probability.md",
       "type": "blob"
     },
     {
-      "path": "docs/0-math/index.md",
+      "path": "docs/01-math/index.md",
       "type": "blob"
     },
     {
-      "path": "docs/1-reality",
+      "path": "docs/02-reality",
       "type": "tree"
     },
     {
-      "path": "docs/1-reality/01-matter.md",
+      "path": "docs/02-reality/01-matter.md",
       "type": "blob"
     },
     {
-      "path": "docs/1-reality/02-process.md",
+      "path": "docs/02-reality/02-process.md",
       "type": "blob"
     },
     {
-      "path": "docs/1-reality/07-system.md",
+      "path": "docs/02-reality/07-system.md",
       "type": "blob"
     },
     {
-      "path": "docs/1-reality/14-entropy.md",
+      "path": "docs/02-reality/14-entropy.md",
       "type": "blob"
     },
     {
-      "path": "docs/1-reality/15-evolution.md",
+      "path": "docs/02-reality/15-evolution.md",
       "type": "blob"
     },
     {
-      "path": "docs/1-reality/16-limits.md",
+      "path": "docs/02-reality/16-limits.md",
       "type": "blob"
     },
     {
-      "path": "docs/1-reality/22-being.md",
+      "path": "docs/02-reality/22-being.md",
       "type": "blob"
     },
     {
-      "path": "docs/1-reality/24-transcendence.md",
+      "path": "docs/02-reality/24-transcendence.md",
       "type": "blob"
     },
     {
-      "path": "docs/1-reality/27-given.md",
+      "path": "docs/02-reality/27-given.md",
       "type": "blob"
     },
     {
-      "path": "docs/1-reality/index.md",
+      "path": "docs/02-reality/index.md",
       "type": "blob"
     },
     {
-      "path": "docs/2-mind",
+      "path": "docs/03-mind",
       "type": "tree"
     },
     {
-      "path": "docs/2-mind/05-knowledge.md",
+      "path": "docs/03-mind/05-knowledge.md",
       "type": "blob"
     },
     {
-      "path": "docs/2-mind/06-proof.md",
+      "path": "docs/03-mind/06-proof.md",
       "type": "blob"
     },
     {
-      "path": "docs/2-mind/07-computation.md",
+      "path": "docs/03-mind/07-computation.md",
       "type": "blob"
     },
     {
-      "path": "docs/2-mind/08-reasoning.md",
+      "path": "docs/03-mind/08-reasoning.md",
       "type": "blob"
     },
     {
-      "path": "docs/2-mind/09-teleos.md",
+      "path": "docs/03-mind/09-teleos.md",
       "type": "blob"
     },
     {
-      "path": "docs/2-mind/10-free-will.md",
+      "path": "docs/03-mind/10-free-will.md",
       "type": "blob"
     },
     {
-      "path": "docs/2-mind/11-intellect.md",
+      "path": "docs/03-mind/11-intellect.md",
       "type": "blob"
     },
     {
-      "path": "docs/2-mind/12-mind.md",
+      "path": "docs/03-mind/12-mind.md",
       "type": "blob"
     },
     {
-      "path": "docs/2-mind/13-predictive.md",
+      "path": "docs/03-mind/13-predictive.md",
       "type": "blob"
     },
     {
-      "path": "docs/2-mind/90-scientific.md",
+      "path": "docs/03-mind/90-scientific.md",
       "type": "blob"
     },
     {
-      "path": "docs/2-mind/index.md",
+      "path": "docs/03-mind/index.md",
       "type": "blob"
     },
     {
-      "path": "docs/4-human",
+      "path": "docs/04-human",
       "type": "tree"
     },
     {
-      "path": "docs/4-human/21-human.md",
+      "path": "docs/04-human/21-human.md",
       "type": "blob"
     },
     {
-      "path": "docs/4-human/23-rajdo.md",
+      "path": "docs/04-human/23-rajdo.md",
       "type": "blob"
     },
     {
-      "path": "docs/4-human/24-approach.md",
+      "path": "docs/04-human/24-approach.md",
       "type": "blob"
     },
     {
-      "path": "docs/4-human/25-truth.md",
+      "path": "docs/04-human/25-truth.md",
       "type": "blob"
     },
     {
-      "path": "docs/4-human/26-greatness.md",
+      "path": "docs/04-human/26-greatness.md",
       "type": "blob"
     },
     {
-      "path": "docs/4-human/28-animal.md",
+      "path": "docs/04-human/28-animal.md",
       "type": "blob"
     },
     {
-      "path": "docs/4-human/29-self.md",
+      "path": "docs/04-human/29-self.md",
       "type": "blob"
     },
     {
-      "path": "docs/4-human/98-manifesto.md",
+      "path": "docs/04-human/98-manifesto.md",
       "type": "blob"
     },
     {
-      "path": "docs/4-human/index.md",
+      "path": "docs/04-human/index.md",
       "type": "blob"
     },
     {
-      "path": "docs/7-mastery",
+      "path": "docs/05-mastery",
       "type": "tree"
     },
     {
-      "path": "docs/7-mastery/01-mastery.md",
+      "path": "docs/05-mastery/01-mastery.md",
       "type": "blob"
     },
     {
-      "path": "docs/7-mastery/02-mindset.md",
+      "path": "docs/05-mastery/02-mindset.md",
       "type": "blob"
     },
     {
-      "path": "docs/7-mastery/03-vision.md",
+      "path": "docs/05-mastery/03-vision.md",
       "type": "blob"
     },
     {
-      "path": "docs/7-mastery/04-discipline.md",
+      "path": "docs/05-mastery/04-discipline.md",
       "type": "blob"
     },
     {
-      "path": "docs/7-mastery/05-habits.md",
+      "path": "docs/05-mastery/05-habits.md",
       "type": "blob"
     },
     {
-      "path": "docs/7-mastery/06-environment.md",
+      "path": "docs/05-mastery/06-environment.md",
       "type": "blob"
     },
     {
-      "path": "docs/7-mastery/07-attention.md",
+      "path": "docs/05-mastery/07-attention.md",
       "type": "blob"
     },
     {
-      "path": "docs/7-mastery/08-productivity.md",
+      "path": "docs/05-mastery/08-productivity.md",
       "type": "blob"
     },
     {
-      "path": "docs/7-mastery/09-learning.md",
+      "path": "docs/05-mastery/09-learning.md",
       "type": "blob"
     },
     {
-      "path": "docs/7-mastery/10-luck.md",
+      "path": "docs/05-mastery/10-luck.md",
       "type": "blob"
     },
     {
-      "path": "docs/7-mastery/11-thinking.md",
+      "path": "docs/05-mastery/11-thinking.md",
       "type": "blob"
     },
     {
-      "path": "docs/7-mastery/index.md",
+      "path": "docs/05-mastery/index.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-socium",
+      "path": "docs/06-socium",
       "type": "tree"
     },
     {
-      "path": "docs/8-socium/30-socium.md",
+      "path": "docs/06-socium/30-socium.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-socium/31-ecology.md",
+      "path": "docs/06-socium/31-ecology.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-socium/32-culture.md",
+      "path": "docs/06-socium/32-culture.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-socium/33-interpersonal.md",
+      "path": "docs/06-socium/33-interpersonal.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-socium/34-identity.md",
+      "path": "docs/06-socium/34-identity.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-socium/35-transes.md",
+      "path": "docs/06-socium/35-transes.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-socium/36-conformism.md",
+      "path": "docs/06-socium/36-conformism.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-socium/37-politics.md",
+      "path": "docs/06-socium/37-politics.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-socium/index.md",
+      "path": "docs/06-socium/index.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-sustain",
+      "path": "docs/07-sustain",
       "type": "tree"
     },
     {
-      "path": "docs/8-sustain/06-security.md",
+      "path": "docs/07-sustain/06-security.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-sustain/07-frame.md",
+      "path": "docs/07-sustain/07-frame.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-sustain/08-de-escalation.md",
+      "path": "docs/07-sustain/08-de-escalation.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-sustain/09-manipulation.md",
+      "path": "docs/07-sustain/09-manipulation.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-sustain/10-reading.md",
+      "path": "docs/07-sustain/10-reading.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-sustain/11-hostility.md",
+      "path": "docs/07-sustain/11-hostility.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-sustain/12-boundaries.md",
+      "path": "docs/07-sustain/12-boundaries.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-sustain/13-defense.md",
+      "path": "docs/07-sustain/13-defense.md",
       "type": "blob"
     },
     {
-      "path": "docs/8-sustain/index.md",
+      "path": "docs/07-sustain/index.md",
       "type": "blob"
     },
     {
-      "path": "docs/9-vitality",
+      "path": "docs/08-vitality",
       "type": "tree"
     },
     {
-      "path": "docs/9-vitality/02-vitality.md",
+      "path": "docs/08-vitality/02-vitality.md",
       "type": "blob"
     },
     {
-      "path": "docs/9-vitality/03-recovery.md",
+      "path": "docs/08-vitality/03-recovery.md",
       "type": "blob"
     },
     {
-      "path": "docs/9-vitality/04-nutrition.md",
+      "path": "docs/08-vitality/04-nutrition.md",
       "type": "blob"
     },
     {
-      "path": "docs/9-vitality/05-energy.md",
+      "path": "docs/08-vitality/05-energy.md",
       "type": "blob"
     },
     {
-      "path": "docs/9-vitality/index.md",
+      "path": "docs/08-vitality/index.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/99-appendices",
+      "type": "tree"
+    },
+    {
+      "path": "docs/99-appendices/01-set-to-predicates.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/99-appendices/02-graph-to-categories.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/99-appendices/03-numerals-to-arithmetic.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/99-appendices/04-numerals-to-combinatorics.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/99-appendices/05-data-structures.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/99-appendices/06-data-normalization.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/99-appendices/07-science-branches.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/99-appendices/index.md",
       "type": "blob"
     },
     {
@@ -468,38 +504,6 @@
     },
     {
       "path": "src/index.ts",
-      "type": "blob"
-    },
-    {
-      "path": "texts",
-      "type": "tree"
-    },
-    {
-      "path": "texts/02-set-to-predicates.md",
-      "type": "blob"
-    },
-    {
-      "path": "texts/03-data_structures.md",
-      "type": "blob"
-    },
-    {
-      "path": "texts/03-graph-to-categories.md",
-      "type": "blob"
-    },
-    {
-      "path": "texts/04-numerals-to-arithmetic.md",
-      "type": "blob"
-    },
-    {
-      "path": "texts/04-numerals-to-combinatorics.md",
-      "type": "blob"
-    },
-    {
-      "path": "texts/06-presentations-data-normalization.md",
-      "type": "blob"
-    },
-    {
-      "path": "texts/99-science_branches.md",
       "type": "blob"
     },
     {

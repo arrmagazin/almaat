@@ -15,7 +15,7 @@ keywords: [socium, interpersonal, influence]
 | **Listening** | Ask more, talk less — real listening builds connection and insight faster than eager answering. Ask for advice rather than feedback; people are flattered and answer more usefully |
 | **Communication** | Find common language, navigate opposing viewpoints, share your vision clearly |
 | **Collaboration** | Accept criticism, resolve conflicts, keep the environment safe |
-| **Positive-sum** | The best way to win is to help the other person win — [`Synergy`](../2-mind/09-teleos.md#commitment-and-outcome) in a two-person exchange; shared goals before personal ones |
+| **Positive-sum** | The best way to win is to help the other person win — [`Synergy`](../03-mind/09-teleos.md#commitment-and-outcome) in a two-person exchange; shared goals before personal ones |
 | **Equal dignity, differentiated merit** | People are equal in dignity and differ in mindset, conduct, and competence. Do not measure others by yourself |
 | **Ask** | You will get yes more often than you expect |
 | **Warm connections** | When in doubt, reach out and push past the awkwardness. A handwritten thank-you note every two weeks; gratitude compounds |
@@ -45,7 +45,7 @@ Charisma is intention plus repetition — add one move at a time.
 
 ## Persuasion
 
-The levers persuasion uses, and the form each takes when concealed, are in [Manipulation](../8-sustain/09-manipulation.md#the-seven-levers).
+The levers persuasion uses, and the form each takes when concealed, are in [Manipulation](../07-sustain/09-manipulation.md#the-seven-levers).
 
 1. **Align to your audience** — start from their psychology, needs, and point of view; show how they benefit.
 2. **Build credibility first** — authority before influence; never threaten their identity or predictability.
@@ -59,7 +59,7 @@ The levers persuasion uses, and the form each takes when concealed, are in [Mani
 
 ## Elicitation
 
-Ordinary conversation reveals a great deal without anything being asked directly, because the structure is invisible to the person answering. What follows is how it works, so it can be recognized when it is being done to you — see [Manipulation](../8-sustain/09-manipulation.md) for the counters.
+Ordinary conversation reveals a great deal without anything being asked directly, because the structure is invisible to the person answering. What follows is how it works, so it can be recognized when it is being done to you — see [Manipulation](../07-sustain/09-manipulation.md) for the counters.
 
 1. Ask questions, don't tell stories.
 2. Validate their feelings: "I agree, I feel the same way."
@@ -68,13 +68,13 @@ Ordinary conversation reveals a great deal without anything being asked directly
 
 Assess the other's state before engaging, and connect to whatever state they are in.
 
-**Establish a baseline first** — ask known-truth questions to see the person's ordinary pattern before reading anything into a departure from it. Gaze direction is not one of the signals: see [Reading People](../8-sustain/10-reading.md#the-second-conversation).
+**Establish a baseline first** — ask known-truth questions to see the person's ordinary pattern before reading anything into a departure from it. Gaze direction is not one of the signals: see [Reading People](../07-sustain/10-reading.md#the-second-conversation).
 
 ## Company and Norms
 
 Norms are absorbed, not chosen. What counts as normal effort, normal income, normal ambition drifts toward the average of whoever you are in contact with most often — which makes the composition of that set a decision rather than an accident. If you are the smartest in the room, find a new room; do not work with toxic people regardless of talent.
 
-- **Prune the permanent complaint.** Company that reads every outcome as done *to* them installs that reading in you: it is the [external locus](../7-mastery/02-mindset.md#accountability) arriving socially.
+- **Prune the permanent complaint.** Company that reads every outcome as done *to* them installs that reading in you: it is the [external locus](../05-mastery/02-mindset.md#accountability) arriving socially.
 - **Your information diet is company too.** Channels, feeds, and podcasts fill the same slot as people and set the same norms, without the friction that would make you notice. Choose sources the way you would choose the room.
 
 Three roles are worth keeping deliberately:

@@ -8,13 +8,13 @@ keywords: [mind, intellect]
 
 ## What Intellect Is
 
-**`Intellect`** := the capacity of a [`Mind`](12-mind.md) to form, validate, and apply its own [`Reality`](../1-reality/22-being.md#reality).
+**`Intellect`** := the capacity of a [`Mind`](12-mind.md) to form, validate, and apply its own [`Reality`](../02-reality/22-being.md#reality).
 
 *NOTE*: the sections below name its parts — `Cognition` forms, `Validation` corrects, `Learning` retains, `Skill` applies, and `Rationale` carries it under insufficient `Knowledge`.
 
 ## Reality and Experience
 
-[`Reality`](../1-reality/22-being.md#reality) is defined with `Being` — the representation `Consciousness` builds from `Sensation`. [`Knowledge`](05-knowledge.md) is what a `Mind` builds from it to predict and act.
+[`Reality`](../02-reality/22-being.md#reality) is defined with `Being` — the representation `Consciousness` builds from `Sensation`. [`Knowledge`](05-knowledge.md) is what a `Mind` builds from it to predict and act.
 
 **Objective Reality** is the intersection of `Knowledge` across a community of knowers — the shared subset on which `Communication` is reliable.
 
@@ -58,7 +58,7 @@ keywords: [mind, intellect]
 
 > `Learning :: (Knowledge, Experience) ⇒ Knowledge'` where `Knowledge'` better predicts further `Experience`
 
-*NOTE*: The dynamic that makes `Evolution` possible at the cognitive level; complements `Validation`. Applied side: [Learning](../7-mastery/09-learning.md).
+*NOTE*: The dynamic that makes `Evolution` possible at the cognitive level; complements `Validation`. Applied side: [Learning](../05-mastery/09-learning.md).
 
 ---
 
@@ -74,7 +74,7 @@ keywords: [mind, intellect]
 
 > `Skill :: Knowledge + Experience ⇒ Behavior reliable under Circumstances`
 
-*NOTE*: `Skill` lives in the *structure* of the `Mind` — modified `Neuron` weights, i.e., `Memory` shaped by `Learning`. Verified by execution under novel conditions, not by description. `Skill` is at the `Behavior` scope; **`Mastery`** (in [Mastery](../7-mastery/01-mastery.md)) is the corresponding `Paradigm`-scope concept.
+*NOTE*: `Skill` lives in the *structure* of the `Mind` — modified `Neuron` weights, i.e., `Memory` shaped by `Learning`. Verified by execution under novel conditions, not by description. `Skill` is at the `Behavior` scope; **`Mastery`** (in [Mastery](../05-mastery/01-mastery.md)) is the corresponding `Paradigm`-scope concept.
 
 ---
 
@@ -82,11 +82,11 @@ keywords: [mind, intellect]
 
 > `Bias :: systematic offset in Codebook(Signal) ≠ ground-truth Thought`
 
-*NOTE*: The shadow of `Memory` — biases are stabilized weight patterns that no longer match the current `Environment`. **Invisible from within** the affected `Mind` — but detectable via `Validation` across diverse `Circumstances`, or via cross-`Mind` `Communication` where alternative `Codebooks` make the discrepancy visible. `Bias` at the `Codebook` level corresponds to **`Stagnation`** at the `Paradigm` level (in [Evolution](../1-reality/15-evolution.md)).
+*NOTE*: The shadow of `Memory` — biases are stabilized weight patterns that no longer match the current `Environment`. **Invisible from within** the affected `Mind` — but detectable via `Validation` across diverse `Circumstances`, or via cross-`Mind` `Communication` where alternative `Codebooks` make the discrepancy visible. `Bias` at the `Codebook` level corresponds to **`Stagnation`** at the `Paradigm` level (in [Evolution](../02-reality/15-evolution.md)).
 
 ---
 
-A `Mind` realizes its [`Paradigm`](../1-reality/02-process.md#landmarks-of-a-flow) as a method of using `Knowledge`: the apparatus that converts `Knowledge` into `Solution`, built from empirical `Knowledge`, scientific method, and proven `Experience`.
+A `Mind` realizes its [`Paradigm`](../02-reality/02-process.md#landmarks-of-a-flow) as a method of using `Knowledge`: the apparatus that converts `Knowledge` into `Solution`, built from empirical `Knowledge`, scientific method, and proven `Experience`.
 
 ## Under Uncertainty
 

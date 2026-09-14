@@ -10,7 +10,7 @@ The Belarusian forms are the original authorial transliteration that gives the f
 
 Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belarusian forms — not part of the original authorial layer. Treat them as candidates open to revision.
 
-## Azon — `0-math/00-azon`
+## Azon — `01-math/00-azon`
 
 | Term | Belarusian |
 |---|---|
@@ -20,7 +20,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Tik` | Tyk* |
 | `Tok` | Tok* |
 
-## Sets, Equivalence, Topology — `0-math/01-sets`
+## Sets, Equivalence, Topology — `01-math/01-sets`
 
 | Term | Belarusian |
 |---|---|
@@ -47,7 +47,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Total Equality` | Pownaja Rownasc* |
 | `Source` | Rodnik |
 
-## Graph — `0-math/03-graphs`
+## Graph — `01-math/03-graphs`
 
 | Term | Belarusian |
 |---|---|
@@ -58,7 +58,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Translation` | Pereklad |
 | `Link` *(pass-through)* | Zmyqkaj |
 
-## Composition — `0-math/02-composition`
+## Composition — `01-math/02-composition`
 
 | Term | Belarusian |
 |---|---|
@@ -79,7 +79,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Null` | Nishto* |
 | `Partial Application` | Qastkovae Padavanne* |
 
-## Formal Language — `0-math/08-language`
+## Formal Language — `01-math/08-language`
 
 | Term | Belarusian |
 |---|---|
@@ -102,7 +102,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Context-free Grammar` | Bezkantekstny Pravapis* |
 | `Regular Grammar` | Regularny Pravapis* |
 
-## Numerals — `0-math/04-numerals`
+## Numerals — `01-math/04-numerals`
 
 | Term | Belarusian |
 |---|---|
@@ -123,7 +123,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Total Order` | Powny Lad* |
 | `Vector` | Vektar* |
 
-## Spaces — `0-math/05-spaces`
+## Spaces — `01-math/05-spaces`
 
 | Term | Belarusian |
 |---|---|
@@ -136,7 +136,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Origin` | Vytok* |
 | `Region` | Ramka |
 
-## Structures — `0-math/06-structures`
+## Structures — `01-math/06-structures`
 
 | Term | Belarusian |
 |---|---|
@@ -148,7 +148,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Structure` | Stroj |
 
 
-## Probability — `0-math/09-probability`
+## Probability — `01-math/09-probability`
 
 | Term | Belarusian |
 |---|---|
@@ -186,7 +186,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Law of Large Numbers` / `LLN` | Zakon Vialikix Likaw* |
 | `Central Limit Theorem` / `CLT` | Centralnaja Graniqnaja Tearema* |
 
-## Matter — `1-reality/01-matter`
+## Matter — `02-reality/01-matter`
 
 | Term | Belarusian |
 |---|---|
@@ -210,7 +210,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Reference` | Spasylka* |
 | `Type` | Typ* |
 
-## Dynamic Processes — `1-reality/02-process`
+## Dynamic Processes — `02-reality/02-process`
 
 | Term | Belarusian |
 |---|---|
@@ -236,7 +236,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Potency` | Magna |
 | `Circumstances` | Varunki |
 
-## System — `1-reality/07-system`
+## System — `02-reality/07-system`
 
 | Term | Belarusian |
 |---|---|
@@ -256,7 +256,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Emergence` | Uznika* |
 | `Equilibrium` | Roynja* |
 
-## Entropy — `1-reality/14-entropy`
+## Entropy — `02-reality/14-entropy`
 
 | Term | Belarusian |
 |---|---|
@@ -265,7 +265,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Order` | Lad* |
 | `Self-Organization` | Samaarganizacyja* |
 
-## Being — `1-reality/22-being`
+## Being — `02-reality/22-being`
 
 | Term | Belarusian |
 |---|---|
@@ -274,7 +274,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Being` | Najavnoe |
 | `Reality` | Realia |
 
-## Intellect — `2-mind/11-intellect`
+## Intellect — `03-mind/11-intellect`
 
 | Term | Belarusian |
 |---|---|
@@ -305,7 +305,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Wisdom` | Mudra* |
 | `Intellect` | Rozum |
 
-## Proof — `2-mind/06-proof`
+## Proof — `03-mind/06-proof`
 
 | Term | Belarusian |
 |---|---|
@@ -313,7 +313,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Interpretation` | Vytlumaqenne* |
 | `Proof` | Dokaz |
 
-## Computation — `2-mind/07-computation`
+## Computation — `03-mind/07-computation`
 
 | Term | Belarusian |
 |---|---|
@@ -333,7 +333,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Equivalence` | Rawnaznaqnasc* |
 | `Information` | Infa |
 
-## Reasoning — `2-mind/08-reasoning`
+## Reasoning — `03-mind/08-reasoning`
 
 | Term | Belarusian |
 |---|---|
@@ -342,7 +342,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Logic` | Logika* |
 | `Reasoning` | Razvazhanne* |
 
-## Agency and Teleology — `2-mind/09-teleos`
+## Agency and Teleology — `03-mind/09-teleos`
 
 | Term | Belarusian |
 |---|---|
@@ -372,13 +372,13 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Decision-Context` | Ataqenne Rashennia* |
 | `Outcome` | Vynik |
 
-## Predictive Perception — `2-mind/13-predictive`
+## Predictive Perception — `03-mind/13-predictive`
 
 | Term | Belarusian |
 |---|---|
 | `Predictive-Perception` | Napieradnae Uspryjmanne* |
 
-## Scientific Knowledge — `2-mind/90-scientific`
+## Scientific Knowledge — `03-mind/90-scientific`
 
 | Term | Belarusian |
 |---|---|
@@ -387,7 +387,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Scientific Method` | Navukovy Sposab* |
 | `Scientific Process` | Navukovy Praces* |
 
-## Growth — `1-reality/15-evolution`, `7-mastery/01-mastery`
+## Growth — `02-reality/15-evolution`, `05-mastery/01-mastery`
 
 | Term | Belarusian |
 |---|---|
@@ -408,7 +408,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Super-Goal` | Zvyshajmeta* |
 | `Surplus` | Nadlishak* |
 
-## Human Being — `4-human/21-human`
+## Human Being — `04-human/21-human`
 
 | Term | Belarusian |
 |---|---|
@@ -434,7 +434,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Self-Consciousness` | Ja-svedomast* |
 | `Open Individualism` | Adkrytaja Asobnast* |
 
-## Rajdo — `4-human/23-rajdo`
+## Rajdo — `04-human/23-rajdo`
 
 | Term | Belarusian |
 |---|---|
@@ -446,14 +446,14 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Moderation` | Stiplost |
 | `Gratitude` | Udjaqnost |
 
-## Truth — `4-human/25-truth`
+## Truth — `04-human/25-truth`
 
 | Term | Belarusian |
 |---|---|
 | `Truth` | Saprawdnasc* |
 | `Faith` | Svera |
 
-## The Living Animal — `4-human/28-animal`
+## The Living Animal — `04-human/28-animal`
 
 | Term | Belarusian |
 |---|---|
@@ -471,12 +471,12 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Supernormal Stimulus` | Zvyshdrazhnilnik* |
 | `Suppression` | Prydushenne* |
 
-## Socium — `8-socium/30-socium`
+## Socium — `06-socium/30-socium`
 
 | Term | Belarusian |
 |---|---|
 
-## Social Ecology — `8-socium/31-ecology`
+## Social Ecology — `06-socium/31-ecology`
 
 | Term | Belarusian |
 |---|---|
@@ -486,14 +486,14 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Role` | Rolia* |
 | `Trust` | Daver* |
 
-## Culture — `8-socium/32-culture`
+## Culture — `06-socium/32-culture`
 
 | Term | Belarusian |
 |---|---|
 | `Collective Mind` | Gramadski Rozum* |
 | `Idemon` | Dumavik* |
 
-## Identity — `8-socium/34-identity`
+## Identity — `06-socium/34-identity`
 
 | Term | Belarusian |
 |---|---|
@@ -502,21 +502,21 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Dark Shadow` | Tatum |
 | `Aspirational Self` | Ja-Idealnae* |
 
-## Trances — `8-socium/35-transes`
+## Trances — `06-socium/35-transes`
 
 | Term | Belarusian |
 |---|---|
 | `Inferiority Trance` | Trans Niepawnasci* |
 | `Self-Compassion` | Samaspaquvanne* |
 
-## Conformism — `8-socium/36-conformism`
+## Conformism — `06-socium/36-conformism`
 
 | Term | Belarusian |
 |---|---|
 | `Conformism` | Pakornast* |
 | `Moral Courage` | Smelast* |
 
-## Politics — `8-socium/37-politics`
+## Politics — `06-socium/37-politics`
 
 | Term | Belarusian |
 |---|---|
@@ -533,19 +533,19 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Status` | Stanovishqa* |
 | `Totalitarianism` | Tatalitaryzm* |
 
-## Vision — `7-mastery/03-vision`
+## Vision — `05-mastery/03-vision`
 
 | Term | Belarusian |
 |---|---|
 | `Determination` | Nastyrnost |
 
-## Environment — `7-mastery/06-environment`
+## Environment — `05-mastery/06-environment`
 
 | Term | Belarusian |
 |---|---|
 | `Environment Design` | Sila Abstavinaw |
 
-## Productivity — `7-mastery/08-productivity`
+## Productivity — `05-mastery/08-productivity`
 
 | Term | Belarusian |
 |---|---|
@@ -555,7 +555,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Invest Wisely` | Razumnae Ukladanne* |
 | `Leverage` | Ryqag* |
 
-## Energy — `9-vitality/05-energy`
+## Energy — `08-vitality/05-energy`
 
 | Term | Belarusian |
 |---|---|

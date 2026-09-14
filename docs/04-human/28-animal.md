@@ -34,7 +34,7 @@ The `Animal`:
 **`Stress`** := organism mobilization for decision-making in response to sudden danger.
 
 - Shuts down rational thinking; suppresses the immune system.
-- Triggers the [threat response](../8-sustain/06-security.md#the-body-under-threat): fight, flight, freeze, or fawn.
+- Triggers the [threat response](../07-sustain/06-security.md#the-body-under-threat): fight, flight, freeze, or fawn.
 
 The `Animal` scans continuously for threats, and reports them where none are present.
 
@@ -82,4 +82,4 @@ The `Animal` scans continuously for threats, and reports them where none are pre
 
 The search evolved to terminate when the field was exhausted. A feed is not exhaustible, so the terminating condition never arrives. Wide-search attention is caught hardest, since the trait that makes it good at finding is the one the feed consumes.
 
-The circuit is not broken. Removed from the supernormal stimulus, it recovers — the basis of [Architecture over willpower](../7-mastery/06-environment.md#architecture-over-willpower).
+The circuit is not broken. Removed from the supernormal stimulus, it recovers — the basis of [Architecture over willpower](../05-mastery/06-environment.md#architecture-over-willpower).

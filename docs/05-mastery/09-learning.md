@@ -6,7 +6,7 @@ keywords: [mastery, learning]
 
 # Learning
 
-`Learning` is defined formally in [Intellect](../2-mind/11-intellect.md) as the update of `Memory`, and thereby of `Knowledge` and `Skill`, that makes them better predict further `Experience`. This file is the applied side: how to drive that update on purpose.
+`Learning` is defined formally in [Intellect](../03-mind/11-intellect.md) as the update of `Memory`, and thereby of `Knowledge` and `Skill`, that makes them better predict further `Experience`. This file is the applied side: how to drive that update on purpose.
 
 ## The Learning Loop
 
@@ -28,7 +28,7 @@ Reps alone plateau. [`Practice`](01-mastery.md#terms) compounds only when aimed 
 **Discomfort is the signal.** Comfort means you have left the band where correction happens.
 
 - **Aim at the weakness.** Drill the specific sub-skill that fails, not the whole performance you already pass.
-- **Tighten the feedback.** Shorten the gap between attempt and correction; delayed feedback teaches little (see [Manipulation → Conditioning](../8-sustain/09-manipulation.md#conditioning)).
+- **Tighten the feedback.** Shorten the gap between attempt and correction; delayed feedback teaches little (see [Manipulation → Conditioning](../07-sustain/09-manipulation.md#conditioning)).
 - **Volume over perfection.** Many corrected attempts beat a few flawless ones; the reps are what reshape `Memory`. Staying in that discomfort is what [Discipline](04-discipline.md) is for, and years of it is [`Mastery`](01-mastery.md).
 
 ## Making It Stick
@@ -43,7 +43,7 @@ Taking information in is not retaining it. Retention has its own mechanics:
 | **Teaching it** | Explaining in plain words exposes the gaps a `Bias` hides — if you cannot teach it, you have not learned it |
 | **Writing by hand** | Handwriting is slower and recruits motor planning alongside language, so the note is encoded while it is being made. Typing into a note app captures the text without encoding it — the archive grows and the `Memory` does not |
 | **Rest inside practice** | Brief pauses between attempts are when the gain is written — the brain replays the attempt during the pause. Replaying it deliberately, the rep imagined done cleanly, strengthens the same trace |
-| **Sleep** | Consolidation happens during rest, not at the desk. See [Recovery → Sleep](../9-vitality/03-recovery.md#sleep) |
+| **Sleep** | Consolidation happens during rest, not at the desk. See [Recovery → Sleep](../08-vitality/03-recovery.md#sleep) |
 
 ## Reading
 

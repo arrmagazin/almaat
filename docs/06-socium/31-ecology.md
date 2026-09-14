@@ -16,7 +16,7 @@ It requires freedom of expression, quality education, public discourse on equal 
 
 **`Role`** := A defined set of rights and obligations governing interaction with others.
 
-*NOTE*: each [`Human Being`](../4-human/21-human.md) holds several at once.
+*NOTE*: each [`Human Being`](../04-human/21-human.md) holds several at once.
 
 ---
 
@@ -32,7 +32,7 @@ It requires freedom of expression, quality education, public discourse on equal 
 
 ---
 
-**`Community`** := A unity of mature [`Agent`](../2-mind/09-teleos.md#the-agent)s under defined contractual relations.
+**`Community`** := A unity of mature [`Agent`](../03-mind/09-teleos.md#the-agent)s under defined contractual relations.
 
 *NOTE*: the `Contract` is what makes it a community rather than a crowd.
 
@@ -55,17 +55,17 @@ It requires freedom of expression, quality education, public discourse on equal 
 
 ### The Kantian Principle
 
-A choice is ethical if it remains good when applied universally to all members of the community, and if it satisfies [Nobody as a means](../4-human/98-manifesto.md#reciprocal-respect).
+A choice is ethical if it remains good when applied universally to all members of the community, and if it satisfies [Nobody as a means](../04-human/98-manifesto.md#reciprocal-respect).
 
 ### Key Axioms
 
 1. Those without their own truth will be colonized by others'
 2. Those without their own will execute others'
-3. Rights are not given — they are taken, with the obligation to defend them; see [Rights](../4-human/98-manifesto.md#rights)
+3. Rights are not given — they are taken, with the obligation to defend them; see [Rights](../04-human/98-manifesto.md#rights)
 4. A society built on conscience surpasses one built on violence
 5. People of conscience have no insurmountable conflicts
 6. If you cannot be a threat, you are only a tool
-7. You cannot buy peace at the cost of your dignity — see [`Kapot`](../4-human/26-greatness.md)
+7. You cannot buy peace at the cost of your dignity — see [`Kapot`](../04-human/26-greatness.md)
 8. The triumph of despotism is forcing slaves to declare themselves free
 9. Only unconditional principle has the force of moral law
 

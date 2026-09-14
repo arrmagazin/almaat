@@ -8,7 +8,7 @@ keywords: [mastery, biases]
 
 ## What is Cognitive Bias?
 
-A [`Bias`](../2-mind/11-intellect.md) is a systematic error in thinking that occurs while processing and interpreting information, affecting the decisions and judgments that follow.
+A [`Bias`](../03-mind/11-intellect.md) is a systematic error in thinking that occurs while processing and interpreting information, affecting the decisions and judgments that follow.
 
 Biases occur due to limitations of the human brain:
 
@@ -54,7 +54,7 @@ Biases occur due to limitations of the human brain:
 
 | Bias | Description |
 | --- | --- |
-| **Conformity** | Yielding to group pressure to match others' judgments, even against the evidence of your own senses. See [Conformism](../8-socium/36-conformism.md) |
+| **Conformity** | Yielding to group pressure to match others' judgments, even against the evidence of your own senses. See [Conformism](../06-socium/36-conformism.md) |
 | **Social Proof** | Looking to others for cues on how to behave, especially in unfamiliar situations |
 | **Bandwagon Effect** | Adopting beliefs or behaviors because many others do the same |
 | **In-Group Favoritism** | Favoring members of one's own group over those in other groups |

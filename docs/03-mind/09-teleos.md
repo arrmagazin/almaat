@@ -20,7 +20,7 @@ keywords: [mind, teleos]
 
 > `Self-Efficacy :: Opinion(Agent → Future)`
 
-*NOTE*: The `Agent`'s belief about its own causal capacity. Distinct from [`Potency`](../1-reality/02-process.md#landmarks-of-a-flow): `Self-Efficacy` is opinion about *self* as cause; `Potency` is opinion about *`Plan`* (or `Paradigm`, `Goal`) feasibility. `Self-Efficacy` is itself causal — believed efficacy shapes actual efficacy through `Will`.
+*NOTE*: The `Agent`'s belief about its own causal capacity. Distinct from [`Potency`](../02-reality/02-process.md#landmarks-of-a-flow): `Self-Efficacy` is opinion about *self* as cause; `Potency` is opinion about *`Plan`* (or `Paradigm`, `Goal`) feasibility. `Self-Efficacy` is itself causal — believed efficacy shapes actual efficacy through `Will`.
 
 ---
 
@@ -60,7 +60,7 @@ keywords: [mind, teleos]
 
 > `Decision-Context := (Core-Need, Drive, Self-Efficacy, Potency, Resources)`
 
-*NOTE*: what an `Agent` surveys before committing; a `Solution` taken without all five is partial. Distinct from [`Circumstances`](../1-reality/02-process.md#landmarks-of-a-flow), which is the situation the `Agent` does not set.
+*NOTE*: what an `Agent` surveys before committing; a `Solution` taken without all five is partial. Distinct from [`Circumstances`](../02-reality/02-process.md#landmarks-of-a-flow), which is the situation the `Agent` does not set.
 
 ## Goal and Means
 

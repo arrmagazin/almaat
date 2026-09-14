@@ -62,7 +62,7 @@ The preflight prints `git status`. If it shows edits under `docs/`, `README.md`,
 - **Leave them** — the loop records them in the ledger as yours and works
   around them, but it will strike any item that needs one of those files.
 
-Changes under `input/`, `done/`, `texts/`, or `graphify-out/` need no action.
+Changes under `input/`, `done/`, or `graphify-out/` need no action.
 Those belong to `/absorb` and the loop never touches them.
 
 ## Operating it

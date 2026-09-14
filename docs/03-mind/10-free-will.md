@@ -14,7 +14,7 @@ keywords: [mind, free-will, determinism]
 
 ---
 
-**`Determinism`** := Every [`Transition`](../1-reality/07-system.md#thing-and-trajectory), including a `Solution`, follows necessarily from the prior `State` under fixed law.
+**`Determinism`** := Every [`Transition`](../02-reality/07-system.md#thing-and-trajectory), including a `Solution`, follows necessarily from the prior `State` under fixed law.
 
 > `Determinism :: State(t) ⟹ State(t+1)`
 
@@ -62,7 +62,7 @@ To bind a constantly-renewing process to its own future, one part must hold a un
 
 This makes the illusion functionally real. Believing one is the author strengthens the control and motivation that produce better `Solution` — the same point as [`Self-Efficacy`](09-teleos.md#the-agent) being itself causal.
 
-So even if `Free-Will` is not metaphysically given, it earns its keep: an illusion that reliably shapes `Behavior` is, on the plane where the `Agent` lives, real. Compare the idealist framing in [Being](../1-reality/22-being.md), where the choice is yours because it follows from what you are.
+So even if `Free-Will` is not metaphysically given, it earns its keep: an illusion that reliably shapes `Behavior` is, on the plane where the `Agent` lives, real. Compare the idealist framing in [Being](../02-reality/22-being.md), where the choice is yours because it follows from what you are.
 
 ## Compassion as Corollary
 

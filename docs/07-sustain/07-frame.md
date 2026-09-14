@@ -6,11 +6,11 @@ keywords: [sustain, security, frame, composure]
 
 # Frame
 
-This is the defensive half of [Influence](../8-socium/33-interpersonal.md).
+This is the defensive half of [Influence](../06-socium/33-interpersonal.md).
 
 ## The Rescuer
 
-Most people are trained from childhood to be *convenient* — to defer, soothe, and over-give for approval. The habit hardens into the **Rescuer**, who absorbs others' problems to feel needed, surrendering time, money, attention, and standing one concession at a time. It builds on the [Persona, Mask, and Shadow](../8-socium/34-identity.md#persona).
+Most people are trained from childhood to be *convenient* — to defer, soothe, and over-give for approval. The habit hardens into the **Rescuer**, who absorbs others' problems to feel needed, surrendering time, money, attention, and standing one concession at a time. It builds on the [Persona, Mask, and Shadow](../06-socium/34-identity.md#persona).
 
 ## Setting the Frame
 
@@ -37,7 +37,7 @@ Manipulation runs on **speed and pressure**. Slow the pace and most tactics lose
 | **The decision pause** | "I'll get back to you." Removes the artificial urgency most demands depend on |
 | **The refusal pause** | A silence held *after* a "no," instead of rushing to soften it |
 
-Chris Voss's negotiation toolkit fits here as defense: **tactical empathy** (name the other side's state to defuse it, without conceding), **labeling** ([naming an emotion lowers its charge](../4-human/28-animal.md#emotion-and-stress)), and the **accusation audit** (pre-empt the worst thing they could say about you so it loses its sting).
+Chris Voss's negotiation toolkit fits here as defense: **tactical empathy** (name the other side's state to defuse it, without conceding), **labeling** ([naming an emotion lowers its charge](../04-human/28-animal.md#emotion-and-stress)), and the **accusation audit** (pre-empt the worst thing they could say about you so it loses its sting).
 
 ## Language
 

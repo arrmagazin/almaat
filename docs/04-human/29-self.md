@@ -26,7 +26,7 @@ keywords: [human, self, memory, death]
 
 ## Memory Is Reconstruction
 
-A recalled event is not the event but a copy of the last time you recalled it — a copy of a copy. `Memory` is [reconstruction, not retrieval](../2-mind/12-mind.md#the-substrate), so the `Self-role`, built on it, is unstable and partly invented (cf. [`Predictive-Perception`](../2-mind/13-predictive.md)).
+A recalled event is not the event but a copy of the last time you recalled it — a copy of a copy. `Memory` is [reconstruction, not retrieval](../03-mind/12-mind.md#the-substrate), so the `Self-role`, built on it, is unstable and partly invented (cf. [`Predictive-Perception`](../03-mind/13-predictive.md)).
 
 **Remove `Memory` and the `Self-role` is gone.** Retrograde amnesia erases the story while the person stays healthy: name, age, history all unreachable. The `Self-observer` remains, but with nothing to observe.
 
@@ -36,7 +36,7 @@ A recalled event is not the event but a copy of the last time you recalled it �
 
 **`Open Individualism`** := the hypothesis that, beneath every `Self-role`, all conscious beings share one and the same `Self-Consciousness`.
 
-*NOTE*: stated ontologically as [one `Consciousness`, many dissociations](../1-reality/24-transcendence.md#one-consciousness).
+*NOTE*: stated ontologically as [one `Consciousness`, many dissociations](../02-reality/24-transcendence.md#one-consciousness).
 
 If so, the odds of *you* being born are not astronomical but certain: any human born is you. The duplication puzzle (a teleport copies you to Mars; which one is you?) dissolves — both are, because there was never a private "you" to begin with.
 

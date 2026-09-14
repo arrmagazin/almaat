@@ -41,7 +41,7 @@ Root causes:
 - Fear of being incapable of achieving a result.
 - No step-by-step plan broken into small, rewarded tasks.
 
-*What helps*: address the specific root cause. Restore energy (sleep, movement, nutrition). Clarify the goal — see [Vision](../7-mastery/03-vision.md). Break it into the smallest possible next step — see [Discipline](../7-mastery/04-discipline.md). Act — even poorly.
+*What helps*: address the specific root cause. Restore energy (sleep, movement, nutrition). Clarify the goal — see [Vision](../05-mastery/03-vision.md). Break it into the smallest possible next step — see [Discipline](../05-mastery/04-discipline.md). Act — even poorly.
 
 *NOTE*: this section is about ordinary low mood and its physical contributors. Clinical depression is a medical condition — persistent low mood, loss of interest, or thoughts of self-harm warrant a clinician, not a self-management plan.
 

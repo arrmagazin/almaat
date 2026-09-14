@@ -10,13 +10,13 @@ keywords: [vitality]
 
 - Health is a tool, not a goal. Obsessing over health is its own disease.
 - The older you get, the more effort health requires.
-- Fear does not change behavior. [Discipline](../7-mastery/04-discipline.md) does.
+- Fear does not change behavior. [Discipline](../05-mastery/04-discipline.md) does.
 - Know your own limits — they differ from others'.
 - Use only what you need. Avoid excess.
 - Medicine treats what has developed; habit shapes what develops.
 - Detoxification is done by the liver and kidneys, not by cleanses, single foods, or sweating.
 
-The mindset this rests on — self-acceptance, purpose, curiosity, dropping blame — is in [Mindset](../7-mastery/02-mindset.md) and [Rajdo](../4-human/23-rajdo.md).
+The mindset this rests on — self-acceptance, purpose, curiosity, dropping blame — is in [Mindset](../05-mastery/02-mindset.md) and [Rajdo](../04-human/23-rajdo.md).
 
 ## Habits
 

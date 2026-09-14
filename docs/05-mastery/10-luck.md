@@ -39,7 +39,7 @@ Luck does not create chances; it **assimilates** them (Busch). The macro-lottery
 ## The Honest Caveat
 
 None of this defeats the macro-lottery, and that openness is a scarce luxury. In turbulent, low-trust environments, background anxiety is not a personal defect but an evolutionarily rational defense — the system punishes relaxedness, and the tighter you clamp, the blinder you go, a vicious loop. Worse, turning serendipity into another anxious optimization ("am I searching for luck efficiently enough?") spikes stress and re-clamps the very filter you meant to open. And the capacity to relax is itself partly set by the safety of one's past. 
-Both hold: blind chance cannot be out-played, and permanent tension guarantees blindness to the chance that does arrive. Stay open to it anyway, without gripping the result — the same effort-and-release balance as [Approaching Rajdo → Force and Surrender](../4-human/24-approach.md#the-mirror-and-the-two-intentions).
+Both hold: blind chance cannot be out-played, and permanent tension guarantees blindness to the chance that does arrive. Stay open to it anyway, without gripping the result — the same effort-and-release balance as [Approaching Rajdo → Force and Surrender](../04-human/24-approach.md#the-mirror-and-the-two-intentions).
 
 ## Sources
 

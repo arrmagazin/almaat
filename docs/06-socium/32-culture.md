@@ -42,15 +42,15 @@ As frontal lobes grew alongside social complexity, the us/them split became cogn
 
 ## Extraction
 
-Society does not only transmit culture — it **extracts** from its carriers. Wherever the [Animal](../4-human/28-animal.md) has a vulnerability, a market forms to monetize it. The product is engineered to capture, not to serve.
+Society does not only transmit culture — it **extracts** from its carriers. Wherever the [Animal](../04-human/28-animal.md) has a vulnerability, a market forms to monetize it. The product is engineered to capture, not to serve.
 
-- **Attention** — hours and focus, resold to advertisers. Feeds, autoplay, and notifications are tuned to defeat your stopping point. See [Attention](../7-mastery/07-attention.md).
-- **Dopamine** — the reward circuit, hooked by variable payoff — games, scrolling, betting. Designed compulsion sold as entertainment. See [Conditioning](../8-sustain/09-manipulation.md#conditioning).
+- **Attention** — hours and focus, resold to advertisers. Feeds, autoplay, and notifications are tuned to defeat your stopping point. See [Attention](../05-mastery/07-attention.md).
+- **Dopamine** — the reward circuit, hooked by variable payoff — games, scrolling, betting. Designed compulsion sold as entertainment. See [Conditioning](../07-sustain/09-manipulation.md#conditioning).
 - **Status** — manufactured insecurity, resold as goods that signal worth: cars, clothes, weddings. The need is created, then the cure is priced.
-- **Appetite** — cheap, engineered food tuned past the body's satiety signal. See [Nutrition](../9-vitality/04-nutrition.md).
+- **Appetite** — cheap, engineered food tuned past the body's satiety signal. See [Nutrition](../08-vitality/04-nutrition.md).
 
-**Optimized for the next click, not your good.** An extractive feed does not show what you like — it shows what keeps you going. Because [novelty renews arousal](../4-human/28-animal.md#reward-and-compulsion) (the Coolidge effect), maximizing engagement tends toward steadily more stimulating content.
+**Optimized for the next click, not your good.** An extractive feed does not show what you like — it shows what keeps you going. Because [novelty renews arousal](../04-human/28-animal.md#reward-and-compulsion) (the Coolidge effect), maximizing engagement tends toward steadily more stimulating content.
 
-**The tell.** The pitch promises a result without resistance: easy money, permanent flow, a life that arranges itself. Capability is built at the edge of what one cannot yet do (see [Learning → Deliberate Practice](../7-mastery/09-learning.md#deliberate-practice)), so an offer of results without resistance is describing the bait, not the method.
+**The tell.** The pitch promises a result without resistance: easy money, permanent flow, a life that arranges itself. Capability is built at the edge of what one cannot yet do (see [Learning → Deliberate Practice](../05-mastery/09-learning.md#deliberate-practice)), so an offer of results without resistance is describing the bait, not the method.
 
-The defense mirrors the one against [manipulation](../8-sustain/09-manipulation.md): make consumption **deliberate, not reflexive**. An appetite you did not choose is one someone else is steering.
+The defense mirrors the one against [manipulation](../07-sustain/09-manipulation.md): make consumption **deliberate, not reflexive**. An appetite you did not choose is one someone else is steering.

@@ -8,12 +8,12 @@ keywords: [mastery, attention]
 
 ## Attention Profile
 
-[`Attention`](../1-reality/07-system.md#communication) is not uniform across people. The difference is a trait to be matched, not a defect to be corrected — and a system built for one profile fails silently in the hands of the other, where the failure then reads as a personal flaw.
+[`Attention`](../02-reality/07-system.md#communication) is not uniform across people. The difference is a trait to be matched, not a defect to be corrected — and a system built for one profile fails silently in the hands of the other, where the failure then reads as a personal flaw.
 
 | Profile | Strength | Cost |
 | ------- | -------- | ---- |
 | **Systematizing** | Holds a single track for long stretches; builds and maintains process; predictable output | Slow to switch; weak at originating from nothing |
-| **Scanning** | Fast switching, wide search, sharp output under novelty; deep absorption in whatever engages | Poor at sustaining a system; drowns once many threads are open; the profile a [feed](../4-human/28-animal.md#reward-and-compulsion) is built to catch |
+| **Scanning** | Fast switching, wide search, sharp output under novelty; deep absorption in whatever engages | Poor at sustaining a system; drowns once many threads are open; the profile a [feed](../04-human/28-animal.md#reward-and-compulsion) is built to catch |
 
 Neither profile is the productive one: systematizing attention runs a process, scanning attention finds what the process should be. Most published productivity method is written by the first profile for the first profile, and reaches the second as evidence of being broken.
 
@@ -52,7 +52,7 @@ The order of stimulation across a day decides what work is possible inside it. T
 | **Bore yourself before the block** | Ten to twenty minutes of silence — no screen, no feed, no music — drops the baseline the task will be compared against, so the work itself reads as interesting |
 | **Leave the work open** | Laptop open on the right file, everything else closed. Waking should require no decision — only sitting down |
 | **Phone out of the room overnight** | Not silenced — absent. Picked up after the first block, never before it |
-| **Work first, eat second** | Take the first block before breakfast. See [Nutrition → Timing](../9-vitality/04-nutrition.md#timing) |
+| **Work first, eat second** | Take the first block before breakfast. See [Nutrition → Timing](../08-vitality/04-nutrition.md#timing) |
 | **Hard-stop the day** | Fix the day at a length you can hold. Work expands into whatever it is given; a hard edge forces the compression and exposes what should be delegated |
 | **Peaks after the stop** | Games, feeds, sugar, loud music — once the day is closed, and not before |
 

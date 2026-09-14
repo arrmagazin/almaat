@@ -18,7 +18,7 @@ keywords: [reality, freedom, constraint, excellence, breakthrough]
 
 > `Constraint := {Communication : restricts accessible Plan}`
 
-*NOTE*: dual to `Freedom`. Growth occurs through navigating constraints, not by eliminating them. Useful `Constraint` becomes the scaffold of [`Mastery`](../7-mastery/01-mastery.md).
+*NOTE*: dual to `Freedom`. Growth occurs through navigating constraints, not by eliminating them. Useful `Constraint` becomes the scaffold of [`Mastery`](../05-mastery/01-mastery.md).
 
 ## The Ceiling
 

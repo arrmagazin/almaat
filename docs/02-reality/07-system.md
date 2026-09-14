@@ -32,7 +32,7 @@ keywords: [reality, system, participant, communication]
 
 > `Participant(P) :: P IS Thing ∧ ∃Q ≠ P: Communication(P → Q) ≠ 0`
 
-*NOTE*: the atomic unit of a `System` — defined by its role in the network of `Communication`, not by its internal structure. Every `Participant` is a [`Source`](../0-math/01-sets.md#sets): it must produce output in order to communicate.
+*NOTE*: the atomic unit of a `System` — defined by its role in the network of `Communication`, not by its internal structure. Every `Participant` is a [`Source`](../01-math/01-sets.md#sets): it must produce output in order to communicate.
 
 ---
 

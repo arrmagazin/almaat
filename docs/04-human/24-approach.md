@@ -12,7 +12,7 @@ It tends to surface only *after* long effort, and then only when the effort is r
 
 - **Observe rather than hold on.** The first move is to notice that `Thought`s, feelings, and the body are *observed* — they pass through; they are not the observer. This is [`Awareness`](23-rajdo.md#what-rajdo-entails).
 - **Peaks are not it.** Altered and peak states — bliss, dissolution, oneness — come and go. `Rajdo` is not a high but the even, stable ground beneath highs and lows. Equanimity, not intensity.
-- **The inner critic falls quiet.** What the shift removes is the compulsive, nagging voice of unworthiness — *you are doing the wrong thing, you must achieve, you are defective*. That voice is the interiorized crowd, not you (see [inner speech](../2-mind/12-mind.md#the-social-origin-of-mind)); `Rajdo` is dis-identification from it.
+- **The inner critic falls quiet.** What the shift removes is the compulsive, nagging voice of unworthiness — *you are doing the wrong thing, you must achieve, you are defective*. That voice is the interiorized crowd, not you (see [inner speech](../03-mind/12-mind.md#the-social-origin-of-mind)); `Rajdo` is dis-identification from it.
 
 ## Traps on the Way
 
@@ -35,7 +35,7 @@ Changing only the circumstances — new job, city, relationship — reproduces t
 
 ## Practices
 
-- **Breath inward.** A daily seated breathing practice that draws attention inward and steadies the mind before any external input (see [Breathing](../9-vitality/03-recovery.md#breathing)).
+- **Breath inward.** A daily seated breathing practice that draws attention inward and steadies the mind before any external input (see [Breathing](../08-vitality/03-recovery.md#breathing)).
 - **The mirror journal.** Take one stuck area and ask, "if this is a mirror, what is it reflecting?" — follow it down to the belief that carries a charge. A belief you can state plainly can be worked with; one that stays unexamined keeps operating unchanged.
 - **Chosen state in company.** Hold a genuine inner state of calm and goodwill in a public setting and watch how interactions shift — direct evidence that inner state is not private.
 - **Weekly intention.** Clarify a *direction* that is genuinely yours (not a specific form), commit fully, then explicitly release the timeline and the shape it takes.

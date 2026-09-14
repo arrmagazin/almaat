@@ -19,7 +19,7 @@ The groundwork — mindset, awareness, the OODA loop, the body under threat, and
 7. A boundary without a consequence is a suggestion.
 8. The goal is to get free, not to win. Force ends the instant the threat does.
 9. Decide in advance; freezing is the failure to have pre-decided.
-10. Dignity over convenience — you cannot buy peace at the cost of your own standing; see [`Kapot`](../4-human/26-greatness.md).
+10. Dignity over convenience — you cannot buy peace at the cost of your own standing; see [`Kapot`](../04-human/26-greatness.md).
 
 ## Reading Threat
 
@@ -99,7 +99,7 @@ Force is lawful only within limits, which vary by jurisdiction — this is not l
 - **Force ends when the threat ends** — pursuing once they're stopped or fleeing turns defense into assault.
 - **Retreat** — some jurisdictions require retreating if safely possible; know your local law.
 
-Ethically this mirrors [the prohibition on violence](../8-socium/31-ecology.md#ethics): force is permitted in defense against oppression, never as imposition.
+Ethically this mirrors [the prohibition on violence](../06-socium/31-ecology.md#ethics): force is permitted in defense against oppression, never as imposition.
 
 ## Sources
 

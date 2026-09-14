@@ -13,18 +13,19 @@ It is for anyone who wants a single consistent vocabulary for thinking about min
 
 ## Sections
 
-Content lives in `docs/`, one folder per ontological layer or applied domain. The leading digit places a folder in the ontology's order; numbers rise roughly with depth, and the two applied folders keep their own numbering.
+Content lives in `docs/`, one folder per ontological layer or applied domain. The two-digit prefix places a folder in the ontology's order; numbers rise roughly with depth, the applied folders keep their own numbering, and `99-appendices` sits apart at the end.
 
 | Folder | Topic |
 |---|---|
-| [`0-math/`](docs/0-math) | Formal foundations: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Structures`, the presentational view, formal `Language` |
-| [`1-reality/`](docs/1-reality) | Dynamics and metaphysics: `Process`, `System`, `Probability`, `Entropy`, `Evolution`, `Limits`, `Being` |
-| [`2-mind/`](docs/2-mind) | Knowing: `Knowledge`, `Proof`, `Computation`, `Reasoning`, agency, free will, `Intellect`, `Mind`, the scientific method |
-| [`4-human/`](docs/4-human) | The human: `Rajdo`, truth and faith, happiness and greatness, the `Animal`, the self and death, the manifesto |
-| [`7-mastery/`](docs/7-mastery) | The disciplines: mindset, vision, discipline, habits, environment, attention, productivity, learning |
-| [`8-socium/`](docs/8-socium) | The collective: ecology, culture, influence, identity, conformism, power |
-| [`8-sustain/`](docs/8-sustain) | Defense: security, frame, de-escalation, manipulation, reading people, boundaries |
-| [`9-vitality/`](docs/9-vitality) | The body: vitality, recovery, nutrition, energy |
+| [`01-math/`](docs/01-math) | Formal foundations: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Structures`, the presentational view, formal `Language` |
+| [`02-reality/`](docs/02-reality) | Dynamics and metaphysics: `Process`, `System`, `Probability`, `Entropy`, `Evolution`, `Limits`, `Being` |
+| [`03-mind/`](docs/03-mind) | Knowing: `Knowledge`, `Proof`, `Computation`, `Reasoning`, agency, free will, `Intellect`, `Mind`, the scientific method |
+| [`04-human/`](docs/04-human) | The human: `Rajdo`, truth and faith, happiness and greatness, the `Animal`, the self and death, the manifesto |
+| [`05-mastery/`](docs/05-mastery) | The disciplines: mindset, vision, discipline, habits, environment, attention, productivity, learning |
+| [`06-socium/`](docs/06-socium) | The collective: ecology, culture, influence, identity, conformism, power |
+| [`07-sustain/`](docs/07-sustain) | Defense: security, frame, de-escalation, manipulation, reading people, boundaries |
+| [`08-vitality/`](docs/08-vitality) | The body: vitality, recovery, nutrition, energy |
+| [`99-appendices/`](docs/99-appendices) | Correspondences from the formal core: predicate logic, category theory, arithmetic, combinatorics, data structures, data normalization, a map of the disciplines |
 
 Four files sit at the root of `docs/`: `welcome.md`, `INDEX.md`, `_quotes.md` (curated quotations, cited by number) and `_translations.md` (each canonical English Term to its Belarusian-rooted equivalent).
 

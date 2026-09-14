@@ -28,7 +28,7 @@ This is the move from victim to creator — not a different person, but a differ
 
 ## Authenticity
 
-Realize and respect your intrinsic [`Dignity`](../4-human/21-human.md) — your inherent worth rooted in your transcending nature. Be true to yourself, your values, and your unique path regardless of external pressure;
+Realize and respect your intrinsic [`Dignity`](../04-human/21-human.md) — your inherent worth rooted in your transcending nature. Be true to yourself, your values, and your unique path regardless of external pressure;
 
 *You are the only boss of yourself.*
 
@@ -66,7 +66,7 @@ Confidence is a generalized expectation of manageable outcomes, not certainty of
 - **Don't outsource self-belief.** The same door that lets praise lift you lets criticism lower you. See [Accountability](#accountability) and [Authenticity](#authenticity).
 - **Move before you feel ready.** Confidence follows action; it does not precede it.
 - **Regulate before you perform.** Confidence is safety and composure, not volume or dominance.
-- **Measure against yesterday.** A feed sets your interior against an edited exterior whose price is not shown. The only usable metric is the delta from your own prior state. See [`Acceptance`](../4-human/23-rajdo.md#what-rajdo-entails).
+- **Measure against yesterday.** A feed sets your interior against an edited exterior whose price is not shown. The only usable metric is the delta from your own prior state. See [`Acceptance`](../04-human/23-rajdo.md#what-rajdo-entails).
 
 ## Curiosity and Openness
 
@@ -85,7 +85,7 @@ Be less certain. Keep an unfrozen view of the world, with room for error and gro
 
 The danger of a mistake is routinely overrated and the cost of not acting routinely ignored — only the first comes with a vivid picture attached.
 
-**Do not defer the living.** The postponed-life stance — endure this stretch, tolerate these people, earn the money, *then* begin — spends the only part of life actually available on a later that returns nothing. A life is measured in what was lived, not years accumulated. See [`Acceptance`](../4-human/23-rajdo.md#what-rajdo-entails).
+**Do not defer the living.** The postponed-life stance — endure this stretch, tolerate these people, earn the money, *then* begin — spends the only part of life actually available on a later that returns nothing. A life is measured in what was lived, not years accumulated. See [`Acceptance`](../04-human/23-rajdo.md#what-rajdo-entails).
 
 *Fear is fuel, challenges are gifts, and the sky is no limit.*
 
@@ -106,7 +106,7 @@ The corollary is the effort paradox: forcing an outcome that cannot be forced �
 sleep, ease, another person's regard — produces the opposite, because the
 forcing is itself the obstruction. Full effort, released from the specific form
 the result must take, is the working stance. See
-[Force and surrender](../4-human/24-approach.md#the-mirror-and-the-two-intentions).
+[Force and surrender](../04-human/24-approach.md#the-mirror-and-the-two-intentions).
 
 ## Accountability
 

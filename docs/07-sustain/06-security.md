@@ -9,7 +9,7 @@ keywords: [sustain, security]
 - **Social** — coercion, manipulation, boundary violation. The attack on your judgment and autonomy: [Frame](07-frame.md), [De-escalation](08-de-escalation.md), [Manipulation](09-manipulation.md), [Reading People](10-reading.md), [Hidden Hostility](11-hostility.md), [Boundaries](12-boundaries.md).
 - **Physical** — intimidation and violence. The attack on your body: [Physical Security](13-defense.md).
 
-Both rest on the same [Animal](../4-human/28-animal.md) that reacts before thought and the same [biases](../7-mastery/11-thinking.md) that get people hurt. Both are won mostly *before* contact. And both are **defense, not domination** — the goal is to stay intact and free, not to make others lose. See [Ethics](../8-socium/31-ecology.md#ethics).
+Both rest on the same [Animal](../04-human/28-animal.md) that reacts before thought and the same [biases](../05-mastery/11-thinking.md) that get people hurt. Both are won mostly *before* contact. And both are **defense, not domination** — the goal is to stay intact and free, not to make others lose. See [Ethics](../06-socium/31-ecology.md#ethics).
 
 *NOTE*: This page is educational. It is not legal advice or a fight manual. The lawful purpose of force is to stop an imminent threat and escape — nothing more.
 
@@ -59,7 +59,7 @@ stateDiagram-v2
 
 ## The Body Under Threat
 
-Under threat the **sympathetic nervous system** floods the body with catecholamines — the **fight / flight / freeze / fawn** response. This is the [`Animal`](../4-human/28-animal.md#emotion-and-stress)'s `Stress` response made physical: deliberation shuts down to mobilize the body. The same dump fires in a hostile negotiation as in a mugging.
+Under threat the **sympathetic nervous system** floods the body with catecholamines — the **fight / flight / freeze / fawn** response. This is the [`Animal`](../04-human/28-animal.md#emotion-and-stress)'s `Stress` response made physical: deliberation shuts down to mobilize the body. The same dump fires in a hostile negotiation as in a mugging.
 
 | Effect | Consequence |
 | ------ | ----------- |
@@ -74,7 +74,7 @@ Under threat the **sympathetic nervous system** floods the body with catecholami
 
 ## Biases That Get You Hurt
 
-Why prepared people still freeze. Each is a [cognitive bias](../7-mastery/11-thinking.md) turned dangerous; the bystander effect is treated in [Conformism](../8-socium/36-conformism.md), and each stalls both the boundary you don't enforce and the exit you don't take.
+Why prepared people still freeze. Each is a [cognitive bias](../05-mastery/11-thinking.md) turned dangerous; the bystander effect is treated in [Conformism](../06-socium/36-conformism.md), and each stalls both the boundary you don't enforce and the exit you don't take.
 
 | Bias | Failure it causes |
 | ---- | ----------------- |
@@ -95,7 +95,7 @@ After danger on either plane, the adrenaline crashes: shaking, nausea, exhaustio
 
 - **Immediate** — get to safety, let the shakes pass, breathe slowly to down-regulate the nervous system.
 - **Physical** — treat injuries; the dump masks pain, so re-check later.
-- **Psychological** — expect intrusive replay; talk it through, seek support if it persists. See [Vitality](../9-vitality/02-vitality.md).
+- **Psychological** — expect intrusive replay; talk it through, seek support if it persists. See [Vitality](../08-vitality/02-vitality.md).
 
 The ten [Principles Under Pressure](13-defense.md#under-pressure) are in [Physical Security](13-defense.md).
 

@@ -12,7 +12,7 @@ keywords: [math, probability, bayes, random variable]
 
 > `SampleSpace := Dictionary<Alphabet>`
 
-*NOTE*: the classical Ω. Discrete here, since a `Dictionary` is a `Set` of `Words`; the continuous case sits outside `0-math`.
+*NOTE*: the classical Ω. Discrete here, since a `Dictionary` is a `Set` of `Words`; the continuous case sits outside `01-math`.
 
 ---
 
@@ -69,7 +69,7 @@ keywords: [math, probability, bayes, random variable]
 
 > `Probability := Rational :: 0 ≤ Probability ≤ 1`
 
-*NOTE*: classical theory takes a real number; `0-math` has only `Rationals`, which suffice for a discrete `SampleSpace`. Irrational values enter only through roots and limits.
+*NOTE*: classical theory takes a real number; `01-math` has only `Rationals`, which suffice for a discrete `SampleSpace`. Irrational values enter only through roots and limits.
 
 ---
 

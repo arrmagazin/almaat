@@ -1,3 +1,9 @@
+---
+title: "Correspondence to Arithmetic"
+description: "Arithmetic recovered from Number, Interval, Tuple, and Concatenation rather than introduced as a new primitive."
+keywords: [appendices, arithmetic, successor, numerals]
+---
+
 # Correspondence to Arithmetic
 
 Arithmetic is not introduced as a new primitive — it is *recovered* from `Number`, `Interval`, `Tuple`, and `Concatenation`.
@@ -48,7 +54,7 @@ Arithmetic is not introduced as a new primitive — it is *recovered* from `Numb
 
 **Properties:**
 
-- **Associativity of `+` and `×`** is inherited from `Concatenation`: `(a + b) + c` and `a + (b + c)` both correspond to the same flattened `Tuple`, and `Concatenation` flattening is associative by [02-graph](../03-graph.md) line 47.
+- **Associativity of `+` and `×`** is inherited from `Concatenation`: `(a + b) + c` and `a + (b + c)` both correspond to the same flattened `Tuple`, and `Concatenation` flattening is associative by [Graphs](../01-math/03-graphs.md).
 - **Commutativity of `+` and `×`** follows from the bijective re-indexing of `Matrix` rows (a `Selection-Mask` of length `n` onto itself).
 - **Distributivity** `a × (b + c) = a × b + a × c` corresponds to splitting a `Matrix` of `a` rows of length `b + c` into two `Matrix` along the column boundary.
 - **Order** `≤` coincides with `Subset` on the Von Neumann encoding — so arithmetic order is a *special case* of set inclusion, not an extra relation.

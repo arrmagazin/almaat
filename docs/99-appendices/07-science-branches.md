@@ -1,3 +1,9 @@
+---
+title: "Branches of Intellectual Work"
+description: "A map of the scientific, applied, and humanistic disciplines, each given by what it studies."
+keywords: [appendices, science, disciplines, ontology]
+---
+
 # Branches of Intellectual Work
 
 ## Scientific

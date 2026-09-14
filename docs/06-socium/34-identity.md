@@ -14,7 +14,7 @@ keywords: [socium, identity, persona]
 
 ## The Three Sides
 
-1. **[`Self-role`](../4-human/29-self.md#three-layers-of-the-self)** — who I perceive myself to be
+1. **[`Self-role`](../04-human/29-self.md#three-layers-of-the-self)** — who I perceive myself to be
 2. **`Aspirational Self`** — who I want to become
 3. **[`Persona`](#persona)** — who I want others to perceive me as, defined below
 
@@ -41,6 +41,6 @@ To get them it hides the weak sides — shame, guilt, loneliness, pain, fear —
 
 **`Dark Shadow`** := the hidden side of the `Persona` — suppressed during upbringing, forbidden by external social frameworks, and concealed under an opposing outward mask.
 
-- `Persona` needs can suppress [`Animal`](../4-human/28-animal.md) ones and push them into the subconscious.
+- `Persona` needs can suppress [`Animal`](../04-human/28-animal.md) ones and push them into the subconscious.
 - A strongly assigned mask calls up its opposite as an unlived counterpart.
 - Mask and shadow are both products of upbringing — of experiencing pain and seeking reward in the close environment of childhood.

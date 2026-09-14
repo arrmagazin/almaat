@@ -34,7 +34,7 @@ Their moves, and the counter to each, are in [Manipulation](09-manipulation.md).
 
 ## The Second Conversation
 
-Words are the most controlled thing a person owns. The body runs on the older, faster [`Animal`](../4-human/28-animal.md) (see [the body under threat](06-security.md#the-body-under-threat)), so the truth leaks in the gap between impulse and mask — widest where the stakes are highest, at money, loyalty, and fault.
+Words are the most controlled thing a person owns. The body runs on the older, faster [`Animal`](../04-human/28-animal.md) (see [the body under threat](06-security.md#the-body-under-threat)), so the truth leaks in the gap between impulse and mask — widest where the stakes are highest, at money, loyalty, and fault.
 
 | Channel | What leaks | How to read it |
 | ------- | ---------- | -------------- |

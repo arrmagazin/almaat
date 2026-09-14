@@ -6,11 +6,11 @@ keywords: [mind, proof, logic]
 
 # Proof
 
-**`Proof`** := A [`Conclusion`](../0-math/08-language.md#rules-and-grammar) that yields `Thesis` under a given `Theory`.
+**`Proof`** := A [`Conclusion`](../01-math/08-language.md#rules-and-grammar) that yields `Thesis` under a given `Theory`.
 
 > `Proof<Theory> := Conclusion<Theory> :: Conclusion(Axiom) ∈ Thesis`
 
-*NOTE*: Subjects themselves remain inaccessible; we form `Opinion` about their `View` within specific Logics. `Thesis` is defined in [Knowledge](05-knowledge.md), `Theory` in [Formal Language](../0-math/08-language.md#theories).
+*NOTE*: Subjects themselves remain inaccessible; we form `Opinion` about their `View` within specific Logics. `Thesis` is defined in [Knowledge](05-knowledge.md), `Theory` in [Formal Language](../01-math/08-language.md#theories).
 
 ---
 

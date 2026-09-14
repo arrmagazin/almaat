@@ -32,21 +32,21 @@ Ervin Staub studied how ordinary people become accomplices to mass killing. It n
 
 **`Moral Courage`** := acting against fear because something matters more than comfort.
 
-*NOTE*: not the absence of [Fear](../4-human/28-animal.md) — fear is present and outweighed. It rarely looks like the movies — no speech, no applause. It begins in small daily moments: not laughing at a joke you find vile, not agreeing with a claim you believe is false because arguing is awkward, not endorsing what you think unjust because the majority does. Each small act is training, and an unused muscle atrophies. See [Courage and Enjoyment](../7-mastery/02-mindset.md#courage-and-enjoyment).
+*NOTE*: not the absence of [Fear](../04-human/28-animal.md) — fear is present and outweighed. It rarely looks like the movies — no speech, no applause. It begins in small daily moments: not laughing at a joke you find vile, not agreeing with a claim you believe is false because arguing is awkward, not endorsing what you think unjust because the majority does. Each small act is training, and an unused muscle atrophies. See [Courage and Enjoyment](../05-mastery/02-mindset.md#courage-and-enjoyment).
 
 **One voice changes the room.** In Asch's line experiments most participants conformed to an obviously wrong majority at least once, and a single dissenting voice cut conformity sharply. Conformism runs on the appearance of unanimity, and the trap has a name: *pluralistic ignorance*, where each person privately disagrees but fakes agreement because everyone else seems to, so most stay silent believing they are the minority when they are not. A consistent minority shifts the majority — but only if it speaks.
 
 ## Four Moves
 
-- **Close the gap between private and public view.** Thinking one thing and saying another is not diplomacy but slow self-erosion: each silence costs a little self-respect, and the payments compound until you no longer know what you think. This is the slavery Goethe meant — "Whoever cannot be master of himself will always be a slave." The size of the gap measures your conformism. See [Self-Honesty](../7-mastery/02-mindset.md#self-honesty).
+- **Close the gap between private and public view.** Thinking one thing and saying another is not diplomacy but slow self-erosion: each silence costs a little self-respect, and the payments compound until you no longer know what you think. This is the slavery Goethe meant — "Whoever cannot be master of himself will always be a slave." The size of the gap measures your conformism. See [Self-Honesty](../05-mastery/02-mindset.md#self-honesty).
 - **Separate morality from law.** Permitted does not mean right; forbidden does not mean wrong. Obedience by itself is not a virtue — a well-trained dog obeys perfectly.
 - **Take small risks regularly.** Do not wait for a heroic moment.
 - **Stop waiting for someone else to speak first.** Everyone defers to a more qualified someone, who thinks the same of you, so no one speaks.
 
 ## Responsibility
 
-What separated those who refused was where they placed responsibility. They said "I am responsible for this"; those who continued said "I am only following instructions." Delegating responsibility is the heart of conformism — its antidote is [Accountability](../7-mastery/02-mindset.md#accountability).
+What separated those who refused was where they placed responsibility. They said "I am responsible for this"; those who continued said "I am only following instructions." Delegating responsibility is the heart of conformism — its antidote is [Accountability](../05-mastery/02-mindset.md#accountability).
 
 Solzhenitsyn reduced the standard to a minimum that needs no heroism: do not support a lie with your silence, do not applaud what you think is wrong, do not say what you do not think.
 
-Inner freedom is handed over gradually and voluntarily, because self-perception runs both ways: behave like a coward and you come to see yourself as one; act with a position and that becomes who you take yourself to be. See [Identity over behavior](../7-mastery/05-habits.md#building-habits).
+Inner freedom is handed over gradually and voluntarily, because self-perception runs both ways: behave like a coward and you come to see yourself as one; act with a position and that becomes who you take yourself to be. See [Identity over behavior](../05-mastery/05-habits.md#building-habits).

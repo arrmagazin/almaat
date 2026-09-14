@@ -16,7 +16,7 @@ The capacity for abundant, effective activity toward constant improvement in one
 
 > `Practice :: repeated Behavior under varied Circumstances, feeding Validation and Learning`
 
-*NOTE*: the active mechanism of `Evolution` at the `Agent` scale. `Evolution` exploits positive `Feedback` through `Practice`; `Adaptation` relies on negative `Feedback` to stabilize. See [Intellect](../2-mind/11-intellect.md).
+*NOTE*: the active mechanism of `Evolution` at the `Agent` scale. `Evolution` exploits positive `Feedback` through `Practice`; `Adaptation` relies on negative `Feedback` to stabilize. See [Intellect](../03-mind/11-intellect.md).
 
 ---
 
@@ -24,7 +24,7 @@ The capacity for abundant, effective activity toward constant improvement in one
 
 > `Mastery :: Paradigm | ∀Circumstances: Behavior reproduces Excellence`
 
-*NOTE*: the realized form of `Excellence` — not the ceiling being possible, but consistently reached. `Mastery` is at the `Paradigm` scope; `Skill` (in [Intellect](../2-mind/11-intellect.md)) is at the `Behavior` scope. Verified by reproducibility, not by a single peak performance.
+*NOTE*: the realized form of `Excellence` — not the ceiling being possible, but consistently reached. `Mastery` is at the `Paradigm` scope; `Skill` (in [Intellect](../03-mind/11-intellect.md)) is at the `Behavior` scope. Verified by reproducibility, not by a single peak performance.
 
 ---
 
@@ -32,7 +32,7 @@ The capacity for abundant, effective activity toward constant improvement in one
 
 > `Calling := Goal | Success(Goal) ∈ Core-Need(Core-Value)`
 
-*NOTE*: the `Goal` an `Agent` recognizes as inseparable from continued participation under its own value-criterion. Distinguishes purposeful direction from generic ambition. Compare [`Mission`](../4-human/26-greatness.md), the same commitment stated from the human rather than the `Agent` side.
+*NOTE*: the `Goal` an `Agent` recognizes as inseparable from continued participation under its own value-criterion. Distinguishes purposeful direction from generic ambition. Compare [`Mission`](../04-human/26-greatness.md), the same commitment stated from the human rather than the `Agent` side.
 
 ---
 

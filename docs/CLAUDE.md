@@ -37,7 +37,7 @@ Never paste raw source. Ingestion means rewriting into the framework's voice.
 
 - Translate → "Discipline matters more than motivation — it is a habit, not a character trait."
 - Reduce → state it plainly in the framework's register, mark concepts as `Terms`.
-- Route → this extends self-discipline, so it goes into `7-mastery/04-discipline.md`; no new file.
+- Route → this extends self-discipline, so it goes into `05-mastery/04-discipline.md`; no new file.
 - Index → no title/scope change, so `INDEX.md` stays as-is. (If scope had widened, update it.)
 
 ## Repository layout
@@ -46,19 +46,24 @@ Content lives under numbered section folders, each one ontological layer or appl
 
 | Folder         | Domain                                                                         | File numbers      |
 |----------------|--------------------------------------------------------------------------------|-------------------|
-| `0-math`       | Formal foundations: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Space`, `Structures`, formal `Language`, `Probability`. | `00`–`06`, `08`, `09` |
-| `1-reality`    | Dynamics & metaphysics: `Matter`, `Process`, `System`, `Entropy`, `Evolution`, `Limits`, `Being`, transcendence, the given. | `01`, `02`, `07`, `14`–`16`, `22`, `24`, `27` |
-| `2-mind`       | Knowing & mind: knowing, `Knowledge`, `Proof`, `Computation`, `Reasoning`, `Teleos`, free will, `Intellect`, `Mind`, the predictive brain, scientific method. | `04`–`13`, `90` |
-| `4-human`      | The human: `Human`, `Rajdo` and approaching it, truth & faith, happiness & greatness, `Animal`, the self & death, the `Manifesto`. | `21`, `23`–`26`, `28`, `29`, `98` |
-| `7-mastery`    | Mastery and its stages: mastery, mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, clear thinking. | own domain, `01`–`11` |
-| `8-socium`     | The collective: socium, ecology, culture, influence, identity, trances, conformism, politics. | `30`–`37`         |
-| `8-sustain`    | Sustaining the self: security, frame, de-escalation, manipulation, reading, hostility, boundaries, defense. | own domain, `06`–`13` |
-| `9-vitality`   | The body: vitality, recovery, nutrition, energy. | own domain, `02`–`05` |
+| `01-math`      | Formal foundations: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Space`, `Structures`, formal `Language`, `Probability`. | `00`–`06`, `08`, `09` |
+| `02-reality`   | Dynamics & metaphysics: `Matter`, `Process`, `System`, `Entropy`, `Evolution`, `Limits`, `Being`, transcendence, the given. | `01`, `02`, `07`, `14`–`16`, `22`, `24`, `27` |
+| `03-mind`      | Knowing & mind: knowing, `Knowledge`, `Proof`, `Computation`, `Reasoning`, `Teleos`, free will, `Intellect`, `Mind`, the predictive brain, scientific method. | `04`–`13`, `90` |
+| `04-human`     | The human: `Human`, `Rajdo` and approaching it, truth & faith, happiness & greatness, `Animal`, the self & death, the `Manifesto`. | `21`, `23`–`26`, `28`, `29`, `98` |
+| `05-mastery`   | Mastery and its stages: mastery, mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, clear thinking. | own domain, `01`–`11` |
+| `06-socium`    | The collective: socium, ecology, culture, influence, identity, trances, conformism, politics. | `30`–`37`         |
+| `07-sustain`   | Sustaining the self: security, frame, de-escalation, manipulation, reading, hostility, boundaries, defense. | own domain, `06`–`13` |
+| `08-vitality`  | The body: vitality, recovery, nutrition, energy. | own domain, `02`–`05` |
+| `99-appendices`| Appendices: correspondences from the formal core to predicate logic, category theory, arithmetic, combinatorics, data structures, data normalization, and a map of the disciplines. | own domain, `01`–`07` |
 
-The leading digit on a folder (`0-`, `1-`, `2-`, `4-`, `7-`, `8-`) places it within the ontology's
-ordering. The digit `8-` is shared by two applied folders (`8-socium`, `8-sustain`); gaps (`3-`,
-`5-`, `6-`) are reservations for future layers. Don't renumber a folder casually — it cascades
-through every cross-reference.
+The two-digit prefix on a folder (`01-`–`08-`) places it within the ontology's ordering, with
+`99-appendices` held apart at the end as a capstone. The sequence is dense: no number is
+shared, none is held in reserve. Ontology layers and applied
+domains are interleaved — `05-mastery`, `07-sustain` and `08-vitality` sit next to the layer
+they apply to. A new folder takes the next free number; inserting one mid-sequence means
+renumbering, which cascades through every cross-reference, so don't do it casually.
+(Renumbered 2026-09-14 from the one-digit scheme, where `8-` was shared by two folders and
+`3-`, `5-`, `6-` were reservations.)
 
 Applied software engineering (formerly `9-engx`) has been extracted into its own repository,
 [arrmagazin/engx](https://github.com/arrmagazin/engx). Do not route engineering material here.
@@ -86,17 +91,17 @@ list. See Syncing the indexes below for its shape.
 ## Naming
 
 Content files are `NN-topic.md`, lowercase hyphenated slug, `NN` a two-digit ordering
-number. Across the ontology folders (`0-math`, `1-reality`, `2-mind`, `4-human`,
-`8-socium`) the numbers **ascend roughly with ontological depth** — `0-math` `00`–`09`,
-`1-reality` `02`–`27`, `2-mind` `04`–`90`, `4-human` `21`–`98`, `8-socium` `30`–`37` —
+number. Across the ontology folders (`01-math`, `02-reality`, `03-mind`, `04-human`,
+`06-socium`) the numbers **ascend roughly with ontological depth** — `01-math` `00`–`09`,
+`02-reality` `02`–`27`, `03-mind` `04`–`90`, `04-human` `21`–`98`, `06-socium` `30`–`37` —
 with `90` and `98` reserved for capstones (the scientific method, the manifesto).
 
 This is **not one global sequence**: those ranges overlap, and eight numbers repeat
 across folders (`02`, `04`, `05`, `06`, `07`, `08`, `10`, `24`). The number orders a file
 within its own folder and signals roughly where the folder sits; it is not unique
-tree-wide. `7-mastery`, `8-sustain` and `9-vitality` are applied-domain folders, each an
-**independent number space** (`7-mastery` restarts at `01`; `8-sustain` keeps `06`–`13` and
-`9-vitality` keeps `02`–`05` from their pre-split numbering).
+tree-wide. `05-mastery`, `07-sustain`, `08-vitality` and `99-appendices` are applied-domain folders, each
+an **independent number space** (`05-mastery` and `99-appendices` restart at `01`; `07-sustain`
+keeps `06`–`13` and `08-vitality` keeps `02`–`05` from their pre-split numbering).
 
 When adding a file, take the next free number in that folder's existing range. Do not
 renumber existing files just to keep the sequence dense.
@@ -132,10 +137,10 @@ in a content file, cross-reference a specific Term where it is used.
 ## Terminology and formatting
 
 - **Canonical Terms are capitalized and backticked**: `Azon`, `Set`, `Agent`, `Flow`.
-  Cross-reference related Terms with relative links, e.g. `[Systems](1-reality/07-system.md)`.
+  Cross-reference related Terms with relative links, e.g. `[Systems](02-reality/07-system.md)`.
 - **Formal definitions are prose, not tables.** A definition opens with the bolded backticked
   Term, then `:=`, then the defining clause; the formula follows as a blockquote, and `---`
-  separates consecutive definitions. See `0-math/00-azon.md`, the reference example:
+  separates consecutive definitions. See `01-math/00-azon.md`, the reference example:
 
   ```markdown
   **`Zero`** := `Azon` that *always* responds with itself
@@ -149,7 +154,7 @@ in a content file, cross-reference a specific Term where it is used.
   the ontology layers has ever used — including the reference example it cited. Corrected
   2026-08-16 in favour of what the tree actually does.)
 - **Two arrows in formulas** (adopted 2026-09-06). `⇒` is the signature arrow between
-  Terms/Sets — a mapping stated at the Set level, introduced in `0-math/01-sets.md`:
+  Terms/Sets — a mapping stated at the Set level, introduced in `01-math/01-sets.md`:
   `Operation<S> := S^ⁿ ⇒ S`, `Cognition :: (Signal, Knowledge) ⇒ Knowledge'`.
   `→` is the value-level response between
   concrete stimuli (`Azon := x → y`, `Zero := x → Zero`) and also marks transitions
@@ -157,8 +162,8 @@ in a content file, cross-reference a specific Term where it is used.
   (`Communication(P → Q)`) — none of which are signatures. Example lambdas keep JS style
   (`inc: a => a+1`).
 - **Tables are for enumerations**, not definitions: parallel lists of moves, forms, biases, or
-  comparisons, where every row shares a shape. The applied folders (`7-mastery`, `8-socium`,
-  `8-sustain`, `9-vitality`) use them heavily and correctly.
+  comparisons, where every row shares a shape. The applied folders (`05-mastery`, `06-socium`,
+  `07-sustain`, `08-vitality`) use them heavily and correctly.
 - **Prose** is plain and direct — basic terminology, short sentences, no filler.
   Declarative, defined, unhurried.
 - **Backticks mark a defined Term, and nothing else.** A backticked Capitalized name must
@@ -181,7 +186,7 @@ in a content file, cross-reference a specific Term where it is used.
   ```
 
   The inline form names a role within the enclosing definition (`Tik`, `Tok` in
-  `0-math/00-azon.md`); it declares the Term without a standalone entry. It attaches
+  `01-math/00-azon.md`); it declares the Term without a standalone entry. It attaches
   tight, no space before the paren: `` (`Azon`:= **`Tik`**) ``. It replaced the older
   colon-pair coinage `X:Y` (`Set:Basis`, `Tik:Subject`) on 2026-09-05; no colon-pair
   remains. A Term merely *mentioned* in a definiens, without the marker, is still not
@@ -210,7 +215,7 @@ retitled** since the baseline. For each change, update the matching `INDEX.md` e
   `0e1dc84`. All 71 content files are indexed exactly once; each entry's link text is
   that file's frontmatter `title` and its blurb is the frontmatter `description`,
   quoted character for character and verified by re-extracting both and diffing.
-  `0-math/08-language.md` (then numbered `07`) had had no entry at all. This closed a 192-commit revision
+  `01-math/08-language.md` (then numbered `07`) had had no entry at all. This closed a 192-commit revision
   pass over `docs/` that also emptied the undefined-Term class (every backticked
   Capitalized name now resolves to a definition), removed every upward reference from
   a definition to a higher layer, and rebuilt `_translations.md` to 330 rows with no
@@ -226,9 +231,9 @@ Notes:
   section folder carries an `index.md` that covers just that folder. Both are generated from
   frontmatter — an entry's link text is the target's `title` and its blurb is the target's
   `description`, quoted character for character. Content files carry no navigation: the
-  per-folder spine tables were removed on 2026-08-26, and `7-mastery/01-mastery.md` and
-  `8-socium/30-socium.md` no longer list their siblings. (`2-mind/04-knowing.md` and
-  `8-sustain/01-sustain.md` were deleted; `8-socium/30-socium.md` remains thin at 15 lines.)
+  per-folder spine tables were removed on 2026-08-26, and `05-mastery/01-mastery.md` and
+  `06-socium/30-socium.md` no longer list their siblings. (`03-mind/04-knowing.md` and
+  `07-sustain/01-sustain.md` were deleted; `06-socium/30-socium.md` remains thin at 15 lines.)
 - **A section `index.md`** is exempt from the no-preface rule, because it *is* the navigation.
   Its shape: the three frontmatter fields (`title` is the bare section name — `Math`, `Socium`;
   `keywords` is that name lowercased), a single H1, the one-line section blurb, then one bullet
@@ -239,7 +244,7 @@ Notes:
   ```
 
   It never lists itself. `index.md` is not a content file and takes no `NN` number.
-  (Added 2026-09-14, generalizing the `8-sustain` and `9-vitality` covers to all eight folders.)
+  (Added 2026-09-14, generalizing the `07-sustain` and `08-vitality` covers to all eight folders.)
 - **Run `npm run check-docs` before committing content edits.** It resolves every relative `.md`
   link and every `#anchor` in `docs/`, and `--conventions <dir>` additionally checks the three
   frontmatter fields and the single H1.

@@ -28,7 +28,7 @@ keywords: [mind, knowledge]
 
 ---
 
-[`Theory`](../0-math/08-language.md#theories) is the `Dictionary` of `Expressions` derivable within a `Grammar`. A `Mind` holds one interpreted: its `Names` and `Concepts` are `Expressions` of that `Language`, which is a [`Logic`](08-reasoning.md), and they range over a [`Matter`](../1-reality/01-matter.md#definitions) — the `Reality` the `Theory` is about. That pairing is what lets `Opinion` combine into `Thesis`.
+[`Theory`](../01-math/08-language.md#theories) is the `Dictionary` of `Expressions` derivable within a `Grammar`. A `Mind` holds one interpreted: its `Names` and `Concepts` are `Expressions` of that `Language`, which is a [`Logic`](08-reasoning.md), and they range over a [`Matter`](../02-reality/01-matter.md#definitions) — the `Reality` the `Theory` is about. That pairing is what lets `Opinion` combine into `Thesis`.
 
 ## Naming
 

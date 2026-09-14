@@ -21,7 +21,7 @@ When `docs/CLAUDE.md` disagrees with the filesystem (folder names, file numbers,
 - `docs/` — all content. The substantive work happens here.
 - `scripts/` — `check-docs.mjs` with `check-docs.baseline.txt`, `wl-absorb.mjs`, `yt-fetch.mjs` with `yt-fetch.test.mjs`.
 - `.githooks/pre-commit` — runs the checker on any commit touching `docs/`; the file documents its own behaviour. Install once with `git config core.hooksPath .githooks`.
-- `input/`, `done/`, `texts/`, `index.json` — staging for the separate `/absorb` workflow, not content.
+- `input/`, `done/`, `index.json` — staging for the separate `/absorb` workflow, not content.
 
 ## Commands
 

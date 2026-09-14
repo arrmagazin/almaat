@@ -39,7 +39,7 @@ Safeguarding these categories requires more than declaring them:
 - Freedom to choose and follow one's own path and methods.
 - Freedom of expression and participation in civic life.
 
-[`Freedom`](../1-reality/16-limits.md#external-bounds) here means the absence of external obstacles to exercising these rights; it depends on [`Conscience`](21-human.md) spreading through culture and institutions. When rights or freedoms are absent or suppressed, the conscientious person works to restore them — for all, not only for themselves.
+[`Freedom`](../02-reality/16-limits.md#external-bounds) here means the absence of external obstacles to exercising these rights; it depends on [`Conscience`](21-human.md) spreading through culture and institutions. When rights or freedoms are absent or suppressed, the conscientious person works to restore them — for all, not only for themselves.
 
 ## Reciprocal Respect
 

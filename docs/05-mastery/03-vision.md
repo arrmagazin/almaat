@@ -10,10 +10,10 @@ keywords: [mastery, vision]
 
 **`Determination`** := an attitude toward the process rather than the outcome, which allows a decision to be made without waiting for perfect conditions.
 
-*NOTE*: requires control over the [`Animal`](../4-human/28-animal.md) and over the [`Dark Shadow`](../8-socium/34-identity.md).
+*NOTE*: requires control over the [`Animal`](../04-human/28-animal.md) and over the [`Dark Shadow`](../06-socium/34-identity.md).
 
 Define your authentic Way — life's mission, ambitions, high-level goals. 
-**Authentic** is the load-bearing word. A `Goal` copied from a peer, a parent, or an approved norm has no [`Core-Value`](../2-mind/09-teleos.md) behind it, so `Will` finds nothing to hold when `Circumstances` shift — which is why a goal set as an obligation rarely survives a change of `Circumstances`. The test is whether the goal produces a felt response rather than an approving one: a `Goal` you cannot feel belongs to someone else.
+**Authentic** is the load-bearing word. A `Goal` copied from a peer, a parent, or an approved norm has no [`Core-Value`](../03-mind/09-teleos.md) behind it, so `Will` finds nothing to hold when `Circumstances` shift — which is why a goal set as an obligation rarely survives a change of `Circumstances`. The test is whether the goal produces a felt response rather than an approving one: a `Goal` you cannot feel belongs to someone else.
 
 [[39]]
 
@@ -59,6 +59,6 @@ A problem exists only as long as it stays blurry. Written down concretely, most 
 | 4 | **What price am I paying for inaction?** | Use numbers — money, years, missed chances. Once the real price is visible, fear of change becomes smaller than fear of staying | Postponing a job change: the years of pay difference it costs |
 | 5 | **What will I do right now?** | Not tomorrow — within the hour. One action. A decision without immediate action turns into a daydream | Wrote the resume. Made the call. Deleted the app |
 
-When direction is present but the energy to move on it is not, the block is usually physical — see [Energy → Depression](../9-vitality/05-energy.md#depression).
+When direction is present but the energy to move on it is not, the block is usually physical — see [Energy → Depression](../08-vitality/05-energy.md#depression).
 
 [References](../_quotes.md)

@@ -13,7 +13,7 @@ A boundary without a consequence is a suggestion — [principle 7](13-defense.md
 | Domain | What it protects |
 | ------ | -------------- |
 | **Time** | Your hours and availability |
-| **Attention** | What you let occupy your mind — see [Attention](../7-mastery/07-attention.md) |
+| **Attention** | What you let occupy your mind — see [Attention](../05-mastery/07-attention.md) |
 | **Body & space** | Physical proximity and contact |
 | **Money** | Loans, gifts, shared costs |
 | **Emotional labor** | Whose feelings you manage |

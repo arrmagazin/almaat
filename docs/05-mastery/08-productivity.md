@@ -14,7 +14,7 @@ keywords: [mastery, productivity]
 
 - **Protect the First Hour**: Deep work only. No email, no phone, no warm-up routine — the hour is already focus and does not need to be entered. Under employment, spend it on your own work before the employer's: the paid work gets done under its deadline, yours never gets done after hours. See [The Shape of the Day](07-attention.md#the-shape-of-the-day).
 - **2-Minute Rule**: If a task takes <2 minutes, do it now. Clear cognitive clutter.
-- **Track Small Wins**: End each day noting 3 ways you made progress. Progress creates motivation loops. Date the entries and keep the old volumes — `Memory` is [reconstruction, not record](../4-human/29-self.md#memory-is-reconstruction), so a page from five years ago is the only honest evidence of how far you moved.
+- **Track Small Wins**: End each day noting 3 ways you made progress. Progress creates motivation loops. Date the entries and keep the old volumes — `Memory` is [reconstruction, not record](../04-human/29-self.md#memory-is-reconstruction), so a page from five years ago is the only honest evidence of how far you moved.
 
 **Weekly**
 
@@ -25,7 +25,7 @@ The quarterly cadence belongs to direction rather than execution — see [Vision
 
 ## Momentum
 
-Advance through steady, successful steps by iterating: Observe → Reflect → Decide → Plan → Act → Repeat. This runs the [OODA loop](../8-sustain/06-security.md#the-ooda-loop) on a longer timescale, with a planning step added.
+Advance through steady, successful steps by iterating: Observe → Reflect → Decide → Plan → Act → Repeat. This runs the [OODA loop](../07-sustain/06-security.md#the-ooda-loop) on a longer timescale, with a planning step added.
 
 *Mastery is forged in trials and feedback. Success at the universal level cannot be taught — only earned through overcoming.*
 

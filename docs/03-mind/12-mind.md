@@ -8,7 +8,7 @@ keywords: [mind]
 
 ## The Substrate
 
-In a `System`, a [`Source`](../0-math/01-sets.md#sets) is any `Azon` characterized primarily by the values it produces for other `Participant`s.
+In a `System`, a [`Source`](../01-math/01-sets.md#sets) is any `Azon` characterized primarily by the values it produces for other `Participant`s.
 
 ---
 
@@ -82,11 +82,11 @@ Lev Vygotsky's account of where the *content* of `Thought` comes from — above 
 - **Interpsychic → intrapsychic.** Every higher function appears twice: first *between* people as shared `Communication`, then *within* one person as private `Thought`. Your attention, memory, and conscience were first a relation with someone else that later became you.
 - **The sign as a psychological tool.** A physical tool (axe, hammer) is aimed outward at the world; a *sign* — a word, a number, a knot tied to remember — is a tool aimed *inward*, at one's own `Mind`. (See [Naming](05-knowledge.md#naming).)
 - **Internalization.** A sign starts as an external prop in the hand; then the same operation runs silently in the `Mind` — the tool "grows in" and disappears into the personality.
-- **Inner speech.** The near-constant inner voice is *former external dialogue*, condensed and turned inward. You think in a language you did not invent, with words and intonations you absorbed. The competing voices when you deliberate are the interiorized [Socium](../8-socium/30-socium.md); the voice of [`Conscience`](../4-human/21-human.md) is appropriated foreign speech you now call your own. This does not deny the person — it shows what the person is *made of*.
+- **Inner speech.** The near-constant inner voice is *former external dialogue*, condensed and turned inward. You think in a language you did not invent, with words and intonations you absorbed. The competing voices when you deliberate are the interiorized [Socium](../06-socium/30-socium.md); the voice of [`Conscience`](../04-human/21-human.md) is appropriated foreign speech you now call your own. This does not deny the person — it shows what the person is *made of*.
 - **Thought is accomplished, not merely expressed, in the word.** A `Thought` does not pre-exist as a finished packet the word wraps; until uttered — even inwardly — it is a vague cloud of intention, *born* in the act of saying it. So dialogue does not exchange the ready-made; it jointly produces what neither party held before.
-- **Zone of proximal development.** The gap between what a `Mind` can do alone and what it can do with help. Instruction should run *ahead* of development, waking what is ripening rather than drilling what has already matured — the applied side is [Learning](../7-mastery/09-learning.md).
+- **Zone of proximal development.** The gap between what a `Mind` can do alone and what it can do with help. Instruction should run *ahead* of development, waking what is ripening rather than drilling what has already matured — the applied side is [Learning](../05-mastery/09-learning.md).
 
-*Implication.* If a `Mind` is assembled from outside through word and sign by describable laws, the same account describes how to influence one: whoever controls the signs a mind learns to think with shapes not just its opinions but the *structure* of its thought. The social origin of mind is therefore also a security concern (see [Security](../8-sustain/06-security.md)) — the human parallel to alignment in artificial minds.
+*Implication.* If a `Mind` is assembled from outside through word and sign by describable laws, the same account describes how to influence one: whoever controls the signs a mind learns to think with shapes not just its opinions but the *structure* of its thought. The social origin of mind is therefore also a security concern (see [Security](../07-sustain/06-security.md)) — the human parallel to alignment in artificial minds.
 
 ## Sources
 

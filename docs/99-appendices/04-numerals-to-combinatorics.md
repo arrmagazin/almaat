@@ -1,3 +1,9 @@
+---
+title: "Correspondence to Combinatorics"
+description: "Counting over finite Sets and Tuples: every classical count reduced to the Cardinality of a constructed Set."
+keywords: [appendices, combinatorics, cardinality, permutation]
+---
+
 # Correspondence to Combinatorics
 
 Combinatorics is the *counting* discipline over finite `Set` and `Tuple`. Every classical count reduces to a `Cardinality` of a constructed `Set` of `Tuple` or `Selection-Mask`. No new primitive is introduced — all variations (ordered/unordered, with/without repetition) are expressed by adjusting injectivity, surjectivity, and quotient-by-permutation of `Selection-Mask`.
@@ -48,7 +54,7 @@ Combinatorics is the *counting* discipline over finite `Set` and `Tuple`. Every 
 
 ---
 
-**`Power-Count`** := The `Cardinality` of the `Power-Set` of a finite `Set` (see [01-set](../02-set.md)).
+**`Power-Count`** := The `Cardinality` of the `Power-Set` of a finite `Set` (see [Sets](../01-math/01-sets.md)).
 
 > `|2^S| = 2^|S| = ∑_{k=0}^n C(n, k)`
 
@@ -66,7 +72,7 @@ Combinatorics is the *counting* discipline over finite `Set` and `Tuple`. Every 
 
 > `[n₁, ..., nₖ] : ∑nᵢ = n, nᵢ > 0`
 
-*NOTE*: An ordered partition of `n`. Distinct from `Composition` of [02-graph](../03-graph.md).
+*NOTE*: An ordered partition of `n`. Distinct from `Composition` of [Graphs](../01-math/03-graphs.md).
 
 ---
 
@@ -84,7 +90,7 @@ Combinatorics is the *counting* discipline over finite `Set` and `Tuple`. Every 
   - is it *surjective*? (every target hit)
   - is the source *quotiented by permutation*? (order ignored)
   - is the target *quotiented by permutation*? (labels ignored)
-- **Pascal's identity** `C(n, k) = C(n−1, k−1) + C(n−1, k)` corresponds to partitioning the `Subset` of size `k` by whether they contain a chosen `Element` — i.e., a `Cluster` (see [01-set](../02-set.md)) of the `Power-Set` indexed by membership.
+- **Pascal's identity** `C(n, k) = C(n−1, k−1) + C(n−1, k)` corresponds to partitioning the `Subset` of size `k` by whether they contain a chosen `Element` — i.e., a `Cluster` (see [Sets](../01-math/01-sets.md)) of the `Power-Set` indexed by membership.
 - **Bijective proof.** Equalities between counts (`C(n, k) = C(n, n−k)`, the binomial theorem) are most naturally expressed as bijective `Tuple` between the two `Set` being counted — staying inside the framework rather than appealing to algebraic manipulation.
 
 *SEE ALSO*:

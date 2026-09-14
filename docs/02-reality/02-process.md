@@ -38,7 +38,7 @@ keywords: [reality, process, circuit, flow, ergodic]
 
 > `Circuit := {Event} :: Normalization`
 
-*NOTE*: a [`Conditional Distribution`](../0-math/09-probability.md#conditioning) whose conditions are the `Contexts` of one length `n` — the `Circuit` responds to the last `n` `Words` with a `PD` over the next. The `Chain Rule` turns it into a `Probability Measure` over whole `Flows`.
+*NOTE*: a [`Conditional Distribution`](../01-math/09-probability.md#conditioning) whose conditions are the `Contexts` of one length `n` — the `Circuit` responds to the last `n` `Words` with a `PD` over the next. The `Chain Rule` turns it into a `Probability Measure` over whole `Flows`.
 
 *DEF*: a `Circuit` is **memoryless** if its distribution depends only on the present `State`, not on prior history: `P(State[i+1] | State[i], ..., State[0]) = P(State[i+1] | State[i])`.
 
@@ -48,11 +48,11 @@ keywords: [reality, process, circuit, flow, ergodic]
 
 *DEF*: a `Circuit` is **context-free** if its distribution does not depend on the `Context` at all — for all `Conditional Events` with the same `Event`, the `Probability` is the same.
 
-*NOTE*: its `Flow` is a [`Sample`](../0-math/09-probability.md#limit-laws): `Independent` draws from one `Distribution`, to which the `Law of Large Numbers` and `Central Limit Theorem` apply directly. A context-free `Circuit` is `memoryless` with nothing to remember.
+*NOTE*: its `Flow` is a [`Sample`](../01-math/09-probability.md#limit-laws): `Independent` draws from one `Distribution`, to which the `Law of Large Numbers` and `Central Limit Theorem` apply directly. A context-free `Circuit` is `memoryless` with nothing to remember.
 
 ---
 
-**`TransitionMatrix`** := a [`Stochastic Matrix`](../0-math/09-probability.md#measure) of transition probabilities between `State`s.
+**`TransitionMatrix`** := a [`Stochastic Matrix`](../01-math/09-probability.md#measure) of transition probabilities between `State`s.
 
 > `T[i][j] := P(State → j | State = i) :: rows sum to 1`
 
@@ -60,7 +60,7 @@ keywords: [reality, process, circuit, flow, ergodic]
 
 ---
 
-*DEF*: a `Circuit` is **deterministic** if its distribution is a [`Point Mass`](../0-math/09-probability.md#measure) — one `State` carries all the probability: `∃Point<i> :: i → PD(x) = x IS Point ? 1 : 0`.
+*DEF*: a `Circuit` is **deterministic** if its distribution is a [`Point Mass`](../01-math/09-probability.md#measure) — one `State` carries all the probability: `∃Point<i> :: i → PD(x) = x IS Point ? 1 : 0`.
 
 ---
 
@@ -94,7 +94,7 @@ keywords: [reality, process, circuit, flow, ergodic]
 
 ---
 
-**`Bifurcation`** := a `State` whose `Circuit` distribution has more than one `State` in its [`Support`](../0-math/09-probability.md#measure).
+**`Bifurcation`** := a `State` whose `Circuit` distribution has more than one `State` in its [`Support`](../01-math/09-probability.md#measure).
 
 > `|support(Circuit(State))| > 1`
 

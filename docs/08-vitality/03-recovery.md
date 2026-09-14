@@ -42,7 +42,7 @@ The habit the rest depend on. Quality depends on light, temperature, food, caffe
 - Physiological sigh: a full inhale, a second short inhale, then a long exhale.
 - Ground yourself. Unhurried time outdoors lowers the arousal that indoor days sustain.
 
-What the response costs you is in [Energy](05-energy.md); under a real threat the same system runs at full force — see [the body under threat](../8-sustain/06-security.md#the-body-under-threat).
+What the response costs you is in [Energy](05-energy.md); under a real threat the same system runs at full force — see [the body under threat](../07-sustain/06-security.md#the-body-under-threat).
 
 ## Breathing
 

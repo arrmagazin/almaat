@@ -1,14 +1,20 @@
+---
+title: "Fundamental Data Structures"
+description: "The data structures of computing as Azons already available from Set, Graph, and Numerals, each narrowed by one constraint."
+keywords: [appendices, data-structures, array, tree, map]
+---
+
 # Fundamental Data Structures
 
 The concrete data structures used in computing — each an `Azon` already available from
-[00-azon](../docs/0-math/00-azon.md), [01-sets](../docs/0-math/01-sets.md),
-[03-graphs](../docs/0-math/03-graphs.md) and [04-numerals](../docs/0-math/04-numerals.md),
+[Azon](../01-math/00-azon.md), [Sets](../01-math/01-sets.md),
+[Graphs](../01-math/03-graphs.md) and [Numerals](../01-math/04-numerals.md),
 narrowed by a constraint.
 
 Five carriers are defined upstream and are *not* redefined here:
-[`Set`](../docs/0-math/01-sets.md), [`Graph`](../docs/0-math/03-graphs.md),
-[`Path`](../docs/0-math/03-graphs.md), [`Cycle`](../docs/0-math/03-graphs.md) and
-[`Tree`](../docs/0-math/03-graphs.md).
+[`Set`](../01-math/01-sets.md), [`Graph`](../01-math/03-graphs.md),
+[`Path`](../01-math/03-graphs.md), [`Cycle`](../01-math/03-graphs.md) and
+[`Tree`](../01-math/03-graphs.md).
 
 *NOTE*: the CS-sense FIFO is named `Fifo` here, because `Queue` is already taken — in the
 framework a `Queue` is an `Azon` over a `Ray`, an unbounded sequence, not a discipline of ends.
@@ -57,7 +63,7 @@ scheduling, event processing, waiting lists.
 
 > `Map<K,V> := k → v :: k ∈ K, v ∈ V`
 
-*NOTE*: `K` must carry a [`KeyMask`](../docs/0-math/06-structures.md) — no two entries share a
+*NOTE*: `K` must carry a [`KeyMask`](../01-math/06-structures.md) — no two entries share a
 `Key`. An `Array` is the `Map` whose `K` is an `Interval`; a dictionary is the `Map` whose `K` is a
 `Set` of `Words`.
 
