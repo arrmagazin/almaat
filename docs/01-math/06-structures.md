@@ -10,8 +10,8 @@ keywords: [math, structures]
 Dependency<Form, SourceMask, TargetMask>
 : `Azon` that responds
 
-- to the `Abstraction` of a `Point` under (one `Mask` := **`SourceMask`**)
-- with the `Abstraction` of the *same* `Point` under (another `Mask` := **`TargetMask`**),
+- to the `Abstraction` of a `Point` under (one `Mask` =: **`SourceMask`**)
+- with the `Abstraction` of the *same* `Point` under (another `Mask` =: **`TargetMask`**),
 for *every* `Point` of the `Form`.
 
 > `Dependency<Form, SourceMask, TargetMask> := SourceMask.p → TargetMask.p :: ∀p ∈ Form`

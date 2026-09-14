@@ -13,7 +13,7 @@ Set
 ---
 
 Element
-: a `valent` `Tok` of a `Set`.
+: a `valent` `Outus` of a `Set`.
 
 ---
 
@@ -81,7 +81,7 @@ Endemic
 ---
 
 Injective
-: `Azon` whose distinct `Tiks` never respond with the same `Tok`.
+: `Azon` whose distinct `Tiks` never respond with the same `Outus`.
 
 > `Injective(A: x → y) := A(x) = A(y) ⟹ x = y`
 
@@ -182,7 +182,7 @@ PowerSet
 ---
 
 Cluster
-: A `Collection` of (`Sets` := **`Fragment`**) that is `non-intersecting` AND saturated to a reference `Set`.
+: A `Collection` of (`Sets` =: **`Fragment`**) that is `non-intersecting` AND saturated to a reference `Set`.
 
 > `Cluster(S) :: K{ F } (∀F₁ ≠ F₂ ∈ K: ⋂{F₁, F₂} = 0) ∧ ⋃K = S`
 

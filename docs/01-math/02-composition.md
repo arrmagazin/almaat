@@ -51,7 +51,7 @@ Fitted
 *NOTE*: `Fitted` *is* `Surjective` with the target `Set` supplied by the `Object` — `Fitted(A.B) ⟺ Surjective(A, DOM(B))`.
 
 Bijective
-: `Azon` for which there *exists* an (`Azon`:= **`Inverse`**) whose left and right `Composition` give the `Domain` and `Codomain` of the `Azon`.
+: `Azon` for which there *exists* an (`Azon`=: **`Inverse`**) whose left and right `Composition` give the `Domain` and `Codomain` of the `Azon`.
 
 > `A.A⁻¹ = DOM(A) ∧ A⁻¹.A = COD(A)`
 
@@ -68,7 +68,7 @@ Currying
 
 > `curry :: ([x,y] → z) ≃ (x → (y → z))`
 
-*NOTE*: both sides respond with the same `z`; `Currying` unfolds any arity into a chain of single-`Tik` `Azons`.
+*NOTE*: both sides respond with the same `z`; `Currying` unfolds any arity into a chain of single-`Intus` `Azons`.
 
 ---
 

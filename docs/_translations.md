@@ -14,8 +14,8 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Azon` | Az |
 | `Zero` | Puston |
 | `Unit` | Proston |
-| `Tik` | Tyk* |
-| `Tok` | Tok* |
+| `Intus` | Tyk* |
+| `Outus` | Tok* |
 | `Coincidence` | Supadzenne* |
 | `Extensional Equality` | Zmestavaja Rownasc* |
 | `Intensional Distinguishability` | Sutnasnaja Adroznasc* |

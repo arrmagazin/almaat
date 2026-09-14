@@ -17,7 +17,7 @@ Singleton
 ---
 
 Plus
-: The `Azon` that responds to a `Tik` with its `Singleton`.
+: The `Azon` that responds to a `Intus` with its `Singleton`.
 
 > `Plus := x → {x}`
 
@@ -73,7 +73,7 @@ Times (·)
 ---
 
 Ratio
-: `Arrow` between two `Numbers` with a non-unit `Tok`.
+: `Arrow` between two `Numbers` with a non-unit `Outus`.
 
 > `Ratio := [p, q], q ≠ Unit` — written `p/q`
 

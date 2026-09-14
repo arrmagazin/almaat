@@ -12,7 +12,7 @@ Graph
 ---
 
 Vertex
-: one of `Tik` or `Tok` of `Arrows` of `Graph`.
+: one of `Intus` or `Outus` of `Arrows` of `Graph`.
 
 > `Vertex<G> :: ∃A ∈ G, Vertex ∈ DOM(A) ∨ Vertex ∈ COD(A)`
 

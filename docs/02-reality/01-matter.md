@@ -15,7 +15,7 @@ Time
 ---
 
 Attribute
-: `Azon` *from* a (`Set` := **`Basis`**) paired with `Time` *into* a `Fragment` of (`Cluster` := **`Palette`**).
+: `Azon` *from* a (`Set` =: **`Basis`**) paired with `Time` *into* a `Fragment` of (`Cluster` =: **`Palette`**).
 
 > `Attribute<Basis, Time, Palette> :: (Basis × Time) ⇒ elemOf(Palette)`
 >

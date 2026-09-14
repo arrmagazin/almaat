@@ -6,27 +6,37 @@ keywords: [math, azon]
 
 ## Azon
 
+Ator
+: *whoever* able to make *assignments* and *judgements* on them.
+
 Azon
-: an *assignment* from every (`Azon`:= **`Tik`**) to a some corresponding (`Azon`:= **`Tok`**)
-: made under the `Axioms` below and support *judgement* about `Coincidence`.
+: an *assignment* from every (`Azon` =: **`Intus`**) to a some corresponding (`Azon` =: **`Outus`**)
+: - made under the `Axioms` below
+: - allows `Plausibility`.
+: - allows `Sameness`.
 
 > `Azon := x → y`
 
 ---
 
-Coincidence
-: having two `Tik` that respond with one and the same `Tok`.
+Sameness
+: *judgement* on two `Azons` whether they are *one and the same* or not.
 
-> `x(a) IS x(b) :: x assigns to a and b one Tok`
+> `(A IS B) ∨ (A ISNT B)`
 
-*NOTE*: It is given by the `Azon` assignment itself and is not derived from any probe.
+---
+
+Plausibility
+: *judgement* about *condition is plausible* on *(every|some|none)* `Azon`.
+
+> `C :: (∀A: C<A>) ∨ (∃A: C<A>) ∨ (¬∃A: C<A>)`
 
 ## Equality
 
 Intensional Distinguishability
-: There exists an `Azon`-probe whose responses to `a` and `b` do not coincide.
+: There exists an `Azon`-probe, whose responses to `a` and `b` do not the same.
 
-> `a ≠ b := ∃x: ¬(x(a) IS x(b))`
+> `a ≠ b := ∃p: p(a) ISNT p(b)`
 
 *NOTE*: Contrapositive of Leibniz's *indiscernibility of identicals*, `a = b ⟹ ∀F: F(a) IS F(b)`. The probe `x` plays the role of the predicate `F`.
 
@@ -60,7 +70,7 @@ Total Equality
 ## Zero and Unit
 
 Zero
-: `Azon` that *always* responds with itself to any `Tik`.
+: `Azon` that *always* responds with itself to any `Intus`.
 
 > `Zero := x → Zero`
 
@@ -81,7 +91,7 @@ valent
 ---
 
 fixed
-: a response with the `Tik` itself.
+: a response with the `Intus` itself.
 
 > `fixed(A, x) :: A(x) IS x`
 

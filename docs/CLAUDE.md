@@ -135,7 +135,7 @@ in a content file, cross-reference a specific Term where it is used.
 - **Canonical Terms are capitalized and backticked**: `Azon`, `Set`, `Agent`, `Flow`.
   Cross-reference related Terms with relative links, e.g. `[Systems](02-reality/07-system.md)`.
 - **Formal definitions are definition lists.** The Term stands alone on its own line — plain,
-  no bold, no backticks — and the defining clause follows on the next line after `: `; the
+  no bold, no backticks — and the defining clause follows on the next line after `:`; the
   formula follows as a blockquote, and `---` separates consecutive definitions. See
   `01-math/00-azon.md`, the reference example:
 
@@ -200,12 +200,12 @@ in a content file, cross-reference a specific Term where it is used.
   Term (qualifier)                            a qualifier after the Term
   : clause
 
-  … each given (`Azon`:= **`Term`**) …        an inline coinage inside a definiens
+  … each given (`Azon`=: **`Term`**) …        an inline coinage inside a definiens
   ```
 
-  The inline form names a role within the enclosing definition (`Tik`, `Tok` in
+  The inline form names a role within the enclosing definition (`Intus`, `Outus` in
   `01-math/00-azon.md`); it declares the Term without a standalone entry. It attaches
-  tight, no space before the paren: `` (`Azon`:= **`Tik`**) ``. It replaced the older
+  tight, no space before the paren: `` (`Azon`=: **`Intus`**) ``. It replaced the older
   colon-pair coinage `X:Y` (`Set:Basis`, `Tik:Subject`) on 2026-09-05; no colon-pair
   remains. A Term merely *mentioned* in a definiens, without the marker, is still not
   declared.
