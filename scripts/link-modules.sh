@@ -10,13 +10,13 @@ set -eu
 
 [ $# -gt 0 ] || { echo "usage: $0 <package>..." >&2; exit 1; }
 
-cd "$(dirname "$0")/.."
-mkdir -p node_modules
+mkdir -p node_modules .packages
 
 for pkg in "$@"; do
   if [ -d "../$pkg" ]; then
+    ln -sfn "../../$pkg" ".packages/$pkg"
     ln -sfn "../../$pkg" "node_modules/$pkg"
-    echo "linked node_modules/$pkg -> ../../$pkg"
+    echo "linked package: $pkg"
   else
     echo "skipped $pkg: no checkout at ../$pkg" >&2
   fi

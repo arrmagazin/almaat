@@ -5,3 +5,4 @@ node_modules
 www/site/docs
 www/site/index.json
 dist
+.packages

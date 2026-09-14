@@ -27,7 +27,7 @@ The recurring job is **ingesting source material** the user pastes in or points 
 3. **Place it in the right file.** Embed it in the existing file whose topic it extends.
    Create a new file only when no existing topic fits (see Routing and Naming below).
 4. **Keep the indexes current.** Any new file, or any change to a file's title or scope,
-   must be reflected in `INDEX.md`. A stale index is a bug.
+   must be reflected in `INDEX.md` and in the folder's `index.md`. A stale index is a bug.
 
 Never paste raw source. Ingestion means rewriting into the framework's voice.
 
@@ -71,6 +71,9 @@ Special top-level files, prefixed with `_` or named `welcome`:
   only; English stays canonical in content.
 - `INDEX.md` — master content index (all sections and files).
 
+Every section folder additionally carries an `index.md` — that folder's cover page and file
+list. See Syncing the indexes below for its shape.
+
 ## Routing: where does material go?
 
 1. Identify the layer the material belongs to (formal, dynamic, mind, human, collective,
@@ -78,7 +81,7 @@ Special top-level files, prefixed with `_` or named `welcome`:
 2. Within the folder, find the file whose frontmatter `description` already covers the
    topic. If one does, embed there.
 3. Only if no file fits, create a new one — and update `_translations.md` (if it coins
-   canonical Terms) and `INDEX.md`.
+   canonical Terms), `INDEX.md`, and the folder's `index.md`.
 
 ## Naming
 
@@ -121,7 +124,8 @@ keywords: [reality, process, circuit, flow]
 
 **No preface.** Nothing sits between the title and the first heading: no intro line
 restating the `description`, no spine table, no enumeration of the folder's other files.
-Navigation lives in `INDEX.md`; cross-reference a specific Term where it is used.
+Navigation lives in `INDEX.md` and the folder's `index.md`, which are exempt from this rule;
+in a content file, cross-reference a specific Term where it is used.
 
 (Banner images were removed on 2026-09-05; content files carry no images.)
 
@@ -189,7 +193,7 @@ Navigation lives in `INDEX.md`; cross-reference a specific Term where it is used
   `TransitionMatrix` is `Mantra Perexodaw*` because `Matrix` is `Mantra` and `Transition`
   is `Perexod`.
 
-## Syncing `INDEX.md`
+## Syncing the indexes
 
 To bring `INDEX.md` back in sync after a stretch of content edits, diff against the last
 recorded sync baseline instead of re-reading the whole tree:
@@ -218,11 +222,24 @@ Notes:
 
 - INDEX entries are grouped by ontological-layer section; the description text mirrors each
   file's frontmatter `description` (see Frontmatter and title).
-- `INDEX.md` is the only navigation surface. No section has an `index.md`, and the per-folder
-  spine tables were removed on 2026-08-26 — `7-mastery/01-mastery.md`, `8-sustain/01-sustain.md`,
-  `2-mind/04-knowing.md` and `8-socium/30-socium.md` no longer list their siblings. The last two
-  were nothing but that table: `2-mind/04-knowing.md` (11 lines) and `8-socium/30-socium.md`
-  (9 lines) still await content or deletion.
+- **Navigation lives in two places, and only two.** `INDEX.md` indexes the whole tree; each
+  section folder carries an `index.md` that covers just that folder. Both are generated from
+  frontmatter — an entry's link text is the target's `title` and its blurb is the target's
+  `description`, quoted character for character. Content files carry no navigation: the
+  per-folder spine tables were removed on 2026-08-26, and `7-mastery/01-mastery.md` and
+  `8-socium/30-socium.md` no longer list their siblings. (`2-mind/04-knowing.md` and
+  `8-sustain/01-sustain.md` were deleted; `8-socium/30-socium.md` remains thin at 15 lines.)
+- **A section `index.md`** is exempt from the no-preface rule, because it *is* the navigation.
+  Its shape: the three frontmatter fields (`title` is the bare section name — `Math`, `Socium`;
+  `keywords` is that name lowercased), a single H1, the one-line section blurb, then one bullet
+  per content file in the folder, ordered by filename:
+
+  ```markdown
+  - [Title](NN-topic.md) — description
+  ```
+
+  It never lists itself. `index.md` is not a content file and takes no `NN` number.
+  (Added 2026-09-14, generalizing the `8-sustain` and `9-vitality` covers to all eight folders.)
 - **Run `npm run check-docs` before committing content edits.** It resolves every relative `.md`
   link and every `#anchor` in `docs/`, and `--conventions <dir>` additionally checks the three
   frontmatter fields and the single H1.
@@ -236,5 +253,5 @@ Notes:
 3. Frontmatter + title conform to the convention above, with no preface between the
    title and the first heading.
 4. New Terms backticked in text and, if canonical, added to `_translations.md`.
-5. `INDEX.md` updated to match.
+5. `INDEX.md` and the section's `index.md` updated to match.
 6. Relative links checked — they must resolve to real files.

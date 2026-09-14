@@ -55,6 +55,10 @@
       "type": "blob"
     },
     {
+      "path": "docs/0-math/index.md",
+      "type": "blob"
+    },
+    {
       "path": "docs/1-reality",
       "type": "tree"
     },
@@ -92,6 +96,10 @@
     },
     {
       "path": "docs/1-reality/27-given.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/1-reality/index.md",
       "type": "blob"
     },
     {
@@ -139,6 +147,10 @@
       "type": "blob"
     },
     {
+      "path": "docs/2-mind/index.md",
+      "type": "blob"
+    },
+    {
       "path": "docs/4-human",
       "type": "tree"
     },
@@ -172,6 +184,10 @@
     },
     {
       "path": "docs/4-human/98-manifesto.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/4-human/index.md",
       "type": "blob"
     },
     {
@@ -223,6 +239,10 @@
       "type": "blob"
     },
     {
+      "path": "docs/7-mastery/index.md",
+      "type": "blob"
+    },
+    {
       "path": "docs/8-socium",
       "type": "tree"
     },
@@ -256,6 +276,10 @@
     },
     {
       "path": "docs/8-socium/37-politics.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/8-socium/index.md",
       "type": "blob"
     },
     {
@@ -395,7 +419,7 @@
       "type": "blob"
     },
     {
-      "path": "scripts/bump-version.ts",
+      "path": "scripts/bump-version.sh",
       "type": "blob"
     },
     {
@@ -416,6 +440,10 @@
     },
     {
       "path": "scripts/getEsbuildOptions.ts",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/link-modules.sh",
       "type": "blob"
     },
     {

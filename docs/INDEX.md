@@ -16,12 +16,13 @@ The book builds one ontology from a single primitive (the `Azon`) up through the
 
 The formal core: the primitive `Azon` and the structures built directly from it.
 
+- [Math](0-math/index.md) — The formal core: the primitive Azon and the structures built directly from it — Set, Composition, Graph, Numerals, Spaces, Structures, formal Language, and Probability.
 - [Azon](0-math/00-azon.md) — Azon is the framework's sole primitive: an ability to respond to each given Tik with a specific Tok, constrained by three axioms.
 - [Sets, Equivalence, Topology](0-math/01-sets.md) — Set and its Elements, the equivalence relations that compare Azons, and the topological structures over Collections of Sets.
-- [Composition](0-math/02-composition.md) — The Arrow and its Vertex, and the Composition that feeds one Azon's output into another — associativity, Identity, Null, and Currying.
+- [Composition](0-math/02-composition.md) — The Arrow and the Composition that feeds one Azon's output into another — associativity, bijection, wel-consumption, Identity, Null.
 - [Graph](0-math/03-graphs.md) — Graph as a Set of Arrows, the Vertex types classified by in/out connectivity, the Path and Tree built on them, and what makes a Graph connected.
-- [Numerals](0-math/04-numerals.md) — Natural numbers (Number), intervals, sequences, and selections.
-- [Spaces](0-math/05-spaces.md) — The Space as a Tuple of Attributes, and the Basis, Point, Volume, and Place built on it.
+- [Numerals](0-math/04-numerals.md) — Natural numbers (Number), rationals (Ratio, Rational), intervals, sequences, and selections.
+- [Spaces](0-math/05-spaces.md) — The Space as a Tuple of Axis, and the Cluster, Point, Volume, and Form built on it.
 - [Structures](0-math/06-structures.md) — The Structure: a Set equipped with Operations constrained by Laws, and the standard algebras built from them — magmas, ringoids, and lattices.
 - [Formal Language](0-math/08-language.md) — How a Language is built from binary Code up through Alphabet, Word and Dictionary, the Rules and Grammar that transform them, the Theory derivable from an Axiom, and the four nested classes of Grammar.
 - [Probability](0-math/09-probability.md) — The SampleSpace and its Events, the Probability Measure and Distribution over them, conditioning up to Bayes' Theorem, Random Variables with their moments, and the limit laws over a growing Sample.
@@ -30,6 +31,7 @@ The formal core: the primitive `Azon` and the structures built directly from it.
 
 How static primitives become living systems that act, and how `Reality` itself is read: Process → System → Entropy → Evolution → Being.
 
+- [Reality](1-reality/index.md) — Dynamics and metaphysics: how static primitives become living systems that act — Matter, Process, System, Entropy, Evolution, Limits, and Being.
 - [Matter](1-reality/01-matter.md) — Matter as a Tuple of Attributes read over a common Time, and the Attribution, Entity, Content, Keys, Schema, and Quality built on it.
 - [Dynamic Processes](1-reality/02-process.md) — The Process as a controlled Queue of Words: its Circuit, the kinds of Circuit, the landmarks of a Flow, and what a Flow settles into over many Steps.
 - [Systems](1-reality/07-system.md) — Things as queues of presentations over a flow: the participants, the communication that couples them, and what the whole exhibits that no part does.
@@ -44,6 +46,7 @@ How static primitives become living systems that act, and how `Reality` itself i
 
 The framework's cognitive core: Content → Form → Mechanism → Process → Purpose → Capacity → Substrate → Method.
 
+- [Mind](2-mind/index.md) — The cognitive core: Knowledge, Proof, Computation, Reasoning, agency, free will, Intellect, the predictive brain, and the scientific method.
 - [Knowledge](2-mind/05-knowledge.md) — The atomic units of belief — Opinion, Doubt, Thesis, Theory, Name, Concept — and the forms Knowledge is organized into.
 - [Proof](2-mind/06-proof.md) — The formal apparatus that carries a Thesis to a Proof — formalism, interpretation, satisfaction, and the three bounds every logic runs into.
 - [Computation](2-mind/07-computation.md) — Reasoning mechanized: Data carried through Transformers by a Runtime, expressed as a Program, prescribed by an Algorithm, and judged against a Specification.
@@ -59,6 +62,7 @@ The framework's cognitive core: Content → Form → Mechanism → Process → P
 
 The human as a layered composition of body and psyche, and what lies beyond: Composition → Opening → Truth → Life → Substrate → Self → Charter.
 
+- [Human](4-human/index.md) — The human as a layered composition of body and psyche, and what lies beyond: Rajdo, truth and faith, happiness and greatness, the Animal, the self, and the Manifesto.
 - [Human Being](4-human/21-human.md) — **Human Being** := composition of biological circuitry, social membership, and cultural inheritance, equipped with Intellect and Inspiration.
 - [Rajdo](4-human/23-rajdo.md) — The human's opening into Rajdo — perceiving and accepting Being as-is, as one interweaving whole — and the Awareness, Acceptance, and Love it entails.
 - [Approaching Rajdo](4-human/24-approach.md) — Rajdo is given, not built: the shift that reveals it, the traps that imitate it, and the two intentions — personal will and surrender — behind any aim.
@@ -72,6 +76,7 @@ The human as a layered composition of body and psyche, and what lies beyond: Com
 
 The applied disciplines that raise the human toward excellence, ordered as the framework itself runs: Mindset → Vision → Discipline → Productivity → Growth.
 
+- [Mastery](7-mastery/index.md) — The applied disciplines that raise the human toward excellence: mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, and clear thinking.
 - [Mastery](7-mastery/01-mastery.md) — Mastery as the capacity for effective activity toward constant improvement, the five stages that build it, and the Terms that define it.
 - [Mindset](7-mastery/02-mindset.md) — The inner stance mastery is built on: owning every desire as your own, and reading cause from the inside.
 - [Vision](7-mastery/03-vision.md) — Direction: the authentic Way, the Goals worth spending a life on, and the reviews that keep them honest.
@@ -88,6 +93,7 @@ The applied disciplines that raise the human toward excellence, ordered as the f
 
 Society as a self-perpetuating system, and the individual's standing within it: binding → mind → contact → self → failure → power.
 
+- [Socium](8-socium/index.md) — The collective: society as a self-perpetuating system, and the individual's standing within it — ecology, culture, influence, identity, trances, conformism, and power.
 - [Socium](8-socium/30-socium.md) — Humans do not live alone: society is a self-perpetuating system with its own logic, which reproduces through Culture, regulates through Contract, and uses individuals as carriers.
 - [Ecology](8-socium/31-ecology.md) — Ecology is a sustainable social Contract — one that protects individual rights, renews the conditions for development, and leaves room for new meaning.
 - [Culture](8-socium/32-culture.md) — Culture as the shared archetypes, symbols, and active ideas that form a group's cognitive foundation, and the extraction economy built on its carriers.
@@ -115,6 +121,7 @@ Defending the self against harm from others (`06`–`13`), on the social and the
 
 The body as the physical foundation of health and performance (`02`–`05`).
 
+- [Vitality](9-vitality/index.md) — The body as the physical foundation of health and performance: vitality, recovery, nutrition, and the energy budget.
 - [Vitality](9-vitality/02-vitality.md) — The physical foundation of human life, health, and performance: the body's ability to function optimally, resist disease, and recover from stress.
 - [Recovery](9-vitality/03-recovery.md) — Recovery is not idleness: sleep cleans the brain, light sets the clock, and breath and stillness switch off the stress response.
 - [Nutrition](9-vitality/04-nutrition.md) — What you drink, what you eat, and when — the three levers that set blood sugar, insulin, and the fuel a working day runs on.
