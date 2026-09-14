@@ -23,13 +23,15 @@
     "build": "npx --yes npm-run-all --parallel build:*",
     "build:ts": "bun ./scripts/build.ts",
     "build:css": "npx --yes @tailwindcss/cli -i index.css -o \"www/dist/index.css\"",
+    "book": "bun ./scripts/build_book.ts",
     "predeploy": "npm run build",
     "deploy": "./scripts/bump-version.sh ./www/version && firebase deploy --only hosting --config ./firebase.json -P parlang",
     "gen:docs-index": "bun ./scripts/gen-docs-index.ts",
     "absorb-watch-later": "node scripts/wl-absorb.mjs",
     "check-docs": "node scripts/check-docs.mjs",
     "postinstall": "npm run link",
-    "link": "./scripts/link-modules.sh arrmatura-web ultimus && ln -sfn ../../docs www/site/docs && ln -sfn ../../index.json www/site/index.json"
+    "link": "./scripts/link-modules.sh arrmatura-web ultimus && ln -sfn ../../docs www/site/docs && ln -sfn ../../index.json www/site/index.json",
+    "test": "bun test scripts/build_book.test.ts && node --test scripts/yt-fetch.test.mjs"
   },
   "devDependencies": {
     "@types/node": "^26.5.1"

@@ -44,4 +44,14 @@ npm run check-docs
 
 `check-docs` resolves every relative link and `#anchor` in `docs/`; `npm run check-docs -- --conventions docs` additionally checks frontmatter and headings. The pre-commit hook runs it for you.
 
+## Build it as a book
+
+The markdown is the source of truth. To read it as one document:
+
+```bash
+npm run book
+```
+
+That writes `build/almaat.epub` and `build/almaat.pdf`. It needs `bun` and `pandoc`, and the PDF also needs `xelatex`; `npm run book -- --markdown` assembles and checks the structure without rendering either. Edit `book/metadata.yaml` to change the title, author or rights line.
+
 Repo-level tooling and layout are in [`CLAUDE.md`](CLAUDE.md) at the root.

@@ -6,3 +6,5 @@ www/site/docs
 www/site/index.json
 dist
 .packages
+.firebase
+build
