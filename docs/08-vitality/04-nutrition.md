@@ -3,9 +3,6 @@ title: "Nutrition"
 description: "What you drink, what you eat, and when — the three levers that set blood sugar, insulin, and the fuel a working day runs on."
 keywords: [vitality, nutrition, food]
 ---
-
-# Nutrition
-
 ## Water
 
 - Drink plain water, in the morning and before sleep, to avoid dehydration at night.

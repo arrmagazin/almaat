@@ -3,9 +3,6 @@ title: "Correspondence from Sets to Logic of Predicates"
 description: "Predicate logic recovered from Set: a Predicate as a truth-test, and the connectives and quantifiers as Set operations."
 keywords: [appendices, predicates, logic, quantifiers]
 ---
-
-# Correspondence from Sets to Logic of Predicates
-
 A `Predicate` is a `Set` viewed as a truth-test: `P(x) = x` reads *"x satisfies P"*, `P(x) = 0` reads *"x does not satisfy P"*.
 
 Truth and falsity are not a separate Boolean type — they are the *survival* or *erasure* of the input by the filter.

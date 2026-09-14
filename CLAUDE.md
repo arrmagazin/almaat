@@ -29,7 +29,7 @@ When `docs/CLAUDE.md` disagrees with the filesystem (folder names, file numbers,
 
 ```bash
 npm run check-docs                          # every relative link and #anchor in docs/
-npm run check-docs -- --conventions docs    # + frontmatter, single H1
+npm run check-docs -- --conventions docs    # + frontmatter, no duplicate H1
 npm run absorb-watch-later                  # scripts/wl-absorb.mjs
 ```
 

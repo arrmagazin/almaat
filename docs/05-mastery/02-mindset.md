@@ -3,9 +3,6 @@ title: "Mindset"
 description: "The inner stance mastery is built on: owning every desire as your own, and reading cause from the inside."
 keywords: [mastery, mindset]
 ---
-
-# Mindset
-
 ## Self-Honesty
 
 The mechanism that dissolves the inner problems — procrastination, laziness, lost motivation, guilt, shame, anger, fear. These are labels, not entities. Under each is the same structure: two `Goals` in conflict, one of which you refuse to own.

@@ -3,9 +3,6 @@ title: "Formal Language"
 description: "How a Language is built from binary Code up through Alphabet, Word and Dictionary, the Rules and Grammar that transform them, the Theory derivable from an Axiom, and the four nested classes of Grammar."
 keywords: [math, language]
 ---
-
-# Formal Language
-
 ## Codes and Words
 
 Code

@@ -3,9 +3,6 @@ title: "Power Architecture"
 description: "Politics is the distribution of power through non-violent means via social institutions — status is its hidden currency."
 keywords: [socium, politics, power]
 ---
-
-# Power Architecture
-
 ## The Power Ladder
 
 Status

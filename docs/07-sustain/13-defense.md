@@ -3,9 +3,6 @@ title: "Physical Security"
 description: "Defense against violence. Most of it is won before contact; the fight is the rarest, costliest, least reliable layer."
 keywords: [sustain, defense]
 ---
-
-# Physical Security
-
 The groundwork — mindset, awareness, the OODA loop, the body under threat, and [recovery](06-security.md#recovery) afterwards — is shared with the social plane and lives in [Security](06-security.md).
 
 ## Under Pressure

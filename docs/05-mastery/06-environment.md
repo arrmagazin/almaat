@@ -3,9 +3,6 @@ title: "Environment"
 description: "Architecture beats willpower: design the surroundings, cut the cue, replace the reward — and spend resolve once instead of daily."
 keywords: [mastery, environment]
 ---
-
-# Environment
-
 ## Environment Design
 
 Environment Design

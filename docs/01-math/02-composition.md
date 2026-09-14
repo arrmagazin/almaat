@@ -3,9 +3,6 @@ title: "Composition"
 description: "The Arrow and the Composition that feeds one Azon's output into another — associativity, bijection, wel-consumption, Identity, Null."
 keywords: [math, composition]
 ---
-
-# Composition
-
 ## Definitions
 
 Arrow

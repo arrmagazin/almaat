@@ -3,9 +3,6 @@ title: "Fundamental Data Structures"
 description: "The data structures of computing as Azons already available from Set, Graph, and Numerals, each narrowed by one constraint."
 keywords: [appendices, data-structures, array, tree, map]
 ---
-
-# Fundamental Data Structures
-
 The concrete data structures used in computing — each an `Azon` already available from
 [Azon](../01-math/00-azon.md), [Sets](../01-math/01-sets.md),
 [Graphs](../01-math/03-graphs.md) and [Numerals](../01-math/04-numerals.md),

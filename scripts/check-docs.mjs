@@ -103,8 +103,9 @@ if (conventionsDir) {
       if (!new RegExp(`^${key}:`, "m").test(frontmatter[1])) cfail(`frontmatter missing "${key}"`);
     }
     const body = withoutFrontmatter(raw);
+    // The frontmatter `title` is the only title; a duplicate H1 is a convention failure.
     const h1s = [...stripFences(body).matchAll(/^# (.+)$/gm)];
-    if (h1s.length !== 1) cfail(`expected exactly one H1, found ${h1s.length}`);
+    if (h1s.length) cfail(`expected no H1 (title lives in frontmatter), found ${h1s.length}`);
   }
 }
 

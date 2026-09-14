@@ -3,9 +3,6 @@ title: "Luck & Serendipity"
 description: "Why some people are consistently \"lucky\": luck is half blind statistics and half a tunable interface of attention and position — and the interface is the part you can train."
 keywords: [mastery, luck]
 ---
-
-# Luck & Serendipity
-
 Chronic bad luck is not a curse. It is largely a side effect of **perceptual blindness** — the same inattentional blindness that lets you miss an obvious thing while your attention is locked elsewhere. Under chronic stress the `Mind` narrows attention to a tunnel that sees only the direct threat or task; you go blind to opportunities a step away. Luck, conversely, is **cognitive surplus** — the relaxed `Mind`'s capacity to notice a peripheral signal where a frightened one sees only grey noise.
 
 ## Luck Is Mostly Blind at Scale

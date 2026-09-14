@@ -3,9 +3,6 @@ title: "Productivity"
 description: "Cadence and multipliers: the rhythms that keep progress steady, and the leverage that stops results scaling with hours worked."
 keywords: [mastery, productivity]
 ---
-
-# Productivity
-
 Productivity
 : the output a steady cadence produces, multiplied by `Leverage` rather than by hours worked.
 

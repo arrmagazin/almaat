@@ -3,9 +3,6 @@ title: "Spaces"
 description: "The Space as a Tuple of Axis, and the Cluster, Point, Volume, and Form built on it."
 keywords: [math, spaces]
 ---
-
-# Spaces
-
 ## Space, Point, Volume
 
 ---

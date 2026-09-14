@@ -3,9 +3,6 @@ title: "Discipline"
 description: "The will to act without waiting to feel like it — a system of ritual and integrity, not a character trait."
 keywords: [mastery, discipline]
 ---
-
-# Discipline
-
 [[42]]
 
 ## The Five Laws of Discipline

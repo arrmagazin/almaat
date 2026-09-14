@@ -3,9 +3,6 @@ title: "Culture"
 description: "Culture as the shared archetypes, symbols, and active ideas that form a group's cognitive foundation, and the extraction economy built on its carriers."
 keywords: [socium, culture]
 ---
-
-# Culture
-
 ## Collective Mind
 
 Collective Mind

@@ -3,9 +3,6 @@ title: "Identity"
 description: "Identity is the continuous story a person tells about themselves, in which boundaries, self-esteem, and the imperatives to follow are formed and maintained."
 keywords: [socium, identity, persona]
 ---
-
-# Identity
-
 - biology — what we are (Body, Genes)
 - mind — who we feel we are (Truth, Faith)
 - society — our roles (`Persona`)

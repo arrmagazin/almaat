@@ -3,9 +3,6 @@ title: "Dynamic Processes"
 description: "The Process as a controlled Queue of Words: its Circuit, the kinds of Circuit, the landmarks of a Flow, and what a Flow settles into over many Steps."
 keywords: [reality, process, circuit, flow, ergodic]
 ---
-
-# Dynamic Processes
-
 ## Parts of a Process
 
 ---

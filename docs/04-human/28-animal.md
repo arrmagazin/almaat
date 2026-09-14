@@ -3,9 +3,6 @@ title: "Animal"
 description: "**Animal** := the intertwined psychic, energetic, and hormonal processes aimed at satisfying animalistic needs."
 keywords: [human, animal, emotion, stress]
 ---
-
-# Animal
-
 Animal
 : the intertwined psychic, energetic, and hormonal processes aimed at satisfying animalistic needs.
 

@@ -3,7 +3,6 @@ title: "Azon"
 description: "Azon is the framework's sole primitive: an ability to respond to each given Tik with a specific Tok, constrained by three axioms."
 keywords: [math, azon]
 ---
-
 Azon
 : an *ability* to assign any (`Azon`:= **`Tik`**) with a corresponding (`Azon`:= **`Tok`**). I is made under to the axioms below
 

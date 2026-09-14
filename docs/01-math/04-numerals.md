@@ -3,9 +3,6 @@ title: "Numerals"
 description: "Natural numbers (Number), rationals (Ratio, Rational), intervals, sequences, and selections."
 keywords: [math, numerals]
 ---
-
-# Numerals
-
 ## Natural Numbers
 
 ---

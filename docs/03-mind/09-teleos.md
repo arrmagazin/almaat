@@ -3,9 +3,6 @@ title: "Agency & Teleology"
 description: "The anatomy of intentional action: who the Agent is, what drives motion toward a Future, what means are deployed, and how the outcome is judged."
 keywords: [mind, teleos]
 ---
-
-# Agency & Teleology
-
 ## The Agent
 
 Agent

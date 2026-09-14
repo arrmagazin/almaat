@@ -3,9 +3,6 @@ title: "Computation"
 description: "Reasoning mechanized: Data carried through Transformers by a Runtime, expressed as a Program, prescribed by an Algorithm, and judged against a Specification."
 keywords: [mind, computation]
 ---
-
-# Computation
-
 Computation
 : The process of [`Reasoning`](08-reasoning.md) by executing `Dataflow` on given input by some real `Runtime` until the outcome is evaluated.
 

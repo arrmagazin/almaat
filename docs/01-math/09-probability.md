@@ -3,9 +3,6 @@ title: "Probability"
 description: "The SampleSpace and its Events, the Probability Measure and Distribution over them, conditioning up to Bayes' Theorem, Random Variables with their moments, and the limit laws over a growing Sample."
 keywords: [math, probability, bayes, random variable]
 ---
-
-# Probability
-
 ## Sample Space and Events
 
 SampleSpace

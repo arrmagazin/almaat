@@ -3,9 +3,6 @@ title: "Free Will"
 description: "Whether the Solution an Agent reaches is freely authored, or a determined output of a prior physical State that the Agent only reports after the fact."
 keywords: [mind, free-will, determinism]
 ---
-
-# Free Will
-
 Free-Will
 : The claimed capacity of an `Agent` to select a `Solution` independent of its prior `State`.
 

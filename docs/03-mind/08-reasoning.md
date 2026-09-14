@@ -3,9 +3,6 @@ title: "Reasoning"
 description: "Generating new a priori Knowledge from existing Knowledge — the Inference path, and the nine modes a Mind reasons in."
 keywords: [mind, reasoning]
 ---
-
-# Reasoning
-
 Reasoning
 : The process of generating new *a priori* `Knowledge` (conclusions) from existing `Knowledge` (premises).
 

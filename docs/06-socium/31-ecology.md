@@ -3,9 +3,6 @@ title: "Ecology"
 description: "Ecology is a sustainable social Contract — one that protects individual rights, renews the conditions for development, and leaves room for new meaning."
 keywords: [socium, ecology, ethics]
 ---
-
-# Ecology
-
 It requires freedom of expression, quality education, public discourse on equal terms, and the willingness to acknowledge error in public. It rests on three claims, argued as axioms below:
 
 - human rights are absolute and power is not,

@@ -3,9 +3,6 @@ title: "Social Trances"
 description: "Most people carry a near-constant, invisible sense that something is wrong with them — the Inferiority Trance, and the impostor pattern it produces."
 keywords: [socium, transes, inferiority]
 ---
-
-# Social Trances
-
 Inferiority Trance
 : a near-constant, invisible sense that something is wrong with oneself.
 

@@ -3,9 +3,6 @@ title: "The Scientific Method"
 description: "The empirical route to Scientific Knowledge: the nine criteria a claim must meet, and the five phases that produce it."
 keywords: [mind, scientific]
 ---
-
-# The Scientific Method
-
 ## Method
 
 Scientific Method

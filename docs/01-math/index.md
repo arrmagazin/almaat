@@ -3,9 +3,6 @@ title: "Math"
 description: "The formal core: the primitive Azon and the structures built directly from it — Set, Composition, Graph, Numerals, Spaces, Structures, formal Language, and Probability."
 keywords: [math]
 ---
-
-# Math
-
 The formal core: the primitive `Azon` and the structures built directly from it.
 
 - [Azon](00-azon.md) — Azon is the framework's sole primitive: an ability to respond to each given Tik with a specific Tok, constrained by three axioms.

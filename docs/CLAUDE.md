@@ -3,9 +3,6 @@ title: "ALMAAT — Project Guide"
 description: "ALMAAT is a general-purpose framework for cognitive modeling, written as a layered knowledge base in Markdown."
 keywords: [almaat]
 ---
-
-# ALMAAT — Project Guide
-
 ALMAAT is a general-purpose framework for cognitive modeling, written as a layered
 knowledge base in Markdown. It builds a single ontology from one irreducible primitive
 (the `Azon`) up through `Set`, `Graph`, `Language`, `Sequence`, `Space`, dynamic
@@ -113,7 +110,8 @@ Frontmatter is exactly three fields, in this order: `title`, `description`, `key
 escaped. It is what the indexes quote. Do not reintroduce `license`, `created`,
 `modified`, or `source` — they were dropped as noise on 2026-08-26.
 
-Every content file then opens with a single H1 title and goes straight into the body:
+The frontmatter `title` is the only title. A content file carries **no H1** — it goes
+straight from the frontmatter into the body:
 
 ```markdown
 ---
@@ -122,13 +120,11 @@ description: "The Process as a controlled Queue of Words: its Circuit, the kinds
 keywords: [reality, process, circuit, flow]
 ---
 
-# Dynamic Processes
-
 ## Parts of a Process
 ```
 
-**No preface.** Nothing sits between the title and the first heading: no intro line
-restating the `description`, no spine table, no enumeration of the folder's other files.
+**No preface.** Nothing sits between the frontmatter and the first heading: no title line,
+no intro restating the `description`, no spine table, no enumeration of the folder's other files.
 Navigation lives in `INDEX.md` and the folder's `index.md`, which are exempt from this rule;
 in a content file, cross-reference a specific Term where it is used.
 
@@ -262,7 +258,7 @@ Notes:
   `07-sustain/01-sustain.md` were deleted; `06-socium/30-socium.md` remains thin at 15 lines.)
 - **A section `index.md`** is exempt from the no-preface rule, because it *is* the navigation.
   Its shape: the three frontmatter fields (`title` is the bare section name — `Math`, `Socium`;
-  `keywords` is that name lowercased), a single H1, the one-line section blurb, then one bullet
+  `keywords` is that name lowercased), the one-line section blurb, then one bullet
   per content file in the folder, ordered by filename:
 
   ```markdown
@@ -273,7 +269,7 @@ Notes:
   (Added 2026-09-14, generalizing the `07-sustain` and `08-vitality` covers to all eight folders.)
 - **Run `npm run check-docs` before committing content edits.** It resolves every relative `.md`
   link and every `#anchor` in `docs/`, and `--conventions <dir>` additionally checks the three
-  frontmatter fields and the single H1.
+  frontmatter fields and the absence of an H1.
   Pre-existing breakage is listed in `scripts/check-docs.baseline.txt`, so the gate is
   "no new failures"; fix an entry and delete its line.
 
@@ -281,8 +277,8 @@ Notes:
 
 1. Source translated to English and reduced to basic terminology.
 2. Content routed to the correct file (or a correctly named new file created).
-3. Frontmatter + title conform to the convention above, with no preface between the
-   title and the first heading.
+3. Frontmatter conforms to the convention above: three fields, no H1, no preface between
+   the frontmatter and the first heading.
 4. New Terms backticked in text and, if canonical, added to `_translations.md`.
 5. `INDEX.md` and the section's `index.md` updated to match.
 6. Relative links checked — they must resolve to real files.

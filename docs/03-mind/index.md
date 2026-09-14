@@ -3,9 +3,6 @@ title: "Mind"
 description: "The cognitive core: Knowledge, Proof, Computation, Reasoning, agency, free will, Intellect, the predictive brain, and the scientific method."
 keywords: [mind]
 ---
-
-# Mind
-
 The framework's cognitive core: Content → Form → Mechanism → Process → Purpose → Capacity → Substrate → Method.
 
 - [Knowledge](05-knowledge.md) — The atomic units of belief — Opinion, Doubt, Thesis, Theory, Name, Concept — and the forms Knowledge is organized into.

@@ -3,9 +3,6 @@ title: "Human"
 description: "The human as a layered composition of body and psyche, and what lies beyond: Rajdo, truth and faith, happiness and greatness, the Animal, the self, and the Manifesto."
 keywords: [human]
 ---
-
-# Human
-
 The human as a layered composition of body and psyche, and what lies beyond: Composition → Opening → Truth → Life → Substrate → Self → Charter.
 
 - [Human Being](21-human.md) — **Human Being** := composition of biological circuitry, social membership, and cultural inheritance, equipped with Intellect and Inspiration.

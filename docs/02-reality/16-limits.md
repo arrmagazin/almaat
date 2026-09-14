@@ -3,9 +3,6 @@ title: "Limits"
 description: "What bounds development: the Communication an Agent is free of, the Constraint it navigates, and the ceiling that Improvement approaches and Breakthrough escapes."
 keywords: [reality, freedom, constraint, excellence, breakthrough]
 ---
-
-# Limits
-
 ## External Bounds
 
 Freedom

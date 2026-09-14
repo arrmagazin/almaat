@@ -3,9 +3,6 @@ title: "Correspondence from Graphs to Category Theory"
 description: "Category theory recovered from Graph: Category, Object, Morphism, Monoid, Functor, and Natural Transformation as Azons under Composition."
 keywords: [appendices, categories, morphism, functor]
 ---
-
-# Correspondence from Graphs to Category Theory
-
 Category
 : A `Set` of `Azon` closed under `Composition`, containing an `Unit` for each `Domain` / `Codomain` of its members.
 

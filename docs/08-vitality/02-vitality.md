@@ -3,9 +3,6 @@ title: "Vitality"
 description: "The physical foundation of human life, health, and performance: the body's ability to function optimally, resist disease, and recover from stress."
 keywords: [vitality]
 ---
-
-# Vitality
-
 ## The Stance
 
 - Health is a tool, not a goal. Obsessing over health is its own disease.

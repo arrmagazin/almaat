@@ -3,9 +3,6 @@ title: "Term Translations"
 description: "The reverse map from each canonical English Term to its Belarusian-rooted equivalent. English stays canonical in content."
 keywords: [translations]
 ---
-
-# Term Translations
-
 The Belarusian forms are the original authorial transliteration that gives the framework its etymological signature. They appear here and are not used in the content itself.
 
 Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belarusian forms — not part of the original authorial layer. Treat them as candidates open to revision.

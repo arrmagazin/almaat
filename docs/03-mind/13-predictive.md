@@ -3,9 +3,6 @@ title: "The Predictive Brain"
 description: "The brain as a prediction engine: perception is constructed from a running model and corrected by sensory data, not received."
 keywords: [mind, prediction, mental-models]
 ---
-
-# The Predictive Brain
-
 Predictive-Perception
 : Perception as a running [`Prediction`](11-intellect.md) built from past `Experience` and corrected by sensory data, rather than assembled from sensory data alone.
 

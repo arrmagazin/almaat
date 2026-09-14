@@ -3,9 +3,6 @@ title: "Habits"
 description: "The mechanism discipline runs on: a Cue → Craving → Response → Reward loop that compounds small actions into identity."
 keywords: [mastery, habits]
 ---
-
-# Habits
-
 ## Building Habits
 
 Small improvements compound. You do not rise to the level of your goals; you fall to the level of your systems.

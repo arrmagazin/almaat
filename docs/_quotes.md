@@ -3,9 +3,6 @@ title: "Quotes"
 description: "A curated, numbered list of quotations and maxims. Content files cite them by number, as [[12]] or [[8,9,10]]."
 keywords: [quotes]
 ---
-
-# Quotes
-
 The numbering is load-bearing: 34 of the 37 entries are cited from elsewhere in `docs/`, so entries are corrected in place and never renumbered. A number is retired when its entry leaves, never reused, so gaps are deliberate.
 
 1. The desire to understand the Universe — that is one thing that slightly elevates Life above the level of farce and gives it the character of high tragedy. — Steven Weinberg

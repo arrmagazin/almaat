@@ -3,9 +3,6 @@ title: "Appendices"
 description: "Correspondences from the formal core to the classical disciplines it recovers, plus a map of the branches of intellectual work."
 keywords: [appendices]
 ---
-
-# Appendices
-
 Correspondences from the formal core to the classical disciplines it recovers (`01`–`07`).
 
 - [Correspondence from Sets to Logic of Predicates](01-set-to-predicates.md) — Predicate logic recovered from Set: a Predicate as a truth-test, and the connectives and quantifiers as Set operations.

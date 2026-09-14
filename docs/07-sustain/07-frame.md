@@ -3,9 +3,6 @@ title: "Frame"
 description: "Whoever sets the frame sets the terms: the definition of the situation, the pause that slows it, and the words that keep your standing intact."
 keywords: [sustain, security, frame, composure]
 ---
-
-# Frame
-
 This is the defensive half of [Influence](../06-socium/33-interpersonal.md).
 
 ## The Rescuer

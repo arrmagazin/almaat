@@ -3,9 +3,6 @@ title: "Correspondence to Combinatorics"
 description: "Counting over finite Sets and Tuples: every classical count reduced to the Cardinality of a constructed Set."
 keywords: [appendices, combinatorics, cardinality, permutation]
 ---
-
-# Correspondence to Combinatorics
-
 Combinatorics is the *counting* discipline over finite `Set` and `Tuple`. Every classical count reduces to a `Cardinality` of a constructed `Set` of `Tuple` or `Selection-Mask`. No new primitive is introduced — all variations (ordered/unordered, with/without repetition) are expressed by adjusting injectivity, surjectivity, and quotient-by-permutation of `Selection-Mask`.
 
 ---

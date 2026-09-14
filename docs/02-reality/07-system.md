@@ -3,9 +3,6 @@ title: "Systems"
 description: "Things as queues of presentations over a flow: the participants, the communication that couples them, and what the whole exhibits that no part does."
 keywords: [reality, system, participant, communication]
 ---
-
-# Systems
-
 ## Thing and Trajectory
 
 Transition(Thing)

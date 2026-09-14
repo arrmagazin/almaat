@@ -3,9 +3,6 @@ title: "Knowledge"
 description: "The atomic units of belief — Opinion, Doubt, Thesis, Theory, Name, Concept — and the forms Knowledge is organized into."
 keywords: [mind, knowledge]
 ---
-
-# Knowledge
-
 ## Units of Belief
 
 Opinion

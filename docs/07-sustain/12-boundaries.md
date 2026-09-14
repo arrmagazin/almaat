@@ -3,9 +3,6 @@ title: "Boundaries"
 description: "A boundary is a stated limit paired with what you will do if it is crossed; the relationship audit applies the same rule to the whole circle."
 keywords: [sustain, security, boundaries]
 ---
-
-# Boundaries
-
 It is neither a wall, which shuts everyone out, nor a wish, which depends on the other's goodwill.
 
 A boundary without a consequence is a suggestion — [principle 7](13-defense.md#under-pressure).

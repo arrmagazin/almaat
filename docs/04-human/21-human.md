@@ -3,9 +3,6 @@ title: "Human Being"
 description: "**Human Being** := composition of biological circuitry, social membership, and cultural inheritance, equipped with Intellect and Inspiration."
 keywords: [human, dignity, conscience]
 ---
-
-# Human Being
-
 Human Being
 : creature, composed of biological circuitry, social membership, cultural inheritance, and transcedent backgrounds, powered by `Intellect` and `Inspiration`.
 

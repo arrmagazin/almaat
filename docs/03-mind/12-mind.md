@@ -3,9 +3,6 @@ title: "Mind"
 description: "Mind as a System of Neuron and Sensor — thought as state, memory as disposition, and the social origin of the inner voice."
 keywords: [mind]
 ---
-
-# Mind
-
 ## The Substrate
 
 In a `System`, a [`Source`](../01-math/01-sets.md#sets) is any `Azon` characterized primarily by the values it produces for other `Participant`s.

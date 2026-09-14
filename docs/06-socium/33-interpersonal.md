@@ -3,9 +3,6 @@ title: "Influence"
 description: "Society improves two ways — constrain evil and compel good from outside, or work on yourself and provide the example. The second is primary."
 keywords: [socium, interpersonal, influence]
 ---
-
-# Influence
-
 ## Conduct
 
 | Principle | Practice |

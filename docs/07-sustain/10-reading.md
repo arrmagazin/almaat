@@ -3,9 +3,6 @@ title: "Reading People"
 description: "Reading the channels a person controls least — and denying an observer the map of your own reactions."
 keywords: [sustain, security, reading, unreadability]
 ---
-
-# Reading People
-
 **Establish a baseline first.** Learn how a person behaves when relaxed and truthful. Deviation from *their own* baseline is the signal — not a universal "tell."
 
 ## The Dark Triad

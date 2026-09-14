@@ -3,9 +3,6 @@ title: "Being"
 description: "Being as three sides — perceptive Sensation, creative Consciousness, and representative Reality — and why Reality is a readout rather than the source."
 keywords: [reality, being, consciousness]
 ---
-
-# Being
-
 ## The Three Sides
 
 Being

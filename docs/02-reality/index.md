@@ -3,9 +3,6 @@ title: "Reality"
 description: "Dynamics and metaphysics: how static primitives become living systems that act — Matter, Process, System, Entropy, Evolution, Limits, and Being."
 keywords: [reality]
 ---
-
-# Reality
-
 How static primitives become living systems that act, and how `Reality` itself is read: Process → System → Entropy → Evolution → Being.
 
 - [Matter](01-matter.md) — Matter as a Tuple of Attributes read over a common Time, and the Attribution, Entity, Content, Keys, Schema, and Quality built on it.

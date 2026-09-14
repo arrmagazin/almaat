@@ -3,9 +3,6 @@ title: "Intellect"
 description: "The capacity to form, validate, and apply one's own Reality — cognition, validation, learning, skill, bias, and judgment under uncertainty."
 keywords: [mind, intellect]
 ---
-
-# Intellect
-
 ## What Intellect Is
 
 Intellect

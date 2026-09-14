@@ -3,9 +3,6 @@ title: "Mastery"
 description: "Mastery as the capacity for effective activity toward constant improvement, the five stages that build it, and the Terms that define it."
 keywords: [mastery]
 ---
-
-# Mastery
-
 ## What Mastery Is
 
 The capacity for abundant, effective activity toward constant improvement in one's chosen field, measured by `Surplus`, `Body of Work`, and `Super-Goals` — all defined under [Terms](#terms).

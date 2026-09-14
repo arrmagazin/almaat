@@ -3,9 +3,6 @@ title: "Learning"
 description: "How a Mind turns Experience into Knowledge and Skill — the disciplines and conditions that make learning reliable rather than accidental."
 keywords: [mastery, learning]
 ---
-
-# Learning
-
 `Learning` is defined formally in [Intellect](../03-mind/11-intellect.md) as the update of `Memory`, and thereby of `Knowledge` and `Skill`, that makes them better predict further `Experience`. This file is the applied side: how to drive that update on purpose.
 
 ## The Learning Loop

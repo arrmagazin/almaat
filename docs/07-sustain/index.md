@@ -3,9 +3,6 @@ title: "Sustain"
 description: "Sustaining the self: staying sovereign against threats from others, on the social and the physical plane."
 keywords: [sustain]
 ---
-
-# Sustain
-
 Defending the self against harm from others (`06`–`13`), on the social and the physical plane.
 
 - [Security](06-security.md) — Staying sovereign against threats from others, across two planes — and the hierarchy, awareness, and physiology both planes share.

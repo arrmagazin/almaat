@@ -3,9 +3,6 @@ title: "Attention"
 description: "What the working day is made of: attention profiles, the order of stimulation, and the block that must be protected to reach the work."
 keywords: [mastery, attention]
 ---
-
-# Attention
-
 ## Attention Profile
 
 [`Attention`](../02-reality/07-system.md#communication) is not uniform across people. The difference is a trait to be matched, not a defect to be corrected — and a system built for one profile fails silently in the hands of the other, where the failure then reads as a personal flaw.

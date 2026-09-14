@@ -3,9 +3,6 @@ title: "Correspondence to Arithmetic"
 description: "Arithmetic recovered from Number, Interval, Tuple, and Concatenation rather than introduced as a new primitive."
 keywords: [appendices, arithmetic, successor, numerals]
 ---
-
-# Correspondence to Arithmetic
-
 Arithmetic is not introduced as a new primitive — it is *recovered* from `Number`, `Interval`, `Tuple`, and `Concatenation`.
 
 ---

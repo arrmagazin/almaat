@@ -3,9 +3,6 @@ title: "Proof"
 description: "The formal apparatus that carries a Thesis to a Proof — formalism, interpretation, satisfaction, and the three bounds every logic runs into."
 keywords: [mind, proof, logic]
 ---
-
-# Proof
-
 Proof
 : A [`Conclusion`](../01-math/08-language.md#rules-and-grammar) that yields `Thesis` under a given `Theory`.
 

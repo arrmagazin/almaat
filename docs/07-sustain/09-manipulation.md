@@ -3,9 +3,6 @@ title: "Manipulation"
 description: "Manipulation hijacks the Animal in a single moment and conditioning shapes it across many: the levers, the tactics, and the counters to both."
 keywords: [sustain, security, manipulation, conditioning]
 ---
-
-# Manipulation
-
 It works by triggering an emotional reflex — fear, guilt, urgency, belonging — so a decision is made before deliberation engages. Every tactic exploits a [cognitive bias](../05-mastery/11-thinking.md); the people who run them are typed in [Reading People](10-reading.md#counterpart-types).
 
 ## The Seven Levers

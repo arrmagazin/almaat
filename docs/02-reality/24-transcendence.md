@@ -3,9 +3,6 @@ title: "Transcendence"
 description: "One Consciousness dissociated into many points of view: the brain is its appearance, time and space are the filing system it generates, and a choice reveals what you are."
 keywords: [reality, transcendence, consciousness, free-will]
 ---
-
-# Transcendence
-
 ## One Consciousness
 
 **The brain is the appearance of `Consciousness`, not its cause.** From outside, a `Consciousness` looks like a brain — tissue and firing neurons. From inside, the same process is [`Thought`](../03-mind/12-mind.md#the-substrate), feeling, and memory.

@@ -3,9 +3,6 @@ title: "Mastery"
 description: "The applied disciplines that raise the human toward excellence: mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, and clear thinking."
 keywords: [mastery]
 ---
-
-# Mastery
-
 The applied disciplines that raise the human toward excellence, ordered as the framework itself runs: Mindset → Vision → Discipline → Productivity → Growth.
 
 - [Mastery](01-mastery.md) — Mastery as the capacity for effective activity toward constant improvement, the five stages that build it, and the Terms that define it.

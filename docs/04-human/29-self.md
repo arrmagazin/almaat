@@ -3,9 +3,6 @@ title: "The Self and Death"
 description: "What survives death depends on what the self actually is: the Self-role, the Self-observer, and the Self-`Consciousness` beneath both."
 keywords: [human, self, memory, death]
 ---
-
-# The Self and Death
-
 ## Three Layers of the Self
 
 Self-role

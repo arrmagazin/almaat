@@ -3,9 +3,6 @@ title: "Graph"
 description: "Graph as a Set of Arrows, the Vertex types classified by in/out connectivity, the Path and Tree built on them, and what makes a Graph connected."
 keywords: [math, graphs]
 ---
-
-# Graph
-
 ## Definitions
 
 Graph

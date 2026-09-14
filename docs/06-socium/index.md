@@ -3,9 +3,6 @@ title: "Socium"
 description: "The collective: society as a self-perpetuating system, and the individual's standing within it — ecology, culture, influence, identity, trances, conformism, and power."
 keywords: [socium]
 ---
-
-# Socium
-
 Society as a self-perpetuating system, and the individual's standing within it: binding → mind → contact → self → failure → power.
 
 - [Socium](30-socium.md) — Humans do not live alone: society is a self-perpetuating system with its own logic, which reproduces through Culture, regulates through Contract, and uses individuals as carriers.

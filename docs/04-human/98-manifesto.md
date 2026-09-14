@@ -3,9 +3,6 @@ title: "Manifesto of Humankind"
 description: "Each Human Being is a manifestation of God, born equal in Dignity: the rights that unfold it, the freedoms that exercise it, and the duty to defend both."
 keywords: [human, manifesto, rights]
 ---
-
-# Manifesto of Humankind
-
 Our potential is expressed through curiosity, imagination, and the pursuit of beauty, and accumulates as cultural heritage, education, and science.
 
 Each of us has the intrinsic right to pursue happiness — the feeling of realizing your potential in your own way, aligned with your abilities, visions, and aspirations.

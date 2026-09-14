@@ -3,9 +3,6 @@ title: "Correspondence to Data Normalization"
 description: "The relational normal forms 1NF to BCNF stated over Schema, Type, Presentation, and Relation."
 keywords: [appendices, normalization, relational, schema]
 ---
-
-# Correspondence to Data Normalization
-
 The primitives above align with the classical relational normal forms. `Schema` is the database schema; an `Type` is a normalized table; a `Presentation` is a row; a `Relation` carries foreign-key links.
 
 ---

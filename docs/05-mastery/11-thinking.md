@@ -3,9 +3,6 @@ title: "Clear Thinking"
 description: "Systematic errors in thinking — the biases and fallacies that corrupt judgment, and the names that make them visible."
 keywords: [mastery, biases]
 ---
-
-# Clear Thinking
-
 ## What is Cognitive Bias?
 
 A [`Bias`](../03-mind/11-intellect.md) is a systematic error in thinking that occurs while processing and interpreting information, affecting the decisions and judgments that follow.

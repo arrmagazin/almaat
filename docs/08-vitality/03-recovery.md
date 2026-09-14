@@ -3,9 +3,6 @@ title: "Recovery"
 description: "Recovery is not idleness: sleep cleans the brain, light sets the clock, and breath and stillness switch off the stress response."
 keywords: [vitality, recovery, sleep, stress]
 ---
-
-# Recovery
-
 ## Sleep
 
 The habit the rest depend on. Quality depends on light, temperature, food, caffeine, screens, and regularity.

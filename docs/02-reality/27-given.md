@@ -3,9 +3,6 @@ title: "The Given and the Constructed"
 description: "Start from what is actually given: the perceived world is small and the universe is inferred, so the governing question is not what exists but what matters."
 keywords: [reality, given, perception, epoche]
 ---
-
-# The Given and the Constructed
-
 An infant is shown the world; only later does the `Mind` name it "universe" and bind it into a picture. Your adult perception is that same given, now labeled — you see no more than the infant, you only know more.
 
 ## What Is Given

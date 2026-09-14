@@ -3,9 +3,6 @@ title: "Entropy"
 description: "Entropy is the bridge between the State of a System and the passage of Steps: Order is never free, and a System holds Entropy back only by drawing Communication from its Environment."
 keywords: [reality, entropy, order, self-organization]
 ---
-
-# Entropy
-
 ## Measure
 
 Entropy

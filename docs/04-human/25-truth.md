@@ -3,9 +3,6 @@ title: "Truth and Faith"
 description: "One's own answers to the existential questions, the Core-Values that follow from them, and the Faith that holds to both."
 keywords: [human, truth, faith]
 ---
-
-# Truth and Faith
-
 Truth
 : one's own answers to the existential questions:
 

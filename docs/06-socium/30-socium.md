@@ -3,9 +3,6 @@ title: "Socium"
 description: "Humans do not live alone: society is a self-perpetuating system with its own logic, which reproduces through Culture, regulates through Contract, and uses individuals as carriers."
 keywords: [socium]
 ---
-
-# Socium
-
 ## A System of People
 
 A society is a [`System`](../02-reality/07-system.md) whose `Participants` are people. It persists because the `Communication` coupling them persists, not because any particular person does — every member is replaced within a lifetime and the thing itself carries on.

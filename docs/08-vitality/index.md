@@ -3,9 +3,6 @@ title: "Vitality"
 description: "The body as the physical foundation of health and performance: vitality, recovery, nutrition, and the energy budget."
 keywords: [vitality]
 ---
-
-# Vitality
-
 The body as the physical foundation of health and performance (`02`–`05`).
 
 - [Vitality](02-vitality.md) — The physical foundation of human life, health, and performance: the body's ability to function optimally, resist disease, and recover from stress.

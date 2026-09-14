@@ -3,9 +3,6 @@ title: "Matter"
 description: "Matter as a Tuple of Attributes read over a common Time, and the Attribution, Entity, Content, Keys, Schema, and Quality built on it."
 keywords: [reality, matter, attribute, time]
 ---
-
-# Matter
-
 ## Definitions
 
 ---

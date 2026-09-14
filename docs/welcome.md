@@ -3,9 +3,6 @@ title: "Welcome to ALMAAT"
 description: "ALMAAT is a general-purpose framework for cognitive modeling: one ontology built from a single primitive, then applied to the human, the collective, and daily practice."
 keywords: [welcome]
 ---
-
-# Welcome to ALMAAT
-
 Everything rests on one irreducible primitive, the [`Azon`](01-math/00-azon.md) — an ability that responds to each given `Tik` with a specific `Tok`. `Set`, `Graph`, `Numerals` and `Language` are built from it; `Process`, `System` and `Evolution` put it in motion; `Knowledge`, `Agent` and `Mind` make it know and act; and the applied sections carry that vocabulary into a life.
 
 ## The Sections

@@ -3,9 +3,6 @@ title: "Vision"
 description: "Direction: the authentic Way, the Goals worth spending a life on, and the reviews that keep them honest."
 keywords: [mastery, vision]
 ---
-
-# Vision
-
 ## Determination
 
 Determination

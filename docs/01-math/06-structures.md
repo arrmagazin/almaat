@@ -3,9 +3,6 @@ title: "Structures"
 description: "The Structure: a Set equipped with Operations constrained by Laws, and the standard algebras built from them — magmas, ringoids, and lattices."
 keywords: [math, structures]
 ---
-
-# Structures
-
 ## Definitions
 
 ---
