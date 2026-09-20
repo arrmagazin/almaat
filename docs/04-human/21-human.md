@@ -1,15 +1,16 @@
 ---
 title: "Human Being"
-description: "**Human Being** := composition of biological circuitry, social membership, and cultural inheritance, equipped with Intellect and Inspiration."
+description: "**Human Being** := composition of biological circuitry, social membership, and cultural inheritance, equipped with Intellect, Inspiration and a Mission."
 keywords: [human, dignity, conscience]
 ---
+
 Human Being
-: creature, composed of biological circuitry, social membership, cultural inheritance, and transcedent backgrounds, powered by `Intellect` and `Inspiration`.
+: creature, composed of biological circuitry, social membership, cultural inheritance, and transcendent backgrounds, powered by `Intellect`, `Inspiration` and pursuing `Mission`.
 
 ---
 
 Inspiration
-: the drive, courage and curiosity to push to any limits - and beyond. [[4,5,6,7,46]]
+: the innate drive, courage and curiosity to push to any limits - and beyond. [[4,5,6,7,46]]
 
 ---
 
@@ -26,5 +27,16 @@ Conscience
 - and to expect comprehensive mutual support, favor, and trust from other conscientious people in return for the same.
 
 > `Conscience` grants the right, and the obligation, to fully realize one's potential.
+
+---
+
+Kapot
+: the boundary beyond which a person irreversibly abandons their `Dignity`.
+
+As long as a person maintains their own attitude, holds even the smallest `Goal`, and moves toward it — the line has not been crossed. What death measures is whether that line was held: see [The Self and Death](29-self.md#death).
+
+[[23,24,25,26,27]]
+
+---
 
 [References](../_quotes.md)

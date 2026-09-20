@@ -10,7 +10,15 @@ Determination
 
 *NOTE*: requires control over the [`Animal`](../04-human/28-animal.md) and over the [`Dark Shadow`](../06-socium/34-identity.md).
 
-Define your authentic Way — life's mission, ambitions, high-level goals. 
+---
+
+Vision
+: the picture of the desired future, in the world and in oneself, that the `Mission` is pursued toward.
+: Answers *what does it look like when the `Mission` is being fulfilled?* Reachable; revised when reached.
+
+---
+
+Define your authentic Way — life's mission, ambitions, high-level goals.
 **Authentic** is the load-bearing word. A `Goal` copied from a peer, a parent, or an approved norm has no [`Core-Value`](../03-mind/09-teleos.md) behind it, so `Will` finds nothing to hold when `Circumstances` shift — which is why a goal set as an obligation rarely survives a change of `Circumstances`. The test is whether the goal produces a felt response rather than an approving one: a `Goal` you cannot feel belongs to someone else.
 
 [[39]]

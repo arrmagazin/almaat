@@ -14,7 +14,7 @@ The book builds one ontology from a single primitive (the `Azon`) up through the
 The formal core: the primitive `Azon` and the structures built directly from it.
 
 - [Math](01-math/index.md) — The formal core: the primitive Azon and the structures built directly from it — Set, Composition, Graph, Numerals, Spaces, Structures, formal Language, and Probability.
-- [Azon](01-math/00-azon.md) — Azon is the framework's sole primitive: an ability to respond to each given Tik with a specific Tok, constrained by three axioms.
+- [Azon](01-math/00-azon.md) — Azon is the framework's sole primitive: an assignment from every Intus to a corresponding Outus, constrained by three axioms.
 - [Sets, Equivalence, Topology](01-math/01-sets.md) — Set and its Elements, the equivalence relations that compare Azons, and the topological structures over Collections of Sets.
 - [Composition](01-math/02-composition.md) — The Arrow and the Composition that feeds one Azon's output into another — associativity, bijection, wel-consumption, Identity, Null.
 - [Graph](01-math/03-graphs.md) — Graph as a Set of Arrows, the Vertex types classified by in/out connectivity, the Path and Tree built on them, and what makes a Graph connected.
@@ -43,7 +43,7 @@ How static primitives become living systems that act, and how `Reality` itself i
 
 The framework's cognitive core: Content → Form → Mechanism → Process → Purpose → Capacity → Substrate → Method.
 
-- [Mind](03-mind/index.md) — The cognitive core: Knowledge, Proof, Computation, Reasoning, agency, free will, Intellect, the predictive brain, and the scientific method.
+- [Mind](03-mind/index.md) — The cognitive core: Knowledge, Proof, Computation, Reasoning, agency, free will, Intellect, the predictive brain, biases and fallacies, and the scientific method.
 - [Knowledge](03-mind/05-knowledge.md) — The atomic units of belief — Opinion, Doubt, Thesis, Theory, Name, Concept — and the forms Knowledge is organized into.
 - [Proof](03-mind/06-proof.md) — The formal apparatus that carries a Thesis to a Proof — formalism, interpretation, satisfaction, and the three bounds every logic runs into.
 - [Computation](03-mind/07-computation.md) — Reasoning mechanized: Data carried through Transformers by a Runtime, expressed as a Program, prescribed by an Algorithm, and judged against a Specification.
@@ -53,6 +53,7 @@ The framework's cognitive core: Content → Form → Mechanism → Process → P
 - [Intellect](03-mind/11-intellect.md) — The capacity to form, validate, and apply one's own Reality — cognition, validation, learning, skill, bias, and judgment under uncertainty.
 - [Mind](03-mind/12-mind.md) — Mind as a System of Neuron and Sensor — thought as state, memory as disposition, and the social origin of the inner voice.
 - [The Predictive Brain](03-mind/13-predictive.md) — The brain as a prediction engine: perception is constructed from a running model and corrected by sensory data, not received.
+- [Biases and Fallacies](03-mind/14-biases.md) — Systematic errors in thinking — the biases and fallacies that corrupt judgment, and the names that make them visible.
 - [The Scientific Method](03-mind/90-scientific.md) — The empirical route to Scientific Knowledge: the nine criteria a claim must meet, and the five phases that produce it.
 
 ## 04 — Human · The Individual
@@ -60,11 +61,11 @@ The framework's cognitive core: Content → Form → Mechanism → Process → P
 The human as a layered composition of body and psyche, and what lies beyond: Composition → Opening → Truth → Life → Substrate → Self → Charter.
 
 - [Human](04-human/index.md) — The human as a layered composition of body and psyche, and what lies beyond: Rajdo, truth and faith, happiness and greatness, the Animal, the self, and the Manifesto.
-- [Human Being](04-human/21-human.md) — **Human Being** := composition of biological circuitry, social membership, and cultural inheritance, equipped with Intellect and Inspiration.
+- [Human Being](04-human/21-human.md) — **Human Being** := composition of biological circuitry, social membership, and cultural inheritance, equipped with Intellect, Inspiration and a Mission.
 - [Rajdo](04-human/23-rajdo.md) — The human's opening into Rajdo — perceiving and accepting Being as-is, as one interweaving whole — and the Awareness, Acceptance, and Love it entails.
 - [Approaching Rajdo](04-human/24-approach.md) — Rajdo is given, not built: the shift that reveals it, the traps that imitate it, and the two intentions — personal will and surrender — behind any aim.
 - [Truth and Faith](04-human/25-truth.md) — One's own answers to the existential questions, the Core-Values that follow from them, and the Faith that holds to both.
-- [Happiness and Greatness](04-human/26-greatness.md) — What a life is measured by: the saturation Happiness reports, the Mission chosen to pursue it, the Greatness earned by persisting, and Kapot — the line past which Dignity is abandoned.
+- [Happiness, Mission and Greatness](04-human/26-greatness.md) — What a life is measured by: the saturation Happiness reports, the Mission chosen to pursue it, the Greatness earned by persisting, and Kapot — the line past which Dignity is abandoned.
 - [Animal](04-human/28-animal.md) — **Animal** := the intertwined psychic, energetic, and hormonal processes aimed at satisfying animalistic needs.
 - [The Self and Death](04-human/29-self.md) — What survives death depends on what the self actually is: the Self-role, the Self-observer, and the Self-`Consciousness` beneath both.
 - [Manifesto of Humankind](04-human/98-manifesto.md) — Each Human Being is a manifestation of God, born equal in Dignity: the rights that unfold it, the freedoms that exercise it, and the duty to defend both.
@@ -73,7 +74,7 @@ The human as a layered composition of body and psyche, and what lies beyond: Com
 
 The applied disciplines that raise the human toward excellence, ordered as the framework itself runs: Mindset → Vision → Discipline → Productivity → Growth.
 
-- [Mastery](05-mastery/index.md) — The applied disciplines that raise the human toward excellence: mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, and clear thinking.
+- [Mastery](05-mastery/index.md) — The applied disciplines that raise the human toward excellence: mindset, vision, discipline, habits, environment, attention, productivity, learning, and luck.
 - [Mastery](05-mastery/01-mastery.md) — Mastery as the capacity for effective activity toward constant improvement, the five stages that build it, and the Terms that define it.
 - [Mindset](05-mastery/02-mindset.md) — The inner stance mastery is built on: owning every desire as your own, and reading cause from the inside.
 - [Vision](05-mastery/03-vision.md) — Direction: the authentic Way, the Goals worth spending a life on, and the reviews that keep them honest.
@@ -84,7 +85,6 @@ The applied disciplines that raise the human toward excellence, ordered as the f
 - [Productivity](05-mastery/08-productivity.md) — Cadence and multipliers: the rhythms that keep progress steady, and the leverage that stops results scaling with hours worked.
 - [Learning](05-mastery/09-learning.md) — How a Mind turns Experience into Knowledge and Skill — the disciplines and conditions that make learning reliable rather than accidental.
 - [Luck & Serendipity](05-mastery/10-luck.md) — Why some people are consistently "lucky": luck is half blind statistics and half a tunable interface of attention and position — and the interface is the part you can train.
-- [Clear Thinking](05-mastery/11-thinking.md) — Systematic errors in thinking — the biases and fallacies that corrupt judgment, and the names that make them visible.
 
 ## 06 — Socium · The Collective
 

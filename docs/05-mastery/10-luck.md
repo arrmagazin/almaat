@@ -10,9 +10,9 @@ Chronic bad luck is not a curse. It is largely a side effect of **perceptual bli
 Honesty first: at the level of large numbers, chance is disciplined and cannot be out-played inside the standard field.
 
 - **Talent loses to luck.** In a fair-start agent simulation (Pluchino, Rapisarda & Biondo, 2018), the wealthiest agents were not the most talented but **mediocrities who caught an early streak of random positive events**. A first random nudge compounds into *cumulative advantage* — the *Matthew effect* — and swamps personal merit.
-- **Survivorship bias.** Studying the biographies of winners — the Forbes list — teaches the shape of luck, not a repeatable method. (See [Clear Thinking → Survivorship Bias](11-thinking.md#evaluation).)
+- **Survivorship bias.** Studying the biographies of winners — the Forbes list — teaches the shape of luck, not a repeatable method. (See [Biases and Fallacies → Survivorship Bias](../03-mind/14-biases.md#evaluation).)
 - **Chance is regular in bulk.** Rare independent events follow a Poisson distribution. On large numbers the macro-statistic takes its due.
-- **Black swans dominate the tail.** Taleb's warning: crises and regulatory shocks grind up plans regardless of anyone's inner state, and crediting your own intuition for a random hit is the [*Texas sharpshooter*](11-thinking.md#contextual-fallacies) fallacy.
+- **Black swans dominate the tail.** Taleb's warning: crises and regulatory shocks grind up plans regardless of anyone's inner state, and crediting your own intuition for a random hit is the [*Texas sharpshooter*](../03-mind/14-biases.md#contextual-fallacies) fallacy.
 
 ## The Tunable Interface
 

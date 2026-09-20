@@ -1,17 +1,17 @@
 ---
 title: "Azon"
-description: "Azon is the framework's sole primitive: an ability to respond to each given Tik with a specific Tok, constrained by three axioms."
+description: "Azon is the framework's sole primitive: an assignment from every Intus to a corresponding Outus, constrained by three axioms."
 keywords: [math, azon]
 ---
 
 ## Azon
 
-Ator
-: *whoever* able to make *assignments* and *judgements* on them.
+Atos
+: *whoever* is able to *assign*, *ask* and *judge*.
 
 Azon
-: an *assignment* from every (`Azon` =: **`Intus`**) to a some corresponding (`Azon` =: **`Outus`**)
-: - made under the `Axioms` below
+: an *assignment* from every (`Azon` =: **`Intus`**) to some corresponding (`Azon` =: **`Outus`**)
+: - made by `Atos` under the `Axioms` below.
 : - allows `Plausibility`.
 : - allows `Sameness`.
 
@@ -19,26 +19,26 @@ Azon
 
 ---
 
-Sameness
-: *judgement* on two `Azons` whether they are *one and the same* or not.
+Sameness (coincidence)
+: *judgement* made by `Atos` on two `Azons` whether they are *one and the same* or not.
 
 > `(A IS B) ∨ (A ISNT B)`
 
 ---
 
 Plausibility
-: *judgement* about *condition is plausible* on *(every|some|none)* `Azon`.
+: *judgement* made by `Atos` about *condition is plausible* on *(every|some|none)* `Azon`.
 
 > `C :: (∀A: C<A>) ∨ (∃A: C<A>) ∨ (¬∃A: C<A>)`
 
 ## Equality
 
 Intensional Distinguishability
-: There exists an `Azon`-probe, whose responses to `a` and `b` do not the same.
+: There exists an `Azon`-probe, whose responses to `a` and `b` do not coincide.
 
 > `a ≠ b := ∃p: p(a) ISNT p(b)`
 
-*NOTE*: Contrapositive of Leibniz's *indiscernibility of identicals*, `a = b ⟹ ∀F: F(a) IS F(b)`. The probe `x` plays the role of the predicate `F`.
+*NOTE*: Contrapositive of Leibniz's *indiscernibility of identicals*, `a = b ⟹ ∀F: F(a) IS F(b)`. The probe `p` plays the role of the predicate `F`.
 
 ---
 
@@ -56,7 +56,7 @@ Extensional Equality
 
 > `a == b := ∀x: a(x) IS b(x)`
 
-*NOTE*: ZFC's *axiom of extensionality*, `∀z: z ∈ A IS z ∈ B ⟹ A = B`, and type theory's *function extensionality*, `(∀x: f(x) = g(x)) ⟹ f = g`. For a `Set` the two coincide, since membership *is* the response: `z ∈ S :: S(z) = z`.
+*NOTE*: ZFC's *axiom of extensionality*, `∀z: z ∈ A IS z ∈ B ⟹ A = B`, and type theory's *function extensionality*, `(∀x: f(x) = g(x)) ⟹ f = g`. For a `Set` the two coincide, since membership *is* the response: `z ∈ S :: S(z) IS z`.
 
 ---
 
@@ -79,7 +79,7 @@ Zero
 empty
 : a response with `Zero`.
 
-> `empty(A, x) :: A(x) ISNT Zero`
+> `empty(A, x) :: A(x) IS Zero`
 
 ---
 
@@ -105,7 +105,7 @@ Unit
 ---
 
 Predicate
-: a `Azon` that *always* responds with `Unit` or `Zero`.
+: an `Azon` that *always* responds with `Unit` or `Zero`.
 
 > `Predicate := x → (Unit | Zero)`
 
@@ -114,21 +114,21 @@ Predicate
 AXIOM-1 (Halt)
 : The response to `Zero` is *always* `Zero`.
 
-> `∀A: A(0) IS 0`
+> `∀A: A(Zero) IS Zero`
 
 ---
 
 AXIOM-2 (Non-Self-Valent)
 : The response to oneself is *always* `Zero`.
 
-> `∀A: A(A) IS 0`
+> `∀A: A(A) IS Zero`
 
 ---
 
 AXIOM-3 (Non-Self-Generation)
 : non-zero `Azon` cannot respond with itself
 
-> `∀A/Zero: A(x) ISNT A`
+> `∀A, x: (A ISNT Zero) ⟹ A(x) ISNT A`
 
 ## SEE ALSO
 
@@ -139,4 +139,4 @@ AXIOM-3 (Non-Self-Generation)
 - [Extensional and intensional definitions (Wikipedia)](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) — the same contrast applied to definitions: listing instances versus stating conditions.
 - [Extensional type theory (nLab)](https://ncatlab.org/nlab/show/extensional+type+theory) — intensional identity is so named because it does *not* validate function extensionality; the reason `==` is the extensional criterion.
 - [Equality (mathematics) (Wikipedia)](https://en.wikipedia.org/wiki/Equality_(mathematics)) — broader survey of equality notions.
-- [Russell's paradox (Wikipedia)](https://en.wikipedia.org/wiki/Russell%27s_paradox) — `R = {x | x ∉ x} ⟹ (R ∈ R ⟺ R ∉ R)`; the contradiction from unrestricted self-membership that `AXIOM-2` forecloses by fixing `A(A) IS 0`.
+- [Russell's paradox (Wikipedia)](https://en.wikipedia.org/wiki/Russell%27s_paradox) — `R = {x | x ∉ x} ⟹ (R ∈ R ⟺ R ∉ R)`; the contradiction from unrestricted self-membership that `AXIOM-2` forecloses by fixing `A(A) IS Zero`.

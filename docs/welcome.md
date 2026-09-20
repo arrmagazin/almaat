@@ -11,9 +11,9 @@ Everything rests on one irreducible primitive, the [`Azon`](01-math/00-azon.md) 
 | --- | --- |
 | [Math](01-math/index.md) | The formal core: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Structure`s, the presentational view, and formal `Language` |
 | [Reality](02-reality/index.md) | Dynamics: `Process`, `System`, `Probability`, `Entropy`, `Evolution`, limits, and `Being` |
-| [Mind](03-mind/index.md) | Knowing: `Knowledge`, `Proof`, `Computation`, `Reasoning`, agency, free will, `Intellect`, and the scientific method |
+| [Mind](03-mind/index.md) | Knowing: `Knowledge`, `Proof`, `Computation`, `Reasoning`, agency, free will, `Intellect`, biases, and the scientific method |
 | [Human](04-human/index.md) | The individual: `Dignity`, `Rajdo`, `Truth`, `Happiness`, the `Animal`, the self, and the manifesto |
-| [Mastery](05-mastery/index.md) | The disciplines: mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, clear thinking |
+| [Mastery](05-mastery/index.md) | The disciplines: mindset, vision, discipline, habits, environment, attention, productivity, learning, luck |
 | [Socium](06-socium/index.md) | The collective: the social `Contract`, culture, influence, identity, conformism, and power |
 | [Sustain](07-sustain/index.md) | Defense: security, frame, de-escalation, manipulation, reading people, boundaries |
 | [Vitality](08-vitality/index.md) | The body: vitality, recovery, nutrition, energy |

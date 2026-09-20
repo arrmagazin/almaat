@@ -1,6 +1,6 @@
 ---
 title: "Spaces"
-description: "The Space as a Tuple of Axis, and the Cluster, Point, Volume, and Form built on it."
+description: "The Space as a Tuple of Axis, and the Cluster, Point, Volume, and Place built on it."
 keywords: [math, spaces]
 ---
 ## Space, Point, Volume
@@ -21,15 +21,15 @@ Point
 
 ---
 
-Form
+Place
 : `Set` of `Points` of same `Space`.
 
-> `Form<Space> := { Point<Space> }`
+> `Place<Space> := { Point<Space> }`
 
 ---
 
 Volume (Cartesian product)
-: `Set` of *ALL* `Points` of the `Space`.
+: `Place` of *ALL* `Points` of the `Space`.
 
 > `Volume<Space> ( a₁ × a₂ × ... × aₙ )`
 
@@ -38,14 +38,14 @@ Volume (Cartesian product)
 ---
 
 View
-: A `Form` consists of same-`Mask` `Abstractions` on ALL `Points` of  (given `Form` := `**Origin**`).
+: A `Place` consists of same-`Mask` `Slicea` on ALL `Points` of  (given `Place` := `**Origin**`).
 
-> `View<Form, Mask> := { Mask.Point :: ∀ Point ∈ Form }`
+> `View<Place, Mask> := { Mask.Point :: ∀ Point ∈ Place }`
 
 ---
 
 Subspace
-: `Abstraction` of `Space`.
+: `Slice` of `Space`.
 
 > `Subspace<Space, Mask> := Mask.Space`
 

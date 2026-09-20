@@ -209,7 +209,7 @@ Tuple Space
 : `Set` of `Tuples` shared between participants and read by `Mask` rather than by
 `Key`.
 
-> `read(Mask, pattern) ⇒ {t ∈ S :: Abstraction(Mask, t) = pattern}`
+> `read(Mask, pattern) ⇒ {t ∈ S :: Slice(Mask, t) = pattern}`
 
 *NOTE*: the `Mask` leaves positions free, so one read matches a whole `Cluster` of `Tuples` —
 addressing by shape, not by identity. This lets participants coordinate without naming each other,

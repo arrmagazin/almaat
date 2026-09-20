@@ -1,6 +1,6 @@
 ---
 title: "Mind"
-description: "The cognitive core: Knowledge, Proof, Computation, Reasoning, agency, free will, Intellect, the predictive brain, and the scientific method."
+description: "The cognitive core: Knowledge, Proof, Computation, Reasoning, agency, free will, Intellect, the predictive brain, biases and fallacies, and the scientific method."
 keywords: [mind]
 ---
 The framework's cognitive core: Content → Form → Mechanism → Process → Purpose → Capacity → Substrate → Method.
@@ -14,4 +14,5 @@ The framework's cognitive core: Content → Form → Mechanism → Process → P
 - [Intellect](11-intellect.md) — The capacity to form, validate, and apply one's own Reality — cognition, validation, learning, skill, bias, and judgment under uncertainty.
 - [Mind](12-mind.md) — Mind as a System of Neuron and Sensor — thought as state, memory as disposition, and the social origin of the inner voice.
 - [The Predictive Brain](13-predictive.md) — The brain as a prediction engine: perception is constructed from a running model and corrected by sensory data, not received.
+- [Biases and Fallacies](14-biases.md) — Systematic errors in thinking — the biases and fallacies that corrupt judgment, and the names that make them visible.
 - [The Scientific Method](90-scientific.md) — The empirical route to Scientific Knowledge: the nine criteria a claim must meet, and the five phases that produce it.

@@ -45,9 +45,9 @@ Content lives under numbered section folders, each one ontological layer or appl
 |----------------|--------------------------------------------------------------------------------|-------------------|
 | `01-math`      | Formal foundations: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Space`, `Structures`, formal `Language`, `Probability`. | `00`–`06`, `08`, `09` |
 | `02-reality`   | Dynamics & metaphysics: `Matter`, `Process`, `System`, `Entropy`, `Evolution`, `Limits`, `Being`, transcendence, the given. | `01`, `02`, `07`, `14`–`16`, `22`, `24`, `27` |
-| `03-mind`      | Knowing & mind: knowing, `Knowledge`, `Proof`, `Computation`, `Reasoning`, `Teleos`, free will, `Intellect`, `Mind`, the predictive brain, scientific method. | `04`–`13`, `90` |
+| `03-mind`      | Knowing & mind: knowing, `Knowledge`, `Proof`, `Computation`, `Reasoning`, `Teleos`, free will, `Intellect`, `Mind`, the predictive brain, biases and fallacies, scientific method. | `04`–`14`, `90` |
 | `04-human`     | The human: `Human`, `Rajdo` and approaching it, truth & faith, happiness & greatness, `Animal`, the self & death, the `Manifesto`. | `21`, `23`–`26`, `28`, `29`, `98` |
-| `05-mastery`   | Mastery and its stages: mastery, mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, clear thinking. | own domain, `01`–`11` |
+| `05-mastery`   | Mastery and its stages: mastery, mindset, vision, discipline, habits, environment, attention, productivity, learning, luck. | own domain, `01`–`10` |
 | `06-socium`    | The collective: socium, ecology, culture, influence, identity, trances, conformism, politics. | `30`–`37`         |
 | `07-sustain`   | Sustaining the self: security, frame, de-escalation, manipulation, reading, hostility, boundaries, defense. | own domain, `06`–`13` |
 | `08-vitality`  | The body: vitality, recovery, nutrition, energy. | own domain, `02`–`05` |
@@ -150,12 +150,12 @@ in a content file, cross-reference a specific Term where it is used.
   empty
   : a response with `Zero`.
 
-  > `empty(A, x) :: A(x) = Zero`
+  > `empty(A, x) :: A(x) IS Zero`
 
   valent
   : any not `empty` response.
 
-  > `valent(A, x) :: A(x) ≠ Zero`
+  > `valent(A, x) :: A(x) ISNT Zero`
   ```
 
   The term line must not open with `*`, `-`, `+`, `>`, `|`, `#`, a digit-dot or a fence: the

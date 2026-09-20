@@ -1,6 +1,6 @@
 ---
 title: "Mastery"
-description: "The applied disciplines that raise the human toward excellence: mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, and clear thinking."
+description: "The applied disciplines that raise the human toward excellence: mindset, vision, discipline, habits, environment, attention, productivity, learning, and luck."
 keywords: [mastery]
 ---
 The applied disciplines that raise the human toward excellence, ordered as the framework itself runs: Mindset → Vision → Discipline → Productivity → Growth.
@@ -15,4 +15,3 @@ The applied disciplines that raise the human toward excellence, ordered as the f
 - [Productivity](08-productivity.md) — Cadence and multipliers: the rhythms that keep progress steady, and the leverage that stops results scaling with hours worked.
 - [Learning](09-learning.md) — How a Mind turns Experience into Knowledge and Skill — the disciplines and conditions that make learning reliable rather than accidental.
 - [Luck & Serendipity](10-luck.md) — Why some people are consistently "lucky": luck is half blind statistics and half a tunable interface of attention and position — and the interface is the part you can train.
-- [Clear Thinking](11-thinking.md) — Systematic errors in thinking — the biases and fallacies that corrupt judgment, and the names that make them visible.

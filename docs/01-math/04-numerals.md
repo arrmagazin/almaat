@@ -142,7 +142,7 @@ Vector
 
 > `Vector :: Scoring :: DOM = Interval(N), COD ⊆ Numerals`
 
-## Abstraction
+## Slice
 
 Mask
 : `Injective` `Tuple` of length `n` into an `Interval` of length `m > n`.
@@ -151,10 +151,10 @@ Mask
 
 ---
 
-Abstraction
+Slice
 : `Composition` of a `Mask` with a `Tuple`.
 
-> `Abstraction := Mask.Tuple`
+> `Slice := Mask.Tuple`
 
 ## Matrices
 

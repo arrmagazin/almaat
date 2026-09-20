@@ -110,8 +110,8 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Tuple` | Radok |
 | `Queue` | Qerga |
 | `Grade` | Acenka |
-| `Mask` | Zrez |
-| `Abstraction` | Abstrakcyja* |
+| `Mask` | Maska |
+| `Slice` | Zrez |
 | `Matrix` | Mantra |
 | `Flat` | Sklejka |
 | `Numerals` | Liqby* |
@@ -415,7 +415,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Absolute Truth` | Jstina |
 | `Own Truth` | Pravda |
 | `Happiness` | Sqastte |
-| `Mission` | Shlaxt |
 | `Resilience` | Tryvalost |
 | `Greatness` | Veliq |
 | `Openness` | Adkrytost |
@@ -429,6 +428,12 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Self-observer` | Ja-naziralnik* |
 | `Self-Consciousness` | Ja-svedomast* |
 | `Open Individualism` | Adkrytaja Asobnast* |
+
+## Mission — `04-human/22-mission`
+
+| Term | Belarusian |
+|---|---|
+| `Mission` | Shlaxt |
 
 ## Rajdo — `04-human/23-rajdo`
 
@@ -533,6 +538,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
+| `Vision` | Bachanne* |
 | `Determination` | Nastyrnost |
 
 ## Environment — `05-mastery/06-environment`

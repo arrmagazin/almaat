@@ -1,11 +1,11 @@
 ---
-title: "Clear Thinking"
+title: "Biases and Fallacies"
 description: "Systematic errors in thinking — the biases and fallacies that corrupt judgment, and the names that make them visible."
-keywords: [mastery, biases]
+keywords: [mind, bias, fallacy]
 ---
 ## What is Cognitive Bias?
 
-A [`Bias`](../03-mind/11-intellect.md) is a systematic error in thinking that occurs while processing and interpreting information, affecting the decisions and judgments that follow.
+A [`Bias`](11-intellect.md) is a systematic error in thinking that occurs while processing and interpreting information, affecting the decisions and judgments that follow.
 
 Biases occur due to limitations of the human brain:
 
@@ -67,7 +67,7 @@ Biases occur due to limitations of the human brain:
 | **Scarcity Bias** | Valuing things more when they are rare or perceived to be limited |
 | **Contrast Effect** | Judging something by what sits next to it rather than on its own merits — a cost feels small beside a larger one |
 | **Paradox of Choice** | Too many options reduce satisfaction and stall decisions instead of helping; more alternatives mean more regret and comparison |
-| **Survivorship Bias** | Judging from the winners you can see while the identical efforts that failed stay invisible. See [Luck & Serendipity](10-luck.md) |
+| **Survivorship Bias** | Judging from the winners you can see while the identical efforts that failed stay invisible. See [Luck & Serendipity](../05-mastery/10-luck.md) |
 
 ## Logical Fallacies
 
