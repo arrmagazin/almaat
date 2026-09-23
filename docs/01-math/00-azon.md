@@ -15,19 +15,23 @@ Az
 Notation
 : way of definining Az by meaningful `sequence of <terms> and "symbols"`:
 
-- Az defined as: `<T> ":=" <T> "|" <T> "->" <T> "|" <T>`, where
+- Az defined as: `<T> ":=" <T> [ "|" <T> ] "->" <T> [ "|" <T> ]`, where
   - ":=" split name from defining expression
   - "->" split args from sponds
   - "|" in args encodes `any other than priors`
+  - "-" in args encodes empty arg slot to express spond which never happen
+  - "*" in args encodes the last anonumous arg slot for default case
   - "|" in sponds encodes `corresponding to arg in same position`
+- referred `Spond` of `Az` for given `Arg` expresed as `<Az> "[" <Arg> "]"`
 - sameness of Azes is expressed
   - implicitly by the same terms
-  - or explicitly by `<T> "IS" <T>` or `<T> "ISNT" <T>`
-- recurrsive nature of `Az` can be expressed by `"(" <T> "->" <T> ")"` notation inline with "parens".
+  - or explicitly by `<T> "IS" <T>` , `<T> "ISNT" <T>` , `<T> "IN" <T>,,,`
+- recurrsive nature of `Az` can be expressed by `[ <T> ] "(" <T> "->" <T> ")"` inline with "parens".
+- shortcut for bounded args :  `A<P1,,,> :=` express ` A := P1 -> ,,, -> `
 
 ---
 Azon
-: any `Az` within definition below:
+: any `Az` within definitions below:
 
 ```bash
 
@@ -35,44 +39,44 @@ Azon
   0  := 0|x -> 0|0                                      
   
   # unit
-  1  := 1|x -> 0|x                                      
+  1  := 1|x -> 0|x                                                           
   
+  # tautology
+  T<a,b>  := x -> ( aa -> bb -> aa | bb -> bb | aa )[a[x]][b[x]]              
   
-  # never, short '-'
-  N  := N|x -> x|x                            
-  
-  # apply, short `a[x]`
-  A  := a -> 0|1|a|x -> 0|0|0|(y ISNT a)                
+  # axiomatics
+  X<a>  := x -> ( 0|1|a|-|x -> 0|0|0|a|a[x] ) IS a            
   
   # combo, short `a.b`
-  C  := a -> b -> x -> b[a[x]]                      
+  C<a,b>  := x -> b[a[x]]                      
   
-  # predicate, short `[[x]]`
-  P  := 0|x -> 0|1                                  
+  # conditional, short `c ? a : b`
+  P<c,a,b> := x -> ( 0 | * -> b | a )[c[x]]                                
+  
+  # predicate, short `[[c]]`
+  P<c> := c ? 1 : 0                               
   
   # inverse, short `!x`
-  I  := 0|x -> 1|0                                  
+  I<c> := c ? 0 : 1                                   
   
-  # axiom, short `!!x`
-  T  := y -> x -> y[x] IS 1                  
-  
+
   # disjunct, short `a ∨ b`
-  ∨  := a -> b -> x -> [[ (0|x1 -> b[x]|1)[a[x]] ]] 
+  ∨ <a,b> := x -> [[ (0|x1 -> b[x]|1)[a[x]] ]] 
   
   # conjunct, short `a ∧ b`
-  ∧  := a -> b -> x -> [[ (0|x1 -> 0|b[x])[a[x]] ]] 
+  ∧ <a,b> := x -> [[ (0|x1 -> 0|b[x])[a[x]] ]] 
    
   # imply, short `a ⟹ b`
-  ⟹ := a -> b -> x -> [[ (0|x1 -> 1|b[x])[a[x]] ]] #
+  ⟹<a,b> := x -> [[ (0|x1 -> 1|b[x])[a[x]] ]] #
   
   # intensional equality `a === b`
-  IE := a -> b -> x -> (x[a] IS x[b])               
+  IE<a,b> := x -> (x[a] IS x[b])               
   
   # extensional equality `a == b`
-  EE := a -> b -> x -> (a[x] IS b[x])               
+  EE<a,b> := x -> (a[x] IS b[x])               
   
   # total equality `a = b`
-  EQ := a -> b -> (IE[a][b] ∧ EE[a][b])             
+  EQ<a,b> := (IE[a][b] ∧ EE[a][b])             
 ```
 
 ## Axioms
