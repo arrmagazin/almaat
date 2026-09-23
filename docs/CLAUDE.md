@@ -43,7 +43,8 @@ Content lives under numbered section folders, each one ontological layer or appl
 
 | Folder         | Domain                                                                         | File numbers      |
 |----------------|--------------------------------------------------------------------------------|-------------------|
-| `01-math`      | Formal foundations: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Space`, `Structures`, formal `Language`, `Probability`. | `00`–`06`, `08`, `09` |
+| `00-azon`      | The primitive: `Az`, the notation that expresses it, and the axioms that make an `Az` an `Azon`. | `00`, `01` |
+| `01-math`      | Formal foundations: `Set`, `Composition`, `Graph`, `Numerals`, `Space`, `Structures`, formal `Language`, `Probability`. | `01`–`06`, `08`, `09` |
 | `02-reality`   | Dynamics & metaphysics: `Matter`, `Process`, `System`, `Entropy`, `Evolution`, `Limits`, `Being`, transcendence, the given. | `01`, `02`, `07`, `14`–`16`, `22`, `24`, `27` |
 | `03-mind`      | Knowing & mind: knowing, `Knowledge`, `Proof`, `Computation`, `Reasoning`, `Teleos`, free will, `Intellect`, `Mind`, the predictive brain, biases and fallacies, scientific method. | `04`–`14`, `90` |
 | `04-human`     | The human: `Human`, `Rajdo` and approaching it, truth & faith, happiness & greatness, `Animal`, the self & death, the `Manifesto`. | `21`, `23`–`26`, `28`, `29`, `98` |
@@ -53,14 +54,14 @@ Content lives under numbered section folders, each one ontological layer or appl
 | `08-vitality`  | The body: vitality, recovery, nutrition, energy. | own domain, `02`–`05` |
 | `99-appendices`| Appendices: correspondences from the formal core to predicate logic, category theory, arithmetic, combinatorics, data structures, data normalization, and a map of the disciplines. | own domain, `01`–`07` |
 
-The two-digit prefix on a folder (`01-`–`08-`) places it within the ontology's ordering, with
+The two-digit prefix on a folder (`00-`–`08-`) places it within the ontology's ordering, with
 `99-appendices` held apart at the end as a capstone. The sequence is dense: no number is
 shared, none is held in reserve. Ontology layers and applied
 domains are interleaved — `05-mastery`, `07-sustain` and `08-vitality` sit next to the layer
 they apply to. A new folder takes the next free number; inserting one mid-sequence means
 renumbering, which cascades through every cross-reference, so don't do it casually.
 (Renumbered 2026-09-14 from the one-digit scheme, where `8-` was shared by two folders and
-`3-`, `5-`, `6-` were reservations.)
+`3-`, `5-`, `6-` were reservations. `00-azon` was split out of `01-math` on 2026-09-23.)
 
 Applied software engineering (formerly `9-engx`) has been extracted into its own repository,
 [arrmagazin/engx](https://github.com/arrmagazin/engx). Do not route engineering material here.
@@ -88,13 +89,13 @@ list. See Syncing the indexes below for its shape.
 ## Naming
 
 Content files are `NN-topic.md`, lowercase hyphenated slug, `NN` a two-digit ordering
-number. Across the ontology folders (`01-math`, `02-reality`, `03-mind`, `04-human`,
-`06-socium`) the numbers **ascend roughly with ontological depth** — `01-math` `00`–`09`,
-`02-reality` `02`–`27`, `03-mind` `04`–`90`, `04-human` `21`–`98`, `06-socium` `30`–`37` —
+number. Across the ontology folders (`00-azon`, `01-math`, `02-reality`, `03-mind`,
+`04-human`, `06-socium`) the numbers **ascend roughly with ontological depth** — `00-azon` `00`–`01`,
+`01-math` `01`–`09`, `02-reality` `01`–`27`, `03-mind` `04`–`90`, `04-human` `21`–`98`, `06-socium` `30`–`37` —
 with `90` and `98` reserved for capstones (the scientific method, the manifesto).
 
-This is **not one global sequence**: those ranges overlap, and eight numbers repeat
-across folders (`02`, `04`, `05`, `06`, `07`, `08`, `10`, `24`). The number orders a file
+This is **not one global sequence**: those ranges overlap, and nine numbers repeat
+across folders (`01`, `02`, `05`, `06`, `07`, `08`, `09`, `14`, `24`). The number orders a file
 within its own folder and signals roughly where the folder sits; it is not unique
 tree-wide. `05-mastery`, `07-sustain`, `08-vitality` and `99-appendices` are applied-domain folders, each
 an **independent number space** (`05-mastery` and `99-appendices` restart at `01`; `07-sustain`
@@ -137,7 +138,7 @@ in a content file, cross-reference a specific Term where it is used.
 - **Formal definitions are definition lists.** The Term stands alone on its own line — plain,
   no bold, no backticks — and the defining clause follows on the next line after `:`; the
   formula follows as a blockquote, and `---` separates consecutive definitions. See
-  `01-math/00-azon.md`, the reference example:
+  `00-azon/01-azon2.md`, the reference example:
 
   ```markdown
   Zero
@@ -204,7 +205,7 @@ in a content file, cross-reference a specific Term where it is used.
   ```
 
   The inline form names a role within the enclosing definition (`Arg`, `Spond` in
-  `01-math/00-azon.md`); it declares the Term without a standalone entry. It attaches
+  `00-azon/00-azon.md`); it declares the Term without a standalone entry. It attaches
   tight, no space before the paren: `` (`Azon`=: **`Arg`**) ``. It replaced the older
   colon-pair coinage `X:Y` (`Set:Basis`, `Tik:Subject`) on 2026-09-05; no colon-pair
   remains. A Term merely *mentioned* in a definiens, without the marker, is still not

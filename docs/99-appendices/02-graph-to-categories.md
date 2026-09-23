@@ -27,7 +27,7 @@ Morphism
 ---
 
 Identity Morphism
-: The `Azon` that fixes every `Element` of an `Object` `X` and is empty elsewhere — `Unit` localized to `X` (see [Azon](../01-math/00-azon.md)).
+: The `Azon` that fixes every `Element` of an `Object` `X` and is empty elsewhere — `Unit` localized to `X` (see [Azon](../00-azon/00-azon.md)).
 
 > `1_X(a) := (a ∈ X ? a : 0)`
 

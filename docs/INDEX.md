@@ -9,12 +9,19 @@ The book builds one ontology from a single primitive (the `Azon`) up through the
 - [Quotes](_quotes.md) — A curated, numbered list of quotations and maxims. Content files cite them by number, as [[12]] or [[8,9,10]].
 - [Term Translations](_translations.md) — The reverse map from each canonical English Term to its Belarusian-rooted equivalent. English stays canonical in content.
 
+## 00 — Azon · The Primitive
+
+The single primitive everything else is built from: `Az`, the notation that expresses it, and the axioms that make an `Az` an `Azon`.
+
+- [Azon](00-azon/index.md) — The single primitive: Az, the notation that expresses it, and the axioms that make an Az an Azon.
+- [Azon](00-azon/00-azon.md) — Azon is the sole primitive of the entire framework.
+- [Azon](00-azon/01-azon2.md) — Azon is the framework's sole primitive: an assignment from every Arg to a corresponding Spond, constrained by three axioms.
+
 ## 01 — Math · Formal Foundations
 
-The formal core: the primitive `Azon` and the structures built directly from it.
+The formal core: the structures built directly on the primitive `Azon`.
 
-- [Math](01-math/index.md) — The formal core: the primitive Azon and the structures built directly from it — Set, Composition, Graph, Numerals, Spaces, Structures, formal Language, and Probability.
-- [Azon](01-math/00-azon.md) — Azon is the framework's sole primitive: an assignment from every Arg to a corresponding Spond, constrained by three axioms.
+- [Math](01-math/index.md) — The formal core: the structures built directly on the primitive Azon — Set, Composition, Graph, Numerals, Spaces, Structures, formal Language, and Probability.
 - [Sets, Equivalence, Topology](01-math/01-sets.md) — Set and its Elements, the equivalence relations that compare Azons, and the topological structures over Collections of Sets.
 - [Composition](01-math/02-composition.md) — The Arrow and the Composition that feeds one Azon's output into another — associativity, bijection, wel-consumption, Identity, Null.
 - [Graph](01-math/03-graphs.md) — Graph as a Set of Arrows, the Vertex types classified by in/out connectivity, the Path and Tree built on them, and what makes a Graph connected.

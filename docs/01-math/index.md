@@ -1,11 +1,10 @@
 ---
 title: "Math"
-description: "The formal core: the primitive Azon and the structures built directly from it — Set, Composition, Graph, Numerals, Spaces, Structures, formal Language, and Probability."
+description: "The formal core: the structures built directly on the primitive Azon — Set, Composition, Graph, Numerals, Spaces, Structures, formal Language, and Probability."
 keywords: [math]
 ---
-The formal core: the primitive `Azon` and the structures built directly from it.
+The formal core: the structures built directly on the primitive `Azon`.
 
-- [Azon](00-azon.md) — Azon is the framework's sole primitive: an assignment from every Arg to a corresponding Spond, constrained by three axioms.
 - [Sets, Equivalence, Topology](01-sets.md) — Set and its Elements, the equivalence relations that compare Azons, and the topological structures over Collections of Sets.
 - [Composition](02-composition.md) — The Arrow and the Composition that feeds one Azon's output into another — associativity, bijection, wel-consumption, Identity, Null.
 - [Graph](03-graphs.md) — Graph as a Set of Arrows, the Vertex types classified by in/out connectivity, the Path and Tree built on them, and what makes a Graph connected.

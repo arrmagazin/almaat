@@ -4,7 +4,7 @@ description: "The data structures of computing as Azons already available from S
 keywords: [appendices, data-structures, array, tree, map]
 ---
 The concrete data structures used in computing — each an `Azon` already available from
-[Azon](../01-math/00-azon.md), [Sets](../01-math/01-sets.md),
+[Azon](../00-azon/00-azon.md), [Sets](../01-math/01-sets.md),
 [Graphs](../01-math/03-graphs.md) and [Numerals](../01-math/04-numerals.md),
 narrowed by a constraint.
 

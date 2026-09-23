@@ -7,7 +7,7 @@ The Belarusian forms are the original authorial transliteration that gives the f
 
 Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belarusian forms — not part of the original authorial layer. Treat them as candidates open to revision.
 
-## Azon — `01-math/00-azon`
+## Azon — `00-azon/00-azon`
 
 | Term | Belarusian |
 |---|---|
