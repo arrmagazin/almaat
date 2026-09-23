@@ -11,11 +11,11 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
-| `Azon` | Az |
+| `Az` | Az |
 | `Zero` | Puston |
 | `Unit` | Proston |
-| `Intus` | Tyk* |
-| `Outus` | Tok* |
+| `Arg` | arg |
+| `Spond` | spond |
 | `Coincidence` | Supadzenne* |
 | `Extensional Equality` | Zmestavaja Rownasc* |
 | `Intensional Distinguishability` | Sutnasnaja Adroznasc* |

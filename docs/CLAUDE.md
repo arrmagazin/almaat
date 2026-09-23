@@ -203,9 +203,9 @@ in a content file, cross-reference a specific Term where it is used.
   … each given (`Azon`=: **`Term`**) …        an inline coinage inside a definiens
   ```
 
-  The inline form names a role within the enclosing definition (`Intus`, `Outus` in
+  The inline form names a role within the enclosing definition (`Arg`, `Spond` in
   `01-math/00-azon.md`); it declares the Term without a standalone entry. It attaches
-  tight, no space before the paren: `` (`Azon`=: **`Intus`**) ``. It replaced the older
+  tight, no space before the paren: `` (`Azon`=: **`Arg`**) ``. It replaced the older
   colon-pair coinage `X:Y` (`Set:Basis`, `Tik:Subject`) on 2026-09-05; no colon-pair
   remains. A Term merely *mentioned* in a definiens, without the marker, is still not
   declared.

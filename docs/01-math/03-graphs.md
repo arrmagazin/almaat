@@ -12,7 +12,7 @@ Graph
 ---
 
 Vertex
-: one of `Intus` or `Outus` of `Arrows` of `Graph`.
+: one of `Arg` or `Spond` of `Arrows` of `Graph`.
 
 > `Vertex<G> :: ∃A ∈ G, Vertex ∈ DOM(A) ∨ Vertex ∈ COD(A)`
 

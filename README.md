@@ -2,7 +2,7 @@
 
 A general-purpose framework for cognitive modeling, written as a layered knowledge base in Markdown.
 
-It builds one ontology from a single irreducible primitive — the `Azon`, an ability that responds to each given `Intus` with a specific `Outus` — and never introduces a term it has not defined. `Set`, `Graph`, `Numerals` and `Language` are built from that primitive; `Process`, `System` and `Evolution` put it in motion; `Knowledge`, `Agent` and `Mind` make it know and act. The applied sections then carry that same vocabulary into a life: mastery, the collective, and the body.
+It builds one ontology from a single irreducible primitive — the `Azon`, an ability that responds to each given `Arg` with a specific `Spond` — and never introduces a term it has not defined. `Set`, `Graph`, `Numerals` and `Language` are built from that primitive; `Process`, `System` and `Evolution` put it in motion; `Knowledge`, `Agent` and `Mind` make it know and act. The applied sections then carry that same vocabulary into a life: mastery, the collective, and the body.
 
 It is for anyone who wants a single consistent vocabulary for thinking about minds, systems and how to live — read straight through, or entered at any file through the index.
 

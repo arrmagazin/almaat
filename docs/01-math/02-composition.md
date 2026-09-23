@@ -68,7 +68,7 @@ Currying
 
 > `curry :: ([x,y] → z) ≃ (x → (y → z))`
 
-*NOTE*: both sides respond with the same `z`; `Currying` unfolds any arity into a chain of single-`Intus` `Azons`.
+*NOTE*: both sides respond with the same `z`; `Currying` unfolds any arity into a chain of single-`Arg` `Azons`.
 
 ---
 

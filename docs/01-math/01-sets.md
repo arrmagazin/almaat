@@ -13,7 +13,7 @@ Set
 ---
 
 Element
-: a `valent` `Outus` of a `Set`.
+: a `valent` `Spond` of a `Set`.
 
 ---
 
@@ -81,7 +81,7 @@ Endemic
 ---
 
 Injective
-: `Azon` whose distinct `Tiks` never respond with the same `Outus`.
+: `Azon` whose distinct `Tiks` never respond with the same `Spond`.
 
 > `Injective(A: x → y) := A(x) = A(y) ⟹ x = y`
 

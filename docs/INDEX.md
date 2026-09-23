@@ -14,7 +14,7 @@ The book builds one ontology from a single primitive (the `Azon`) up through the
 The formal core: the primitive `Azon` and the structures built directly from it.
 
 - [Math](01-math/index.md) — The formal core: the primitive Azon and the structures built directly from it — Set, Composition, Graph, Numerals, Spaces, Structures, formal Language, and Probability.
-- [Azon](01-math/00-azon.md) — Azon is the framework's sole primitive: an assignment from every Intus to a corresponding Outus, constrained by three axioms.
+- [Azon](01-math/00-azon.md) — Azon is the framework's sole primitive: an assignment from every Arg to a corresponding Spond, constrained by three axioms.
 - [Sets, Equivalence, Topology](01-math/01-sets.md) — Set and its Elements, the equivalence relations that compare Azons, and the topological structures over Collections of Sets.
 - [Composition](01-math/02-composition.md) — The Arrow and the Composition that feeds one Azon's output into another — associativity, bijection, wel-consumption, Identity, Null.
 - [Graph](01-math/03-graphs.md) — Graph as a Set of Arrows, the Vertex types classified by in/out connectivity, the Path and Tree built on them, and what makes a Graph connected.

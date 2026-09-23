@@ -17,7 +17,7 @@ Singleton
 ---
 
 Plus
-: The `Azon` that responds to a `Intus` with its `Singleton`.
+: The `Azon` that responds to a `Arg` with its `Singleton`.
 
 > `Plus := x → {x}`
 
@@ -73,7 +73,7 @@ Times (·)
 ---
 
 Ratio
-: `Arrow` between two `Numbers` with a non-unit `Outus`.
+: `Arrow` between two `Numbers` with a non-unit `Spond`.
 
 > `Ratio := [p, q], q ≠ Unit` — written `p/q`
 

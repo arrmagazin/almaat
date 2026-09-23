@@ -1,33 +1,105 @@
 ---
 title: "Azon"
-description: "Azon is the framework's sole primitive: an assignment from every Intus to a corresponding Outus, constrained by three axioms."
+description: "Azon is the framework's sole primitive: an assignment from every Arg to a corresponding Spond, constrained by three axioms."
 keywords: [math, azon]
 ---
 
 ## Azon
 
-Atos
-: *whoever* is able to *assign*, *ask* and *judge*.
-
-Azon
-: an *assignment* from every (`Azon` =: **`Intus`**) to some corresponding (`Azon` =: **`Outus`**)
-: - made by `Atos` under the `Axioms` below.
-: - allows `Plausibility`.
-: - allows `Sameness`.
-
-> `Azon := x → y`
+Az
+: *assignment* from every (`Az` =: **`Arg`**) to corresponding (`Az` =: **`Spond`**)
+: made under *judgement* on every two `Arrows` whether they (*are the same or not* =: **`Coincidence`**).
 
 ---
 
-Sameness (coincidence)
-: *judgement* made by `Atos` on two `Azons` whether they are *one and the same* or not.
+Notation
+: way of definining Az by meaningful `sequence of <terms> and "symbols"`:
 
-> `(A IS B) ∨ (A ISNT B)`
+- Az defined as: `<T> ":=" <T> "|" <T> "->" <T> "|" <T>`, where
+  - ":=" split name from defining expression
+  - "->" split args from sponds
+  - "|" in args encodes `any other than priors`
+  - "|" in sponds encodes `corresponding to arg in same position`
+- sameness of Azes is expressed
+  - implicitly by the same terms
+  - or explicitly by `<T> "IS" <T>` or `<T> "ISNT" <T>`
+- recurrsive nature of `Az` can be expressed by `"(" <T> "->" <T> ")"` notation inline with "parens".
+
+---
+Azon
+: any `Az` within definition below:
+
+```bash
+
+  # zero
+  0  := 0|x -> 0|0                                      
+  
+  # unit
+  1  := 1|x -> 0|x                                      
+  
+  
+  # never, short '-'
+  N  := N|x -> x|x                            
+  
+  # apply, short `a[x]`
+  A  := a -> 0|1|a|x -> 0|0|0|(y ISNT a)                
+  
+  # combo, short `a.b`
+  C  := a -> b -> x -> b[a[x]]                      
+  
+  # predicate, short `[[x]]`
+  P  := 0|x -> 0|1                                  
+  
+  # inverse, short `!x`
+  I  := 0|x -> 1|0                                  
+  
+  # axiom, short `!!x`
+  T  := y -> x -> y[x] IS 1                  
+  
+  # disjunct, short `a ∨ b`
+  ∨  := a -> b -> x -> [[ (0|x1 -> b[x]|1)[a[x]] ]] 
+  
+  # conjunct, short `a ∧ b`
+  ∧  := a -> b -> x -> [[ (0|x1 -> 0|b[x])[a[x]] ]] 
+   
+  # imply, short `a ⟹ b`
+  ⟹ := a -> b -> x -> [[ (0|x1 -> 1|b[x])[a[x]] ]] #
+  
+  # intensional equality `a === b`
+  IE := a -> b -> x -> (x[a] IS x[b])               
+  
+  # extensional equality `a == b`
+  EE := a -> b -> x -> (a[x] IS b[x])               
+  
+  # total equality `a = b`
+  EQ := a -> b -> (IE[a][b] ∧ EE[a][b])             
+```
+
+## Axioms
+
+AXIOM-1 (Halt)
+: The response to `Zero` is *always* `Zero`.
+
+> `X1 := a -> 0|x -> a[0|x] = 0|y`
+
+---
+
+AXIOM-2 (Non-Self-Valent)
+: The response to oneself is *always* `Zero`.
+
+> `X2 := a -> a|x -> 0|y`
+
+---
+
+AXIOM-3 (Non-Self-Generation)
+: non-zero `Azon` cannot respond with itself
+
+> `X3 := a|b|0 -> x -> b|a|0`
 
 ---
 
 Plausibility
-: *judgement* made by `Atos` about *condition is plausible* on *(every|some|none)* `Azon`.
+: *judgement* about *condition is plausible* on *(every|some|none)* `Arg` of `Azon`.
 
 > `C :: (∀A: C<A>) ∨ (∃A: C<A>) ∨ (¬∃A: C<A>)`
 
@@ -60,19 +132,19 @@ Extensional Equality
 
 ---
 
-Total Equality
+Equality
 : Both `Intensional Equality` and `Extensional Equality` hold.
 
-> `a === b := (a = b) ∧ (a == b)`
+> `IS :=  a -> b ->  x(a) IS x(b) ∧ a(x) IS b(x) ? Unit : Zero`
 
 *NOTE*: The two halves collapse into one in classical set theory, where an object *is* its extension. They stay apart here because an `Azon` is both operand and mapping — probed by `x(a)`, probing by `a(x)`.
 
 ## Zero and Unit
 
 Zero
-: `Azon` that *always* responds with itself to any `Intus`.
+: `Azon` that *always* responds with itself.
 
-> `Zero := x → Zero`
+> `Zero := x -> Zero`
 
 ---
 
@@ -91,7 +163,7 @@ valent
 ---
 
 fixed
-: a response with the `Intus` itself.
+: a response with the `Arg` itself.
 
 > `fixed(A, x) :: A(x) IS x`
 
@@ -100,40 +172,19 @@ fixed
 Unit
 : `Azon` that *always* responds `fixed`, *except* with `empty` — to itself.
 
-> `Unit := x → (x IS Unit ? Zero : x)`
+> `Unit := x -> (x IS Unit ? Zero : x)`
 
 ---
 
 Predicate
 : an `Azon` that *always* responds with `Unit` or `Zero`.
 
-> `Predicate := x → (Unit | Zero)`
-
-## Axioms
-
-AXIOM-1 (Halt)
-: The response to `Zero` is *always* `Zero`.
-
-> `∀A: A(Zero) IS Zero`
-
----
-
-AXIOM-2 (Non-Self-Valent)
-: The response to oneself is *always* `Zero`.
-
-> `∀A: A(A) IS Zero`
-
----
-
-AXIOM-3 (Non-Self-Generation)
-: non-zero `Azon` cannot respond with itself
-
-> `∀A, x: (A ISNT Zero) ⟹ A(x) ISNT A`
+> `Predicate := x -> (Unit | Zero)`
 
 ## SEE ALSO
 
-- [Identity of Indiscernibles (Wikipedia)](https://en.wikipedia.org/wiki/Identity_of_indiscernibles) — `∀x∀y[∀F(Fx IS Fy) → x = y]`; grounds `≠` and `=`.
-- [Axiom of Extensionality (Wikipedia)](https://en.wikipedia.org/wiki/Axiom_of_extensionality) — `∀x∀y[∀z(z ∈ x IS z ∈ y) → x = y]`; grounds `==` for a `Set`.
+- [Identity of Indiscernibles (Wikipedia)](https://en.wikipedia.org/wiki/Identity_of_indiscernibles) — `∀x∀y[∀F(Fx IS Fy) -> x = y]`; grounds `≠` and `=`.
+- [Axiom of Extensionality (Wikipedia)](https://en.wikipedia.org/wiki/Axiom_of_extensionality) — `∀x∀y[∀z(z ∈ x IS z ∈ y) -> x = y]`; grounds `==` for a `Set`.
 - [Extensionality (Wikipedia)](https://en.wikipedia.org/wiki/Extensionality) — the general principle, including function extensionality: equality by external behaviour rather than internal definition.
 - [Intension (Wikipedia)](https://en.wikipedia.org/wiki/Intension) — intension as the properties connoted, extension as the referents: why `x(a)` is the intensional side and `a(x)` the extensional one.
 - [Extensional and intensional definitions (Wikipedia)](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) — the same contrast applied to definitions: listing instances versus stating conditions.
