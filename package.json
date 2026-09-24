@@ -1,16 +1,9 @@
 {
   "name": "almaat",
-  "private": true,
-  "type": "module",
-  "description": "almaat",
-  "displayName": "Books",
+  "description": "Almaat book",
   "version": "1.0.0",
-  "author": "almaat",
-  "keywords": [
-    "almaat"
-  ],
-  "email": "contact@almaat.web.app",
-  "copyright": "© 2025. Almaat,  All rights reserved.",
+  "type": "module",
+  "private": true,
   "scripts": {
     "dev": "PORT=8091 npm run start",
     "prestart": "npm run gen:docs-index",
@@ -29,16 +22,19 @@
     "gen:docs-index": "bun ./scripts/gen-docs-index.ts",
     "absorb-watch-later": "node scripts/wl-absorb.mjs",
     "check-docs": "node scripts/check-docs.mjs",
-    "postinstall": "npm run link",
-    "link": "./scripts/link-modules.sh arrmatura-web ultimus && ln -sfn ../../docs www/site/docs && ln -sfn ../../index.json www/site/index.json",
+    "version:patch": "npm version patch",
+    "postinstall": "npm run link:www",
+    "link:modules": "./scripts/link-modules.sh arrmatura-web",
+    "link:www": "ln -sfn ../../docs www/site/docs && ln -sfn ../../index.json www/site/index.json",
     "test": "bun test scripts/build_book.test.ts && node --test scripts/yt-fetch.test.mjs"
   },
   "devDependencies": {
-    "@types/node": "^26.5.1"
-  },
-  "dependencies": {
+    "@types/node": "^26.5.1",
     "daisyui": "^5.7.37",
     "esbuild": "^0.28.2",
     "tailwindcss": "^4.3.3"
+  },
+  "dependencies": {
+    "arrmatura-web": "^9.1.1"
   }
 }

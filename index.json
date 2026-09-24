@@ -11,16 +11,48 @@
       "type": "blob"
     },
     {
+      "path": "book",
+      "type": "tree"
+    },
+    {
+      "path": "book/code-breaks.lua",
+      "type": "blob"
+    },
+    {
+      "path": "book/epub.css",
+      "type": "blob"
+    },
+    {
+      "path": "book/metadata.yaml",
+      "type": "blob"
+    },
+    {
+      "path": "book/table-rules.lua",
+      "type": "blob"
+    },
+    {
       "path": "docs",
       "type": "tree"
     },
     {
-      "path": "docs/01-math",
+      "path": "docs/00-azon",
       "type": "tree"
     },
     {
-      "path": "docs/01-math/00-azon.md",
+      "path": "docs/00-azon/00-azon.md",
       "type": "blob"
+    },
+    {
+      "path": "docs/00-azon/01-azon-notation.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/00-azon/index.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/01-math",
+      "type": "tree"
     },
     {
       "path": "docs/01-math/01-sets.md",
@@ -143,6 +175,10 @@
       "type": "blob"
     },
     {
+      "path": "docs/03-mind/14-biases.md",
+      "type": "blob"
+    },
+    {
       "path": "docs/03-mind/90-scientific.md",
       "type": "blob"
     },
@@ -232,10 +268,6 @@
     },
     {
       "path": "docs/05-mastery/10-luck.md",
-      "type": "blob"
-    },
-    {
-      "path": "docs/05-mastery/11-thinking.md",
       "type": "blob"
     },
     {
@@ -423,6 +455,14 @@
       "type": "blob"
     },
     {
+      "path": "images",
+      "type": "tree"
+    },
+    {
+      "path": "images/cover-bg.png",
+      "type": "blob"
+    },
+    {
       "path": "index.css",
       "type": "blob"
     },
@@ -452,6 +492,14 @@
     },
     {
       "path": "scripts/build.ts",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/build_book.test.ts",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/build_book.ts",
       "type": "blob"
     },
     {
