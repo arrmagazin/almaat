@@ -23,7 +23,7 @@
     "check-docs": "node scripts/check-docs.mjs",
     "version:patch": "npm version patch",
     "postinstall": "npm run link:www",
-    "link:modules": "./scripts/link-modules.sh arrmatura-web arrmatura-books",
+    "link:modules": "./scripts/link-modules.sh arrmatura-web arrmatura-books ultimus",
     "link:www": "ln -sfn ../docs www/docs && ln -sfn ../index.json www/index.json",
     "test": "bun test scripts/build_book.test.ts && node --test scripts/yt-fetch.test.mjs"
   },

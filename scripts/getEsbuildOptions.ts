@@ -2,7 +2,7 @@
 import type { BuildOptions } from "esbuild";
 
 export function getEsbuildOptions({
-  entryPoints = ["src/index.ts"],
+  entryPoints = ["./index.ts"],
   outdir = "./www/dist",
   plugins = [],
   loader = {},
