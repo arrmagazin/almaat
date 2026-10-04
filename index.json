@@ -387,10 +387,6 @@
       "type": "blob"
     },
     {
-      "path": "INDEX.md",
-      "type": "blob"
-    },
-    {
       "path": "_quotes.md",
       "type": "blob"
     },
@@ -399,7 +395,7 @@
       "type": "blob"
     },
     {
-      "path": "welcome.md",
+      "path": "index.md",
       "type": "blob"
     }
   ]
