@@ -19,13 +19,13 @@
     "book": "bun ./scripts/build_book.ts",
     "predeploy": "npm run build",
     "deploy": "./scripts/bump-version.sh ./www/version && firebase deploy --only hosting --config ./firebase.json -P parlang",
-    "gen:docs-index": "bun ./scripts/gen-docs-index.ts",
+    "gen:docs-index": "DOCS_ROOT=docs bun ./scripts/gen-docs-index.ts",
     "absorb-watch-later": "node scripts/wl-absorb.mjs",
     "check-docs": "node scripts/check-docs.mjs",
     "version:patch": "npm version patch",
     "postinstall": "npm run link:www",
-    "link:modules": "./scripts/link-modules.sh arrmatura-web",
-    "link:www": "ln -sfn ../../docs www/site/docs && ln -sfn ../../index.json www/site/index.json",
+    "link:modules": "./scripts/link-modules.sh arrmatura-web arrmatura-books",
+    "link:www": "ln -sfn ../docs www/docs && ln -sfn ../index.json www/index.json",
     "test": "bun test scripts/build_book.test.ts && node --test scripts/yt-fetch.test.mjs"
   },
   "devDependencies": {

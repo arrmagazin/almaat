@@ -2,8 +2,8 @@
 .cache
 done
 node_modules
-www/site/docs
-www/site/index.json
+www/docs
+www/index.json
 dist
 .packages
 .firebase

@@ -34,7 +34,23 @@
   <meta property="twitter:image" />
   <meta name="theme-color" content="#4e51ea" />
   <meta name="format-detection" content="telephone=no" />
-  <script type="application/ld+json"></script>
+  <script id="R" type="application/json">
+{
+  "app": {
+    "id": "almaat",
+    "name": "Almaat",
+    "logo": "/images/logo.svg",
+    "version": "1.0.0",
+    "description": "Almaat - Foundational Terminology",
+    "author": "Company, Inc",
+    "keywords": ["learning", "almaat"],
+    "email": "contact@company.com",
+    "imageSrcBase": "/site",
+    "copyright": "© 2025. All rights reserved."
+  }
+}
+</script>
+
   <!-- Offline support -->
   <script>
     if ('serviceWorker' in navigator && window.location.hostname !== 'localhost') {
@@ -44,26 +60,6 @@
 </head>
 
 <body></body>
-<script type="module">
-  window.R = {
-    app: {
-      "id": "almaat",
-      "name": "Almaat",
-      "logo": "/favicon.svg",
-      "version": "1.0.0",
-      "description": "Almaat - Foundational Terminology",
-      "author": "Company, Inc",
-      "keywords": ["learning", "almaat"],
-      "email": "contact@company.com",
-      imageSrcBase: "/site",
-      "copyright": "© 2025. All rights reserved."
-    },
-    docsServiceProps: {
-      indexUrl: "/site/index.json",
-      resolvePattern: "/site/docs/{id}"
-    }
-  }
-</script>
 <script src="dist/index.js" type="module"></script>
 
 </html>

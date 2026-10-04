@@ -38,7 +38,7 @@ export function buildIndex(root: string): SiteIndex {
 
 /** Writes only when the bytes differ, so a redundant run leaves the content repo clean. */
 export function writeIndex(root: string): boolean {
-  const file = path.join(root, INDEX_FILE);
+  const file = path.join('', INDEX_FILE);
   const next = `${JSON.stringify(buildIndex(root), null, 2)}\n`;
   if (fs.existsSync(file) && fs.readFileSync(file, "utf8") === next) return false;
   fs.writeFileSync(file, next);
@@ -47,8 +47,6 @@ export function writeIndex(root: string): boolean {
 
 const meta = import.meta as any;
 if (meta.main) {
-  // The docs and the app live in one repo, so the index is rooted at the repo root:
-  // tree paths keep their `docs/` prefix, which is what DocsService's `scope` strips.
   const root = path.resolve(process.env.DOCS_ROOT ?? process.cwd());
   const changed = writeIndex(root);
   console.log(`${changed ? "✍️  wrote" : "✓  up to date"} ${path.join(root, INDEX_FILE)}`);
