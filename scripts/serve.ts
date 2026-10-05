@@ -10,7 +10,7 @@ export async function main(options: any = {}) {
 		const {
 			entryPoints = esBuildPackageOpions?.entryPoints,
 			servedir = esBuildPackageOpions?.servedir ?? process.env.WWW ?? "./www",
-			fallback, //= `${servedir}/index.html`,
+			fallback = `${servedir}/index.html`,
 			port = parseInt(process.env.PORT ?? "8080"),
 			host = process.env.HOST ?? "localhost",
 			noWatch = false,
