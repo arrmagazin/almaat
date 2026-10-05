@@ -1,6 +1,6 @@
 ---
-title: "ALMAAT — Content Index"
-description: "Master index of the ALMAAT framework: every section and every file, grouped by ontological layer."
+title: "ALMAAT"
+description: "Master index of the ALMAAT framework."
 keywords: [almaat]
 ---
 The book builds one ontology from a single primitive (the `Azon`) up through the formal layer, dynamics, and mind, then applies it to the human, the disciplines of mastery, the collective, and the body. The appendices recover the classical disciplines from that formal core.
