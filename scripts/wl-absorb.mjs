@@ -102,9 +102,18 @@ async function exists(path) {
   }
 }
 
-/** Captions on public videos need no auth; only the playlist calls do. */
-export async function cookieArgs() {
-  return (await exists(COOKIES)) ? ["--cookies", COOKIES] : [];
+/**
+ * Run yt-dlp against one video. Public videos need no auth — only the playlist calls do —
+ * and a signed-in cookie jar can make YouTube answer "The page needs to be reloaded".
+ * So try anonymously first and retry with the cookies (age- or member-gated videos) on failure.
+ */
+export async function runVideo(ytdlp, args) {
+  try {
+    return await run(ytdlp, args);
+  } catch (err) {
+    if (!(await exists(COOKIES))) throw err;
+    return run(ytdlp, ["--cookies", COOKIES, ...args]);
+  }
 }
 
 async function readLedger() {
@@ -187,9 +196,14 @@ export function pickCaptionTrack({ manual = [], auto = [], langPref = "", videoL
   if (langPref) wanted.push(`${langPref}-orig`, langPref);
   if (videoLanguage) wanted.push(`${videoLanguage}-orig`, videoLanguage);
 
+  // With an "-orig" track present, every other auto track but the spoken language is a
+  // translation — and YouTube answers those with HTTP 429 — so none of them may match.
+  const origAuto = auto.find((l) => l.endsWith("-orig"));
+  const spoken = origAuto ? [origAuto, origAuto.slice(0, -"-orig".length)] : auto;
+
   for (const lang of wanted) {
     if (manual.includes(lang)) return { lang, kind: "manual" };
-    if (auto.includes(lang)) return { lang, kind: "auto" };
+    if (spoken.includes(lang)) return { lang, kind: "auto" };
   }
   // Nothing preferred matched — fall back to whatever original-audio track exists.
   const orig = manual.find((l) => l.endsWith("-orig")) ?? auto.find((l) => l.endsWith("-orig"));
@@ -204,9 +218,8 @@ async function fetchCaptions(videoId, langPref) {
   const dir = join(CACHE, "subs");
   await mkdir(dir, { recursive: true });
   const url = `https://www.youtube.com/watch?v=${videoId}`;
-  const cookies = await cookieArgs();
 
-  const { stdout } = await run(YTDLP, [...cookies, "-J", "--skip-download", "--no-warnings", url]);
+  const { stdout } = await runVideo(YTDLP, ["-J", "--skip-download", "--no-warnings", url]);
   const info = JSON.parse(stdout);
   const track = pickCaptionTrack({
     manual: Object.keys(info.subtitles ?? {}),
@@ -216,8 +229,7 @@ async function fetchCaptions(videoId, langPref) {
   });
   if (!track) return null;
 
-  await run(YTDLP, [
-    ...cookies,
+  await runVideo(YTDLP, [
     "--skip-download",
     "--write-auto-subs",
     "--write-subs",
@@ -423,8 +435,9 @@ async function main() {
       // 3. absorb, 4. archive
       if (opts.absorb) {
         await runAbsorb(`input/${name}`);
-        await rename(join(INPUT, name), join(DONE, name));
-        log(`  ✓ moved to done/${name}\n`);
+        // /absorb may archive the file itself; move it only if it is still in input/.
+        if (await exists(join(INPUT, name))) await rename(join(INPUT, name), join(DONE, name));
+        log(`  ✓ done/${name}\n`);
       } else {
         log("  · skipping absorb (--no-absorb/--dry-run)\n");
       }

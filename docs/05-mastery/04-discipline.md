@@ -15,6 +15,7 @@ What gets postponed is never the work but the feeling forecast for it — procra
 Don't rely on motivation or willpower — discipline is a system, not a character trait. The compound effect replaces motivation.
 Same time, same place, same sequence — every day.
 When there is no choice, the brain stops negotiating.
+Decide once and stop re-deciding each morning — every renegotiation spends the force the decision was meant to save. Write the rules down; a broken rule has a set consequence, a kept one is reinforced. Kindness to yourself without rules turns into permission.
 
 **3. Respect the process more than the result.**
 Ask "how do I do this correctly?" — not "what's the point?".
@@ -25,6 +26,7 @@ Results arrive as a side effect.
 Not public shame — but integrity before your own word. Said it → did it.
 Promise rarely, follow through always.
 Until that integrity is built, borrow it: a stake — a bet, a public promise — makes a self-set deadline cost something to miss. A deadline that costs nothing teaches that missing is safe.
+Make the stake public, not the identity: telling others who you will become gives the reward of having done it, and effort drops (Gollwitzer et al., 2009). Let the result announce itself.
 
 **5. Tiny daily improvement.**
 No sprints and no fixed-length marathons — a small increment over yesterday. One more rep, a few more minutes, one cleaner step. The gap compounds.

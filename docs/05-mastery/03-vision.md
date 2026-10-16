@@ -51,7 +51,9 @@ Every quarter:
 
 **Pre-mortem**: Imagine December 31st — your goal failed. Why? Design the year to block those failure modes.
 
-[[40,41]]
+**Dependency Check**: If your income, your business, or your main support disappeared tomorrow, do you know your next move? Each "no" marks a dependence on stability. Build the fallback while things are calm — a crisis rehearsed in advance arrives as a working situation, not a surprise.
+
+[[40,41,47]]
 
 ## Questions on Paper
 

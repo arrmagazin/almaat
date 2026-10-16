@@ -7,7 +7,7 @@ keywords: [mastery, habits]
 
 Small improvements compound. You do not rise to the level of your goals; you fall to the level of your systems.
 
-- **Systems over goals.** Goals set direction; systems (daily processes) drive progress. Build repeatable processes, not outcome fantasies.
+- **Systems over goals.** Goals set direction; systems (daily processes) drive progress. Build repeatable processes, not outcome fantasies. A pictured future that is not worked on gives the feeling of motion without the motion, and numbs the present instead of changing it.
 - **Identity over behavior.** Every action is a vote for who you become. "I am a runner" beats "I want to run." Change starts with who one takes oneself to be, not with motivation.
 - **Compound over dramatic.** Embrace the Plateau of Latent Potential — results stay invisible long after the work starts.
 

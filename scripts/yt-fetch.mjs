@@ -21,7 +21,7 @@ import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { cookieArgs, ensureYtdlp, parseJson3, pickCaptionTrack, renderTranscript, run } from "./wl-absorb.mjs";
+import { ensureYtdlp, parseJson3, pickCaptionTrack, renderTranscript, runVideo } from "./wl-absorb.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const SUBS = join(ROOT, "scripts", ".cache", "subs");
@@ -92,9 +92,8 @@ export function markByUrl(text, url, mark, note = "") {
  */
 async function fetchTranscript(ytdlp, videoId, langPref) {
   const url = `https://www.youtube.com/watch?v=${videoId}`;
-  const cookies = await cookieArgs();
 
-  const { stdout } = await run(ytdlp, [...cookies, "-J", "--skip-download", "--no-warnings", url]);
+  const { stdout } = await runVideo(ytdlp, ["-J", "--skip-download", "--no-warnings", url]);
   const info = JSON.parse(stdout);
   const track = pickCaptionTrack({
     manual: Object.keys(info.subtitles ?? {}),
@@ -104,8 +103,7 @@ async function fetchTranscript(ytdlp, videoId, langPref) {
   });
   if (!track) return null;
 
-  await run(ytdlp, [
-    ...cookies,
+  await runVideo(ytdlp, [
     "--skip-download",
     "--write-auto-subs",
     "--write-subs",

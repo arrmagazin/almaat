@@ -3,7 +3,7 @@ title: "Quotes"
 description: "A curated, numbered list of quotations and maxims. Content files cite them by number, as [[12]] or [[8,9,10]]."
 keywords: [quotes]
 ---
-The numbering is load-bearing: 34 of the 37 entries are cited from elsewhere in `docs/`, so entries are corrected in place and never renumbered. A number is retired when its entry leaves, never reused, so gaps are deliberate.
+The numbering is load-bearing: 35 of the 38 entries are cited from elsewhere in `docs/`, so entries are corrected in place and never renumbered. A number is retired when its entry leaves, never reused, so gaps are deliberate.
 
 1. The desire to understand the Universe — that is one thing that slightly elevates Life above the level of farce and gives it the character of high tragedy. — Steven Weinberg
 
@@ -78,3 +78,5 @@ The numbering is load-bearing: 34 of the 37 entries are cited from elsewhere in 
 45. The pain of regret is worse than the pain of discipline. — Nathan Whitley
 
 46. A human being cannot stop: wherever there is an emptiness, a boundary, or a frontier, they will try to breach and cross it, without even a clear answer as to why or for what. Because they can, because it is a dare, because it is beautiful.
+
+47. Fortune shows her power where valour has not prepared to resist her. — Niccolò Machiavelli

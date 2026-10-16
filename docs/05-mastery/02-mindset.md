@@ -97,7 +97,10 @@ Seek full immersion, where action and awareness merge and effort stops registeri
 Two things are: the action taken and the reaction chosen. Everything else —
 outcome, timing, other people's responses — is `Circumstances`. Effort spent on
 the second at the expense of the first is spent against yourself, which is why
-satisfaction has to come from the doing rather than from the result.
+satisfaction has to come from the doing rather than from the result. Self-worth tied
+to an outcome not yet reached makes you fragile now: one refusal or one loss, and
+the identity built on that future cracks. The working question is not "what do I
+want?" but "what here depends on me?"
 
 The corollary is the effort paradox: forcing an outcome that cannot be forced —
 sleep, ease, another person's regard — produces the opposite, because the

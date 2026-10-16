@@ -4,6 +4,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
+import { pickCaptionTrack } from "./wl-absorb.mjs";
 import { extractVideoId, markByUrl, scanChecklist } from "./yt-fetch.mjs";
 
 const ID = "M2exXwKXN7M";
@@ -67,4 +68,12 @@ test("markByUrl appends a note for skipped items", () => {
 test("markByUrl returns null when the URL is absent or already checked", () => {
   assert.equal(markByUrl("- [x] <https://youtu.be/CCCCCCCCCCC>", "https://youtu.be/CCCCCCCCCCC", "x"), null);
   assert.equal(markByUrl("- [ ] <https://youtu.be/CCCCCCCCCCC>", "https://youtu.be/DDDDDDDDDDD", "x"), null);
+});
+
+test("pickCaptionTrack prefers the spoken track over an auto-translation", () => {
+  const auto = ["en", "nl", "ru", "ru-orig"];
+  assert.deepEqual(pickCaptionTrack({ auto, langPref: "en", videoLanguage: "ru" }), { lang: "ru-orig", kind: "auto" });
+  assert.deepEqual(pickCaptionTrack({ auto: ["en-orig", "en", "ru"], langPref: "en" }), { lang: "en-orig", kind: "auto" });
+  assert.deepEqual(pickCaptionTrack({ manual: ["en"], auto, langPref: "en" }), { lang: "en", kind: "manual" });
+  assert.deepEqual(pickCaptionTrack({ auto: ["en", "de"], langPref: "de" }), { lang: "de", kind: "auto" });
 });

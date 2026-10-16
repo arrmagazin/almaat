@@ -10,6 +10,7 @@ Environment Design
 
 Design it for the person you want to become.
 
+- **Choose settings that demand more than you have.** Where resistance is unavoidable and the people around make weakness awkward, growth is a side effect of being there.
 - Remove everything that interferes — but no more. The visual field counts: whatever is in view is processed whether attended or not, so a bare desk or a darkened room cuts a cost that never announces itself.
 - **Remove the alternatives, not only the friction.** With nothing else available, people default to whatever remains — they read, they train, they think. Boredom is a reliable engine; willpower is not.
 - **Make what remains pleasant.** Entry into focus is priced by comfort: the desk, the light, a keyboard you enjoy are paid for on every session. Every object should either give pleasure or remove discomfort.
