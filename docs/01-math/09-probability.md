@@ -5,7 +5,7 @@ keywords: [math, probability, bayes, random variable]
 ---
 ## Sample Space and Events
 
-SampleSpace
+SampleSpace *(Prastor Vynikaw\*)*
 : `Dictionary` whose `Words` are the mutually exclusive outcomes of one trial.
 
 > `SampleSpace := Dictionary<Alphabet>`
@@ -14,14 +14,14 @@ SampleSpace
 
 ---
 
-Outcome
+Outcome *(Vynik\*)*
 : a `Word` of the `SampleSpace` — what one trial yields.
 
 > `Outcome := ω ∈ SampleSpace`
 
 ---
 
-Event
+Event *(Zjava)*
 : a `Subset` of a `SampleSpace`.
 
 > `Event := Subset ⊆ SampleSpace`
@@ -43,14 +43,14 @@ Event
 
 ---
 
-Context
+Context *(Ataqenne\*)*
 : the `Text<SampleSpace>` of `Outcomes` preceding an `Event`, or `Zero` where there is none.
 
 > `Context := Text<SampleSpace> | Zero`
 
 ---
 
-Conditional Event
+Conditional Event *(Umownaja Zjava\*)*
 : pair of `Context`, `Event`.
 
 > `Conditional Event<SampleSpace> := [Context, Event]`
@@ -59,7 +59,7 @@ Conditional Event
 
 ---
 
-MutuallyExclusiveEvents
+MutuallyExclusiveEvents *(Nesumiashqalnyja Zjavy\*)*
 : `Set` of `Conditional Events` with the same `Context`, whose `Events` comprise a `Cluster` of the `SampleSpace`.
 
 > `MutuallyExclusiveEvents<Context> := { [Context, Event] } :: {Event} IS Cluster(SampleSpace)`
@@ -68,7 +68,9 @@ MutuallyExclusiveEvents
 
 ## Measure
 
-Probability
+*(Mera)*
+
+Probability *(Veragodnasc\*)*
 : a `Rational` from 0 to 1.
 
 > `Probability := Rational :: 0 ≤ Probability ≤ 1`
@@ -77,7 +79,7 @@ Probability
 
 ---
 
-Probability Measure / P
+Probability Measure / P *(Mera Veragodnasci\*)*
 : `Azon` *from* the `PowerSet` of the `SampleSpace` *into* `Probability`, under three axioms.
 
 > `P := 2^SampleSpace ⇒ Probability`
@@ -101,7 +103,7 @@ Probability Measure / P
 
 ---
 
-Probability Space
+Probability Space *(Shyr Veragodnasci\*)*
 : pair of a `SampleSpace` and a `Probability Measure` on it.
 
 > `Probability Space := [SampleSpace, P]`
@@ -110,7 +112,7 @@ Probability Space
 
 ---
 
-Normalization
+Normalization *(Narmavanne\*)*
 : the `Probability` values over a `Cluster` of the `SampleSpace` sum to 1.
 
 > `Σ P(Event) = 1 over Event ∈ Cluster(SampleSpace)`
@@ -119,7 +121,7 @@ Normalization
 
 ---
 
-Probability Distribution / PD
+Probability Distribution / PD *(Razmerkavanne Veragodnasci\*)*
 : `Azon` that responds with a `Probability` to each `Event` of a `Cluster` of the `SampleSpace`, under `Normalization`.
 
 > `PD<Cluster> := Event ∈ Cluster ⇒ Probability :: Normalization`
@@ -128,7 +130,7 @@ Probability Distribution / PD
 
 ---
 
-Stochastic Vector
+Stochastic Vector *(Staxastyqny Vektar\*)*
 : `Tuple` of `Probabilities` whose entries sum to 1.
 
 > `Stochastic Vector := [p₀, …, pₙ₋₁] :: Σ pᵢ = 1`
@@ -137,7 +139,7 @@ Stochastic Vector
 
 ---
 
-Stochastic Matrix
+Stochastic Matrix *(Staxastyqnaja Mantra\*)*
 : `Matrix` whose every row is a `Stochastic Vector`.
 
 > `Stochastic Matrix := M :: ∀i: Σⱼ M[i][j] = 1`
@@ -146,14 +148,14 @@ Stochastic Matrix
 
 ---
 
-Support
+Support *(Nosbit\*)*
 : `Set` of `Events` of a `Cluster` with non-zero `Probability`.
 
 > `support(PD) := { Event ∈ Cluster : PD(Event) > 0 }`
 
 ---
 
-Point Mass / δ
+Point Mass / δ *(Kropkavaja Masa\*)*
 : `PD` whose `Support` is a `Singleton`.
 
 > `δ<a> := Event → (a ∈ Event ? 1 : 0)`
@@ -162,7 +164,7 @@ Point Mass / δ
 
 ## Conditioning
 
-Conditional Probability
+Conditional Probability *(Umownaja Veragodnasc\*)*
 : the `Probability` of an `Event` A given that an `Event` B of non-zero `Probability` occurred.
 
 > `P(A | B) := P(A ∩ B) / P(B) :: P(B) > 0`
@@ -171,7 +173,7 @@ Conditional Probability
 
 ---
 
-Chain Rule / Multiplication Rule
+Chain Rule / Multiplication Rule *(Pravilo Lancuga\*)*
 : the `Probability` of an `Intersection` is the product of successive `Conditional Probabilities`.
 
 > `P(A₁ ∩ A₂ ∩ … ∩ Aₙ) = P(A₁) · P(A₂ | A₁) · … · P(Aₙ | A₁ ∩ … ∩ Aₙ₋₁)`
@@ -180,7 +182,7 @@ Chain Rule / Multiplication Rule
 
 ---
 
-Law of Total Probability / LTP
+Law of Total Probability / LTP *(Zakon Pownaj Veragodnasci\*)*
 : the `Probability` of an `Event` is the sum of its `Conditional Probabilities` over a `Cluster`, each weighted by the `Probability` of the condition.
 
 > `P(A) = Σ P(A | Bᵢ) · P(Bᵢ) over Bᵢ ∈ Cluster(SampleSpace)`
@@ -189,7 +191,7 @@ Law of Total Probability / LTP
 
 ---
 
-Bayes' Theorem
+Bayes' Theorem *(Tearema Bajesa\*)*
 : reverses a `Conditional Probability`: the `Probability` of a hypothesis A given evidence B, from the `Probability` of B given A.
 
 > `P(A | B) = P(B | A) · P(A) / P(B)`, with `P(B) = Σ P(B | Aᵢ) · P(Aᵢ)` over a `Cluster` `{Aᵢ}` of hypotheses
@@ -198,7 +200,7 @@ Bayes' Theorem
 
 ---
 
-Independent Events / Independent
+Independent Events / Independent *(Nezaleznyja Zjavy\*)*
 : `Events` whose joint `Probability` is the product of their `Probabilities`.
 
 > `Independent(A, B) := P(A ∩ B) = P(A) · P(B)` — equivalently `P(A | B) = P(A)` when `P(B) > 0`
@@ -207,7 +209,7 @@ Independent Events / Independent
 
 ---
 
-Conditional Distribution / Kernel
+Conditional Distribution / Kernel *(Umownae Razmerkavanne\*)*
 : `Azon` that responds to each condition of a `Set` with a `Probability Distribution` over one and the same `Cluster`.
 
 > `Kernel<C, Cluster> := c ∈ C ⇒ PD<Cluster>`, `Kernel(c)(Event) = P(Event | c)`
@@ -216,7 +218,7 @@ Conditional Distribution / Kernel
 
 ## Random Variables
 
-Random Variable / RV
+Random Variable / RV *(Vypadkovaja Veliqynia\*)*
 : `Azon` *from* the `SampleSpace` *into* the `Rationals`.
 
 > `X := SampleSpace ⇒ Rational`
@@ -225,7 +227,7 @@ Random Variable / RV
 
 ---
 
-Indicator
+Indicator *(Indykatar\*)*
 : `Random Variable` responding with 1 on an `Event` and 0 outside it.
 
 > `1<A> := ω → (ω ∈ A ? 1 : 0)`
@@ -234,7 +236,7 @@ Indicator
 
 ---
 
-Distribution
+Distribution *(Razmerkavanne\*)*
 : the `Probability Distribution` a `Random Variable` induces over its `Taxon`.
 
 > `PD<X>(x) := P(X = x) = P({ω : X(ω) = x})`
@@ -243,7 +245,7 @@ Distribution
 
 ---
 
-Joint Distribution
+Joint Distribution *(Sumesnae Razmerkavanne\*)*
 : the `Distribution` of a `Tuple` of `Random Variables`, over the pairwise `Intersections` of their `Taxons`.
 
 > `PD<X, Y>(x, y) := P(X = x ∩ Y = y)`
@@ -252,7 +254,7 @@ Joint Distribution
 
 ---
 
-Expected Value / Mean
+Expected Value / Mean *(Qakanae Znaqenne\*)*
 : the `Probability`-weighted sum of the values of a `Random Variable`.
 
 > `E(X) := Σ x · P(X = x) over x ∈ COD(X)`
@@ -261,7 +263,7 @@ Expected Value / Mean
 
 ---
 
-Variance
+Variance *(Dyspersija\*)*
 : the `Expected Value` of the squared deviation from the `Expected Value`.
 
 > `Var(X) := E[(X − E(X))²] = E(X²) − E(X)²`
@@ -270,7 +272,7 @@ Variance
 
 ---
 
-Standard Deviation
+Standard Deviation *(Standartnae Adxilenne\*)*
 : the square root of the `Variance`.
 
 > `SD(X) := √Var(X)`
@@ -279,7 +281,7 @@ Standard Deviation
 
 ---
 
-Covariance
+Covariance *(Kavaryjacyja\*)*
 : the `Expected Value` of the product of two deviations.
 
 > `Cov(X, Y) := E[(X − E(X)) · (Y − E(Y))] = E(X·Y) − E(X)·E(Y)`
@@ -301,7 +303,7 @@ Covariance
 
 ## Limit Laws
 
-Sample
+Sample *(Vybarka\*)*
 : `Tuple` (or `Queue`) of `Independent` `Random Variables` sharing one `Distribution`.
 
 > `Sample<n> := [X₁, …, Xₙ] :: Independent ∧ ∀i: PD<Xᵢ> = PD<X>`
@@ -310,7 +312,7 @@ Sample
 
 ---
 
-Sample Mean
+Sample Mean *(Serednjae Vybarki\*)*
 : the average of a `Sample`.
 
 > `X̄ₙ := (1/n) · Σ Xᵢ over i ≤ n`
@@ -319,7 +321,7 @@ Sample Mean
 
 ---
 
-Law of Large Numbers / LLN
+Law of Large Numbers / LLN *(Zakon Vialikix Likaw\*)*
 : the `Sample Mean` approaches the `Expected Value` as the `Sample` grows.
 
 > `X̄ₙ → E(X)` as `n → ∞`
@@ -328,7 +330,7 @@ Law of Large Numbers / LLN
 
 ---
 
-Central Limit Theorem / CLT
+Central Limit Theorem / CLT *(Centralnaja Graniqnaja Tearema\*)*
 : for a `Sample` of finite `Variance`, the standardized `Sample Mean` approaches the standard normal distribution as the `Sample` grows.
 
 > `√n · (X̄ₙ − E(X)) / SD(X) → Normal(0, 1)` as `n → ∞`

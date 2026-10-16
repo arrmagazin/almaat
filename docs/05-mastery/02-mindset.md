@@ -76,7 +76,7 @@ Be less certain. Keep an unfrozen view of the world, with room for error and gro
 
 *Grow up in whatever you do, learn, keep your eyes open for the new things.*
 
-[[29]]
+> There is no greater happiness in this World, brothers, than when a Person has reason and knowledge in their head...
 
 ## Courage and Enjoyment
 
@@ -90,7 +90,11 @@ Approach life with humor and optimism despite uncontrollable circumstances, and 
 
 Seek full immersion, where action and awareness merge and effort stops registering as effort.
 
-[[37,38]]
+> Life is too important to be taken seriously. — Oscar Wilde
+>
+> You can't control everything, but your attitude is yours to shape.
+>
+> Courage means saying yes to your purpose; backbone means saying no to what doesn't fulfill it. — Chase Hughes
 
 ## What Is Yours to Control
 
@@ -113,7 +117,3 @@ the result must take, is the working stance. See
 Take full ownership of your life. Accept all consequences, make your own choices, be independent in reasoning.
 
 Named plainly, this is an **internal locus of control** — reading the causes of what happens as mostly your own: you left late, the traffic did not detain you; you misjudged the risk, the market did not betray you. An **external locus** reads the same events as done to you, and hands the controls to whoever is blamed. The reading is largely a choice, and it decides what is actionable: only a cause you own is a cause you can work on. It is not a claim that outcomes are deserved — see [Luck → The Honest Caveat](10-luck.md#the-honest-caveat) — but the assumption that leaves the most room to move.
-
-## Sources
-
-- [References](../_quotes.md) for the bracketed markers above.

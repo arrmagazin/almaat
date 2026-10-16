@@ -30,14 +30,17 @@ Reps alone plateau. [`Practice`](01-mastery.md#terms) compounds only when aimed 
 
 ## Making It Stick
 
-Taking information in is not retaining it. Retention has its own mechanics:
+Taking information in is not retaining it. Recognizing a page is not understanding it: rereading and highlighting make the material familiar, and familiarity feels like understanding until the source is gone. Knowing the [`Name`](../03-mind/05-knowledge.md#naming) of a thing is not knowing the thing. Retention has its own mechanics:
+
+> I learned very early the difference between knowing the name of something and knowing something. — Richard Feynman
 
 | Move | Why it works |
 | ---- | ------------ |
+| **Rebuild over copy** | Read once, close the source, rebuild it from nothing, then compare. Each difference marks a gap; the failed attempts are the learning, not a setback. Copied work leaves you dependent on the source — able to follow the tutorial, unable to go on when it ends |
 | **Retrieval over review** | Recalling from memory (self-testing) builds durable `Memory`; rereading only feels productive |
 | **Spacing over cramming** | Revisiting across days forces re-retrieval and strengthens the trace; massed study fades fast |
 | **Interleaving** | Mixing problem types trains you to *choose* the method, not just execute a known one |
-| **Teaching it** | Explaining in plain words exposes the gaps a `Bias` hides — if you cannot teach it, you have not learned it |
+| **Teaching it** | Explaining in plain words exposes the gaps a `Bias` hides — if you cannot teach it, you have not learned it. Explain it to someone outside the field: every term you cannot drop and every sentence you must rewrite marks a gap. Jargon hides gaps; plain words show them |
 | **Writing by hand** | Handwriting is slower and recruits motor planning alongside language, so the note is encoded while it is being made. Typing into a note app captures the text without encoding it — the archive grows and the `Memory` does not |
 | **Rest inside practice** | Brief pauses between attempts are when the gain is written — the brain replays the attempt during the pause. Replaying it deliberately, the rep imagined done cleanly, strengthens the same trace |
 | **Sleep** | Consolidation happens during rest, not at the desk. See [Recovery → Sleep](../08-vitality/03-recovery.md#sleep) |
@@ -45,6 +48,8 @@ Taking information in is not retaining it. Retention has its own mechanics:
 ## Reading
 
 Reading is the highest-bandwidth way into other `Minds` — compressed `Experience` you did not have to live. It pays only when active: question the text, connect it to what you already hold, and convert it into an attempt. A book read without application is `Information` that never became `Knowledge`.
+
+Keep a short list of open problems you cannot stop thinking about, and test new input against it: which problem does this serve? Keep what serves one and link it to that problem at once; drop the rest without regret. A fact that arrives with a question to answer has a place in `Memory` and stays; a fact with no place fades.
 
 ## Sources
 

@@ -6,8 +6,6 @@ keywords: [almaat]
 The book builds one ontology from a single primitive (the `Azon`) up through the formal layer, dynamics, and mind, then applies it to the human, the disciplines of mastery, the collective, and the body. The appendices recover the classical disciplines from that formal core.
 
 - [Welcome to ALMAAT](welcome.md) — ALMAAT is a general-purpose framework for cognitive modeling: one ontology built from a single primitive, then applied to the human, the collective, and daily practice.
-- [Quotes](_quotes.md) — A curated, numbered list of quotations and maxims. Content files cite them by number, as [[12]] or [[8,9,10]].
-- [Term Translations](_translations.md) — The reverse map from each canonical English Term to its Belarusian-rooted equivalent. English stays canonical in content.
 
 ## 00 — Azon · The Primitive
 

@@ -5,7 +5,7 @@ keywords: [mind, intellect]
 ---
 ## What Intellect Is
 
-Intellect
+Intellect *(Rozum)*
 : the capacity of a [`Mind`](12-mind.md) to form, validate, and apply its own [`Reality`](../02-reality/22-being.md#reality).
 
 *NOTE*: the sections below name its parts — `Cognition` forms, `Validation` corrects, `Learning` retains, `Skill` applies, and `Rationale` carries it under insufficient `Knowledge`.
@@ -18,7 +18,7 @@ Intellect
 
 ---
 
-Experience
+Experience *(Dosved)*
 : `Knowledge` obtained through observation — whether everyday lived experience or deliberate experimentation.
 
 > `Experience := Knowledge derived from Trajectory`
@@ -37,7 +37,7 @@ Experience
 
 ## The Cognitive Cycle
 
-Cognition
+Cognition *(Paznanne)*
 : The process of creating new or accessing existing `Knowledge`.
 
 > `Cognition :: (Signal, Knowledge) ⇒ Knowledge'`
@@ -46,7 +46,7 @@ Cognition
 
 ---
 
-Validation
+Validation *(Dostip)*
 : The rational transformation of existing `Knowledge` toward improvement.
 
 > `Validation :: Knowledge ⇒ Knowledge' refined`
@@ -55,7 +55,7 @@ Validation
 
 ---
 
-Learning
+Learning *(Vuqba\*)*
 : The update of `Memory` — and thereby of `Knowledge` and `Skill` — driven by `Validation` against `Experience`.
 
 > `Learning :: (Knowledge, Experience) ⇒ Knowledge'` where `Knowledge'` better predicts further `Experience`
@@ -64,7 +64,7 @@ Learning
 
 ---
 
-Prediction
+Prediction *(Vesqun\*)*
 : A `Thought` projected forward in `Step` according to current `Knowledge`.
 
 > `Prediction(State, Knowledge) := expected State' under Knowledge's model of the System`
@@ -73,7 +73,7 @@ Prediction
 
 ---
 
-Skill
+Skill *(Navyk)*
 : `Knowledge` operationalized through `Experience` into reliable `Behavior` under varying `Circumstances`.
 
 > `Skill :: Knowledge + Experience ⇒ Behavior reliable under Circumstances`
@@ -82,7 +82,7 @@ Skill
 
 ---
 
-Bias
+Bias *(Naxil)*
 : A systematic distortion in a `Mind`'s [`Codebook`](12-mind.md) that produces consistent mis-mapping of `Signal` to `Thought`.
 
 > `Bias :: systematic offset in Codebook(Signal) ≠ ground-truth Thought`
@@ -95,7 +95,7 @@ A `Mind` realizes its [`Paradigm`](../02-reality/02-process.md#landmarks-of-a-fl
 
 ## Under Uncertainty
 
-Rationale
+Rationale *(Racyja)*
 : A set of universal principles for making `Solution` under conditions of insufficient `Knowledge`.
 
 > `Rationale :: insufficient Knowledge ⇒ Solution heuristic`
@@ -104,14 +104,14 @@ Rationale
 
 ---
 
-Paradigm
+Paradigm *(Vega)*
 : a method that generates `Plans` for a `System`.
 
 > `Paradigm :: System ⇒ {Plan}`
 
 ---
 
-Strategy
+Strategy *(Strategia)*
 : A method of making `Solution` within `Communication` considering external `Circumstances`.
 
 > `Strategy :: Communication × external-Circumstances ⇒ Solution-shape`
@@ -120,9 +120,17 @@ Strategy
 
 ---
 
-Wisdom
+Wisdom *(Mudra\*)*
 : The integration of `Knowledge`, `Experience`, and `Rationale` into reliable `Solution` across diverse `Circumstances`.
 
 > `Wisdom :: (Knowledge, Experience, Rationale) ⇒ reliable Solution across Circumstances`
 
-*NOTE*: The capacity to apply the right principle — one's own `Truth` — in the right situation. Bound to the `Agent`'s lived path, not transferable as `Information`. Verified by performance across unfamiliar Contexts, not within familiar ones.
+*NOTE*: The capacity to apply the right principle — one's own `Truth` — in the right situation. Bound to the `Agent`'s lived path, not transferable as `Information`. Verified by performance across unfamiliar Contexts, not within familiar ones
+---
+
+Predictive-Perception *(Napieradnae Uspryjmanne\*)*
+: Perception as a running [`Prediction`](11-intellect.md) built from past `Experience` and corrected by sensory data, rather than assembled from sensory data alone.
+
+> `Predictive-Perception :: Prediction(Experience) + error(Signal) ⇒ Thought`
+
+*NOTE*: What reaches awareness is the model, not the `Signal`. The `Signal`'s role is to correct the model, so much of what is experienced as given is supplied by the `Mind` — the mechanism behind [`Bias`](11-intellect.md) and the reason `Memory` is [reconstruction rather than retrieval](12-mind.md#the-substrate).

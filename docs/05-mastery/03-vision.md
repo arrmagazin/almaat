@@ -5,14 +5,14 @@ keywords: [mastery, vision]
 ---
 ## Determination
 
-Determination
+Determination *(Nastyrnost)*
 : an attitude toward the process rather than the outcome, which allows a decision to be made without waiting for perfect conditions.
 
 *NOTE*: requires control over the [`Animal`](../04-human/28-animal.md) and over the [`Dark Shadow`](../06-socium/34-identity.md).
 
 ---
 
-Vision
+Vision *(Bachanne\*)*
 : the picture of the desired future, in the world and in oneself, that the `Mission` is pursued toward.
 : Answers *what does it look like when the `Mission` is being fulfilled?* Reachable; revised when reached.
 
@@ -21,7 +21,7 @@ Vision
 Define your authentic Way — life's mission, ambitions, high-level goals.
 **Authentic** is the load-bearing word. A `Goal` copied from a peer, a parent, or an approved norm has no [`Core-Value`](../03-mind/09-teleos.md) behind it, so `Will` finds nothing to hold when `Circumstances` shift — which is why a goal set as an obligation rarely survives a change of `Circumstances`. The test is whether the goal produces a felt response rather than an approving one: a `Goal` you cannot feel belongs to someone else.
 
-[[39]]
+> Magnum opus viros magnificos facit. — A great work makes great men.
 
 *Define your lifelong aims, drilled down into small concrete everyday goals, which will wake you up every morning and thrill you all along the time.*
 
@@ -53,11 +53,17 @@ Every quarter:
 
 **Dependency Check**: If your income, your business, or your main support disappeared tomorrow, do you know your next move? Each "no" marks a dependence on stability. Build the fallback while things are calm — a crisis rehearsed in advance arrives as a working situation, not a surprise.
 
-[[40,41,47]]
+> Try to do everything properly — failure will happen on its own. — Mikolaj Filip Ryzhko
+>
+> Life is unpredictable, problems unavoidable, but persist toward your goals regardless — because you decided so.
+>
+> Fortune shows her power where valour has not prepared to resist her. — Niccolò Machiavelli
 
 ## Questions on Paper
 
 A problem exists only as long as it stays blurry. Written down concretely, most of it dissolves into a task with a solution.
+
+Thinking in the head is fast but skips steps, hides assumptions, and agrees with itself. On paper every step is visible, so a jump, a hidden assumption, or a circular argument can be found and fixed. Write the whole chain of reasoning, not only the conclusion; for a decision, write the full case for each option.
 
 | # | Question | Purpose | Example |
 |---|---|---|---|
@@ -68,5 +74,3 @@ A problem exists only as long as it stays blurry. Written down concretely, most 
 | 5 | **What will I do right now?** | Not tomorrow — within the hour. One action. A decision without immediate action turns into a daydream | Wrote the resume. Made the call. Deleted the app |
 
 When direction is present but the energy to move on it is not, the block is usually physical — see [Energy → Depression](../08-vitality/05-energy.md#depression).
-
-[References](../_quotes.md)

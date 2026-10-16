@@ -30,10 +30,16 @@ Physics and biology describe how a human is built; neither can say what a human 
 - Nozick's experience machine: most people refuse guaranteed perfect happiness. They want reality and authorship — *the rock must be real, and you must roll it.*
 - The difference from fuel: "You care that your burning is **real and your own**."
 
-Mission
+> The desire to understand the Universe — that is one thing that slightly elevates Life above the level of farce and gives it the character of high tragedy. — Steven Weinberg
+
+Mission *(Shlaxt)*
 : the enduring purpose one serves beyond oneself.
 : Answers *for whom, and for what, do I act?* Never completed, only carried out.
-: It is the way chosen to be happy — where one's personal `Truth`, `Faith`, and `Inspiration` are applied the most, in a chosen field. [[18,19]]
+: It is the way chosen to be happy — where one's personal `Truth`, `Faith`, and `Inspiration` are applied the most, in a chosen field.
+
+> Who has a true 'WHY?' in life, can tolerate almost any HOW. — Nietzsche
+>
+> We came from Nowhere and into Nothing we shall go, and the only worthy thing in this World is to hold to what we belief into and selflessly work toward its fulfillment despite any challenges.
 
 - Culture — the *noosphere*, the sphere of shared human thought — is the human-made reply to the silence: meaning made together, by hand, against indifference.
 - To partake in it is to roll the rock knowingly, and to leave a structure that outlives the body.
@@ -42,7 +48,7 @@ The `Mission` is a top-level partaking in the development of culture — the hum
 
 ## Happiness and Greatness
 
-Happiness
+Happiness *(Sqastte)*
 : the internal perception of the saturation of life.
 
 - in the moment of now, and overall,
@@ -50,22 +56,23 @@ Happiness
 - having various challenges — problems, fails, luck, adventures,
 - and maybe some breakthroughs and achievements.
 
-*NOTE*: the criterion of `Happiness` is readiness to live this life again and again, making the same choices — the test of eternal recurrence. [[12]]
+*NOTE*: the criterion of `Happiness` is readiness to live this life again and again, making the same choices — the test of eternal recurrence, as Nietzsche put it in [Truth](25-truth.md).
 
-[[17]]
+> A Human Being has no other obligations other than — to be Happy every moment of their Life — no matter what.
 
 ---
 
-Greatness
+Greatness *(Veliq)*
 : self-respect earned through consistent, faithful, aimed effort.
 
 - through perseverance, with resilience and determination,
 - regardless of emotional state, changed circumstances, and unexpected outcomes,
 - by making choices, carrying full personal responsibility for them, paying the costs, sacrificing without regret.
 
-[[21,22]]
+> Faith without works is dead. — James 2:26
+>
+> Those who lack their own Truth will be victimized; those who lack their own Will shall execute others'; those who lack their own Path shall wander aimlessly.
 
 ## Sources
 
-- [References](../_quotes.md)
 - [Наука нашла ответ, зачем ты существуешь (он оскорбителен)](https://www.youtube.com/watch?v=RfY9DcAAHH4).

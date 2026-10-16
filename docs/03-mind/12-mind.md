@@ -9,7 +9,7 @@ In a `System`, a [`Source`](../01-math/01-sets.md#sets) is any `Azon` characteri
 
 ---
 
-Mind
+Mind *(Razvaga)*
 : A `System` of `Neuron` and `Sensor`.
 
 > `Mind := System over {Neuron, Sensor}`
@@ -18,7 +18,7 @@ Mind
 
 ---
 
-Sensor
+Sensor *(Datqyk)*
 : A `Source` that outputs a numerical Weight in response to external `Communication`.
 
 > `Sensor :: external-Communication ⇒ Weight ∈ Number`
@@ -27,7 +27,7 @@ Sensor
 
 ---
 
-Neuron
+Neuron *(Nejron)*
 : A `Source` that outputs a numerical Weight equal to the weighted sum of evaluations of `Neuron`s/`Sensors` in its Context.
 
 > `Neuron(N) := ∑ wᵢ · Nᵢ` over Context
@@ -36,7 +36,7 @@ Neuron
 
 ---
 
-Thought
+Thought *(Dumka)*
 : A distribution of Weight across `Neuron`s.
 
 > `Thought :: Neuron ⇒ Weight`
@@ -45,7 +45,7 @@ Thought
 
 ---
 
-Signal
+Signal *(Zyk\*)*
 : A distribution of Weight across `Sensor`s.
 
 > `Signal :: Sensor ⇒ Weight`
@@ -54,7 +54,7 @@ Signal
 
 ---
 
-Codebook
+Codebook *(Kodavik\*)*
 : the mapping a `Mind` holds between `Signal` and `Thought`.
 
 > `Codebook :: Signal ↔ Thought`
@@ -63,7 +63,7 @@ Codebook
 
 ---
 
-Message
+Message *(Vestka)*
 : A `Signal` intended by a `Source` to be decoded by a receiver's `Codebook`.
 
 > `Message := Signal under (sender intent, receiver Codebook)`
@@ -72,7 +72,7 @@ Message
 
 ---
 
-Memory
+Memory *(Pamiac)*
 : A persistent modification of `Neuron` weights such that prior `Thought` can be re-evoked by partial `Signal`.
 
 > `Memory :: Signal_partial ⇒ Thought_re-evoked`

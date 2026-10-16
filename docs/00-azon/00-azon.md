@@ -5,7 +5,7 @@ keywords: [azon]
 ---
 
 Azon
-: *assignment* from every (`Azon` =: **`Arg`**) to corresponding (`Azon` =: **`Spond`**)
+: *assignment* from every (`Azon` =: **`Arg`** *(arg)*) to corresponding (`Azon` =: **`Spond`** *(spond)*)
 : made by *judgement* whether some `Azon` (*IS the same or ISNT* =: **`coincident`**) to some another `Azon`.
 
 > `A := * -> A[*]`
@@ -33,7 +33,7 @@ AXIOM-3 (Non-Self-Generation)
 
 ## Equality
 
-Intensional Equality
+Intensional Equality *(Sutnasnaja Rownasc\*)*
 : Every `Azon`-probe responds to `a` and `b` with coinciding responses; the negation of `Intensional Distinguishability`.
 
 > `IEQ<A,B> := { <A,B> :: x -> x[A] IS x[B]`
@@ -42,7 +42,7 @@ Intensional Equality
 
 ---
 
-Extensional Equality
+Extensional Equality *(Zmestavaja Rownasc\*)*
 : Every `Azon` receives coinciding responses from `a` and `b`.
 
 > `EEQ<A,B> := { <A,B> :: x -> A[x] IS B[x]`
@@ -51,7 +51,7 @@ Extensional Equality
 
 ---
 
-Total Equality
+Total Equality *(Pownaja Rownasc\*)*
 : Both `Intensional Equality` and `Extensional Equality` hold.
 
 > `EQ<A,B> := { <A,B> :: IEQ<A,B> AND EEQ<A,B>`
@@ -60,7 +60,7 @@ Total Equality
 
 ## Zero and Unit
 
-Zero
+Zero *(Puston)*
 : `Azon` that *always* responds with itself.
 
 > `Zero := * -> Zero`
@@ -72,14 +72,14 @@ Zero
 
 ---
 
-Unit
+Unit *(Proston)*
 : `Azon` that *always* responds `fixed`, *except* with `empty` — to itself.
 
 > `Unit := ( Unit | * ) -> ( Zero | * )`
 
 ---
 
-Predicate
+Predicate *(Bikon)*
 : an `Azon` that *always* responds with `Unit` or `Zero`.
 
 > `Predicate := * -> ( Unit | Zero )`

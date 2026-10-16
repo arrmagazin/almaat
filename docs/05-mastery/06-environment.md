@@ -5,7 +5,7 @@ keywords: [mastery, environment]
 ---
 ## Environment Design
 
-Environment Design
+Environment Design *(Sila Abstavinaw)*
 : shaping the [`Environment`](../02-reality/07-system.md#coupling) so the desired `Behavior` is the easiest, most pleasant choice and the undesired one is harder.
 
 Design it for the person you want to become.

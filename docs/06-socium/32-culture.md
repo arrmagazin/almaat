@@ -5,12 +5,12 @@ keywords: [socium, culture]
 ---
 ## Collective Mind
 
-Collective Mind
+Collective Mind *(Gramadski Rozum\*)*
 : the mentality of a group — invisible to those inside it, it sets the bounds of thought before any thought is examined.
 
 ### Idemons
 
-Idemon
+Idemon *(Dumavik\*)*
 : a self-replicating idea that spreads by offering relief from the cost of thinking for oneself.
 
 Idemons spread through language, ritual, and media by offering:

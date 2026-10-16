@@ -5,15 +5,15 @@ keywords: [mind, scientific]
 ---
 ## Method
 
-Scientific Method
+Scientific Method *(Navukovy Sposab\*)*
 : A generalized empirical *a posteriori* approach to earning `Scientific Knowledge` from experimental data, with awareness of cognitive abilities and `Bias`.
 
 ## Scientific Criteria
 
-Scientific Criteria
+Scientific Criteria *(Navukovyja Merki\*)*
 : The nine requirements a `Knowledge` claim must satisfy, from Inner Correctness to Reproducibility.
 
-Scientific Knowledge
+Scientific Knowledge *(Navukovaja Veda\*)*
 : `Knowledge` that definitely meets `Scientific Criteria`.
 
 ---
@@ -32,7 +32,7 @@ Scientific Knowledge
 
 ## The Scientific Process
 
-Scientific Process
+Scientific Process *(Navukovy Praces\*)*
 : An iterative process to acquire new *a posteriori* `Knowledge`:
 
 1. **Characterizations** — observations, definitions, and measurements of the subject of inquiry.

@@ -27,7 +27,7 @@ Ervin Staub studied how ordinary people become accomplices to mass killing. It n
 
 ## Moral Courage
 
-Moral Courage
+Moral Courage *(Smelast\*)*
 : acting against fear because something matters more than comfort.
 
 *NOTE*: not the absence of [Fear](../04-human/28-animal.md) — fear is present and outweighed. It rarely looks like the movies — no speech, no applause. It begins in small daily moments: not laughing at a joke you find vile, not agreeing with a claim you believe is false because arguing is awkward, not endorsing what you think unjust because the majority does. Each small act is training, and an unused muscle atrophies. See [Courage and Enjoyment](../05-mastery/02-mindset.md#courage-and-enjoyment).

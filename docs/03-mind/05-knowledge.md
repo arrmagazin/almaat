@@ -5,21 +5,21 @@ keywords: [mind, knowledge]
 ---
 ## Units of Belief
 
-Opinion
+Opinion *(Merkovanne)*
 : An `Expression` of `Language` associated with an evaluation of whether a `View` belongs to `Place`.
 
 > `Opinion :: Expression ⇒ (View × Place ⇒ {0, 1})`
 
 ---
 
-Doubt
+Doubt *(Sumlev\*)*
 : A suspended `Opinion` — the recognition that current `Knowledge` is insufficient to evaluate membership of a `View` in a `Place`.
 
 > `Doubt :: Opinion → suspended`
 
 ---
 
-Thesis
+Thesis *(Domysl)*
 : A `Set` of `Opinion` in Logic.
 
 > `Thesis := {Opinion}` in Logic
@@ -32,7 +32,7 @@ Thesis
 
 ## Naming
 
-Name
+Name *(Jmia)*
 : An `Expression` of `Language` associated with `Views` (Entities) of the `Matter`.
 
 > `Name :: Expression ⇒ View`
@@ -41,7 +41,7 @@ Name
 
 ---
 
-Concept
+Concept *(Paniatte)*
 : An `Expression` of `Language` associated with `Place` (regions) of the `Matter`.
 
 > `Concept :: Expression ⇒ Place`
@@ -50,7 +50,7 @@ Concept
 
 ## Knowledge Organization
 
-Knowledge
+Knowledge *(Veda)*
 : A `Set` of `Opinions` that a `Mind` uses to predict and act upon `Reality`.
 
 > `Knowledge := {Theory, Concept, Opinion}_validated`

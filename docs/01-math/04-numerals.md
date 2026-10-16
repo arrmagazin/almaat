@@ -7,7 +7,7 @@ keywords: [math, numerals]
 
 ---
 
-Singleton
+Singleton *(Ton)*
 : `fixed` `Arrow`.
 
 > `Singleton(c) := [c,c]`
@@ -16,7 +16,7 @@ Singleton
 
 ---
 
-Plus
+Plus *(Prybawka\*)*
 : The `Azon` that responds to a `Arg` with its `Singleton`.
 
 > `Plus := x → {x}`
@@ -37,21 +37,21 @@ Induction<A>
 
 ---
 
-Numerals
+Numerals *(Liqby\*)*
 : `Induction` of `Plus`.
 
 > `Numerals := Induction<Plus>`
 
 ---
 
-Number
+Number *(Lik)*
 : `Element` of `Numerals`.
 
 > `n ∈ Numerals`
 
 ---
 
-Total Order
+Total Order *(Powny Lad\*)*
 : property of `Numbers` that for any `a, b` exactly one of `a < b`, `a = b`, `a > b` holds.
 
 > `∀a, b: (a < b) ∨ (a = b) ∨ (b < a)`
@@ -95,77 +95,77 @@ Rational
 
 ## Ranges
 
-Interval
+Interval *(Dlina)*
 : `Set` of all `Numbers` less than `N`.
 
 > `Interval(N) := {n : n < N}`
 
 ---
 
-Ray
+Ray *(Promenj)*
 : `Set` of all `Numbers` strictly not less than `N`.
 
 > `Ray(N) := {n : n >= N}`
 
 ---
 
-Range
+Range *(Adrezok)*
 : `Set` of all `Numbers` strictly greater than `N` and at most `M`, with `N < M`.
 
 > `Range(N, M) := {n : N < n ≤ M}`
 
 ## Sequentals
 
-Tuple
+Tuple *(Radok)*
 : `Azon` over `Interval`.
 
 > `Tuple<N> :: Azon :: DOM = Interval(N)`
 
 ---
 
-Queue
+Queue *(Qerga)*
 : `Azon` over `Ray`.
 
 > `Queue :: Azon :: DOM = Ray(N)`
 
 ---
 
-Scoring
+Scoring *(Padlik\*)*
 : `Azon` into `Numerals`.
 
 > `Scoring :: Azon :: COD ⊆ Numerals`
 
 ---
 
-Vector
+Vector *(Vektar\*)*
 : `Scoring` `Tuple`.
 
 > `Vector :: Scoring :: DOM = Interval(N), COD ⊆ Numerals`
 
 ## Slice
 
-Mask
+Mask *(Maska)*
 : `Injective` `Tuple` of length `n` into an `Interval` of length `m > n`.
 
 > `Mask := Interval(n) ⇒ Interval(m::m > n)`
 
 ---
 
-Slice
+Slice *(Zrez)*
 : `Composition` of a `Mask` with a `Tuple`.
 
 > `Slice := Mask.Tuple`
 
 ## Matrices
 
-Matrix (2D-array)
+Matrix (2D-array) *(Mantra)*
 : A `Tuple` of `Tuples`.
 
 > `Matrix :: Interval(n) ⇒ Tuple`
 
 ---
 
-Flat
+Flat *(Sklejka)*
 : A `Tuple` built from a `Matrix` by joining each constituent `Tuple` end-to-end.
 
 > `⊕ :: Matrix ⇒ Tuple`

@@ -3,7 +3,7 @@ title: "Productivity"
 description: "Cadence and multipliers: the rhythms that keep progress steady, and the leverage that stops results scaling with hours worked."
 keywords: [mastery, productivity]
 ---
-Productivity
+Productivity *(Ruplivost)*
 : the output a steady cadence produces, multiplied by `Leverage` rather than by hours worked.
 
 ## Rhythms
@@ -47,7 +47,7 @@ On reading as an input, see [Learning → Reading](09-learning.md#reading).
 
 Effort has a ceiling — hours are finite, and raw labor pays only while you spend them.
 
-Leverage
+Leverage *(Ryqag\*)*
 : what multiplies the output of the same effort, so that results scale with judgment rather than with hours worked.
 
 | Form | What it multiplies | Note |
@@ -63,22 +63,21 @@ Discipline is the input; leverage is the multiplier.
 
 ## Economic Wisdom
 
-Save Early
+Save Early *(Ashqadnast)*
 : automating savings, so the decision is made once.
 
 ---
 
-Live Below Means
+Live Below Means *(Skromnast)*
 : spending less than you can, and never to impress.
 
 ---
 
-Invest Wisely
+Invest Wisely *(Razumnae Ukladanne\*)*
 : putting money to work in assets that grow over time.
 
-[[31]]
+> Perfection is not attainable, but if we chase perfection, we can catch excellence. — Vince Lombardi
 
 ## Sources
 
 - Eric Jorgenson, "The Almanack of Naval Ravikant" — the leverage taxonomy this section adapts. (2020)
-- [References](../_quotes.md) for the bracketed markers above.

@@ -3,7 +3,7 @@ title: "Social Trances"
 description: "Most people carry a near-constant, invisible sense that something is wrong with them — the Inferiority Trance, and the impostor pattern it produces."
 keywords: [socium, transes, inferiority]
 ---
-Inferiority Trance
+Inferiority Trance *(Trans Niepawnasci\*)*
 : a near-constant, invisible sense that something is wrong with oneself.
 
 It is a trance in the literal sense: as in a dream, you do not know you are in it. It fills thoughts, choices, and relationships yet stays invisible, and confidence is no evidence of its absence. Its voice is unmistakable: *not for someone like you; you should have stayed quiet; you let everyone down; you don't matter.* [Acceptance of Imperfection](../05-mastery/02-mindset.md#acceptance-of-imperfection) and [Self-Honesty](../05-mastery/02-mindset.md#self-honesty) name the same machinery from the side of the cure.

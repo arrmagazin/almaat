@@ -7,28 +7,28 @@ keywords: [math, spaces]
 
 ---
 
-Space
+Space *(Shyr\*)*
 : `Tuple` *into* (`Elements` := `Axis`) of `Cluster`.
 
 > `Space<Cluster> := S[a₁, a₂, ..., aₙ] :: ∀i<n, A[i] ∈ Cluster`
 
 ---
 
-Point
+Point *(Kropka)*
 : `Tuple` of `Elements`, one drawn from corresponding `Axis` of the `Space`.
 
 > `Point<Space> := P[e₁, e₂, ..., eₙ] :: ∀i<n, P[i] ∈ Space[i]`
 
 ---
 
-Place
+Place *(Mesto)*
 : `Set` of `Points` of same `Space`.
 
 > `Place<Space> := { Point<Space> }`
 
 ---
 
-Volume (Cartesian product)
+Volume (Cartesian product) *(Obshar)*
 : `Place` of *ALL* `Points` of the `Space`.
 
 > `Volume<Space> ( a₁ × a₂ × ... × aₙ )`
@@ -37,14 +37,14 @@ Volume (Cartesian product)
 
 ---
 
-View
+View *(Vid)*
 : A `Place` consists of same-`Mask` `Slicea` on ALL `Points` of  (given `Place` := `**Origin**`).
 
 > `View<Place, Mask> := { Mask.Point :: ∀ Point ∈ Place }`
 
 ---
 
-Subspace
+Subspace *(Padshyr\*)*
 : `Slice` of `Space`.
 
 > `Subspace<Space, Mask> := Mask.Space`
@@ -58,7 +58,7 @@ Zone
 
 ---
 
-Region
+Region *(Ramka)*
 : `Volume` of the `Zone` of `Space`.
 
 > `Region := Set₁ ⊆ COD(a₁) × Set₂ ⊆ COD(a₂) × ... × Setₙ ⊆ COD(aₙ)`

@@ -32,7 +32,7 @@ Sources are raw and long; `docs/` is short and canonical. Absorb collapses the f
    surrounding file.
 7. **Structurize.** Group routed claims under one heading at the file's existing level, ordered
    definition → mechanism → practice. Fold loose additions into existing headings when one fits.
-8. **Reindex.** New canonical Terms → `_translations.md`. New, retitled, or rescoped files → `INDEX.md` and the section `index.md`. Verify every relative link resolves.
+8. **Reindex.** A new canonical Term with a Belarusian form carries it on its definition line, `Term *(Form)*`. New, retitled, or rescoped files → `INDEX.md` and the section `index.md`. Verify every relative link resolves.
 9. move move the consumed transcript into `done/`
 10. **Report.** A table of source → destination file(s) → claims kept / merged / dropped, plus one line on
    each notable drop. Leave `input/` untouched; ask before deleting or archiving a consumed source.
@@ -42,7 +42,7 @@ Sources are raw and long; `docs/` is short and canonical. Absorb collapses the f
 - Non-duplication beats completeness. In doubt, sharpen an existing line rather than add one.
 - Additive only: never delete existing `docs/` content to make room; supersede a line by rewriting it.
 - No new file when an existing one fits. No new folder, ever, without asking.
-- Verbatim quotation belongs in `_quotes.md` and nowhere else.
+- Verbatim quotation goes as a `>` blockquote right after the claim it supports, `— Author` at the end; never repeat one.
 - A source that yields nothing new is a valid result — say so, change nothing.
 - dropped unverifiable, suspictious, controversial, clickbait content.
 - use plain english, no fluffy or rare words, target to non-native B1 speakers.

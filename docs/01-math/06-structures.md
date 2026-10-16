@@ -7,7 +7,7 @@ keywords: [math, structures]
 
 ---
 
-Dependency<Form, SourceMask, TargetMask>
+Dependency<Form, SourceMask, TargetMask> *(Zaleznasc\*)*
 : `Azon` that responds
 
 - to the `Slice` of a `Point` under (one `Mask` =: **`SourceMask`**)
@@ -20,7 +20,7 @@ for *every* `Point` of the `Form`.
 
 ---
 
-KeyMask<Origin>
+KeyMask<Origin> *(Zrez Kliuchow\*)*
 : `Mask` whose `Slice` responds *back* with its own `Point`, for *every* `Point` of the `Origin`.
 
 > `KeyMask<Origin> :: ∀p ∈ Origin: ∃(KeyMask.p → p)`
@@ -29,7 +29,7 @@ KeyMask<Origin>
 
 ---
 
-Key<KeyMask>
+Key<KeyMask> *(Kliuch\*)*
 : `Slice` of a `Point` under a `KeyMask`.
 
 > `Key<KeyMask> := KeyMask.p :: p ∈ Origin`
@@ -38,7 +38,7 @@ Key<KeyMask>
 
 ---
 
-Operation<Sⁿ>
+Operation<Sⁿ> *(Aperacyja\*)*
 : `Dependency` *from* `S×ⁿ` *into* `S`.
 
 > `Operation<S> := S^ⁿ ⇒ S`
@@ -52,7 +52,7 @@ Operation<Sⁿ>
 
 ---
 
-Law
+Law *(Zakon\*)*
 : a `Predicate` on the `Dependencies`.
 
 > `Law<B ⊆ Basis> := Predicate<{ Dependency }>`
@@ -76,7 +76,7 @@ Law
 
 ---
 
-Structure
+Structure *(Stroj)*
 : `Set` of `Dependencies` under the `Law`.
 
 > `Structure<Dependencies,Law> := S{ Dependency } :: Law(S) === T`

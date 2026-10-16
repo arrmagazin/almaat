@@ -5,7 +5,7 @@ keywords: [reality, being, consciousness]
 ---
 ## The Three Sides
 
-Being
+Being *(Najavnoe)*
 : the transcendent process by which the whole experiences, invents, and instantiates itself from many points at once.
 
 `Being` is considered as comprised of three sides:
@@ -16,7 +16,7 @@ Being
 
 ---
 
-Sensation
+Sensation *(Adquvanne\*)*
 : the perceptive side of `Being` — what is given before any representation is built from it.
 
 > `Sensation :: Being ⇒ given`
@@ -25,7 +25,7 @@ Sensation
 
 ---
 
-Consciousness
+Consciousness *(Svedomost)*
 : the transformative side of `Being` — that which experiences `Sensation` and builds `Reality` from it.
 
 > `Consciousness :: Sensation ⇒ Reality`
@@ -34,7 +34,7 @@ Consciousness
 
 ## Reality
 
-Reality
+Reality *(Realia)*
 : a `System` used by `Consciousness` to represent perceived `Being` as a whole and in each of its parts — intended to be logically consistent, and to provide explanatory and predictive functions.
 
 *NOTE*: `Reality` is the readout, not the source.

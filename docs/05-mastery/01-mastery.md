@@ -9,7 +9,7 @@ The capacity for abundant, effective activity toward constant improvement in one
 
 ## Terms
 
-Practice
+Practice *(Praca\*)*
 : A recurring `Plan` whose `Behavior` updates the `Agent`'s `Skill` and `Knowledge` toward `Excellence`.
 
 > `Practice :: repeated Behavior under varied Circumstances, feeding Validation and Learning`
@@ -18,7 +18,7 @@ Practice
 
 ---
 
-Mastery
+Mastery *(Spryt)*
 : A `Paradigm` in which the `Agent`'s constituent `Skills` reliably reproduce `Excellence`-grade `Behavior` across `Circumstances`.
 
 > `Mastery :: Paradigm | ∀Circumstances: Behavior reproduces Excellence`
@@ -27,7 +27,7 @@ Mastery
 
 ---
 
-Calling
+Calling *(Pokliq)*
 : A `Goal` whose `Success` is a `Core-Need` for the preservation of the `Agent`'s `Core-Value`.
 
 > `Calling := Goal | Success(Goal) ∈ Core-Need(Core-Value)`
@@ -36,7 +36,7 @@ Calling
 
 ---
 
-Surplus
+Surplus *(Nadlishak\*)*
 : What an `Agent` returns beyond what it consumed.
 
 > `Surplus := given − taken`
@@ -45,7 +45,7 @@ Surplus
 
 ---
 
-Body of Work
+Body of Work *(Darobak\*)*
 : The accumulated `Outcomes` an `Agent` has produced and can be judged by.
 
 > `Body of Work := [Outcome(Practice[i])]`
@@ -54,7 +54,7 @@ Body of Work
 
 ---
 
-Super-Goal
+Super-Goal *(Zvyshajmeta\*)*
 : A `Goal` whose horizon exceeds any single `Plan`, and which orders the `Goals` beneath it.
 
 > `Super-Goal :: Goal :: ∀Plan: horizon(Super-Goal) > horizon(Plan)`

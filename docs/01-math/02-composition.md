@@ -5,14 +5,14 @@ keywords: [math, composition]
 ---
 ## Definitions
 
-Arrow
+Arrow *(Strelka)*
 : an `Azon` that responds with `Object` only once - to the `Subject`, otherwise - `emptily`.
 
 > `Arrow[Subject, Object] := x → (x IS Subject ? Object : Zero)`
 
 ---
 
-Composition
+Composition *(Stvor)*
 : The `Azon` built on `Arrow` by *assuming* the output of `Subject` as the input of the `Object`.
 
 > `.[a,b] := x → b(a(x))`
@@ -25,7 +25,7 @@ Composition
 
 ---
 
-Identity<A>
+Identity<A> *(Tojesnasc\*)*
 : Composition-preserving (neutral) `Azon` for A.
 
 > `Id :: Id.A = A.Id = A`
@@ -34,7 +34,7 @@ Identity<A>
 
 ---
 
-Null
+Null *(Nishto\*)*
 : Composition-absorbing (annihilating) `Azon`.
 
 > `Null.A = A.Null = Null`
@@ -43,14 +43,14 @@ Null
 
 ## Properties
 
-Fitted
+Fitted *(Prygnany\*)*
 : a `Composition` whose `Object` is `valent` on the entire output of its `Subject`:
 
 > `A.B :: COD(A) = DOM(B)`.
 
 *NOTE*: `Fitted` *is* `Surjective` with the target `Set` supplied by the `Object` — `Fitted(A.B) ⟺ Surjective(A, DOM(B))`.
 
-Bijective
+Bijective *(Uzaemna Adnaznaqnae\*)*
 : `Azon` for which there *exists* an (`Azon`=: **`Inverse`**) whose left and right `Composition` give the `Domain` and `Codomain` of the `Azon`.
 
 > `A.A⁻¹ = DOM(A) ∧ A⁻¹.A = COD(A)`
@@ -63,7 +63,7 @@ Bijective
 
 ---
 
-Currying
+Currying *(Karyng\*)*
 : `Azon` from `Azons` over `[x,y]` into an `Azons` that responds to `x` with another `Azon` awaiting `y`.
 
 > `curry :: ([x,y] → z) ≃ (x → (y → z))`
@@ -72,7 +72,7 @@ Currying
 
 ---
 
-Partial Application
+Partial Application *(Qastkovae Padavanne\*)*
 : The `Azon` obtained by supplying some, but not all, of the `Tiks` a curried `Azon` expects.
 
 > `PartialApp(A, x) := curry(A)(x)`

@@ -22,6 +22,8 @@ keywords: [socium, interpersonal, influence]
 
 ## Charisma
 
+*(Vajba)*
+
 The distinctive attractiveness of an integrated person, arising through conscious recognition and acceptance of one's [shadow](34-identity.md#dark-shadow). It is the source of authenticity, creativity, and emotional depth, and it evokes interest, respect, inspiration — also fear.
 
 It is not an innate gift but a trainable skill: **warmth + power + presence**. Much of it is read before a word is spoken.

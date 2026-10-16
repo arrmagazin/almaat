@@ -3,7 +3,7 @@ title: "Proof"
 description: "The formal apparatus that carries a Thesis to a Proof — formalism, interpretation, satisfaction, and the three bounds every logic runs into."
 keywords: [mind, proof, logic]
 ---
-Proof
+Proof *(Dokaz)*
 : A [`Conclusion`](../01-math/08-language.md#rules-and-grammar) that yields `Thesis` under a given `Theory`.
 
 > `Proof<Theory> := Conclusion<Theory> :: Conclusion(Axiom) ∈ Thesis`
@@ -12,14 +12,14 @@ Proof
 
 ---
 
-Formalism
+Formalism *(Farmalizm\*)*
 : A defined way to construct some theory — a formal or axiomatic system.
 
 > `Formalism := (Axiom, Rule) generating a Theory`
 
 ## Interpretation
 
-Interpretation
+Interpretation *(Vytlumaqenne\*)*
 : A predefined mapping from each formula of a given theory into an external structure.
 
 > `Interpretation :: Formula ⇒ (Entity | {Predicate})`

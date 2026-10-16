@@ -5,14 +5,14 @@ keywords: [math, sets]
 ---
 ## Sets
 
-Set
+Set *(Sito)*
 : an `Azon` whose `Toks` are either `fixed` or `empty`.
 
 > `Set := x → (x | Zero)`
 
 ---
 
-Element
+Element *(Druska)*
 : a `valent` `Spond` of a `Set`.
 
 ---
@@ -39,7 +39,7 @@ contains
 
 ---
 
-Subset
+Subset *(Qastka)*
 : A `Set` all of whose `Elements` belong to a reference `Set`.
 
 > `A ⊆ B :: ∀x: x ∈ A ⟹ x ∈ B`
@@ -48,14 +48,14 @@ Subset
 
 ## Domain and Codomain
 
-Domain
+Domain *(Pryjom)*
 : `Set` of `valent` `Tiks` of an `Azon`.
 
 > `DOM(A) := {x : A(x) ≠ 0}`
 
 ---
 
-Codomain
+Codomain *(Vydaqa)*
 : `Set` of `valent` `Toks` of an `Azon`.
 
 > `COD(A) := {y : ∃x, A(x) = y ∧ y ≠ 0}`
@@ -80,14 +80,14 @@ Endemic
 
 ---
 
-Injective
+Injective *(Adnaznaqnae\*)*
 : `Azon` whose distinct `Tiks` never respond with the same `Spond`.
 
 > `Injective(A: x → y) := A(x) = A(y) ⟹ x = y`
 
 ---
 
-Surjective
+Surjective *(Nakryvalnae\*)*
 : `Azon` *onto* a given `Set` — its `Codomain` *is* that `Set`.
 
 > `Surjective(A, S) := COD(A) == S`
@@ -114,7 +114,7 @@ Universe
 
 ---
 
-Complement
+Complement *(Reshta)*
 : `Set` of all `Elements` of `Universe` that do NOT belongs to the reference `Set`.
 
 > `!S := {x ∈ P : x ∉ S}`
@@ -123,7 +123,7 @@ Complement
 
 ---
 
-Absence
+Absence *(Nelga)*
 : `Set` of all `Azons` that do NOT belongs to the `Universe`.
 
 > `Absence := {x : x ∉ P}`
@@ -132,14 +132,14 @@ Absence
 
 ## Topology
 
-Collection
+Collection *(Kupa)*
 : A `Set` of `Set`s.
 
 > `K := {S₁, S₂, ..., Sₙ}`
 
 ---
 
-Intersection
+Intersection *(Vseqa)*
 : `Set` of `Elements` which belong to every `Set` of the `Collection`.
 
 > `⋂K := {x : ∀S ∈ K, x ∈ S}`
@@ -153,7 +153,7 @@ non-intersecting
 
 ---
 
-Union
+Union *(Sojma)*
 : `Set` of `Elements` which belong to at least one `Set` of the `Collection`.
 
 > `⋃K := {x : ∃S ∈ K, x ∈ S}`
@@ -167,7 +167,7 @@ saturated to S
 
 ---
 
-Set-Difference
+Set-Difference *(Dapasok)*
 : `Set` of `Elements` in the `Union` of the `Collection` but NOT in the reference `Set`.
 
 > `SetDiff(K, S) := {x : x ∈ ⋃K ∧ x ∉ S}`
@@ -181,7 +181,7 @@ PowerSet
 
 ---
 
-Cluster
+Cluster *(Kryga)*
 : A `Collection` of (`Sets` =: **`Fragment`**) that is `non-intersecting` AND saturated to a reference `Set`.
 
 > `Cluster(S) :: K{ F } (∀F₁ ≠ F₂ ∈ K: ⋂{F₁, F₂} = 0) ∧ ⋃K = S`
@@ -192,7 +192,7 @@ Cluster
 
 ---
 
-Taxon
+Taxon *(Taksa)*
 : A `Cluster` of the `Domain` of `Azon` split by shared values of its `Codomain`.
 
 > `Taxon(A) := Cluster(Domain) :: ∧ ∀F ∈ Cluster: ∀a, b ∈ F: A(a) = A(b)`

@@ -7,15 +7,15 @@ keywords: [reality, matter, attribute, time]
 
 ---
 
-Time
+Time *(Chas\*)*
 : `Ray` whose `Numbers` order the readings of `Attributes`; a common `Domain` factor shared by every `Attribute` of a `Matter`.
 
 > `Time := Ray`, `t ∈ Time`
 
 ---
 
-Attribute
-: `Azon` *from* a (`Set` =: **`Basis`**) paired with `Time` *into* a `Fragment` of (`Cluster` =: **`Palette`**).
+Attribute *(Prykmeta\*)*
+: `Azon` *from* a (`Set` =: **`Basis`** *(Asnova\*)*) paired with `Time` *into* a `Fragment` of (`Cluster` =: **`Palette`**).
 
 > `Attribute<Basis, Time, Palette> :: (Basis × Time) ⇒ elemOf(Palette)`
 >
@@ -23,7 +23,7 @@ Attribute
 
 ---
 
-Matter
+Matter *(Materia)*
 : `Tuple` of `Attributes` with the same `Basis`, `Time` and `Palette`.
 
 > `Matter<Basis, Time, Palette> := M[ Attribute<Basis, Time, Palette>, ... ]`
@@ -51,7 +51,7 @@ Attribution
 
 ---
 
-Entity
+Entity *(Asobnik\*)*
 : `Element` of the `Basis` of the `Matter`.
 
 > `Entity ∈ Matter:Basis`
@@ -65,21 +65,21 @@ Moment
 
 ---
 
-Flow
+Flow *(Rux)*
 : the `Queue` of `Moments` over `Time`.
 
 > `Flow := t -> Moment(t) : ∀E ∈ Basis }`
 
 ---
 
-Thing(Entity)
+Thing(Entity) *(Shtuka)*
 : a `Queue` of `Attributions` of a single `Entity` across a `Flow`.
 
 > `Thing(Entity) := t -> [Attribution(Entity, t)]`
 
 ---
 
-Content
+Content *(Zmest)*
 : `Set` of every `Entity` whose `Attribution` at a given `t ∈ Time` `Toks` falls within the `Form`.
 
 > `Content(Form, t) := { Entity :: Attribution(Entity, t) ∈ Form }`
@@ -88,19 +88,19 @@ Content
 
 ## Keys, Relations, Schema
 
-KeyAttribute (primary key)
+KeyAttribute (primary key) *(Prykmeta Kliuchow\*)*
 : `Injective` `Attribute` — its singleton `Mask` is a `KeyMask` of the `Matter`.
 
 > `∀a, b ∈ Basis, ∀t ∈ Time: KeyAttribute(a, t) = KeyAttribute(b, t) ⟹ a = b`
 
 ---
 
-Reference (foreign key)
+Reference (foreign key) *(Spasylka\*)*
 : `Attribute` who are `KeyAttribute` of other `Matters`.
 
 ---
 
-Schema
+Schema *(Skema)*
 : `Graph` of `References` between `Matters`.
 
 > `Schema<{Type}> := ({Type}, {Relation})`
@@ -112,12 +112,12 @@ Quality<Matter>
 
 ---
 
-Principle
+Principle *(Kon)*
 : a `Predicate` that responds with `Unit` on given `Form`.
 
 ---
 
-Sigma<n>
+Sigma<n> *(Jadro<n>\*)*
 : smallest `Form` containing an `(n−1)/n` proportion of the `Basis`.
 
 > `Sigma<n> := argmin(|Place|) : |Content(Place, t)| ≥ ((n−1)/n) · |Basis|`

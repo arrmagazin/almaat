@@ -5,7 +5,7 @@ keywords: [human, rajdo]
 ---
 ## What Rajdo Is
 
-Rajdo
+Rajdo *(Rajdo)*
 : process of discovering, perceiving, and accepting Being `as-is`:
 
 - as an entire mental process unfolded from one single root,
@@ -17,11 +17,13 @@ Rajdo
 
 It is not magic nor a superpower, but a slight shift in perspective. A person in `Rajdo` feels made of all others, and sees others as variants of the same.
 
-`Rajdo` makes a person vulnerable, and overcoming that vulnerability expands what is possible. [[3]]
+`Rajdo` makes a person vulnerable, and overcoming that vulnerability expands what is possible.
+
+> Amor vincit omnia. — Love conquers all.
 
 ## What Rajdo Entails
 
-Awareness
+Awareness *(Prytomnost)*
 : conscious alignment with `Rajdo` in every moment.
 
 - beyond any mental illusions, preconcepts, and frameworks — aware of them, but not bound by them,
@@ -30,7 +32,7 @@ Awareness
 
 ---
 
-Acceptance
+Acceptance *(Pryniatte)*
 : accepting the Present exactly as it is — without evaluation, comparison, resistance, or denial.
 
 - have no expectations; daydream about a better future without obsession,
@@ -38,17 +40,19 @@ Acceptance
 
 ---
 
-Self-Acceptance
+Self-Acceptance *(Ja-pryniatte\*)*
 : accepting oneself as one of the manifestations of God.
 
 - as a whole, both dark and light sides,
 - tracking one's ego, without identifying with it,
 - outside of external validation or confirmation,
-- no blame, judgment, or envy toward oneself, but only humor and irony. [[2]]
+- no blame, judgment, or envy toward oneself, but only humor and irony.
+
+> Only when you accept yourself as you are, only then can you change and grow.
 
 ---
 
-Moderation
+Moderation *(Stiplost)*
 : contentment with less than the most that is possible.
 
 - Recognize your finitude.
@@ -57,7 +61,7 @@ Moderation
 
 ---
 
-Gratitude
+Gratitude *(Udjaqnost)*
 : all-encompassing thanks; forgiving and asking forgiveness for everything.
 
 - toward oneself, family, every person met, the universe as a whole,
@@ -66,9 +70,7 @@ Gratitude
 
 ---
 
-Love
+Love *(Amora)*
 : openness, curiosity, mutual attraction, understanding, compassion, admiration, and respect.
 
 How it is approached is in [Approaching Rajdo](24-approach.md).
-
-[References](../_quotes.md)

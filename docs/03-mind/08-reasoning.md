@@ -3,24 +3,24 @@ title: "Reasoning"
 description: "Generating new a priori Knowledge from existing Knowledge — the Inference path, and the nine modes a Mind reasons in."
 keywords: [mind, reasoning]
 ---
-Reasoning
+Reasoning *(Razvazhanne\*)*
 : The process of generating new *a priori* `Knowledge` (conclusions) from existing `Knowledge` (premises).
 
 ---
 
-Inference
+Inference *(Vysnova\*)*
 : A path of `Reasoning` that either validates a given `Opinion` or constructs a new valid `Opinion`.
 
 *NOTE*: The mechanism by which [`Proof`](06-proof.md) is assembled.
 
 ---
 
-Logic
+Logic *(Logika\*)*
 : A constructive way of inferencing based on an *a priori* foundation.
 
 ---
 
-Intuition
+Intuition *(Intuicyja\*)*
 : A non-constructive, direct way of reasoning without need of external foundations or proof.
 
 ## Types of Reasoning

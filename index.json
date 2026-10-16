@@ -127,23 +127,11 @@
       "type": "blob"
     },
     {
-      "path": "03-mind/10-free-will.md",
-      "type": "blob"
-    },
-    {
       "path": "03-mind/11-intellect.md",
       "type": "blob"
     },
     {
       "path": "03-mind/12-mind.md",
-      "type": "blob"
-    },
-    {
-      "path": "03-mind/13-predictive.md",
-      "type": "blob"
-    },
-    {
-      "path": "03-mind/14-biases.md",
       "type": "blob"
     },
     {
@@ -184,6 +172,10 @@
     },
     {
       "path": "04-human/29-self.md",
+      "type": "blob"
+    },
+    {
+      "path": "04-human/34-biases.md",
       "type": "blob"
     },
     {
@@ -380,18 +372,6 @@
     },
     {
       "path": "99-appendices/index.md",
-      "type": "blob"
-    },
-    {
-      "path": "CLAUDE.md",
-      "type": "blob"
-    },
-    {
-      "path": "_quotes.md",
-      "type": "blob"
-    },
-    {
-      "path": "_translations.md",
       "type": "blob"
     },
     {

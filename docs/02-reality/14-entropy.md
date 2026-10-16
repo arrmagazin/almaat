@@ -5,7 +5,7 @@ keywords: [reality, entropy, order, self-organization]
 ---
 ## Measure
 
-Entropy
+Entropy *(Entrapija\*)*
 : a measure of the uncertainty in a `System`'s `State` — the count of micro-configurations of [`Participant`](07-system.md#system-and-participant)s consistent with one observed macro-`State`.
 
 > `Entropy(System) := −Σ P(State_i) · log P(State_i)`
@@ -14,7 +14,7 @@ Entropy
 
 ---
 
-Order
+Order *(Lad\*)*
 : the complement of `Entropy` — the degree to which a `System`'s macro-`State` constrains the `State` of its `Participant`s.
 
 > `Order := Entropy_max − Entropy`
@@ -23,7 +23,7 @@ Order
 
 ## Direction
 
-Dissipation
+Dissipation *(Rassejvanne\*)*
 : the tendency of an isolated `System` to lose `Order` across `Step`s.
 
 > `Dissipation :: Entropy(System, Step[i+1]) ≥ Entropy(System, Step[i])` for an isolated `System`
@@ -32,7 +32,7 @@ Dissipation
 
 ---
 
-Self-Organization
+Self-Organization *(Samaarganizacyja\*)*
 : a local decrease of `Entropy` in an open `System`, paid for by a greater increase of `Entropy` in its [`Environment`](07-system.md#coupling).
 
 > `Self-Organization :: ΔEntropy(System) < 0 ∧ ΔEntropy(System ∪ Environment) > 0`

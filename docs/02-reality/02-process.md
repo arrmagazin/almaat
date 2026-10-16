@@ -7,21 +7,21 @@ keywords: [reality, process, circuit, flow, ergodic]
 
 ---
 
-Process
+Process *(Praces\*)*
 : `Flow` produced by some `Generator` from initial `[Moment...]{0..n}`.
 
 > `Process<Generator> := Queue :: Moment[i+n+1] = Generator(Queue[i..i+n] : ∀i > n)`
 
 ---
 
-State
+State *(Stan)*
 : the `Event` a `Process` is in at a given `Moment`.
 
 > `State(t) := Event :: Moment[t] ∈ Event`
 
 ---
 
-Ingress
+Ingress *(Uvod\*)*
 : the `State` presented to a `Controller<Schema>` at a given `Step`, typed by that `Schema`.
 
 ## Kinds of Circuit
@@ -35,7 +35,7 @@ Generator
 
 ---
 
-Circuit
+Circuit *(Dvigun)*
 : `Set` of `MutuallyExclusiveEvents` with same-sized `Contexts` under `Normalization`.
 
 > `Circuit := {Event} :: Normalization`
@@ -56,7 +56,7 @@ context-free
 
 ---
 
-TransitionMatrix
+TransitionMatrix *(Mantra Perexodaw\*)*
 : a [`Stochastic Matrix`](../01-math/09-probability.md#measure) of transition probabilities between `State`s.
 
 > `T[i][j] := P(State → j | State = i) :: rows sum to 1`
@@ -75,28 +75,28 @@ periodic
 
 ## Landmarks of a Flow
 
-Circumstances
+Circumstances *(Varunki)*
 : the `State` bearing on a `Plan`'s evaluation that the `Plan` does not determine.
 
 *NOTE*: what an actor does not set — outcome, timing, and other participants' responses. `Circumstances` is what a `Paradigm` must track: see [Evolution](15-evolution.md).
 
 ---
 
-Potency
+Potency *(Magna)*
 : an evaluation of a `Plan`, under given `Circumstances`.
 
 *NOTE*: written `Potency(Plan, Circumstances)` for one `Plan`, `Potency(Paradigm, Circumstances)` for the `Paradigm` as a whole, and `Potency(Plan, Paradigm, Circumstances)` where a `Plan` is evaluated within a specific `Paradigm`.
 
 ---
 
-Future<State>
+Future<State> *(Majbutnee)*
 : `Set` of `State` accessible from a given `State`.
 
 > `Future<State> := { M :: Plan reachable from State }`
 
 ---
 
-Halt / Absorbing State
+Halt / Absorbing State *(Krant)*
 : a `State` whose `Circuit` distribution is the `Point Mass` on itself — once entered, never left.
 
 > `Circuit(State) = δ_Step`, `P(State | State) = 1`, `T[i][i] = 1`
@@ -105,7 +105,7 @@ Halt / Absorbing State
 
 ---
 
-Bifurcation
+Bifurcation *(Razvoda\*)*
 : a `State` whose `Circuit` distribution has more than one `State` in its [`Support`](../01-math/09-probability.md#measure).
 
 > `|support(Circuit(State))| > 1`
@@ -114,14 +114,14 @@ Bifurcation
 
 ## Long-Run Behavior
 
-Recurrent
+Recurrent *(Zvarotny\*)*
 : a `State` returned to with probability 1.
 
 > `recurrent(State) ⟺ P(return to State) = 1`
 
 ---
 
-Transient
+Transient *(Perexodny\*)*
 : a `State` eventually abandoned — returned to with probability less than 1.
 
 > `transient(State) ⟺ P(return to State) < 1`
@@ -130,7 +130,7 @@ Transient
 
 ---
 
-Stationary Distribution
+Stationary Distribution *(Stalae Razmerkavanne\*)*
 : a `Probability Distribution` over `State` left unchanged by the `Circuit`'s `TransitionMatrix` `T`.
 
 > `π T = π`, `Σ π = 1`
@@ -139,7 +139,7 @@ Stationary Distribution
 
 ---
 
-Ergodic
+Ergodic *(Ergadyqny\*)*
 : the `Flow` converges to a unique `Stationary Distribution` regardless of the starting `State`.
 
 > `lim T^k → π` for every initial `State`

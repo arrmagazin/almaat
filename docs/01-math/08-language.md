@@ -5,28 +5,28 @@ keywords: [math, language]
 ---
 ## Codes and Words
 
-Code
+Code *(Kod)*
 : finite `Tuple` of `0` and `1`.
 
 > `Code := [ 0 | 1 ]`
 
 ---
 
-Alphabet
+Alphabet *(Bukvar)*
 : finite `Set` of same-length `Code`s.
 
 > `Alphabet<N> := { Code :: |Code| = N }`
 
 ---
 
-Word
+Word *(Slogva)*
 : `Tuple` of `Codes` of given `Alphabet`.
 
 > `Word<Alphabet> := [Codeᵢ, ...] :: Codeᵢ ∈ Alphabet`
 
 ---
 
-Dictionary
+Dictionary *(Slogvar)*
 : `Set` of `Words` of the same `Alphabet`.
 
 > `Dictionary<Alphabet> := { Word<Alphabet> }`
@@ -42,84 +42,84 @@ Text<Dictionary> / Plan
 
 ## Rules and Grammar
 
-Rule
+Rule *(Pravilo)*
 : `Arrow` between `Words` from same `Dictionary`.
 
 > `Rule<Dictionary> := [T, T'] :: T, T' ∈ Dictionary`
 
 ---
 
-Grammar
+Grammar *(Pravapis)*
 : `Graph` of `Rules` on given `Dictionary`.
 
 > `Grammar<Dictionary> := { Rule<Dictionary> }`
 
 ---
 
-Conclusion
+Conclusion *(Vyvod)*
 : `Composition` of some `Path` in given `Grammar`.
 
 > `Conclusion<Grammar> := Composition([Rule₁, …, Ruleₙ] ∈ Grammar)`
 
 ## Theories
 
-Expression
+Expression *(Vyraz)*
 : `Word` produced by a `Conclusion` from a given input `Word`.
 
 > `Expression<Word, Grammar> := Conclusion<Grammar>(Word)`
 
 ---
 
-Theory
+Theory *(Vyznanne)*
 : `Dictionary` of all `Expressions` derived from the `Word` within the `Grammar`.
 
 > `Theory<Word, Grammar> := { Expression<Word, Grammar> }`
 
 ---
 
-Axiom
+Axiom *(Padvalina\*)*
 : `Word` that cannot be expressed in given `Grammar`.
 
 > `Axiom<Grammar> := ¬∃ Theory :: Axiom ∈ Theory`
 
 ---
 
-Terminal
+Terminal *(Nazva)*
 : `Word` that nothing can be derived from in given `Grammar`.
 
 > `Terminal<Grammar> := Word :: Theory<Word, Grammar> = Zero`
 
 ---
 
-Language
+Language *(Mova)*
 : `Dictionary` of all `Terminals` expressed from given `Axioms` within given `Grammar`.
 
 > `Language<{Axiom}, Grammar> := { Terminal ∈ Theory<A, Grammar> : A ∈ {Axiom} }`
 
 ## Classification of Grammars
 
-Unrestricted Grammar
+Unrestricted Grammar *(Volny Pravapis\*)*
 : `Grammar` that constrains its `Rules` in no way.
 
 > `Unrestricted := { Rule[T, T'] }`
 
 ---
 
-Context-sensitive Grammar
+Context-sensitive Grammar *(Kantekstny Pravapis\*)*
 : `Grammar` whose every `Rule` has an `Object` no shorter than its `Subject`.
 
 > `Context-sensitive := { Rule[T, T'] :: |T| ≤ |T'| }`
 
 ---
 
-Context-free Grammar
+Context-free Grammar *(Bezkantekstny Pravapis\*)*
 : `Grammar` whose every `Rule` takes a single non-`Terminal` `Code` as its `Subject`.
 
 > `Context-free := { Rule[T, T'] :: |T| = 1 ∧ T ∉ Terminal }`
 
 ---
 
-Regular Grammar
+Regular Grammar *(Regularny Pravapis\*)*
 : `Context-free Grammar` whose `Object` carries `Terminal` `Codes` and at most one non-`Terminal`, always at the same end.
 
 > `Regular := { Rule[T, T'] :: |T| = 1 ∧ (T' = [t] ∨ T' = [t, N]) :: t ∈ Terminal, N ∉ Terminal }`

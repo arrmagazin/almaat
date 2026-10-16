@@ -11,35 +11,35 @@ It requires freedom of expression, quality education, public discourse on equal 
 
 ## Social Contract
 
-Role
+Role *(Rolia\*)*
 : A defined set of rights and obligations governing interaction with others.
 
 *NOTE*: each [`Human Being`](../04-human/21-human.md) holds several at once.
 
 ---
 
-Contract
+Contract *(Damova\*)*
 : An allocation of `Roles` among parties around a shared objective.
 
 *NOTE*: requires mutual `Maturity`, consent, and trust; reciprocal benefit — multiplied force or specialized effort; a defined scope and termination criteria.
 
 ---
 
-Maturity
+Maturity *(Daroslost)*
 : The capacity to keep a `Contract` under pressure and bear responsibility for one's choices within it.
 
 *NOTE*: the signal that makes long-term cooperation possible.
 
 ---
 
-Community
+Community *(Gramada\*)*
 : A unity of mature [`Agent`](../03-mind/09-teleos.md#the-agent)s under defined contractual relations.
 
 *NOTE*: the `Contract` is what makes it a community rather than a crowd.
 
 ---
 
-Trust
+Trust *(Daver\*)*
 : Confidence that agreements will be honored.
 
 *NOTE*: built on solidarity, mutual respect and responsibility, and recognized competence.

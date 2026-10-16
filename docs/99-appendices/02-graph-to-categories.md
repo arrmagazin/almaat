@@ -10,7 +10,7 @@ Category
 
 ---
 
-Object
+Object *(Pradmet\*)*
 : A `Domain` or `Codomain` of some `Azon` in `C` — itself a `Set` (hence an `Azon`, see [Sets](../01-math/01-sets.md)).
 
 > `Obj(C) := {DOM(A) : A ∈ C} ∪ {COD(A) : A ∈ C}`

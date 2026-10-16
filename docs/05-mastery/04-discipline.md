@@ -3,7 +3,9 @@ title: "Discipline"
 description: "The will to act without waiting to feel like it — a system of ritual and integrity, not a character trait."
 keywords: [mastery, discipline]
 ---
-[[42]]
+> Discipline is not a bridge to an easy life — it IS life itself. When you accept the eternal struggle, it becomes your nature.
+>
+> The pain of regret is worse than the pain of discipline. — Nathan Whitley
 
 ## The Five Laws of Discipline
 
@@ -44,5 +46,3 @@ Don't say "I can do it" — ask "Can I do it?" A statement invites no answer; a 
 5. *Reflection*: "What did this teach me for next time?"
 
 For the longer written form of the same move, see [Questions on Paper](03-vision.md#questions-on-paper).
-
-[References](../_quotes.md)

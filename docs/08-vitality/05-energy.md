@@ -26,6 +26,8 @@ Most chronic disease reads better as **energy resistance** — energy that no lo
 
 ## Depression
 
+*(Mliava)*
+
 Emotional emptiness that eliminates motivation and blocks all directed activity.
 
 Chronic low energy and low mood are often the same state, which is why the first root cause below is physical.

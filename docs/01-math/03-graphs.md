@@ -5,13 +5,13 @@ keywords: [math, graphs]
 ---
 ## Definitions
 
-Graph
+Graph *(Tiaga)*
 : `Set` of `Arrows`.
 
 > `Graph := {[x,y]}`
 ---
 
-Vertex
+Vertex *(Styk)*
 : one of `Arg` or `Spond` of `Arrows` of `Graph`.
 
 > `Vertex<G> :: ∃A ∈ G, Vertex ∈ DOM(A) ∨ Vertex ∈ COD(A)`
@@ -28,14 +28,14 @@ A `Vertex` is classified by how many `Arrows` enter and leave it, written `(in:o
 
 ---
 
-Path
+Path *(Cug)*
 : `Composition` of `Arrows` of a `Graph`.
 
 > `Path<G> := [A₁...Aₙ] :: ∀A ∈ G`
 
 ---
 
-Cycle
+Cycle *(Kola)*
 : a `Path` that ends at its own starting `Vertex`.
 
 > `Cycle<G> := Path<G> :: DOM(Path) = COD(Path)`
@@ -44,7 +44,7 @@ Cycle
 
 ---
 
-Tree
+Tree *(Dreva)*
 : `Graph` with exactly one `Root`, and exactly one ingoing `Arrow` into every other `Vertex`.
 
 > `Tree<G> :: ∃! Root ∧ ∀V ≠ Root: ∃! A ∈ G, V ∈ COD(A)`
