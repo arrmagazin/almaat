@@ -1,6 +1,5 @@
 {
   "name": "almaat",
-  "private": true,
   "type": "module",
   "displayName": "Almaat",
   "description": "A layered knowledge base of foundational terms, from a single primitive to mastery and the collective.",
@@ -15,6 +14,6 @@
   "theme": "caramellatte",
   "themeColor": "#4e51ea",
   "scripts": {
-    "version:patch": "npm config set tag-version-prefix \"\" && npm version patch"
+    "version:patch": "npm version patch"
   }
 }
