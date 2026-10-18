@@ -10,25 +10,25 @@ keywords: [reality, matter, attribute, time]
 Time *(Chas\*)*
 : `Ray` whose `Numbers` order the readings of `Attributes`; a common `Domain` factor shared by every `Attribute` of a `Matter`.
 
-> `Time := Ray`, `t ∈ Time`
+> `Time = Ray<0>, t ∈ Time`
 
 ---
 
 Attribute *(Prykmeta\*)*
 : `Azon` *from* a (`Set` =: **`Basis`** *(Asnova\*)*) paired with `Time` *into* a `Fragment` of (`Cluster` =: **`Palette`**).
 
-> `Attribute<Basis, Time, Palette> :: (Basis × Time) ⇒ elemOf(Palette)`
->
-> `DOM(Attribute) == Basis × Time`, `COD(Attribute) ∈ Palette`
+> `Attribute<A, Basis, Time, Palette> :: DOM<A> == Basis × Time, COD<A> ∈ Palette`
 
 ---
 
 Matter *(Materia)*
 : `Tuple` of `Attributes` with the same `Basis`, `Time` and `Palette`.
 
-> `Matter<Basis, Time, Palette> := M[ Attribute<Basis, Time, Palette>, ... ]`
+> `Matter<M, n, Basis, Time, Palette> :: DOM<M> == Interval<n>, i ∈ Interval<n> ⟹ Attribute<M[i], Basis, Time, Palette>`
 
-*NOTE*: fixing `t ∈ Time` yields the **`Slide`** `M@t := M[ A(·, t), ... ]`, a `Matter` over `Basis` alone.
+*NOTE*: fixing `t ∈ Time` yields the **`Slide`** `Slide<M, t> { i -> { E -> M[i][(E, t)] } }`, a `Matter` over `Basis` alone.
+
+---
 
 static
 : A `Matter` whose `Attributes` ignore `t`.
@@ -38,7 +38,7 @@ static
 Field
 : `Volume` of `Space` made from  `Codomains` of respective `Attributes` of the `Matter`.
 
-> `Field<Matter> := ×[COD(Matter[i],... : ∀i < n ]`
+> `Field<M> = Volume<{ i -> COD<M[i]> }>`
 
 ---
 
@@ -47,42 +47,42 @@ Attribution
 *from* `Basis` and `Time`
 *into* `Volume` of `Codomains` of the `Matter`.
 
-> `Attribution<Matter> := (E ∈ Matter:Basis, t ∈ Matter:Time) → [Matter[i](E, t),... : ∀i < n ]`
+> `Attribution<M> { (E, t) -> { i -> M[i][(E, t)] } }`
 
 ---
 
 Entity *(Asobnik\*)*
 : `Element` of the `Basis` of the `Matter`.
 
-> `Entity ∈ Matter:Basis`
+> `Entity<E, Basis> :: E ∈ Basis`
 
 ---
 
 Moment
 : `Set` of `Attributions` of all `Entities` at the given Time.
 
-> `Moment(t) :=  { M[ A(E, t), ... over A in Matter ] : ∀E ∈ Basis }`
+> `Moment<M, Basis, t> = COD<{ E -> (E ∈ Basis)[Attribution<M>[(E, t)]] }>`
 
 ---
 
 Flow *(Rux)*
 : the `Queue` of `Moments` over `Time`.
 
-> `Flow := t -> Moment(t) : ∀E ∈ Basis }`
+> `Flow<M, Basis> { t -> Moment<M, Basis, t> }`
 
 ---
 
-Thing(Entity) *(Shtuka)*
+Thing<Entity> *(Shtuka)*
 : a `Queue` of `Attributions` of a single `Entity` across a `Flow`.
 
-> `Thing(Entity) := t -> [Attribution(Entity, t)]`
+> `Thing<M, E> { t -> Attribution<M>[(E, t)] }`
 
 ---
 
 Content *(Zmest)*
-: `Set` of every `Entity` whose `Attribution` at a given `t ∈ Time` `Toks` falls within the `Form`.
+: `Set` of every `Entity` whose `Attribution` `Spond` at a given `t ∈ Time` falls within the `Form`.
 
-> `Content(Form, t) := { Entity :: Attribution(Entity, t) ∈ Form }`
+> `Content<M, Form, t> { E -> (Attribution<M>[(E, t)] ∈ Form)[E] }`
 
 *NOTE*: Let say: `Form` *covers* its `Content`.
 
@@ -91,7 +91,7 @@ Content *(Zmest)*
 KeyAttribute (primary key) *(Prykmeta Kliuchow\*)*
 : `Injective` `Attribute` — its singleton `Mask` is a `KeyMask` of the `Matter`.
 
-> `∀a, b ∈ Basis, ∀t ∈ Time: KeyAttribute(a, t) = KeyAttribute(b, t) ⟹ a = b`
+> `KeyAttribute<K, Basis, Time, Palette> :: Attribute<K, Basis, Time, Palette>, ({a, b} ⊆ Basis ∧ t ∈ Time ∧ K[(a, t)] IS K[(b, t)]) ⟹ a IS b`
 
 ---
 
@@ -103,7 +103,9 @@ Reference (foreign key) *(Spasylka\*)*
 Schema *(Skema)*
 : `Graph` of `References` between `Matters`.
 
-> `Schema<{Type}> := ({Type}, {Relation})`
+> `Schema<T, R> = (T, R)`
+
+*NOTE*: `T` is the `Set` of `Matters`, `R` the `Set` of `References` between them.
 
 ---
 
@@ -118,8 +120,8 @@ Principle *(Kon)*
 ---
 
 Sigma<n> *(Jadro<n>\*)*
-: smallest `Form` containing an `(n−1)/n` proportion of the `Basis`.
+: smallest `Form` containing an `(n − 1) / n` proportion of the `Basis`.
 
-> `Sigma<n> := argmin(|Place|) : |Content(Place, t)| ≥ ((n−1)/n) · |Basis|`
+> `Sigma<n, M, Basis, t> = argmin F ∈ { Q -> (|Content<M, Q, t>| ≥ ((n − 1) / n) · |Basis|)[Q] }: |F|`
 
-*NOTE*: `|X|` is the count of `Elements` in `X`; `argmin` selects the argument that minimizes the quantity.
+*NOTE*: `|X|` is the count of `Elements` in `X`; `argmin F ∈ S: e` selects the `Element` of `S` that minimizes `e`.

@@ -9,6 +9,8 @@ Azon
 
 > `A{ * -> A[*] }`
 
+*NOTE*: the formula syntax is defined in [Azon Notation](../99-appendices/08-azon-notation.md).
+
 ## Zero and Unit
 
 Zero *(Puston)*
@@ -121,7 +123,7 @@ Identity
 
 > `Id :: Id.A = A.Id = A`
 
-*NOTE*: `Unit` is the *universal* `Identity` (may be even restricted to `DOM(A)` on the left, `COD(A)` on the right).
+*NOTE*: `Unit` is the *universal* `Identity` (may be even restricted to `DOM<A>` on the left, `COD<A>` on the right).
 
 ---
 
@@ -175,7 +177,7 @@ Extensional Equality *(Zmestavaja Rownasc\*)*
 
 > `EEQ<A,B> { x -> A[x] IS B[x] }` — short `A == B`
 
-*NOTE*: ZFC's *axiom of extensionality*, `∀z: z ∈ A ⟺ z ∈ B ⟹ A = B`, and type theory's *function extensionality*, `(∀x: f(x) = g(x)) ⟹ f = g`. For a `Set` the two coincide, since membership *is* the response: `z ∈ S :: S(z) IS z`.
+*NOTE*: ZFC's *axiom of extensionality*, `∀z: z ∈ A ⟺ z ∈ B ⟹ A = B`, and type theory's *function extensionality*, `(∀x: f(x) = g(x)) ⟹ f = g`. For a `Set` the two coincide, since membership *is* the response: `z ∈ S :: S[z] IS z`.
 
 ---
 
@@ -184,20 +186,21 @@ Total Equality *(Pownaja Rownasc\*)*
 
 > `EQ<A,B> { x -> IEQ<A,B>[x] ∧ EEQ<A,B>[x] }` — short `A = B`
 
-*NOTE*: The two halves collapse into one in classical set theory, where an object *is* its extension. They stay apart here because an `Azon` is both operand and mapping — probed by `x(a)`, probing by `a(x)`.
+*NOTE*: The two halves collapse into one in classical set theory, where an object *is* its extension. They stay apart here because an `Azon` is both operand and mapping — probed by `x[a]`, probing by `a[x]`.
 
-*NOTE*: `EQ` could be stated recursively — `#[A] ⟺ #[B]`, and `EQ` again on `x[A], x[B]` and on `A[x], B[x]` for every probe `x`. An equation `R = F(R)` is a definition only once a solution is chosen. The least one is empty: an `Azon` answers every probe, so probing never bottoms out. The greatest one is *bisimilarity*, the equality Aczel's AFA gives non-well-founded sets. It keeps only the match on `Zero` as primitive, but it quantifies over the probes, `EQ` itself among them, and it is not decidable. `IS` is kept as the match instead, so `EQ` stays a constructed `Azon`.
+*NOTE*: `EQ` could be stated recursively — `#[A] ⟺ #[B]`, and `EQ` again on `x[A], x[B]` and on `A[x], B[x]` for every probe `x`. An equation `R = F[R]` is a definition only once a solution is chosen. The least one is empty: an `Azon` answers every probe, so probing never bottoms out. The greatest one is *bisimilarity*, the equality Aczel's AFA gives non-well-founded sets. It keeps only the match on `Zero` as primitive, but it quantifies over the probes, `EQ` itself among them, and it is not decidable. `IS` is kept as the match instead, so `EQ` stays a constructed `Azon`.
 
 ## SEE ALSO
 
+- [Azon Notation](../99-appendices/08-azon-notation.md) — the grammar of the formulas on this page.
 - [Identity of Indiscernibles (Wikipedia)](https://en.wikipedia.org/wiki/Identity_of_indiscernibles) — `∀x∀y[∀F(Fx ⟺ Fy) -> x = y]`; grounds `≠` and `=`.
 - [Axiom of Extensionality (Wikipedia)](https://en.wikipedia.org/wiki/Axiom_of_extensionality) — `∀x∀y[∀z(z ∈ x ⟺ z ∈ y) -> x = y]`; grounds `==` for a `Set`.
 - [Extensionality (Wikipedia)](https://en.wikipedia.org/wiki/Extensionality) — the general principle, including function extensionality: equality by external behaviour rather than internal definition.
-- [Intension (Wikipedia)](https://en.wikipedia.org/wiki/Intension) — intension as the properties connoted, extension as the referents: why `x(a)` is the intensional side and `a(x)` the extensional one.
+- [Intension (Wikipedia)](https://en.wikipedia.org/wiki/Intension) — intension as the properties connoted, extension as the referents: why `x[a]` is the intensional side and `a[x]` the extensional one.
 - [Extensional and intensional definitions (Wikipedia)](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) — the same contrast applied to definitions: listing instances versus stating conditions.
 - [Extensional type theory (nLab)](https://ncatlab.org/nlab/show/extensional+type+theory) — intensional identity is so named because it does *not* validate function extensionality; the reason `==` is the extensional criterion.
 - [Equality (mathematics) (Wikipedia)](https://en.wikipedia.org/wiki/Equality_(mathematics)) — broader survey of equality notions.
-- [Russell's paradox (Wikipedia)](https://en.wikipedia.org/wiki/Russell%27s_paradox) — `R = {x | x ∉ x} ⟹ (R ∈ R ⟺ R ∉ R)`; the contradiction from unrestricted self-membership that `AXIOM-2` forecloses by fixing `A(A) IS Zero`.
+- [Russell's paradox (Wikipedia)](https://en.wikipedia.org/wiki/Russell%27s_paradox) — `R = {x | x ∉ x} ⟹ (R ∈ R ⟺ R ∉ R)`; the contradiction from unrestricted self-membership that `AXIOM-2` forecloses by fixing `A[A] IS Zero`.
 - [Bisimulation (Wikipedia)](https://en.wikipedia.org/wiki/Bisimulation) — bisimilarity is the union of all bisimulations, the greatest fixed point; the only solution of a recursive `EQ` over `Azon`.
 - [Coinduction (Wikipedia)](https://en.wikipedia.org/wiki/Coinduction) — `μF` as the intersection of `F`-closed sets, `νF` as the union of `F`-consistent sets; why a recursive equation names two relations.
 - [Non-well-founded set theory (Wikipedia)](https://en.wikipedia.org/wiki/Non-well-founded_set_theory) — AFA: bisimilar sets are equal; the set theory whose equality a recursive `EQ` would reproduce.

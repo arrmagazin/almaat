@@ -118,7 +118,7 @@ The body as the physical foundation of health and performance (`02`–`06`).
 
 ## 99 — Appendices · Correspondences
 
-Correspondences from the formal core to the classical disciplines it recovers (`01`–`07`).
+Correspondences from the formal core to the classical disciplines it recovers (`01`–`07`), and the notation of the Azon formulas (`08`).
 
 - [Correspondence from Sets to Logic of Predicates](99-appendices/01-set-to-predicates.md) — Predicate logic recovered from Set: a Predicate as a truth-test, and the connectives and quantifiers as Set operations.
 - [Correspondence from Graphs to Category Theory](99-appendices/02-graph-to-categories.md) — Category theory recovered from Graph: Category, Object, Morphism, Monoid, Functor, and Natural Transformation as Azons under Composition.
@@ -127,3 +127,4 @@ Correspondences from the formal core to the classical disciplines it recovers (`
 - [Fundamental Data Structures](99-appendices/05-data-structures.md) — The data structures of computing as Azons already available from Set, Graph, and Numerals, each narrowed by one constraint.
 - [Correspondence to Data Normalization](99-appendices/06-data-normalization.md) — The relational normal forms 1NF to BCNF stated over Schema, Type, Presentation, and Relation.
 - [Branches of Intellectual Work](99-appendices/07-science-branches.md) — A map of the scientific, applied, and humanistic disciplines, each given by what it studies.
+- [Azon Notation](99-appendices/08-azon-notation.md) — The formal grammar of the Azon formulas: literal, pattern and response, parameters, application, composition, relations, and the layout of a definition.

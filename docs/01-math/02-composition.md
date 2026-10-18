@@ -36,8 +36,8 @@ Currying *(Karyng\*)*
 ---
 
 Partial Application *(Qastkovae Padavanne\*)*
-: The `Azon` obtained by supplying some, but not all, of the `Tiks` a curried `Azon` expects.
+: The `Azon` obtained by supplying some, but not all, of the `Args` a curried `Azon` expects.
 
 > `PartialApp(A, x) := curry(A)(x)`
 
-*NOTE*: the result is an `Azon` of reduced arity, still awaiting the remaining `Tiks`.
+*NOTE*: the result is an `Azon` of reduced arity, still awaiting the remaining `Args`.
