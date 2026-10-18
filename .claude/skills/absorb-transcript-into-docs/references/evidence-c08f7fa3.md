@@ -1,0 +1,1 @@
+❌ "In set theory 1 + 1 = 2 is just an axiom." This is wrong: set theory proves it from the axioms. I wrote the correct version in the comparison table.

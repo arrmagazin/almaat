@@ -50,7 +50,7 @@ The framework's cognitive core: Content → Form → Mechanism → Process → P
 
 - [Mind](03-mind/index.md) — The cognitive core: Knowledge, Proof, Computation, Reasoning, agency, free will, Intellect, the predictive brain, biases and fallacies, and the scientific method.
 - [Knowledge](03-mind/05-knowledge.md) — The atomic units of belief — Opinion, Doubt, Thesis, Theory, Name, Concept — and the forms Knowledge is organized into.
-- [Proof](03-mind/06-proof.md) — The formal apparatus that carries a Thesis to a Proof — formalism, interpretation, satisfaction, and the three bounds every logic runs into.
+- [Proof](03-mind/06-proof.md) — The formal apparatus that carries a Thesis to a Proof — formalism, interpretation, satisfaction, the three bounds every logic runs into, and type theory, where a proof is a program.
 - [Computation](03-mind/07-computation.md) — Reasoning mechanized: Data carried through Transformers by a Runtime, expressed as a Program, prescribed by an Algorithm, and judged against a Specification.
 - [Reasoning](03-mind/08-reasoning.md) — Generating new a priori Knowledge from existing Knowledge — the Inference path, and the nine modes a Mind reasons in.
 - [Agency & Teleology](03-mind/09-teleos.md) — The anatomy of intentional action: who the Agent is, what drives motion toward a Future, what means are deployed, and how the outcome is judged.
@@ -126,7 +126,7 @@ The body as the physical foundation of health and performance (`02`–`05`).
 - [Vitality](08-vitality/index.md) — The body as the physical foundation of health and performance: vitality, recovery, nutrition, and the energy budget.
 - [Vitality](08-vitality/02-vitality.md) — The physical foundation of human life, health, and performance: the body's ability to function optimally, resist disease, and recover from stress.
 - [Recovery](08-vitality/03-recovery.md) — Recovery is not idleness: sleep cleans the brain, light sets the clock, and breath and stillness switch off the stress response.
-- [Nutrition](08-vitality/04-nutrition.md) — What you drink, what you eat, and when — the three levers that set blood sugar, insulin, and the fuel a working day runs on.
+- [Nutrition](08-vitality/04-nutrition.md) — What you drink, what you eat, and when — the levers that set blood sugar, insulin, the gut flora, and the fuel a working day runs on.
 - [Energy](08-vitality/05-energy.md) — Health is the sound allocation of a finite energy budget: training raises its capacity, chronic stress drains it, and depression is what its collapse feels like.
 
 ## 99 — Appendices · Correspondences

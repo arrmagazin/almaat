@@ -9,6 +9,8 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash(ls:*), Bash(git:*), Bash(rg:*
 Merge key insights from `input/` into the `docs/` files that already own the topic.
 Sources are raw and long; `docs/` is short and canonical. Absorb collapses the first into the second.
 
+Use skill `absorb-transcript-into-docs`
+
 ## Procedure
 
 1. **Scope.** Sources = `$ARGUMENTS` if given, else every file in `input/`. List them with size and language.

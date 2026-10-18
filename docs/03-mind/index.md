@@ -6,7 +6,7 @@ keywords: [mind]
 The framework's cognitive core: Content → Form → Mechanism → Process → Purpose → Capacity → Substrate → Method.
 
 - [Knowledge](05-knowledge.md) — The atomic units of belief — Opinion, Doubt, Thesis, Theory, Name, Concept — and the forms Knowledge is organized into.
-- [Proof](06-proof.md) — The formal apparatus that carries a Thesis to a Proof — formalism, interpretation, satisfaction, and the three bounds every logic runs into.
+- [Proof](06-proof.md) — The formal apparatus that carries a Thesis to a Proof — formalism, interpretation, satisfaction, the three bounds every logic runs into, and type theory, where a proof is a program.
 - [Computation](07-computation.md) — Reasoning mechanized: Data carried through Transformers by a Runtime, expressed as a Program, prescribed by an Algorithm, and judged against a Specification.
 - [Reasoning](08-reasoning.md) — Generating new a priori Knowledge from existing Knowledge — the Inference path, and the nine modes a Mind reasons in.
 - [Agency & Teleology](09-teleos.md) — The anatomy of intentional action: who the Agent is, what drives motion toward a Future, what means are deployed, and how the outcome is judged.

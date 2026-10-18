@@ -1,0 +1,1 @@
+broader survey of equality notions.- [Russell's paradox (Wikipedia)](https://en.wikipedia.org/wiki/Russell%27s_paradox)
