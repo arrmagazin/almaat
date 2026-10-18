@@ -19,14 +19,11 @@
     "book": "bun ./book/build.ts",
     "deploy": "firebase deploy --only hosting --config ./firebase.json -P parlang",
     "gen:docs-index": "DOCS_ROOT=docs bun ./scripts/gen-docs-index.ts",
-    "absorb-watch-later": "node scripts/wl-absorb.mjs --browser \"chrome:Profile 1\"",
-    "absorb-youtube": "node scripts/yt-fetch.mjs --count 10 && claude -p /yt-absorb --permission-mode acceptEdits",
     "check-docs": "node scripts/check-docs.mjs",
     "version:patch": "npm version patch",
     "postinstall": "npm run link:www",
     "link:modules": "./scripts/link-modules.sh arrmatura-web arrmatura-books ultimus",
-    "link:www": "ln -sfn ../docs www/docs && ln -sfn ../index.json www/index.json",
-    "test": "node --test scripts/*.test.mjs"
+    "link:www": "ln -sfn ../docs www/docs && ln -sfn ../index.json www/index.json"
   },
   "devDependencies": {
     "@types/node": "^26.5.1",
