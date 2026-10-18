@@ -1,2 +1,0 @@
-# Accepted pre-existing breakage. Keyed as `file → target`, no line numbers.
-# Regenerate: node scripts/check-docs.mjs --write-baseline

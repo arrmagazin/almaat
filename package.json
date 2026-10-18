@@ -7,7 +7,7 @@
   "version": "1.0.3",
   "author": "Company, Inc",
   "keywords": [
-    "learning",
+    "knowledge",
     "almaat"
   ],
   "email": "contact@company.com",
@@ -15,7 +15,6 @@
   "theme": "caramellatte",
   "themeColor": "#4e51ea",
   "scripts": {
-    "check-docs": "node scripts/check-docs.mjs",
-    "version:patch": "npm version patch"
+    "version:patch": "npm config set tag-version-prefix \"\" && npm version patch"
   }
 }

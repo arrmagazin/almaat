@@ -12,6 +12,8 @@ keywords: [mastery, attention]
 | **Systematizing** | Holds a single track for long stretches; builds and maintains process; predictable output | Slow to switch; weak at originating from nothing |
 | **Scanning** | Fast switching, wide search, sharp output under novelty; deep absorption in whatever engages | Poor at sustaining a system; drowns once many threads are open; the profile a [feed](../04-human/28-animal.md#reward-and-compulsion) is built to catch |
 
+A profile is not a diagnosis. Brain scans cannot diagnose ADHD or any other psychiatric condition: no imaging marker is accurate enough to classify one person, dementia aside.[^2]
+
 Neither profile is the productive one: systematizing attention runs a process, scanning attention finds what the process should be. Most published productivity method is written by the first profile for the first profile, and reaches the second as evidence of being broken.
 
 A remedy whose first step already demands the capacity it is meant to build — read this book, maintain this system — cannot bootstrap.
@@ -65,3 +67,4 @@ A block takes time to become productive, and an interruption costs that run-up a
 ## Sources
 
 [^1]: Roberts et al. — [How effective are pharmaceuticals for cognitive enhancement in healthy adults? A series of meta-analyses of modafinil, methylphenidate and d-amphetamine](https://researchonline.ljmu.ac.uk/id/eprint/13268/) (2020); FDA — [PROVIGIL (modafinil) prescribing information](https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/e16c26ad-7bc2-d155-3a5d-da83ad6492c8/spl-doc) (2022) · from [Гений внутри нас или особая «чудо-таблетка» 02:11](https://www.youtube.com/watch?v=0t_vXSHHaBw&t=131s)
+[^2]: First et al., American Psychiatric Association — [Clinical applications of neuroimaging in psychiatric disorders](https://doi.org/10.1176/appi.ajp.2018.1750701) (2018) · corrects [The ADHD Doctor: “I’ve Scanned 250,000 Brains” You (Steven Bartlett) Have ADHD!!! Dr Daniel Amen 04:19](https://www.youtube.com/watch?v=ycTZ_t-aiuU&t=259s)

@@ -17,16 +17,18 @@ Most chronic disease reads better as **energy resistance** — energy that no lo
 
 ## Fitness
 
-- Move every day. Something is far better than nothing.
+- Move every day. Something is far better than nothing. Steps count up to a point: death risk stops falling at about 6,000–8,000 steps a day from age 60, and at 8,000–10,000 below it.[^8]
 - The weekly dose: 150–300 minutes of moderate aerobic activity or 75–150 of vigorous, plus muscle strengthening on two or more days. From 65, add balance and strength work on three days a week to prevent falls.[^1]
 - Training lowers resting blood pressure, whether it is endurance, resistance or isometric work.[^3]
 - Exercise sharpens thinking at every age. Across 133 systematic reviews, even light exercise improved general cognition, memory and executive function.[^4]
 - If you sweat, breathe hard, and feel your heart — it's working.
+- Exercise alone takes weight off slowly. 150–250 minutes a week brings only modest loss, more than 250 brings clear loss, and the same 150–250 minutes helps prevent weight gain.[^11]
 - Morning routine: water → exercise/dance → cold shower.
 - Build the basics: carrying, squatting, pulling, and controlled spinal movement. Load advanced variations only under instruction.
+- Recreational running does not wear out the knees: recreational runners had less hip and knee arthritis (3.5%) than sedentary people (10.2%); only years of competitive running went with more (13.3%).[^9]
 - Exercise eases knee osteoarthritis only modestly: about 13 points less pain and 12 points better function on 100-point scales, a gain that may be too small to notice.[^7]
 - Stand tall, stretch, develop coordination.
-- Routinely lift heavy things. Avoid sitting for long stretches. Adults lose about 0.4% of their muscle mass a year, faster after 75, and strength falls two to five times faster than mass.[^2]
+- Routinely lift heavy things. Avoid sitting for long stretches: short activity breaks in long sitting lower blood sugar and insulin after meals.[^10] Adults lose about 0.4% of their muscle mass a year, faster after 75, and strength falls two to five times faster than mass.[^2]
 
 ## Depression
 
@@ -67,3 +69,7 @@ Root causes:
 [^5]: WHO — [Burn-out an "occupational phenomenon": International Classification of Diseases](https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases) (2019) · from [10 способов ПРОКАЧАТЬ МОЗГ! Психофизиолог Полина Кривых 39:45](https://www.youtube.com/watch?v=HDeaP7RdghA&t=2385s)
 [^6]: Maslach and Leiter — [Understanding the burnout experience: recent research and its implications for psychiatry](https://doi.org/10.1002/wps.20311) (2016) · from [10 способов ПРОКАЧАТЬ МОЗГ! Психофизиолог Полина Кривых 41:05](https://www.youtube.com/watch?v=HDeaP7RdghA&t=2465s)
 [^7]: Lawford et al., Cochrane — [Exercise for knee osteoarthritis](https://www.cochrane.org/evidence/CD004376_exercise-osteoarthritis-knee) (2024) · corrects [The Most Anti Aging Exercise 02:37](https://www.youtube.com/watch?v=YIyEWTnhTok&t=157s)
+[^8]: Paluch et al. — [Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts](https://doi.org/10.1016/S2468-2667(21)00302-9) (2022) · corrects [Harvard Professor: REVEALING The 7 Big LIES About Exercise, Sleep, Running, Cancer & Sugar!!! 11:10](https://www.youtube.com/watch?v=ujRwf1HdNjk&t=670s)
+[^9]: Alentorn-Geli et al. — [The association of recreational and competitive running with hip and knee osteoarthritis: a systematic review and meta-analysis](https://doi.org/10.2519/jospt.2017.7137) (2017) · from [Harvard Professor: REVEALING The 7 Big LIES About Exercise, Sleep, Running, Cancer & Sugar!!! 1:02:15](https://www.youtube.com/watch?v=ujRwf1HdNjk&t=3735s)
+[^10]: Loh et al. — [Effects of interrupting prolonged sitting with physical activity breaks on blood glucose, insulin and triacylglycerol measures: a systematic review and meta-analysis](https://doi.org/10.1007/s40279-019-01183-w) (2019) · from [Harvard Professor: REVEALING The 7 Big LIES About Exercise, Sleep, Running, Cancer & Sugar!!! 07:47](https://www.youtube.com/watch?v=ujRwf1HdNjk&t=467s)
+[^11]: Donnelly et al., ACSM — [Appropriate physical activity intervention strategies for weight loss and prevention of weight regain for adults](https://doi.org/10.1249/MSS.0b013e3181949333) (2009) · from [Harvard Professor: REVEALING The 7 Big LIES About Exercise, Sleep, Running, Cancer & Sugar!!! 1:11:12](https://www.youtube.com/watch?v=ujRwf1HdNjk&t=4272s)
