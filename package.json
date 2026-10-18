@@ -1,37 +1,21 @@
 {
   "name": "almaat",
-  "description": "Almaat book",
-  "version": "1.0.1",
-  "type": "module",
   "private": true,
+  "type": "module",
+  "displayName": "Almaat",
+  "description": "A layered knowledge base of foundational terms, from a single primitive to mastery and the collective.",
+  "version": "1.0.2",
+  "author": "Company, Inc",
+  "keywords": [
+    "learning",
+    "almaat"
+  ],
+  "email": "contact@company.com",
+  "copyright": "© 2025. All rights reserved.",
+  "theme": "caramellatte",
+  "themeColor": "#4e51ea",
   "scripts": {
-    "dev": "PORT=8091 npm run start",
-    "prestart": "npm run gen:docs-index",
-    "start": "npm run stop && npx --yes npm-run-all --parallel start:*",
-    "start:serve": "bun ./scripts/serve.ts",
-    "start:css": "npm run build:css -- --watch",
-    "start:open": "npx --yes wait-on http://localhost:${PORT:?no port} && open http://localhost:${PORT:?no port}/",
-    "stop": "lsof -t -sTCP:LISTEN -i tcp:${PORT:-8091} | xargs -r kill -9",
-    "prebuild": "npm run gen:docs-index",
-    "build": "npx --yes npm-run-all --parallel build:*",
-    "build:ts": "bun ./scripts/build.ts",
-    "build:css": "npx --yes @tailwindcss/cli -i index.css -o \"www/dist/index.css\"",
-    "book": "bun ./book/build.ts",
-    "deploy": "firebase deploy --only hosting --config ./firebase.json -P parlang",
-    "gen:docs-index": "DOCS_ROOT=docs bun ./scripts/gen-docs-index.ts",
     "check-docs": "node scripts/check-docs.mjs",
-    "version:patch": "npm version patch",
-    "postinstall": "npm run link:www",
-    "link:modules": "./scripts/link-modules.sh arrmatura-web arrmatura-books ultimus",
-    "link:www": "ln -sfn ../docs www/docs && ln -sfn ../index.json www/index.json"
-  },
-  "devDependencies": {
-    "@types/node": "^26.5.1",
-    "daisyui": "^5.7.37",
-    "esbuild": "^0.28.2",
-    "tailwindcss": "^4.3.3"
-  },
-  "dependencies": {
-    "arrmatura-web": "^9.1.1"
+    "version:patch": "npm version patch"
   }
 }

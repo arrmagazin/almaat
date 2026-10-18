@@ -2,11 +2,5 @@
 .cache
 done
 node_modules
-www/docs
-www/index.json
-dist
-.packages
-.firebase
-build
 *.log
 .claude/autoharness/
