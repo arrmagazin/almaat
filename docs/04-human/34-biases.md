@@ -69,7 +69,7 @@ Biases occur due to limitations of the human brain:
 | --- | --- |
 | **Labor Illusion** | Valuing a result more when the effort behind it is made visible |
 | **Loss Aversion** | Preferring to avoid losses over acquiring equivalent gains |
-| **Sunk Cost Fallacy** | Continuing a behavior due to previously invested resources, even when irrational |
+| **Sunk Cost Fallacy** | Continuing a behavior due to previously invested resources, even when irrational. It is strongest in whoever made the first choice, so hand the next investment decision to someone who did not make it[^9] |
 | **Scarcity Bias** | Valuing things more when they are rare or perceived to be limited |
 | **Contrast Effect** | Judging something by what sits next to it rather than on its own merits — a cost feels small beside a larger one |
 | **Paradox of Choice** | Too many options reduce satisfaction and stall decisions instead of helping; more alternatives mean more regret and comparison |
@@ -122,3 +122,4 @@ Biases occur due to limitations of the human brain:
 [^6]: Guilbault et al. — [A meta-analysis of research on hindsight bias](https://doi.org/10.1207/s15324834basp2602&3_1) (2004) · from [Почему наш МОЗГ ЛАГАЕТ? Когнитивные искажения / Редакция.Наука 20:11](https://www.youtube.com/watch?v=hsLIY9n0vUw&t=1211s)
 [^7]: Alaybek et al. — [All's well that ends (and peaks) well? A meta-analysis of the peak-end rule and duration neglect](https://ideas.repec.org/a/eee/jobhdp/v170y2022ics0749597822000334.html) (2022) · from [Почему наш МОЗГ ЛАГАЕТ? Когнитивные искажения / Редакция.Наука 23:33](https://www.youtube.com/watch?v=hsLIY9n0vUw&t=1413s)
 [^8]: Barnett, van der Pols and Dobson — [Regression to the mean: what it is and how to deal with it](https://doi.org/10.1093/ije/dyh299) (2005) · from [Почему наш МОЗГ ЛАГАЕТ? Когнитивные искажения / Редакция.Наука 12:01](https://www.youtube.com/watch?v=hsLIY9n0vUw&t=721s)
+[^9]: Sleesman et al. — [Cleaning up the big muddy: a meta-analytic review of the determinants of escalation of commitment](https://doi.org/10.5465/amj.2010.0696) (2012) · from [The art of negotiation: Six must-have strategies | LBS 25:34](https://www.youtube.com/watch?v=uKbcmlKb81c&t=1534s)

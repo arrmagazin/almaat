@@ -56,6 +56,8 @@ The levers persuasion uses, and the form each takes when concealed, are in [Mani
 8. **Make the relevance concrete** — show why it matters now, without manufacturing a deadline.
 9. **End with a clear call to action** — direct behavior explicitly.
 
+Arguments move a listener who is motivated and able to weigh them. A distracted or uninterested listener is moved by cues instead — who speaks, how likeable they look, how many seem to agree.[^3]
+
 ## Elicitation
 
 Ordinary conversation reveals a great deal without anything being asked directly, because the structure is invisible to the person answering. What follows is how it works, so it can be recognized when it is being done to you — see [Manipulation](../07-sustain/09-manipulation.md) for the counters.
@@ -100,3 +102,4 @@ mindmap
 
 [^1]: Rosenberg and Hirschberg — [Acoustic/prosodic and lexical correlates of charismatic speech](https://www.cs.columbia.edu/%7Ejulia/files/rosenberg_hirschberg_05.pdf) (2005); Biadsy et al. — [A cross-cultural comparison of American, Palestinian, and Swedish perception of charismatic speech](https://www.cs.columbia.edu/nlp/papers/2008/fadi_al_08b.pdf) (2008) · from [43 minutes straight of SOLID communication skills advice 05:05](https://www.youtube.com/watch?v=6-shbSFc48E&t=305s)
 [^2]: Mar, Li, Nguyen and Ta — [Memory and comprehension of narrative versus expository texts: a meta-analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC8219577/) (2021) · from [FREE 56mins Storytelling Masterclass (How to Captivate Anyone's Attention) 07:47](https://www.youtube.com/watch?v=MWP8j2TvdBs&t=467s)
+[^3]: Carpenter — [A meta-analysis of the ELM's argument quality × processing type predictions](https://doi.org/10.1111/hcre.12054) (2015); Petty and Cacioppo — [The elaboration likelihood model of persuasion](https://doi.org/10.1016/S0065-2601(08)60214-2) (1986) · from [The art of negotiation: Six must-have strategies | LBS 55:43](https://www.youtube.com/watch?v=uKbcmlKb81c&t=3343s)

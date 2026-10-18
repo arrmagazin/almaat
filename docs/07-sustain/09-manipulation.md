@@ -19,6 +19,8 @@ Cialdini's principles of influence are neutral tools — persuasion when honest,
 | **Scarcity** | True limits | Fake deadlines, "last chance" |
 | **Unity** | Shared identity | "We're family — you owe us" |
 
+Reciprocity works best when the gift comes first and without conditions: a small payment sent with a mail survey raises replies, while a larger one promised for a reply barely does.[^4]
+
 Intelligence work long summed up what moves a person to betray as **MICE**: money, ideology, coercion, ego. The CIA's own journal argues it has outlived its use and proposes these six levers instead, as **RASCLS**.[^2]
 
 ## Tactics and Counters
@@ -33,7 +35,7 @@ Intelligence work long summed up what moves a person to betray as **MICE**: mone
 | **Ultimatum** | "Do this or else" | Treat "or else" as information; let them own it |
 | **Emotional blackmail** | Anger/tears/threats to control you | Stay regulated; their reaction is not yours to manage |
 | **Social proof** | "Everyone agrees / does this" | "Then it won't be hard to show me." |
-| **Foot-in-the-door** | Small commitments escalated | Re-evaluate each ask; past yes ≠ obligation |
+| **Foot-in-the-door** | Small commitments escalated. The effect is weak: in about half the studies it did nothing or backfired[^3] | Re-evaluate each ask; past yes ≠ obligation |
 | **Door-in-the-face** | A large ask, refused, then the real one as a "concession." It wins more spoken yeses, but hardly more deeds[^1] | Judge the second ask on its own; the first was never meant |
 | **Love bombing** | Overwhelming early praise to fast-track trust | Match the real pace; watch how they handle a slowdown |
 | **DARVO** | Deny, Attack, Reverse Victim and Offender | Don't defend the flip; restate the fact once, stop |
@@ -62,3 +64,5 @@ What you react to, you train — so choose what you reinforce.
 
 [^1]: Feeley, Anker and Aloe — [The door-in-the-face persuasive message strategy: a meta-analysis of the first 35 years](https://doi.org/10.1080/03637751.2012.697631) (2012) · corrects [23 Психологические Уловки, которые всегда Работают 10:13](https://www.youtube.com/watch?v=B_srVO2QjGI&t=613s)
 [^2]: Randy Burkett, CIA Studies in Intelligence — [An alternative framework for agent recruitment: from MICE to RASCLS](https://www.cia.gov/resources/csi/studies-in-intelligence/volume-57-no-1/an-alternative-framework-for-agent-recruitment-from-mice-to-rascls) (2013) · corrects [CIA SPY: Mind Games, Power & Seduction Tactics | Andrew Bustamante 32:15](https://www.youtube.com/watch?v=_Q2lX7_fmGE&t=1935s)
+[^3]: Beaman et al. — [Fifteen years of foot-in-the-door research: a meta-analysis](https://doi.org/10.1177/0146167283092002) (1983) · corrects [The art of negotiation: Six must-have strategies | LBS 20:45](https://www.youtube.com/watch?v=uKbcmlKb81c&t=1245s)
+[^4]: Edwards et al., Cochrane — [Methods to increase response to postal and electronic questionnaires](https://doi.org/10.1002/14651858.MR000008.pub4) (2009); Church — [Estimating the effect of incentives on mail survey response rates: a meta-analysis](https://doi.org/10.1086/269355) (1993) · from [The art of negotiation: Six must-have strategies | LBS 05:34](https://www.youtube.com/watch?v=uKbcmlKb81c&t=334s)
