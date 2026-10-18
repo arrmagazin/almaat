@@ -1,1 +1,0 @@
-{"type":"user","message":"avoid use ∀ and ∃"} — then AskUserQuestion answer: "What should replace ∀ and ∃ in the formulas?"="Azon-native (Recommended)". Later Bash result: 14 matches for '[∀∃∄]' in 99-appendices/05-data-structures.md; subagent UPDATE appended to brief: "no ∀, ∃, ∃!, ∄ anywhere (overrides the grammar's binder rows)".

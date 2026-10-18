@@ -1,1 +1,0 @@
-{"type":"last-prompt","lastPrompt":"make Taxon  complete, use Arg / Spond everywhere,  rewrite candidates"} and assistant report: "✅ Arg / Spond: all 7 places that said Tiks/Toks now say Args/Sponds. ... ✅ Taxon is complete: one Fragment per Spond, both directions in the formula."

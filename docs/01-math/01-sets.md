@@ -147,7 +147,7 @@ Complement *(Reshta)*
 
 ---
 
-Absence *(Nelga)*
+Absence *(Nigda)*
 : `Set` of all `Azons` that do NOT belongs to the `Universe`.
 
 > `Absence<P> { x -> (x ∉ P)[x] }`
@@ -198,7 +198,7 @@ Set-Difference *(Dapasok)*
 
 ---
 
-PowerSet*(Gura)*
+PowerSet *(Gurba)*
 : The `Collection` of all `Subset` of the reference `Set`.
 
 > `2^S { Q -> (Q ⊆ S)[Q] }`

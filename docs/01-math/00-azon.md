@@ -61,8 +61,6 @@ Verum
 
 > `⊤{ * -> U }`
 
-*NOTE*: As a response, `Unit` passes its `Arg` on (`U[q] IS q`) and `Zero` absorbs it (`Z[q] IS Z`); `Verum` is the one that answers `Unit` whatever `q` is. The three are the choices a connective applies to `Q`'s indication.
-
 ---
 
 Conjunction
@@ -85,6 +83,13 @@ Implication
 > `⟹<P,Q> { x -> { Z | * -> ⊤ | U }[P[x]][#[Q[x]]] }` — short `P ⟹ Q`
 
 ## Composability
+
+Arrow *(Strelka)*
+: an `Azon` that has at most one `valent` response.
+
+> `Arr<s,A> { s | * -> A[s] | Z }`
+
+---
 
 Composition *(Tvor)*
 : The `Azon` built by using the output of previous param as the input of the next param.
@@ -116,34 +121,7 @@ AXIOM-3 (Non-Self-Generation)
 
 > `X3<A> { - | *  -> A | A[*] }`
 
-## Neutrality and Annihilating
-
-Identity
-: Composition-preserving (neutral) `Azon` for A.
-
-> `Id :: Id.A = A.Id = A`
-
-*NOTE*: `Unit` is the *universal* `Identity` (may be even restricted to `DOM<A>` on the left, `COD<A>` on the right).
-
----
-
-Nil *(Nishto\*)*
-: Composition-absorbing (annihilating) `Azon`.
-
-> `Nil.A = A.Nil = Nil`
-
-*NOTE*: `Zero` is *universal* `Null`.
-
-## Equality
-
----
-
-Arrow *(Strelka)*
-: an `Azon` that has at most one `valent` response.
-
-> `Arr<s,A> { s | * -> A[s] | Z }`
-
----
+## Sameness and Equality
 
 Singleton *(Ton)*
 : `fixed` `Arrow` - `Arr<s,U>` — the `Azon` that responds with `s` to `s` alone.

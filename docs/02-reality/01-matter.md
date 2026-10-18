@@ -114,11 +114,6 @@ Quality<Matter>
 
 ---
 
-Principle *(Kon)*
-: a `Predicate` that responds with `Unit` on given `Form`.
-
----
-
 Sigma<n> *(Jadro<n>\*)*
 : smallest `Form` containing an `(n − 1) / n` proportion of the `Basis`.
 

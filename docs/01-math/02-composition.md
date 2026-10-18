@@ -4,6 +4,24 @@ description: "The Arrow and the Composition that feeds one Azon's output into an
 keywords: [math, composition]
 ---
 
+## Neutrality and Annihilating
+
+Identity
+: Composition-preserving (neutral) `Azon` for A.
+
+> `Id :: Id.A = A.Id = A`
+
+*NOTE*: `Unit` is the *universal* `Identity` (may be even restricted to `DOM<A>` on the left, `COD<A>` on the right).
+
+---
+
+Nil *(Nishto\*)*
+: Composition-absorbing (annihilating) `Azon`.
+
+> `Nil.A = A.Nil = Nil`
+
+*NOTE*: `Zero` is *universal* `Null`.
+
 ## Properties
 
 Fitted *(Prygnany\*)*
