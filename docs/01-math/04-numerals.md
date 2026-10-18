@@ -5,17 +5,6 @@ keywords: [math, numerals]
 ---
 ## Natural Numbers
 
----
-
-Singleton *(Ton)*
-: `fixed` `Arrow`.
-
-> `Singleton(c) := [c,c]`
-
-*NOTE*: `Singleton` is also a `Set` with exactly one `Element`.
-
----
-
 Plus *(Prybawka\*)*
 : The `Azon` that responds to a `Arg` with its `Singleton`.
 

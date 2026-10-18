@@ -56,7 +56,7 @@ decidability fails independently of the other two.
 Type theory is a `Formalism` in which every term carries a type. Its basic statement is the
 *typing judgment* `t : A` — "term `t` has type `A`": `42 : Nat`, `true : Bool`.
 
-It began as the fix for [Russell's paradox](../00-azon/00-azon.md#see-also): types form a strict
+It began as the fix for [Russell's paradox](../01-math/00-azon.md#see-also): types form a strict
 hierarchy, and a collection holds only members of a lower type. So `x ∈ x` cannot even be
 written, and the paradox has no way to start (Russell and Whitehead, *Principia Mathematica*).
 

@@ -37,6 +37,8 @@ contains
 
 *NOTE*: `Unit` as a `Set` contains all `Azons` except itself and `Zero`: `∀x ∉ {0, 1}: x ∈ 1`.
 
+*NOTE*: `Singleton` is also a `Set` with exactly one `Element`.
+
 ---
 
 Subset *(Qastka)*

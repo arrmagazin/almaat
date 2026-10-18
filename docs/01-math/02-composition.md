@@ -3,43 +3,6 @@ title: "Composition"
 description: "The Arrow and the Composition that feeds one Azon's output into another — associativity, bijection, wel-consumption, Identity, Null."
 keywords: [math, composition]
 ---
-## Definitions
-
-Arrow *(Strelka)*
-: an `Azon` that responds with `Object` only once - to the `Subject`, otherwise - `emptily`.
-
-> `Arrow[Subject, Object] := x → (x IS Subject ? Object : Zero)`
-
----
-
-Composition *(Stvor)*
-: The `Azon` built on `Arrow` by *assuming* the output of `Subject` as the input of the `Object`.
-
-> `.[a,b] := x → b(a(x))`
-
-*NOTE*: `Composition` is **`associative`** by construction.
-
-> `(A.B).C = A.(B.C)`
-
-## Identity and Null
-
----
-
-Identity<A> *(Tojesnasc\*)*
-: Composition-preserving (neutral) `Azon` for A.
-
-> `Id :: Id.A = A.Id = A`
-
-*NOTE*: `Unit` is the *universal* `Identity` (may be even restricted to `DOM(A)` on the left, `COD(A)` on the right).
-
----
-
-Null *(Nishto\*)*
-: Composition-absorbing (annihilating) `Azon`.
-
-> `Null.A = A.Null = Null`
-
-*NOTE*: `Zero` is *universal* `Null`.
 
 ## Properties
 

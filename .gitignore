@@ -3,4 +3,4 @@
 done
 node_modules
 *.log
-.claude/autoharness/
+**/.claude/autoharness/
