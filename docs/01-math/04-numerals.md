@@ -26,7 +26,7 @@ Induction<A>
 
 ---
 
-Numerals *(Liqby\*)*
+Numerals *(Liqby)*
 : `Induction` of `Plus`.
 
 > `Numerals = Induction<Plus>`
@@ -40,7 +40,7 @@ Number *(Lik)*
 
 ---
 
-Total Order *(Powny Lad\*)*
+Total Order *(Powny Lad)*
 : property of `Numbers` that for any `a, b` exactly one of `a < b`, `a IS b`, `a > b` holds.
 
 > `{a, b} ⊆ Numerals ⟹ (a < b ∨ a IS b ∨ b < a)`

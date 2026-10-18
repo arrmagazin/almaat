@@ -7,14 +7,14 @@ keywords: [reality, matter, attribute, time]
 
 ---
 
-Time *(Chas\*)*
+Time *(Chasis\*)*
 : `Ray` whose `Numbers` order the readings of `Attributes`; a common `Domain` factor shared by every `Attribute` of a `Matter`.
 
 > `Time = Ray<0>, t ∈ Time`
 
 ---
 
-Attribute *(Prykmeta\*)*
+Attribute *(Ulastivost\*)*
 : `Azon` *from* a (`Set` =: **`Basis`** *(Asnova\*)*) paired with `Time` *into* a `Fragment` of (`Cluster` =: **`Palette`**).
 
 > `Attribute<A, Basis, Time, Palette> :: DOM<A> == Basis × Time, COD<A> ∈ Palette`
