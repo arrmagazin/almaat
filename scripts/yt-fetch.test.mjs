@@ -1,79 +1,55 @@
 // Unit tests for the pure helpers in yt-fetch.mjs.
-// Run: node --test scripts/
+// Run: npm test
 
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { pickCaptionTrack } from "./wl-absorb.mjs";
-import { extractVideoId, markByUrl, scanChecklist } from "./yt-fetch.mjs";
+import { pendingEntries, setStatus, unavailableReason } from "./yt-fetch.mjs";
 
 const ID = "M2exXwKXN7M";
+const URL = `https://www.youtube.com/watch?v=${ID}`;
 
-test("extractVideoId handles the common YouTube URL shapes", () => {
-  assert.equal(extractVideoId(`https://www.youtube.com/watch?v=${ID}`), ID);
-  assert.equal(extractVideoId(`https://www.youtube.com/watch?v=${ID}&t=120s`), ID);
-  assert.equal(extractVideoId(`https://youtu.be/${ID}?si=abc123`), ID);
-  assert.equal(extractVideoId(`https://www.youtube.com/shorts/${ID}`), ID);
-  assert.equal(extractVideoId(`https://www.youtube.com/live/${ID}`), ID);
-  assert.equal(extractVideoId(`https://www.youtube.com/embed/${ID}`), ID);
+test("pendingEntries returns only todo entries, in list order", () => {
+  const entries = [
+    { title: "A", url: URL, status: "todo" },
+    { url: "https://www.youtube.com/watch?v=AAAAAAAAAAA", status: "fetched" },
+    { url: "https://youtu.be/BBBBBBBBBBB", status: "skipped", note: "no captions" },
+    { url: "https://example.com/talk", status: "todo" },
+  ];
+  assert.deepEqual(pendingEntries(entries), [
+    { url: URL, id: ID },
+    { url: "https://example.com/talk", id: null },
+  ]);
 });
 
-test("extractVideoId rejects non-YouTube and malformed input", () => {
-  assert.equal(extractVideoId(`https://example.com/watch?v=${ID}`), null);
-  assert.equal(extractVideoId("https://www.youtube.com/playlist?list=WL"), null);
-  assert.equal(extractVideoId("not a url"), null);
-  assert.equal(extractVideoId("https://www.youtube.com/watch?v=too-short"), null);
+test("setStatus updates exactly the matching todo entry", () => {
+  const entries = [
+    { title: "A", url: URL, status: "todo" },
+    { url: "https://youtu.be/CCCCCCCCCCC", status: "todo" },
+  ];
+  assert.deepEqual(setStatus(entries, URL, "fetched"), [{ title: "A", url: URL, status: "fetched" }, entries[1]]);
+  assert.equal(entries[0].status, "todo", "the input is not mutated");
 });
 
-test("scanChecklist returns only unchecked items, unwrapping <> autolinks", () => {
-  const text = [
-    "# Watch list",
-    "",
-    `- [ ] <https://www.youtube.com/watch?v=${ID}>`,
-    "- [x] <https://www.youtube.com/watch?v=AAAAAAAAAAA>",
-    "- [-] <https://www.youtube.com/watch?v=BBBBBBBBBBB> — no captions",
-    "- [ ] https://example.com/talk",
-    "plain prose line",
-  ].join("\n");
-
-  const todos = scanChecklist(text);
-  assert.equal(todos.length, 2);
-  assert.deepEqual(
-    todos.map((t) => ({ url: t.url, id: t.id })),
-    [
-      { url: `https://www.youtube.com/watch?v=${ID}`, id: ID },
-      { url: "https://example.com/talk", id: null },
-    ],
-  );
+test("setStatus adds a note for skipped entries", () => {
+  assert.deepEqual(setStatus([{ url: URL, status: "todo" }], URL, "skipped", "no captions"), [
+    { url: URL, status: "skipped", note: "no captions" },
+  ]);
 });
 
-test("markByUrl flips exactly the matching unchecked line", () => {
-  const text = [`- [ ] <https://www.youtube.com/watch?v=${ID}>`, "- [ ] <https://youtu.be/CCCCCCCCCCC>"].join("\n");
+test("setStatus returns null when the URL is absent or already processed", () => {
+  assert.equal(setStatus([{ url: URL, status: "fetched" }], URL, "fetched"), null);
+  assert.equal(setStatus([{ url: URL, status: "todo" }], "https://youtu.be/DDDDDDDDDDD", "fetched"), null);
+});
 
-  const marked = markByUrl(text, `https://www.youtube.com/watch?v=${ID}`, "x");
+test("unavailableReason reads yt-dlp's Video unavailable error, else null", () => {
+  const removed = `yt-dlp exited 1\nERROR: [youtube] ${ID}: Video unavailable. This video has been removed by the uploader`;
+  assert.equal(unavailableReason(removed), "Video unavailable. This video has been removed by the uploader");
+  assert.equal(unavailableReason(`ERROR: [youtube] ${ID}: Video unavailable`), "Video unavailable");
+  assert.equal(unavailableReason(`ERROR: [youtube] ${ID}: This video is unavailable`), "This video is unavailable");
   assert.equal(
-    marked,
-    [`- [x] <https://www.youtube.com/watch?v=${ID}>`, "- [ ] <https://youtu.be/CCCCCCCCCCC>"].join("\n"),
+    unavailableReason(`ERROR: [youtube] ${ID}: Private video. Sign in if you've been granted access to this video`),
+    "Private video. Sign in if you've been granted access to this video",
   );
-});
-
-test("markByUrl appends a note for skipped items", () => {
-  const text = `- [ ] <https://www.youtube.com/watch?v=${ID}>`;
-  assert.equal(
-    markByUrl(text, `https://www.youtube.com/watch?v=${ID}`, "-", "no captions"),
-    `- [-] <https://www.youtube.com/watch?v=${ID}> — no captions`,
-  );
-});
-
-test("markByUrl returns null when the URL is absent or already checked", () => {
-  assert.equal(markByUrl("- [x] <https://youtu.be/CCCCCCCCCCC>", "https://youtu.be/CCCCCCCCCCC", "x"), null);
-  assert.equal(markByUrl("- [ ] <https://youtu.be/CCCCCCCCCCC>", "https://youtu.be/DDDDDDDDDDD", "x"), null);
-});
-
-test("pickCaptionTrack prefers the spoken track over an auto-translation", () => {
-  const auto = ["en", "nl", "ru", "ru-orig"];
-  assert.deepEqual(pickCaptionTrack({ auto, langPref: "en", videoLanguage: "ru" }), { lang: "ru-orig", kind: "auto" });
-  assert.deepEqual(pickCaptionTrack({ auto: ["en-orig", "en", "ru"], langPref: "en" }), { lang: "en-orig", kind: "auto" });
-  assert.deepEqual(pickCaptionTrack({ manual: ["en"], auto, langPref: "en" }), { lang: "en", kind: "manual" });
-  assert.deepEqual(pickCaptionTrack({ auto: ["en", "de"], langPref: "de" }), { lang: "de", kind: "auto" });
+  assert.equal(unavailableReason("yt-dlp exited 1\nERROR: HTTP Error 429: Too Many Requests"), null);
 });

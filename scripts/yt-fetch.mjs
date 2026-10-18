@@ -1,33 +1,42 @@
 #!/usr/bin/env node
 /**
- * yt-fetch — turn the input/youtube.md checklist into transcript files.
+ * yt-fetch — turn the "todo" entries of youtube.json into transcript files.
  *
- * Scans input/youtube.md for unchecked items (`- [ ] <url>`); per video:
- *   1. fetch the caption transcript (same yt-dlp machinery as wl-absorb.mjs)
+ * Per "todo" entry, in list order:
+ *   1. fetch the caption transcript
  *   2. write it to input/yt-<id>.md
- *   3. mark the checklist line `- [x]`
+ *   3. set the entry's status to "fetched"
  *
- * A video with no usable captions (or a non-YouTube URL) is marked `- [-]` with a note,
- * so a recurring run never retries it. Transient errors leave the line unchecked for retry.
+ * A video with no usable captions (or a non-YouTube URL) is set to "skipped", and one YouTube
+ * reports as unavailable (removed, blocked, private) to "unavailable", each with a `note`,
+ * so a recurring run never retries it. Other errors leave the entry "todo" for retry.
  * The companion worker is /yt-absorb: it absorbs input/yt-*.md into docs/ and archives to done/.
  *
  * Usage:
- *   node scripts/yt-fetch.mjs                # all unchecked items
+ *   node scripts/yt-fetch.mjs                # all "todo" entries
  *   node scripts/yt-fetch.mjs --count 2      # at most 2 videos this run
  *   node scripts/yt-fetch.mjs --lang nl      # caption language preference (default: en)
  */
 
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
-import { dirname, join, resolve } from "node:path";
+import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { ensureYtdlp, parseJson3, pickCaptionTrack, renderTranscript, runVideo } from "./wl-absorb.mjs";
+import {
+  CACHE,
+  ensureYtdlp,
+  extractVideoId,
+  parseJson3,
+  pickCaptionTrack,
+  ROOT,
+  readList,
+  renderTranscript,
+  runVideo,
+  watchUrl,
+  writeList,
+} from "./youtube.mjs";
 
-const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const SUBS = join(ROOT, "scripts", ".cache", "subs");
-const LIST = join(ROOT, "input", "youtube.md");
-
-const VIDEO_ID = /^[\w-]{11}$/;
+const SUBS = join(CACHE, "subs");
 
 // ── args ──────────────────────────────────────────────────────────────────────
 
@@ -47,51 +56,33 @@ function parseArgs(argv) {
 
 // ── pure helpers (unit-tested in yt-fetch.test.mjs) ───────────────────────────
 
-/** Video id from watch/youtu.be/shorts/live/embed URLs, else null. */
-export function extractVideoId(url) {
-  let parsed;
-  try {
-    parsed = new URL(url);
-  } catch {
-    return null;
-  }
-  if (!/(^|\.)(youtube\.com|youtu\.be)$/.test(parsed.hostname)) return null;
-  const candidate = parsed.hostname.endsWith("youtu.be")
-    ? parsed.pathname.slice(1)
-    : (parsed.searchParams.get("v") ?? parsed.pathname.match(/^\/(?:shorts|live|embed)\/([\w-]+)/)?.[1] ?? "");
-  return VIDEO_ID.test(candidate) ? candidate : null;
+/** "todo" entries → [{ url, id }]; id is null for non-YouTube URLs. */
+export function pendingEntries(entries) {
+  return entries.filter((e) => e.status === "todo").map((e) => ({ url: e.url, id: extractVideoId(e.url) }));
 }
 
-/** Unchecked checklist items → [{ index, url, id }]; id is null for non-YouTube URLs. */
-export function scanChecklist(text) {
-  const todos = [];
-  text.split("\n").forEach((line, index) => {
-    const match = line.match(/^\s*[-*]\s+\[ \]\s+(.*)$/);
-    if (!match) return;
-    const url = match[1].trim().replace(/^<|>$/g, "");
-    todos.push({ index, url, id: extractVideoId(url) });
-  });
-  return todos;
+/** yt-dlp's reason for a video that cannot be watched (removed, blocked, private), else null. */
+export function unavailableReason(message) {
+  return message.match(/(?:Video unavailable|This video is unavailable|Private video)[^\n]*/)?.[0].trim() ?? null;
 }
 
-/** Flip the first unchecked line containing `url` to `[mark]`; null when none matches. */
-export function markByUrl(text, url, mark, note = "") {
-  const lines = text.split("\n");
-  const index = lines.findIndex((line) => /^\s*[-*]\s+\[ \]\s/.test(line) && line.includes(url));
+/** Set the status (and a note) of the "todo" entry with `url`; null when none matches. */
+export function setStatus(entries, url, status, note = "") {
+  const index = entries.findIndex((e) => e.status === "todo" && e.url === url);
   if (index === -1) return null;
-  lines[index] = lines[index].replace("[ ]", `[${mark}]`) + (note ? ` — ${note}` : "");
-  return lines.join("\n");
+  const updated = [...entries];
+  updated[index] = { ...entries[index], status, ...(note ? { note } : {}) };
+  return updated;
 }
 
 // ── fetch ─────────────────────────────────────────────────────────────────────
 
 /**
  * One video → rendered transcript markdown, or null when no usable captions exist.
- * Re-reads video metadata itself (title/channel/duration) because wl-absorb gets
- * those from the playlist listing, which has no equivalent here.
+ * Reads the video metadata (title/channel/duration) itself: a checklist line may carry no title.
  */
 async function fetchTranscript(ytdlp, videoId, langPref) {
-  const url = `https://www.youtube.com/watch?v=${videoId}`;
+  const url = watchUrl(videoId);
 
   const { stdout } = await runVideo(ytdlp, ["-J", "--skip-download", "--no-warnings", url]);
   const info = JSON.parse(stdout);
@@ -132,11 +123,11 @@ async function fetchTranscript(ytdlp, videoId, langPref) {
   return { lang: track.lang, kind: track.kind, chunks, markdown: renderTranscript(video, track.lang, chunks) };
 }
 
-/** Re-read the checklist before every mark, so edits made mid-run are never clobbered. */
-async function mark(url, markChar, note = "") {
-  const updated = markByUrl(await readFile(LIST, "utf8"), url, markChar, note);
-  if (updated === null) throw new Error(`checklist line for ${url} disappeared from input/youtube.md`);
-  await writeFile(LIST, updated);
+/** Re-read the list before every update, so edits made mid-run are never clobbered. */
+async function mark(url, status, note = "") {
+  const updated = setStatus(await readList(), url, status, note);
+  if (updated === null) throw new Error(`"todo" entry for ${url} disappeared from youtube.json`);
+  await writeList(updated);
 }
 
 // ── main ──────────────────────────────────────────────────────────────────────
@@ -149,9 +140,9 @@ async function main() {
     return;
   }
 
-  const todos = scanChecklist(await readFile(LIST, "utf8")).slice(0, opts.count);
+  const todos = pendingEntries(await readList()).slice(0, opts.count);
   if (todos.length === 0) {
-    console.log("input/youtube.md has no unchecked items.");
+    console.log("youtube.json has no \"todo\" entries.");
     return;
   }
 
@@ -162,23 +153,29 @@ async function main() {
   for (const todo of todos) {
     console.log(`▸ ${todo.url}`);
     if (!todo.id) {
-      await mark(todo.url, "-", "not a YouTube video URL");
-      console.log("  · not a YouTube video URL — marked [-]\n");
+      await mark(todo.url, "skipped", "not a YouTube video URL");
+      console.log("  · not a YouTube video URL — skipped\n");
       continue;
     }
     try {
       const transcript = await fetchTranscript(ytdlp, todo.id, opts.lang);
       if (!transcript) {
-        await mark(todo.url, "-", "no captions");
-        console.log("  · no captions — marked [-]\n");
+        await mark(todo.url, "skipped", "no captions");
+        console.log("  · no captions — skipped\n");
         continue;
       }
       await writeFile(join(ROOT, "input", `yt-${todo.id}.md`), transcript.markdown);
-      await mark(todo.url, "x");
+      await mark(todo.url, "fetched");
       console.log(`  ✓ input/yt-${todo.id}.md (${transcript.chunks.length} lines, ${transcript.lang} ${transcript.kind})\n`);
     } catch (err) {
+      const reason = unavailableReason(err.message);
+      if (reason) {
+        await mark(todo.url, "unavailable", reason);
+        console.log(`  · ${reason} — unavailable\n`);
+        continue;
+      }
       failures++;
-      console.log(`  ✗ ${err.message} — left unchecked for retry\n`);
+      console.log(`  ✗ ${err.message} — left "todo" for retry\n`);
     }
   }
 
