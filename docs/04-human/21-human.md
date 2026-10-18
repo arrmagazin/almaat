@@ -7,6 +7,8 @@ keywords: [human, dignity, conscience]
 Human Being *(Qalavelk)*
 : creature, composed of biological circuitry, social membership, cultural inheritance, and transcendent backgrounds, powered by `Intellect`, `Inspiration` and pursuing `Mission`.
 
+Biology and environment share the work. Across 50 years of twin studies covering 17,804 traits, heritability averages 49%, and every trait studied is partly heritable.[^1]
+
 ---
 
 Inspiration *(Nadxnenne)*
@@ -56,3 +58,7 @@ As long as a person maintains their own attitude, holds even the smallest `Goal`
 > Those who survived understood that they possess the last, but perhaps the most important human freedom — to choose their own attitude toward what is happening. Where there is no personal attitude, the zombie begins. — Bettelheim
 
 ---
+
+## Sources
+
+[^1]: Polderman et al. — [Meta-analysis of the heritability of human traits based on fifty years of twin studies](https://www.nature.com/articles/ng.3285) (2015) · from [10 способов ПРОКАЧАТЬ МОЗГ! Психофизиолог Полина Кривых 1:04:00](https://www.youtube.com/watch?v=HDeaP7RdghA&t=3840s)

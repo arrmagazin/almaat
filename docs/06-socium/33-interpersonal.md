@@ -34,8 +34,8 @@ It is not an innate gift but a trainable skill: **warmth + power + presence**. M
 | **Pace and pauses** | Slow the speech, pause before answering, cut the fillers that fill a silence you fear |
 | **Posture** | Open shoulders, visible palms, chin level, take up space, long stride |
 | **Warmth first** | Warmth is assessed before competence: a genuine smile, the person's name, listening to understand rather than to reply |
-| **Low voice** | Breathe from the belly, end phrases on a falling intonation, record yourself to correct delivery |
-| **Specifics** | Details, numbers, names, and smells build a mental picture; a story (situation → twist → lesson) is retained where a bare fact is not |
+| **Low voice** | Breathe from the belly, end phrases on a falling intonation, record yourself to correct delivery. Vary the pitch: listeners rate a wider pitch range as more charismatic and a flat one as dull[^1] |
+| **Specifics** | Details, numbers, names, and smells build a mental picture; a story (situation → twist → lesson) is retained where a bare fact is not. Across 33,000 readers, stories were understood and recalled better than essays on the same content[^2] |
 | **Mirroring** | Mirror after a short delay — never mimicry, never aggression. Leading mirroring pulls the other into your calm |
 | **Fewer words** | One thought, no apologies for existing ("glad we talked", not "thanks for hearing me out") |
 | **Status + vulnerability** | The strongest and most dangerous move: only after the first eight, one small sincere admission of weakness |
@@ -95,3 +95,8 @@ mindmap
       Played your game
       Sees patterns
 ```
+
+## Sources
+
+[^1]: Rosenberg and Hirschberg — [Acoustic/prosodic and lexical correlates of charismatic speech](https://www.cs.columbia.edu/%7Ejulia/files/rosenberg_hirschberg_05.pdf) (2005); Biadsy et al. — [A cross-cultural comparison of American, Palestinian, and Swedish perception of charismatic speech](https://www.cs.columbia.edu/nlp/papers/2008/fadi_al_08b.pdf) (2008) · from [43 minutes straight of SOLID communication skills advice 05:05](https://www.youtube.com/watch?v=6-shbSFc48E&t=305s)
+[^2]: Mar, Li, Nguyen and Ta — [Memory and comprehension of narrative versus expository texts: a meta-analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC8219577/) (2021) · from [FREE 56mins Storytelling Masterclass (How to Captivate Anyone's Attention) 07:47](https://www.youtube.com/watch?v=MWP8j2TvdBs&t=467s)

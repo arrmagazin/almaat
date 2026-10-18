@@ -5,7 +5,7 @@ keywords: [almaat]
 ---
 The book builds one ontology from a single primitive (the `Azon`) up through the formal layer, dynamics, and mind, then applies it to the human, the disciplines of mastery, the collective, and the body. The appendices recover the classical disciplines from that formal core.
 
-- [Welcome to ALMAAT](welcome.md) — ALMAAT is a general-purpose framework for cognitive modeling: one ontology built from a single primitive, then applied to the human, the collective, and daily practice.
+ALMAAT is a general-purpose framework for cognitive modeling: one ontology built from a single primitive, then applied to the human, the collective, and daily practice.
 
 ## 00 — Azon · The Primitive
 
@@ -121,13 +121,14 @@ Defending the self against harm from others (`06`–`13`), on the social and the
 
 ## 08 — Vitality · Body
 
-The body as the physical foundation of health and performance (`02`–`05`).
+The body as the physical foundation of health and performance (`02`–`06`).
 
-- [Vitality](08-vitality/index.md) — The body as the physical foundation of health and performance: vitality, recovery, nutrition, and the energy budget.
+- [Vitality](08-vitality/index.md) — The body as the physical foundation of health and performance: vitality, recovery, nutrition, the energy budget, and sexuality.
 - [Vitality](08-vitality/02-vitality.md) — The physical foundation of human life, health, and performance: the body's ability to function optimally, resist disease, and recover from stress.
 - [Recovery](08-vitality/03-recovery.md) — Recovery is not idleness: sleep cleans the brain, light sets the clock, and breath and stillness switch off the stress response.
 - [Nutrition](08-vitality/04-nutrition.md) — What you drink, what you eat, and when — the levers that set blood sugar, insulin, the gut flora, and the fuel a working day runs on.
-- [Energy](08-vitality/05-energy.md) — Health is the sound allocation of a finite energy budget: training raises its capacity, chronic stress drains it, and depression is what its collapse feels like.
+- [Energy](08-vitality/05-energy.md) — Health is the sound allocation of a finite energy budget: training raises its capacity, chronic stress drains it, and burnout and depression are what its collapse feels like.
+- [Sexuality](08-vitality/06-sexuality.md) — How desire and orgasm work, what keeps sex alive in a long relationship, and what age changes.
 
 ## 99 — Appendices · Correspondences
 

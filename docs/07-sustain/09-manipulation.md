@@ -19,6 +19,8 @@ Cialdini's principles of influence are neutral tools — persuasion when honest,
 | **Scarcity** | True limits | Fake deadlines, "last chance" |
 | **Unity** | Shared identity | "We're family — you owe us" |
 
+Intelligence work long summed up what moves a person to betray as **MICE**: money, ideology, coercion, ego. The CIA's own journal argues it has outlived its use and proposes these six levers instead, as **RASCLS**.[^2]
+
 ## Tactics and Counters
 
 | Tactic | How it works | Counter |
@@ -32,6 +34,7 @@ Cialdini's principles of influence are neutral tools — persuasion when honest,
 | **Emotional blackmail** | Anger/tears/threats to control you | Stay regulated; their reaction is not yours to manage |
 | **Social proof** | "Everyone agrees / does this" | "Then it won't be hard to show me." |
 | **Foot-in-the-door** | Small commitments escalated | Re-evaluate each ask; past yes ≠ obligation |
+| **Door-in-the-face** | A large ask, refused, then the real one as a "concession." It wins more spoken yeses, but hardly more deeds[^1] | Judge the second ask on its own; the first was never meant |
 | **Love bombing** | Overwhelming early praise to fast-track trust | Match the real pace; watch how they handle a slowdown |
 | **DARVO** | Deny, Attack, Reverse Victim and Offender | Don't defend the flip; restate the fact once, stop |
 
@@ -56,3 +59,6 @@ What you react to, you train — so choose what you reinforce.
 
 - Robert Cialdini, "Influence: The Psychology of Persuasion" — the levers.
 - Jennifer Freyd, on DARVO — deny, attack, reverse victim and offender.
+
+[^1]: Feeley, Anker and Aloe — [The door-in-the-face persuasive message strategy: a meta-analysis of the first 35 years](https://doi.org/10.1080/03637751.2012.697631) (2012) · corrects [23 Психологические Уловки, которые всегда Работают 10:13](https://www.youtube.com/watch?v=B_srVO2QjGI&t=613s)
+[^2]: Randy Burkett, CIA Studies in Intelligence — [An alternative framework for agent recruitment: from MICE to RASCLS](https://www.cia.gov/resources/csi/studies-in-intelligence/volume-57-no-1/an-alternative-framework-for-agent-recruitment-from-mice-to-rascls) (2013) · corrects [CIA SPY: Mind Games, Power & Seduction Tactics | Andrew Bustamante 32:15](https://www.youtube.com/watch?v=_Q2lX7_fmGE&t=1935s)

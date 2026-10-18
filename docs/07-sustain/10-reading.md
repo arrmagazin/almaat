@@ -39,10 +39,13 @@ Words are the most controlled thing a person owns. The body runs on the older, f
 | **Pause** | The time taken to choose *which* version to give | Compare a safe question to a loaded one. Stalling or a too-smooth run is the signal. A rehearsed answer can be smoother than an honest one, but neither smoothness nor hesitation is evidence on its own |
 | **Orientation** | Torso and feet point where attention — or the exit — really is. Feet are least controlled; no one thinks about them | Squared and leaning in reads as attention; feet turned to the door under warm words say the person has left. A posture that *closes* on a topic marks it sore |
 | **Eyes** | Pupil and blink shifts track arousal, not honesty | Weak signals only. The NLP claim that gaze direction reveals lying has **no empirical support**; a practiced liar *over*-holds eye contact because of the folklore |
+| **Distance** | How close a person stands, read against the relationship | In Hall's scheme intimate space reaches about 45 cm, personal 1.2 m, social 3.6 m, and public lies beyond. Preferred distances shift with country, age and gender, so read a change, not the number[^2] |
 | **Incongruence** | The master signal: words and body saying different things at once | Weigh the channel controlled least — the further from the face, the more honest. The clearest case is the smile that lives only on the mouth: a genuine one creases the eyes (the Duchenne marker) and fades slowly. The first instant is the unedited reading |
 | **Behavior unobserved** | The base state, shown when the person stops performing | Watch the face in the lulls, and how they treat someone useless to them — the waiter, the newcomer. A standing test: judge a person by how they treat those from whom they need nothing |
 
 **Rule of three.** One signal is nothing, two may be coincidence, three pointing the same way is a pattern. A signal is a prompt to look closer, never a verdict; treating every cue as proof is as blinding as trust. The same arithmetic governs [Hidden Hostility](11-hostility.md).
+
+**Lies barely show.** Across 206 studies people told lies from truths 54% of the time, hardly above chance. Of 158 behaviors tested, most were unrelated to lying and the rest only weakly: fidgeting and touching the collar are no proof.[^1]
 
 ## Unreadability
 
@@ -84,3 +87,6 @@ The early signals — manufactured urgency, praise out of proportion just before
 ## Sources
 
 - Paulhus & Williams — [The Dark Triad of Personality](https://en.wikipedia.org/wiki/Dark_triad) (2002)
+
+[^1]: Bond and DePaulo — [Accuracy of deception judgments](https://pubmed.ncbi.nlm.nih.gov/16859438/) (2006); DePaulo et al. — [Cues to deception](https://doi.org/10.1037/0033-2909.129.1.74) (2003) · corrects [23 Психологические Уловки, которые всегда Работают 02:33](https://www.youtube.com/watch?v=B_srVO2QjGI&t=153s)
+[^2]: Edward T. Hall — [The Hidden Dimension](https://en.wikipedia.org/wiki/The_Hidden_Dimension) (1966); Sorokowska et al. — [Preferred interpersonal distances: a global comparison](https://doi.org/10.1177/0022022117698039) (2017) · corrects [How To Read Body Language - Full Body Language Guide (Compilation) 00:25](https://www.youtube.com/watch?v=FwiBF9Yv4Yc&t=25s)

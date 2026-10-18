@@ -25,6 +25,8 @@ Define your authentic Way — life's mission, ambitions, high-level goals.
 
 *Define your lifelong aims, drilled down into small concrete everyday goals, which will wake you up every morning and thrill you all along the time.*
 
+Make the goals specific and hard. Across decades of studies, a specific, difficult goal led to higher performance than an easy one or a plain "do your best".[^1]
+
 *The Conflict*: Determination creates an existential tension between immediate animal satisfaction and long-term rational goals. This confrontation defines the human being's tragedy and greatness. [Self-Honesty](02-mindset.md#self-honesty) converts that tension from a battle into fuel.
 
 ## Build Mental Models
@@ -34,6 +36,7 @@ Create mental models of your circumstances, processes, goals, and obstacles. Ref
 - Understand the system you're operating in — its rules, dynamics, and leverage points.
 - Identify the critical path — the few actions that create the most impact.
 - Anticipate obstacles and plan how to overcome them.
+- Plan backward: picture the goal done, then trace the steps back to today. Against forward planning, it raised motivation and performance and gave more realistic time estimates.[^2]
 
 ## Seasons
 
@@ -74,3 +77,8 @@ Thinking in the head is fast but skips steps, hides assumptions, and agrees with
 | 5 | **What will I do right now?** | Not tomorrow — within the hour. One action. A decision without immediate action turns into a daydream | Wrote the resume. Made the call. Deleted the app |
 
 When direction is present but the energy to move on it is not, the block is usually physical — see [Energy → Depression](../08-vitality/05-energy.md#depression).
+
+## Sources
+
+[^1]: Locke and Latham — [Building a practically useful theory of goal setting and task motivation: a 35-year odyssey](https://goal-lab.psych.umn.edu/orgpsych/2020/readings/5.%20Motivation/Locke%20&%20Latham%20(2002).pdf) (2002) · from [10 Rules for Success That Actually Work | Simon Sinek 22:08](https://www.youtube.com/watch?v=QZoP86TERtg&t=1328s)
+[^2]: Park, Lu and Hedgcock — [Relative effects of forward and backward planning on goal pursuit](https://doi.org/10.1177/0956797617715510) (2017); Wiese, Buehler and Griffin — [Backward planning: effects of planning direction on predictions of task completion time](https://ideas.repec.org/a/cup/judgdm/v11y2016i2p147-167_2.html) (2016) · from [Арестович: Как из Жертвы стать Деятелем? 08.07.17 03:02](https://www.youtube.com/watch?v=sQn2lvi38dI&t=182s)

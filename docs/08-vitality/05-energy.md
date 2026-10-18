@@ -1,6 +1,6 @@
 ---
 title: "Energy"
-description: "Health is the sound allocation of a finite energy budget: training raises its capacity, chronic stress drains it, and depression is what its collapse feels like."
+description: "Health is the sound allocation of a finite energy budget: training raises its capacity, chronic stress drains it, and burnout and depression are what its collapse feels like."
 keywords: [vitality, energy, fitness, depression]
 ---
 ## The Mitochondrial View
@@ -18,11 +18,15 @@ Most chronic disease reads better as **energy resistance** — energy that no lo
 ## Fitness
 
 - Move every day. Something is far better than nothing.
+- The weekly dose: 150–300 minutes of moderate aerobic activity or 75–150 of vigorous, plus muscle strengthening on two or more days. From 65, add balance and strength work on three days a week to prevent falls.[^1]
+- Training lowers resting blood pressure, whether it is endurance, resistance or isometric work.[^3]
+- Exercise sharpens thinking at every age. Across 133 systematic reviews, even light exercise improved general cognition, memory and executive function.[^4]
 - If you sweat, breathe hard, and feel your heart — it's working.
 - Morning routine: water → exercise/dance → cold shower.
 - Build the basics: carrying, squatting, pulling, and controlled spinal movement. Load advanced variations only under instruction.
+- Exercise eases knee osteoarthritis only modestly: about 13 points less pain and 12 points better function on 100-point scales, a gain that may be too small to notice.[^7]
 - Stand tall, stretch, develop coordination.
-- Routinely lift heavy things. Avoid sitting for long stretches.
+- Routinely lift heavy things. Avoid sitting for long stretches. Adults lose about 0.4% of their muscle mass a year, faster after 75, and strength falls two to five times faster than mass.[^2]
 
 ## Depression
 
@@ -44,6 +48,22 @@ Root causes:
 
 *NOTE*: this section is about ordinary low mood and its physical contributors. Clinical depression is a medical condition — persistent low mood, loss of interest, or thoughts of self-harm warrant a clinician, not a self-management plan.
 
+## Burnout
+
+| Term | Definition | Formula | Notes |
+| --- | --- | --- | --- |
+| **Burnout** | A syndrome of chronic work stress that was not managed: exhaustion, mental distance or cynicism toward the job, and reduced efficacy | chronic work stress − recovery | An occupational phenomenon, not a medical condition; it applies to work only[^5] |
+
+- Burnout grows from a mismatch between person and job in six areas: workload, control, reward, community, fairness and values.[^6]
+
 ## Sources
 
 - Martin Picard, on mitochondrial psychobiology — energy, stress and disease as an energetic process.
+
+[^1]: WHO — [Guidelines on physical activity and sedentary behaviour](https://www.who.int/publications/i/item/9789240015128) (2020) · corrects [5 смертельных ошибок мужчин после 40 лет. Мужское здоровье. Советы Бубновского 0+ 00:00](https://www.youtube.com/watch?v=3jRX4TyRT2g&t=0s)
+[^2]: Mitchell et al. — [Sarcopenia, dynapenia, and the impact of advancing age on human skeletal muscle size and strength: a quantitative review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3429036/) (2012) · corrects [5 смертельных ошибок мужчин после 40 лет. Мужское здоровье. Советы Бубновского 0+ 00:00](https://www.youtube.com/watch?v=3jRX4TyRT2g&t=0s)
+[^3]: Cornelissen and Smart — [Exercise training for blood pressure: a systematic review and meta-analysis](https://doi.org/10.1161/JAHA.112.004473) (2013) · from [Какая ходьба полезна для сердца 01:20](https://www.youtube.com/watch?v=4mLTxnFPjUk&t=80s)
+[^4]: Singh et al. — [Effectiveness of exercise for improving cognition, memory and executive function: a systematic umbrella review and meta-meta-analysis](https://bjsm.bmj.com/content/59/12/866) (2025) · from [10 способов ПРОКАЧАТЬ МОЗГ! Психофизиолог Полина Кривых 11:33](https://www.youtube.com/watch?v=HDeaP7RdghA&t=693s)
+[^5]: WHO — [Burn-out an "occupational phenomenon": International Classification of Diseases](https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases) (2019) · from [10 способов ПРОКАЧАТЬ МОЗГ! Психофизиолог Полина Кривых 39:45](https://www.youtube.com/watch?v=HDeaP7RdghA&t=2385s)
+[^6]: Maslach and Leiter — [Understanding the burnout experience: recent research and its implications for psychiatry](https://doi.org/10.1002/wps.20311) (2016) · from [10 способов ПРОКАЧАТЬ МОЗГ! Психофизиолог Полина Кривых 41:05](https://www.youtube.com/watch?v=HDeaP7RdghA&t=2465s)
+[^7]: Lawford et al., Cochrane — [Exercise for knee osteoarthritis](https://www.cochrane.org/evidence/CD004376_exercise-osteoarthritis-knee) (2024) · corrects [The Most Anti Aging Exercise 02:37](https://www.youtube.com/watch?v=YIyEWTnhTok&t=157s)

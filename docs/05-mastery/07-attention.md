@@ -19,7 +19,7 @@ A remedy whose first step already demands the capacity it is meant to build — 
 - **Match the role, not the person.** Move the work, not the character.
 - **Delegate the mismatch instead of fixing it.** Second-brain tooling is built by and for systematizing attention and earns its cost where someone is staffed to run it. Adopted alone, it becomes one more abandoned system.
 - **Prefer a single, dumb capture surface.** One paper notebook beats four synced apps for a scanning profile: writing by hand encodes as it captures (see [Learning → Making It Stick](09-learning.md#making-it-stick)), with no structure to maintain or migrate.
-- **Arrangement first, chemistry second.** Stimulants do not compensate for a day arranged against you.
+- **Arrangement first, chemistry second.** Stimulants do not compensate for a day arranged against you. In healthy, rested adults, modafinil and methylphenidate add only a small gain to thinking, and both carry side effects and abuse risk; modafinil is licensed to keep patients with sleep disorders awake, not to make anyone smarter.[^1]
 
 ## Focus and Priority
 
@@ -61,3 +61,7 @@ A block takes time to become productive, and an interruption costs that run-up a
 - **Give the sender that matters its own sound.** When every message sounds alike, every sound is an unanswered question. One distinct tone makes every other sound safely ignorable.
 - **Use one track as a cue.** The same music every block, off the moment it ends, becomes a conditioned signal. Any token works — a specific strong tea does the same — provided it stays unique to the block: a cue also consumed casually stops predicting work. Avoid high-arousal or melancholy music — arousal you do not discharge is a cost. Keep the cue bounded: a mind never left quiet stops returning to low-stimulus work.
 - **Rest as empty as the work is full.** Split the block into fixed intervals — 50 on, 10 off, sized to yourself — and keep the off-interval screen-free. A break spent in a feed raises the reward baseline mid-day and rests nothing; step away, breathe, walk. The pause is also where the gain is written — see [Learning → Making It Stick](09-learning.md#making-it-stick).
+
+## Sources
+
+[^1]: Roberts et al. — [How effective are pharmaceuticals for cognitive enhancement in healthy adults? A series of meta-analyses of modafinil, methylphenidate and d-amphetamine](https://researchonline.ljmu.ac.uk/id/eprint/13268/) (2020); FDA — [PROVIGIL (modafinil) prescribing information](https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/e16c26ad-7bc2-d155-3a5d-da83ad6492c8/spl-doc) (2022) · from [Гений внутри нас или особая «чудо-таблетка» 02:11](https://www.youtube.com/watch?v=0t_vXSHHaBw&t=131s)

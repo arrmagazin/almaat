@@ -39,7 +39,7 @@ The automatic system fires before the deliberate one engages — see [two system
 
 **Stress tips the balance.** Chronic stress weakens the goal-directed system and strengthens automatic patterns, so relapse arrives under fatigue and pressure. Shame and self-blame run the *same* [`Stress`](../04-human/28-animal.md#emotion-and-stress) response and so cement the compulsion. Vulnerability is partly inherited and partly adaptation — a short path to relief, not a breakage.
 
-**Do not spend willpower daily.** Relying on it every day fails where relying on it once, to set the architecture, does not. The aim is not to control the urge but the reaction to it.
+**Do not spend willpower daily.** Relying on it every day fails where relying on it once, to set the architecture, does not. The aim is not to control the urge but the reaction to it. People high in self-control resist temptation less often, not harder: they meet fewer temptations and lean on habits.[^1] Willpower is not a fuel tank that one act drains for the next: in two large multi-lab replications, the "ego depletion" effect came out near zero.[^2]
 
 Where the architecture has not yet caught up, two moves convert a live urge from a command into a signal:
 
@@ -57,3 +57,6 @@ Company is environment too — the norms you absorb are set by whoever you are a
 ## Sources
 
 - Janet Polivy and C. Peter Herman — the what-the-hell effect, from their research on dietary restraint.
+
+[^1]: Galla and Duckworth — [More than resisting temptation: beneficial habits mediate the relationship between self-control and positive life outcomes](https://doi.org/10.1037/pspp0000026) (2015); Hofmann et al. — [Everyday temptations: an experience sampling study of desire, conflict, and self-control](https://doi.org/10.1037/a0026545) (2012) · from [Чем реже мы проявляем силу воли, тем больше шансы добиться своих целей 00:54](https://www.youtube.com/watch?v=snDr7RqvLnc&t=54s)
+[^2]: Vohs et al. — [A multisite preregistered paradigmatic test of the ego-depletion effect](https://doi.org/10.1177/0956797621989733) (2021); Hagger et al. — [A multilab preregistered replication of the ego-depletion effect](https://doi.org/10.1177/1745691616652873) (2016) · corrects [Чем реже мы проявляем силу воли, тем больше шансы добиться своих целей 07:22](https://www.youtube.com/watch?v=snDr7RqvLnc&t=442s)
