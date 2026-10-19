@@ -14,7 +14,7 @@ Dependency<Form, SourceMask, TargetMask> *(Zaleznasc\*)*
 - with the `Slice` of the *same* `Point` under (another `Mask` =: **`TargetMask`**),
 for *every* `Point` of the `Form`.
 
-> `Dependency<D,Form,SourceMask,TargetMask> :: p ∈ Form ⟹ D[SourceMask.p] IS TargetMask.p`
+> `Dependency<D,Form,SourceMask,TargetMask> :: p ∈ Form ⟹ D[p.SourceMask] IS p.TargetMask`
 
 *NOTE*: the `Form` holds the `Dependency` only if the response is single-valued — `Points` sharing an `Slice` under `SourceMask` share it under `TargetMask` too.
 
@@ -23,7 +23,7 @@ for *every* `Point` of the `Form`.
 KeyMask<Origin> *(Zrez Kliuchow\*)*
 : `Mask` whose `Slice` responds *back* with its own `Point`, for *every* `Point` of the `Origin`.
 
-> `KeyMask<M,Origin> :: |{ D -> (|Origin ∖ { p -> (D[M.p] IS p)[p] }| < 1)[D] }| > 0`
+> `KeyMask<M,Origin> :: |{ D -> (|Origin ∖ { p -> (D[p.M] IS p)[p] }| < 1)[D] }| > 0`
 
 *NOTE*: equivalently, `Dependency<D, Origin, M, Id>` holds for some `D` — the `Slice` determines the whole `Point`. Hence the `Mask` is `Bijective` from the `Origin` onto its `View`: distinct `Points` never share an `Slice`.
 
@@ -32,7 +32,7 @@ KeyMask<Origin> *(Zrez Kliuchow\*)*
 Key<KeyMask> *(Kliuch\*)*
 : `Slice` of a `Point` under a `KeyMask`.
 
-> `Key<M,Origin,p> = M.p, KeyMask<M,Origin>, p ∈ Origin`
+> `Key<M,Origin,p> := p.M, KeyMask<M,Origin>, p ∈ Origin`
 
 *NOTE*: a `Key` identifies its `Point` — no two `Points` of the `Origin` carry the same `Key`, and the `View` under a `KeyMask` is the `Set` of all `Keys` of the `Origin`.
 
@@ -89,7 +89,7 @@ Structure *(Stroj)*
 Pointed Unary System
 : `Structure` having `Units` with unary `Operation`.
 
-> `zero = { * -> 0 }, unit = { * -> 1 }, inv = { 1 | * -> 0 | 1 }`
+> `zero := { * -> 0 }, unit := { * -> 1 }, inv := { 1 | * -> 0 | 1 }`
 
 ---
 
@@ -147,7 +147,7 @@ Semi-lattice
 ---
 
 Monoid
-: `Semi-group` with a `unit` (LR-identity).
+: `Semi-group` with a `Uniton` (LR-identity).
 
 > `Monoid<S,O> :: Semi-group<S,O>, Neutral<O,S>`
 

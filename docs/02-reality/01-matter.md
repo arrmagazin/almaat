@@ -10,7 +10,7 @@ keywords: [reality, matter, attribute, time]
 Time *(Chasis\*)*
 : `Ray` whose `Numbers` order the readings of `Attributes`; a common `Domain` factor shared by every `Attribute` of a `Matter`.
 
-> `Time = Ray<0>, t ∈ Time`
+> `Time := Ray<0>, t ∈ Time`
 
 ---
 
@@ -38,7 +38,7 @@ static
 Field
 : `Volume` of `Space` made from  `Codomains` of respective `Attributes` of the `Matter`.
 
-> `Field<M> = Volume<{ i -> COD<M[i]> }>`
+> `Field<M> := Volume<{ i -> COD<M[i]> }>`
 
 ---
 
@@ -61,7 +61,7 @@ Entity *(Asobnik\*)*
 Moment
 : `Set` of `Attributions` of all `Entities` at the given Time.
 
-> `Moment<M, Basis, t> = COD<{ E -> (E ∈ Basis)[Attribution<M>[(E, t)]] }>`
+> `Moment<M, Basis, t> := COD<{ E -> (E ∈ Basis)[Attribution<M>[(E, t)]] }>`
 
 ---
 
@@ -103,7 +103,7 @@ Reference (foreign key) *(Spasylka\*)*
 Schema *(Skema)*
 : `Graph` of `References` between `Matters`.
 
-> `Schema<T, R> = (T, R)`
+> `Schema<T, R> := (T, R)`
 
 *NOTE*: `T` is the `Set` of `Matters`, `R` the `Set` of `References` between them.
 
@@ -117,6 +117,6 @@ Quality<Matter>
 Sigma<n> *(Jadro<n>\*)*
 : smallest `Form` containing an `(n − 1) / n` proportion of the `Basis`.
 
-> `Sigma<n, M, Basis, t> = argmin F ∈ { Q -> (|Content<M, Q, t>| ≥ ((n − 1) / n) · |Basis|)[Q] }: |F|`
+> `Sigma<n, M, Basis, t> := argmin F ∈ { Q -> (|Content<M, Q, t>| ≥ ((n − 1) / n) · |Basis|)[Q] }: |F|`
 
 *NOTE*: `|X|` is the count of `Elements` in `X`; `argmin F ∈ S: e` selects the `Element` of `S` that minimizes `e`.

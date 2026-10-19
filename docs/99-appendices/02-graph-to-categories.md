@@ -4,7 +4,7 @@ description: "Category theory recovered from Graph: Category, Object, Morphism, 
 keywords: [appendices, categories, morphism, functor]
 ---
 Category
-: A `Set` of `Azon` closed under `Composition`, containing an `Unit` for each `Domain` / `Codomain` of its members.
+: A `Set` of `Azon` closed under `Composition`, containing an `Uniton` for each `Domain` / `Codomain` of its members.
 
 > `C ⊆ 1` such that `∀A, B ∈ C: COD(B) ⊆ DOM(A) ⟹ A.B ∈ C`, and `∀X ∈ Obj(C): 1_X ∈ C`
 
@@ -27,7 +27,7 @@ Morphism
 ---
 
 Identity Morphism
-: The `Azon` that fixes every `Element` of an `Object` `X` and is empty elsewhere — `Unit` localized to `X` (see [Azon](../01-math/00-azon.md)).
+: The `Azon` that fixes every `Element` of an `Object` `X` and is empty elsewhere — `Uniton` localized to `X` (see [Azon](../01-math/00-azon.md)).
 
 > `1_X(a) := (a ∈ X ? a : 0)`
 
@@ -50,7 +50,7 @@ Monoid
 ---
 
 Functor
-: An `Azon` that maps one `Category` into another, preserving `Composition` and `Unit` — equivalent to a **relational `Translation`** (see [Graphs](../01-math/03-graphs.md)).
+: An `Azon` that maps one `Category` into another, preserving `Composition` and `Uniton` — equivalent to a **relational `Translation`** (see [Graphs](../01-math/03-graphs.md)).
 
 > `F(A.B) = F(A).F(B)`, `F(1_X) = 1_{F(X)}`
 

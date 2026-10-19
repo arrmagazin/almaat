@@ -49,7 +49,7 @@ State of a Participant *(Stan Udelnika\*)*
 Communication *(Uplyv)*
 : projection of one `Participant`'s `Behavior` into another's `Attention`.
 
-> `Communication<A, B> = Behavior<A>.Attention<B>`
+> `Communication<A, B> := Attention<B>.Behavior<A>`
 
 *NOTE*: asymmetric: `![Communication<A, B> IS Communication<B, A>]`. Operates across a single `Step` — A's output at `Step` `i` becomes B's input at `Step` `i + 1`.
 
@@ -87,14 +87,14 @@ Interface *(Oblik)*
 
 > `Interface { (b, a) -> ( U | Z ) }`
 
-*NOTE*: `b` is a `Behavior`, `a` an `Attention`; `Unit` admits the pair. A behavioral contract — a formal specification of admissible `Communication` patterns.
+*NOTE*: `b` is a `Behavior`, `a` an `Attention`; `Uniton` admits the pair. A behavioral contract — a formal specification of admissible `Communication` patterns.
 
 ---
 
 Coupling *(Spluq)*
 : the persistence of mutual `Communication` between two `Participants` across multiple `Step`s.
 
-> `Coupling<A, B> = |{ i -> (![Communication<A, B>[i] IS Z] ∧ ![Communication<B, A>[i] IS Z])[i] }|`
+> `Coupling<A, B> := |{ i -> (![Communication<A, B>[i] IS Z] ∧ ![Communication<B, A>[i] IS Z])[i] }|`
 
 *NOTE*: `Communication<A, B>[i]` is that `Communication` at `Step` `i`.
 

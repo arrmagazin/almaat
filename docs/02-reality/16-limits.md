@@ -26,9 +26,9 @@ Constraint *(Skuta)*
 Excellence *(Daskanalost)*
 : the ceiling of `Potency` achievable within a given `Paradigm` `P`, under `Circumstances` `C`.
 
-> `Excellence<P,C> = max p ∈ Plans<P>: Potency<p,P,C>`
+> `Excellence<P,C> := max p ∈ Plans<P>: Potency<p,P,C>`
 
-**DEF**: the `Plan`s a `Paradigm` generates, for any `System`: `Plans<P> = ⋃<COD<P>>`.
+**DEF**: the `Plan`s a `Paradigm` generates, for any `System`: `Plans<P> := ⋃<COD<P>>`.
 
 *NOTE*: a *relative* ceiling, not absolute: a new `Paradigm` can extend it, after which the prior `Excellence` becomes a plateau.
 

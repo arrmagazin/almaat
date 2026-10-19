@@ -11,7 +11,7 @@ Identity
 
 > `Id :: Id.A = A.Id = A`
 
-*NOTE*: `Unit` is the *universal* `Identity` (may be even restricted to `DOM<A>` on the left, `COD<A>` on the right).
+*NOTE*: `Uniton` is the *universal* `Identity` (may be even restricted to `DOM<A>` on the left, `COD<A>` on the right).
 
 ---
 
@@ -20,25 +20,25 @@ Nil *(Nishto\*)*
 
 > `Nil.A = A.Nil = Nil`
 
-*NOTE*: `Zero` is *universal* `Null`.
+*NOTE*: `Zeron` is *universal* `Null`.
 
 ## Properties
 
 Fitted *(Prygnany\*)*
-: a `Composition` whose `Object` is `valent` on the entire output of its `Subject`:
+: a `Composition` whose outer `Azon` is `valent` on the entire output of its inner one:
 
-> `A.B :: COD(A) = DOM(B)`.
+> `A.B :: COD(B) = DOM(A)`.
 
-*NOTE*: `Fitted` *is* `Surjective` with the target `Set` supplied by the `Object` — `Fitted(A.B) ⟺ Surjective(A, DOM(B))`.
+*NOTE*: `Fitted` *is* `Surjective` with the target `Set` supplied by the outer `Azon` — `Fitted(A.B) ⟺ Surjective(B, DOM(A))`.
 
 Bijective *(Uzaemna Adnaznaqnae\*)*
 : `Azon` for which there *exists* an (`Azon`=: **`Inverse`**) whose left and right `Composition` give the `Domain` and `Codomain` of the `Azon`.
 
-> `A.A⁻¹ = DOM(A) ∧ A⁻¹.A = COD(A)`
+> `A⁻¹.A = DOM(A) ∧ A.A⁻¹ = COD(A)`
 
 *NOTE*: `Bijective` splits into `Injective` and `Fitted` — the first gives the `Inverse` its uniqueness, the second its totality; neither side is left unreached.
 
-> `Bijective(A) ⟺ Injective(A) ∧ Fitted(A.A⁻¹) ∧ Fitted(A⁻¹.A)`
+> `Bijective(A) ⟺ Injective(A) ∧ Fitted(A⁻¹.A) ∧ Fitted(A.A⁻¹)`
 
 ## Currying
 

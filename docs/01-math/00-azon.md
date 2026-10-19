@@ -4,113 +4,133 @@ description: "Azon is the sole primitive of the entire framework."
 keywords: [azon]
 ---
 
+## Kwam, Atos, Azon
+
+Kwam
+: *transition* from `Kwam` to `Kwam`.
+
+Atos
+: *bearer* of *ability* to *assume sameness or discernibility* over `Kwam`
+
+*NOTE*: obritrary *applying* of such *ability* do *emanates* *plentitude of assignments*.
+
 Azon
-: *assignment* made from every (`Azon` =: **`Arg`**) to corresponding (`Azon` =: **`Spond`**)
+: one of *plentitude*, represented as *assignments*
+: made from every (`Azon` =: **`Arg`**) to corresponding (`Azon` =: **`Spond`**).
+: and noted with syntax defined in [Azon Notation](../99-appendices/08-azon-notation.md)
 
-> `A{ * -> A[*] }`
+> `A<x>{ - | x | * -> N | A[x] | A[*] }` - formula sample
 
-*NOTE*: the formula syntax is defined in [Azon Notation](../99-appendices/08-azon-notation.md).
+## Zeron and Uniton
 
-## Zero and Unit
-
-Zero *(Puston)*
+Zeron *(Puston)*
 : `Azon` that *always* responds with itself.
 
 > `Z{ * -> Z }`
 
-**Def**: `Azon` defined by itself is non-constructuctive, thus it cannot be assigned with anything else.
+**Def**: `Azon` defined recursively by itself, thus notates *non-constructuctiveness*.
 
 ---
 
-**DEF**: response with `Zero` *called* **`empty`**, *otherwise* **`valent`**.
+**DEF**: response with `Zeron` *called* **`empty`**, *otherwise* **`valent`**.
 
 ---
 
-Unit *(Proston)*
+Uniton *(Proston)*
 : `Azon` that *always* responds with `Arg`.
 
 > `U{  *  ->  * }`
 
 **DEF**: response with the `Arg` itself *called* **`fixed`**, *otherwise* **`flexed`**.
 
+## Composability
+
+Arrow *(Strelka)*
+: an `Azon` that has at most one `valent` response.
+
+> `Arr<subj,J> { subj | * -> J[s] | Z }` - in short <subj, obj>
+
+**DEF**: the single `valent` `Arg` (`s` =: **`Subject`**), its response (`A[s]` =: **`Object`**), and the `Azon` that carries one to the other (`A` =: **`Jector`**).
+
+---
+
+Composition *(Tvor)*
+: The `Azon` built on top of `Arrow` by using the `Sponds` of the `Object` as the `Args` of the `Subject`.
+
+> `.<A,B> { x -> A[B[x]] }`
+
+**NOTE**: `Composition` is **`associative`** by construction.
+
+> `(A.B).C = A.(B.C)`
+
 ## Predicates
 
 Predicate *(Bikon)*
-: an `Azon` that *always* responds with `Unit` or `Zero`.
+: an `Azon` that *always* responds with `Uniton` or `Zeron`.
 
 > `Predicate { * -> ( U | Z ) }`
 
 ---
 
 Indicator *(Ukaz)*
-: `Predicate` that responds `empty` only to `Zero`.
+: `Predicate` that responds `empty` only to `Zeron`.
 
 > `#{ Z | * -> Z | U }`
+
+**NOTE**: short for `#.A` is `#A`
 
 ---
 
 Invertor *(Abrat)*
-: `Predicate` that responds with `Unit` only to `Zero`.
+: `Predicate` that responds with `Uniton` only to `Zeron`.
 
 > `!{ Z | * -> U | Z }`
+
+**NOTE**: short for `!.A` is `!A`
 
 ---
 
 Verum
-: `Predicate` that *always* responds with `Unit`.
+: `Predicate` that *always* responds with `Uniton`.
 
 > `⊤{ * -> U }`
 
----
+## Connectivity
 
 Conjunction
-: `Predicate` that responds with `Q`'s indication where `P` holds, and with `Zero` elsewhere.
+: `Predicate` that responds with `Q`'s indication where `P` holds, and with `Zeron` elsewhere.
 
-> `∧<P,Q> { x -> #[P[x]][#[Q[x]]] }` — short `P ∧ Q`
+> `∧<P,Q> { x -> #P[x][#Q[x]] }` — short `P ∧ Q`
+
+**NOTE**: `Conjunction` is **`commutative`**.
 
 ---
 
 Disjunction
-: `Predicate` that responds with `Unit` where `P` holds, and with `Q`'s indication elsewhere.
+: `Predicate` that responds with `Uniton` where `P` holds, and with `Q`'s indication elsewhere.
 
-> `∨<P,Q> { x -> { Z | * -> U | ⊤ }[P[x]][#[Q[x]]] }` — short `P ∨ Q`
+> `∨<P,Q> { x -> { Z | U -> U | ⊤ }[#P[x]][#Q[x]] }` — short `P ∨ Q`
+
+**NOTE**: `Disjunction` is **`commutative`**.
 
 ---
 
 Implication
-: `Predicate` that responds with `Q`'s indication where `P` holds, and with `Unit` elsewhere.
+: `Predicate` that responds with `Q`'s indication where `P` holds, and with `Uniton` elsewhere.
 
-> `⟹<P,Q> { x -> { Z | * -> ⊤ | U }[P[x]][#[Q[x]]] }` — short `P ⟹ Q`
-
-## Composability
-
-Arrow *(Strelka)*
-: an `Azon` that has at most one `valent` response.
-
-> `Arr<s,A> { s | * -> A[s] | Z }`
-
----
-
-Composition *(Tvor)*
-: The `Azon` built by using the output of previous param as the input of the next param.
-
-> `.<A,B> { x -> B[A[x]] }`
-
-**NOTE**: `Composition` is **`associative`** by construction.
-
-> `(A.B).C = A.(B.C)`
+> `⟹<P,Q> { x -> { Z | U -> ⊤ | U }[#P[x]][#Q[x]] }` — short `P ⟹ Q`
 
 ## Constructiveness
 
 AXIOM-1 (Halt)
-: The response to `Zero` is *always* `Zero`.
+: The response to `Zeron` is *always* `Zeron`.
 
 > `X1<A> { Z | * -> Z | A[*] }`
 
 ---
 
 AXIOM-2 (Non-Self-Valent)
-: The response to the `Azon` itself is *always* `Zero`.
+: The response to the `Azon` itself is *always* `Zeron`.
 
 > `X2<A> { A | * -> Z | A[*] }`
 
@@ -131,13 +151,14 @@ Singleton *(Ton)*
 ---
 
 Sameness *(Tojsamnost)*
-: `Predicate` that responds with `Unit` to `A` alone.
+: `Predicate` that responds with `Uniton` to `A` alone.
 
-> `IS<A> { A | * -> U | Z }`
+> `IS<A> { A | * -> U | Z }` — short `A IS B`
 
-*NOTE*: `Sameness` is the `Singleton` of `A` made a `Predicate` by `Indicator`: `IS<A> = @<A>.#` for valent `A`.
+*NOTE*: `IS<A> := #@<A>` for valent `A`.
 
-*NOTE*: `IS<Z>` is `Invertor` and `IS<Z>.IS<Z>` is `Indicator`. By `AXIOM-2`, `IS<A>` is never `A` itself, else `A[A]` would be `Unit`.
+*NOTE*: `IS<Z>` is `Invertor` and `IS<Z>.IS<Z>` is `Indicator`.
+By `AXIOM-2`, `IS<A>` is never `A` itself, else `A[A]` would be `Uniton`.
 
 ---
 
@@ -166,7 +187,7 @@ Total Equality *(Pownaja Rownasc\*)*
 
 *NOTE*: The two halves collapse into one in classical set theory, where an object *is* its extension. They stay apart here because an `Azon` is both operand and mapping — probed by `x[a]`, probing by `a[x]`.
 
-*NOTE*: `EQ` could be stated recursively — `#[A] ⟺ #[B]`, and `EQ` again on `x[A], x[B]` and on `A[x], B[x]` for every probe `x`. An equation `R = F[R]` is a definition only once a solution is chosen. The least one is empty: an `Azon` answers every probe, so probing never bottoms out. The greatest one is *bisimilarity*, the equality Aczel's AFA gives non-well-founded sets. It keeps only the match on `Zero` as primitive, but it quantifies over the probes, `EQ` itself among them, and it is not decidable. `IS` is kept as the match instead, so `EQ` stays a constructed `Azon`.
+*NOTE*: `EQ` could be stated recursively — `#[A] ⟺ #[B]`, and `EQ` again on `x[A], x[B]` and on `A[x], B[x]` for every probe `x`. An equation `R = F[R]` is a definition only once a solution is chosen. The least one is empty: an `Azon` answers every probe, so probing never bottoms out. The greatest one is *bisimilarity*, the equality Aczel's AFA gives non-well-founded sets. It keeps only the match on `Zeron` as primitive, but it quantifies over the probes, `EQ` itself among them, and it is not decidable. `IS` is kept as the match instead, so `EQ` stays a constructed `Azon`.
 
 ## SEE ALSO
 

@@ -32,7 +32,7 @@ Event *(Zjava)*
 | --- | --- | --- |
 | **elementary event** | `Singleton` of an `Outcome` | `{ω}` |
 | **certain event** | the `SampleSpace` itself | `SampleSpace` |
-| **impossible event** | `Zero` | `0` |
+| **impossible event** | `Zeron` | `0` |
 | **A and B** | `Intersection` | `A ∩ B` |
 | **A or B** | `Union` | `A ∪ B` |
 | **not A** | `Complement` | `!A` |
@@ -44,7 +44,7 @@ Event *(Zjava)*
 ---
 
 Context *(Ataqenne\*)*
-: the `Text<SampleSpace>` of `Outcomes` preceding an `Event`, or `Zero` where there is none.
+: the `Text<SampleSpace>` of `Outcomes` preceding an `Event`, or `Zeron` where there is none.
 
 > `Context := Text<SampleSpace> | Zero`
 
@@ -99,7 +99,7 @@ Probability Measure / P *(Mera Veragodnasci\*)*
 | **Monotone** | `A ⊆ B ⟹ P(A) ≤ P(B)` |
 | **Inclusion–exclusion** | `P(A ∪ B) = P(A) + P(B) − P(A ∩ B)` |
 | **Sum over outcomes** | `P(A) = Σ P({ω}) over ω ∈ A` |
-| **Laplace** | `P(A) = |A| / |SampleSpace|` when every `Outcome` is equally likely |
+| **Laplace** | `P(A) = \|A\| / \|SampleSpace\|` when every `Outcome` is equally likely |
 
 ---
 

@@ -29,7 +29,7 @@ belongs to
 not belongs to
 : the negation of `belongs to`.
 
-> `∉<S> = ∈<S>.!` — short `x ∉ S`
+> `∉<S> := !S` — short `x ∉ S`
 
 ---
 
@@ -40,49 +40,47 @@ contains
 
 *NOTE*: By `AXIOM-2`: `S ∉ S`. By `AXIOM-1`: `Z ∉ S` and `S ∉ Z`.
 
-*NOTE*: `Unit` as a `Set` contains all `Azons` except itself and `Zero`: `x ∉ {Z, U} ⟹ x ∈ U`.
+*NOTE*: `Uniton` is a `Set` containing all `Azons` except itself and `Zeron`: `x ∉ {Z, U} ⟹ x ∈ U`.
 
-*NOTE*: `Singleton` is also a `Set` with exactly one `Element`.
+*NOTE*: `Singleton` is a `Set` containing exactly one `Element`.
 
----
+*NOTE*: `Zeron` is an empty `Set` containing no `Elements`.
 
-Cardinality
-: how many `Elements` a `Set` has.
-
-> `|S|`
-
-*NOTE*: Counting needs `Numbers` (see [Numerals](04-numerals.md)), but two readings are used before them: `|S| > 0` — `S` has an `Element`; `|S| < 1` — `S` has none. They give *some* and *every* without quantifiers: some `Element` of `S` is in `E` when `|S ∩ E| > 0`, and every one is when `|S ∖ E| < 1`.
-
----
+# Subset and Difference
 
 Subset *(Qastka)*
-: A `Set` all of whose `Elements` belong to a reference `Set`.
+: A `Set` that is equal to its composition with reference `Set`.
 
-> `A ⊆ B ⟺ A.B == A`
+> `⊆<Hover>{ Sub -> Hover.Sub == Sub }` - short `Subset ⊆ Hover`
 
-**DEF**: `∖<A,B> = A.{ x -> (x ∉ B)[x] }` — short `A ∖ B`, the `Elements` of `A` that are not in `B`: what `A` lets out passes on only where `B` would absorb it.
-
-*NOTE*: Passing through `B` changes nothing `A` lets out. Counted, the same is `|A ∖ B| < 1`: nothing of `A` is left outside `B`.
+*NOTE*: Passing through `Hover` changes nothing `Sub` lets out. The same is `Sub ∖ Hover IS Z`: nothing of `Sub` is left outside `Hover`.
 
 *NOTE*: Reflexive: `S ⊆ S`. Transitive: `(A ⊆ B ∧ B ⊆ C) ⟹ A ⊆ C`. Min/Max: `Z ⊆ S`, `S ⊆ U`.
+
+---
+
+Difference *(Roznost)*
+: `Subset` of all `Elements` from `A` that are not in `B`.
+
+> `∖<A,B> := DOM<!B>.A` — short `A ∖ B`
 
 ## Domain and Codomain
 
 Domain *(Pryjom)*
 : `Set` of the `Args` that get a `valent` `Spond` from an `Azon`.
 
-> `DOM<A> { x -> (A.#)[x][x] }`
+> `DOM<A> { x -> #A[x][x] }`
 
-*NOTE*: `A.#` is `A`'s own test: `Unit` where `A` gives a `valent` `Spond`, `Zero` elsewhere. Applied to the `Arg` once more, it passes the `Arg` on or absorbs it.
+*NOTE*: `#A` is `A`'s own test: `Uniton` where `A` gives a `valent` `Spond`, `Zeron` elsewhere. Applied to the `Arg` once more, it passes the `Arg` on or absorbs it.
 
 ---
 
 Codomain *(Vydaqa)*
 : `Set` of the `valent` `Sponds` of an `Azon`.
 
-> `COD<A> { y -> (|DOM<A.@<y>>| > 0)[y] }`
+> `COD<A> { y -> #[DOM<@<y>.A>][y] }`
 
-*NOTE*: `DOM<A.@<y>>` is the `Set` of `Args` that `A` sends to `y`; `y` is in the `Codomain` when that `Set` has an `Element`.
+*NOTE*: `DOM<@<y>.A>` is the `Set` of `Args` that `A` sends to `y`; `#` passes `y` on where that `Set` is not `Zeron`.
 
 ---
 
@@ -141,7 +139,7 @@ Universe
 Complement *(Reshta)*
 : `Set` of all `Elements` of `Universe` that do NOT belongs to the reference `Set`.
 
-> `∁<P,S> { x -> (x ∈ P ∧ x ∉ S)[x] }`
+> `∁<P,S> := P ∖ S`
 
 *NOTE*: Always relative to a `Universe`.
 
@@ -166,35 +164,35 @@ Collection *(Kupa)*
 Intersection *(Vseqa)*
 : `Set` of `Elements` which belong to every `Set` of the `Collection`.
 
-> `⋂<K> { x -> (|K ∖ ∋<x>| < 1)[x] }`
+> `⋂<K> { x -> ![K ∖ ∋<x>][x] }`
 
 non-intersecting
 : A `Collection` no two of whose `Sets` share an `Element`.
 
 > `non-intersecting<K> :: ({S₁, S₂} ⊆ K ∧ x ∈ S₁ ∧ x ∈ S₂) ⟹ S₁ IS S₂`
 
-**DEF**: for two `Set`s, `∩<A,B> = ⋂<{A, B}>` — short `A ∩ B`, the binary form used where a `Collection` is not needed.
+**DEF**: for two `Set`s, `∩<A,B> := ⋂<{A, B}>` — short `A ∩ B`, the binary form used where a `Collection` is not needed.
 
 ---
 
 Union *(Sojma)*
 : `Set` of `Elements` which belong to at least one `Set` of the `Collection`.
 
-> `⋃<K> { x -> (|K ∩ ∋<x>| > 0)[x] }`
+> `⋃<K> { x -> #[K ∩ ∋<x>][x] }`
 
 saturated to S
 : A `Collection` whose `Union` *is* the reference `Set`.
 
 > `saturated<K,S> :: ⋃<K> = S`
 
-**DEF**: for two `Set`s, `∪<A,B> = ⋃<{A, B}>` — short `A ∪ B`, the binary form.
+**DEF**: for two `Set`s, `∪<A,B> := ⋃<{A, B}>` — short `A ∪ B`, the binary form
 
 ---
 
 Set-Difference *(Dapasok)*
 : `Set` of `Elements` in the `Union` of the `Collection` but NOT in the reference `Set`.
 
-> `SetDiff<K,S> { x -> (x ∈ ⋃<K> ∧ x ∉ S)[x] }`
+> `SetDiff<K,S> := ⋃<K> ∖ S`
 
 ---
 

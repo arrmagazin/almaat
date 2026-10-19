@@ -8,7 +8,7 @@ keywords: [reality, entropy, order, self-organization]
 Entropy *(Entrapija\*)*
 : a measure of the uncertainty in the `State` of a `System` `S` at `Step` `i` — the count of micro-configurations of [`Participant`](07-system.md#system-and-participant)s consistent with one observed macro-`State`.
 
-> `Entropy<S,i> = Σx ∈ State<S,i>: P[x] · log[1 / P[x]]`
+> `Entropy<S,i> := Σx ∈ State<S,i>: P[x] · log[1 / P[x]]`
 
 *NOTE*: high `Entropy` means many indistinguishable `State`s, so the macro-`State` carries little information about the micro-`State`. The Boltzmann (counting) and Shannon (information) forms coincide when every micro-`State` is equally likely. Maximal at [`Equilibrium`](07-system.md#the-whole).
 
@@ -17,7 +17,7 @@ Entropy *(Entrapija\*)*
 Order *(Lad\*)*
 : the complement of `Entropy`, counted from the greatest `Entropy` `S` reaches over its `Step`s — the degree to which a `System`'s macro-`State` constrains the `State` of its `Participant`s.
 
-> `Order<S,i> = (max j: Entropy<S,j>) − Entropy<S,i>`
+> `Order<S,i> := (max j: Entropy<S,j>) − Entropy<S,i>`
 
 *NOTE*: structure, pattern, distinguishability — what makes a `System` more than noise. Sometimes called *negentropy*. Sustained only against `Dissipation`.
 

@@ -75,7 +75,7 @@ Hash Table
 : `Map` reached by `Composition` with a `Scoring` `Azon` sending every `Key` into
 an `Interval`.
 
-> `HashTable<A,hash> = hash.A, hash: K ⇒ Interval<m>, Array<A,X>`
+> `HashTable<A,hash> := A.hash, hash: K ⇒ Interval<m>, Array<A,X>`
 
 *NOTE*: for `|K| > m` the hash cannot be `Injective`, so distinct `Keys` land in one cell; the cell
 holds a `Linked List` of them. Cost stays near-constant while occupancy stays below `m` — the
@@ -88,7 +88,7 @@ Bloom Filter
 conjunction.
 
 > `add<B,x> :: i ∈ Interval<n> ⟹ B[hash<i>[x]] IS U`
-
+>
 > `test<B> { x -> |Interval<n> ∖ { i -> (B[hash<i>[x]] IS U)[i] }| < 1 }`
 
 *NOTE*: every stored `Element` tests positive, and so may some others — a negative answer is
@@ -101,7 +101,7 @@ Trie
 : `Tree` whose `Arrows` are labelled by `Codes` of an `Alphabet`, so each `Path` from
 the `Root` spells a `Word`.
 
-> `Trie<T,Alphabet> :: Tree<T>, label: T ⇒ Alphabet, P ∈ Path<Root,V> ⟹ P.label ∈ Word<Alphabet>`
+> `Trie<T,Alphabet> :: Tree<T>, label: T ⇒ Alphabet, P ∈ Path<Root,V> ⟹ label.P ∈ Word<Alphabet>`
 
 *NOTE*: lookup cost follows `Word` length, not the count of stored `Words`, and a shared prefix is
 a shared `Path`. String matching, spell checkers, IP routing tables.
@@ -111,7 +111,7 @@ a shared `Path`. String matching, spell checkers, IP routing tables.
 Suffix Tree
 : `Trie` holding every suffix of one `Word`.
 
-> `SuffixTree<T,w> :: Trie<T,Alphabet>, COD<Path<Root,Leaf>.{ P -> P.label }> = COD<Interval<|w|>.suffix<w>>`
+> `SuffixTree<T,w> :: Trie<T,Alphabet>, COD<{ P -> label.P }.Path<Root,Leaf>> = COD<suffix<w>.Interval<|w|>>`
 
 *NOTE*: every substring of `w` is a prefix of some suffix, hence a `Path` from the `Root` — so
 substring search reduces to one descent. Longest repeated substring, occurrence counting.
@@ -175,7 +175,7 @@ Segment Tree<S, op>
 : `Tree` whose `Vertex` are `Ranges` — the `Root` the whole `Range`,
 each `Vertex` the `Union` of its children's — carrying `op` folded over its own `Range`.
 
-> `SegmentTree<T,S,op> :: Tree<T>, Root = Range<0,n>, V ∈ Vertex<T> ⟹ (V IS ⋃<children<V>> ∧ value[V] IS op[V.S])`
+> `SegmentTree<T,S,op> :: Tree<T>, Root = Range<0,n>, V ∈ Vertex<T> ⟹ (V IS ⋃<children<V>> ∧ value[V] IS op[S.V])`
 
 *NOTE*: any `Range` decomposes into logarithmically many such `Vertex`, so a range query is a partial fold
 rather than a scan, and a point update repairs one `Path`. Range minimum, sum, and similar queries.

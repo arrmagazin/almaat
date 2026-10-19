@@ -13,7 +13,7 @@ Plus *(Prybawka\*)*
 ---
 
 Power
-: `Composition` of an `Azon` with itself or with its preceding Iteron.
+: `Composition` of an `Azon` with itself or with its preceding Power.
 
 > `A^0 = U, A^1 = A, A^n = A.A^(n − 1)`
 
@@ -22,14 +22,14 @@ Power
 Induction<A>
 : `Set` of all `Powers` of `Azon`.
 
-> `Induction<A> = {U, A, A², A³, …}`
+> `Induction<A> := {U, A, A², A³, …}`
 
 ---
 
 Numerals *(Liqby)*
 : `Induction` of `Plus`.
 
-> `Numerals = Induction<Plus>`
+> `Numerals := Induction<Plus>`
 
 ---
 
@@ -55,7 +55,7 @@ Add (+)
 ---
 
 Times (·)
-: `Iteron` of a `Number` by another.
+: `Power` of a `Number` by another.
 
 > `n · m = (Plus^n)^m`
 
@@ -64,7 +64,7 @@ Times (·)
 Ratio
 : `Arrow` between two `Numbers` with a non-unit `Spond`.
 
-> `Ratio<p,q> = (p, q), ![q IS U]` — short `p / q`
+> `Ratio<p,q> := (p, q), ![q IS U]` — short `p / q`
 
 ---
 
@@ -143,7 +143,7 @@ Mask *(Maska)*
 Slice *(Zrez)*
 : `Composition` of a `Mask` with a `Tuple`.
 
-> `Slice<M,T> = M.T`
+> `Slice<M,T> := T.M`
 
 ## Matrices
 

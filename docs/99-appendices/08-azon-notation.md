@@ -11,9 +11,7 @@ EBNF, terminals in quotes. `ident` is any name: a word (`Arr`, `IS`), a letter (
 
 ```ebnf
 statement  = definition | law ;
-definition = ident [ params ] literal ;
-law        = [ atom "::" ] relation { "," relation } ;
-relation   = expr { relop expr } | expr ":" expr "⇒" expr ;
+definition = ident [ params ] ( literal | ":=" law ) ;
 
 params     = "<" ident { "," ident } ">" ;
 literal    = "{" patterns "->" responses "}" ;
@@ -22,6 +20,8 @@ responses  = response { "|" response } ;    (* exactly one response per pattern 
 pattern    = "*" | "-" | ident | "(" ident { "," ident } ")" ;
 response   = expr | "(" expr { "|" expr } ")" ;
 
+law        = [ atom "::" ] relation { "," relation } ;
+relation   = expr { relop expr } | expr ":" expr "⇒" expr ;
 expr       = binder | conn ;
 binder     = bindop ident { "," ident } [ ( "∈" | "∉" ) sum ] ":" expr ;
 conn       = cmp { connop cmp } ;               (* one connective, or parentheses *)
@@ -51,7 +51,7 @@ relop      = "=" | "==" | "===" | "⟺" ;
 | --- | --- |
 | `{ * -> R }` | every `Arg` gets `R` |
 | `{ p1 \| p2 -> r1 \| r2 }` | patterns are tried left to right; the first that matches gives the response at the same position |
-| `{ Z \| * -> Z \| U }` | `Zero` gets `Zero`, any other `Arg` gets `Unit` (`Indicator`) |
+| `{ Z \| * -> Z \| U }` | `Zeron` gets `Zeron`, any other `Arg` gets `Uniton` (`Indicator`) |
 | `{ * -> ( U \| Z ) }` | a *choice*: the response is one of the listed ones, which one is left open (`Predicate`) |
 
 The `|` inside parentheses lists a choice; the bare `|` pairs patterns with responses by position.
@@ -72,7 +72,7 @@ The `|` inside parentheses lists a choice; the bare `|` pairs patterns with resp
 | --- | --- |
 | a name (`Z`, `U`, `A`) | that `Azon` |
 | `*` | the matched `Arg` itself (`U{ * -> * }`) |
-| an expression (`A[*]`, `B[A[x]]`) | the `Azon` it evaluates to, with `*` and bound names standing for the `Arg` |
+| an expression (`A[*]`, `A[B[x]]`) | the `Azon` it evaluates to, with `*` and bound names standing for the `Arg` |
 
 ## Naming and parameters
 
@@ -93,13 +93,13 @@ The `|` inside parentheses lists a choice; the bare `|` pairs patterns with resp
 | `A[x][y]` | apply `A` to `x`, then apply that response to `y` — how a response that is itself an `Azon` is used |
 | `{ … }[x]` | an unnamed literal applied in place |
 
-Example: `#[P[x]][#[Q[x]]]` — `#[P[x]]` is `Unit` where `P` holds and `Zero` elsewhere; `Unit` then passes `#[Q[x]]` on and `Zero` absorbs it, which is `Conjunction`.
+Example: `#P[x][#Q[x]]` — `#P` is the `Composition` `#.P`, so `#P[x]` is `Uniton` where `P` holds and `Zeron` elsewhere; `Uniton` then passes `#Q[x]` on and `Zeron` absorbs it, which is `Conjunction`.
 
 *NOTE*: application is always `A[x]`, in prose too (`S[z]`); round brackets `f(x)` appear only inside a quoted classical formula.
 
 ## Composition
 
-`A.B` is the `Azon` that feeds `A`'s response to `B`: `.<A,B> { x -> B[A[x]] }`. It reads left to right, the order the `Arg` flows in, not the right-to-left `B ∘ A` of classical notation. `S₁.S₂.….Sₙ` composes the whole list, as the subscripts show.
+`A.B` is the `Azon` that feeds `B`'s response to `A`: `.<A,B> { x -> A[B[x]] }`. It reads right to left, the order of application `A[B[x]]`, as the classical `A ∘ B`. `S₁.S₂.….Sₙ` composes the whole list, as the subscripts show.
 
 ## Binders and enumeration
 
@@ -114,7 +114,7 @@ Example: `#[P[x]][#[Q[x]]]` — `#[P[x]]` is `Unit` where `P` holds and `Zero` e
 
 The body `e` reaches to the end of the expression; a binder inside a larger expression is put in parentheses: `(Σi ∈ I: e) + 1`.
 
-A `Set` is written by its responses, as any `Azon`: a predicate applied to the `Arg` passes it on or absorbs it. `{ x -> (x ∈ A ∧ x ∉ B)[x] }` responds with `x` where the predicate holds and with `Zero` elsewhere — the classical `{x : x ∈ A, x ∉ B}`.
+A `Set` is written by its responses, as any `Azon`: a predicate applied to the `Arg` passes it on or absorbs it. `{ x -> (x ∈ A ∧ x ∉ B)[x] }` responds with `x` where the predicate holds and with `Zeron` elsewhere — the classical `{x : x ∈ A, x ∉ B}`.
 
 ## Every and some
 
@@ -128,13 +128,13 @@ There are no quantifiers. *Every* and *some* come from the `Azon` itself:
 | no `Element` of `S` | `\|S ∩ E\| < 1` | `\|S ∩ E\| < 1` |
 | exactly one | `\|S ∩ E\| IS 1` | `\|S ∩ E\| IS 1` |
 
-`E` is the `Set` where `e` holds, `{ x -> (e)[x] }`, and `|S|` is the `Cardinality` (see [Sets](../01-math/01-sets.md)). A native construction is preferred where one exists: the `Args` that `A` sends to `y` are `DOM<A.@<y>>`, so `COD<A> { y -> (|DOM<A.@<y>>| > 0)[y] }`.
+`E` is the `Set` where `e` holds, `{ x -> (e)[x] }`, and `|S|` is the `Cardinality` (see [Combinatorics](04-numerals-to-combinatorics.md)). A native construction is preferred where one exists: the `Args` that `A` sends to `y` are `DOM<@<y>.A>`, so `COD<A> { y -> #[DOM<@<y>.A>][y] }` needs no count at all.
 
 ## Arithmetic and tuples
 
 | Form | Reading |
 | --- | --- |
-| `0`, `1`, `n` | a `Number`: `n` is `Plus^n`, so `0` is `Unit` (see [Numerals](../01-math/04-numerals.md)) |
+| `0`, `1`, `n` | a `Number`: `n` is `Plus^n`, so `0` is `Uniton` (see [Numerals](../01-math/04-numerals.md)) |
 | `A^n`, `A²` | `A` composed with itself `n` times; a superscript is the same power |
 | `a + b`, `a − b`, `a · b`, `a / b` | the arithmetic of `Numerals` |
 | `a < b`, `a ≤ b`, `a > b`, `a ≥ b` | comparisons of `Numerals` |
@@ -154,7 +154,7 @@ There are no quantifiers. *Every* and *some* come from the `Azon` itself:
 | `A === B` | `Intensional Equality`: every probe responds alike to `A` and `B` |
 | `A == B` | `Extensional Equality`: `A` and `B` respond alike to every `Arg` |
 | `A = B` | `Total Equality`: both of the above; also the plain equation of a law |
-| `N = e`, `N<a> = e` | names `e`: `N` is defined as `e` |
+| `N := e`, `N<a> := e` | `N` *is defined as* `e` (`∉<S> := !S`) |
 | `P ⟺ Q` | both hold or neither does |
 | `N :: law` | `N` is the `Azon` for which the law holds (`Id :: Id.A = A.Id = A`) |
 | `N<A> :: law` | `A` has the property `N` when the law holds (`Endogenous<A> :: DOM<A> == COD<A>`) |
@@ -162,28 +162,29 @@ There are no quantifiers. *Every* and *some* come from the `Azon` itself:
 | `a = b = c` | a chain: every neighbour pair is equal |
 | `A: X ⇒ Y` | `A` goes *from* `X` *into* `Y`: `DOM<A> ⊆ X, COD<A> ⊆ Y` |
 
-A comparison (`cmpop`) is a predicate: it gives `Unit` or `Zero` and may sit inside an expression. A relation (`relop`) is a claim about every `Arg` or every probe and stays at the top of a law. A comparison may be defined by a relation: `A ⊆ B ⟺ A.B == A` gives `Unit` exactly when the relation holds.
+A comparison (`cmpop`) is a predicate: it gives `Uniton` or `Zeron` and may sit inside an expression. A relation (`relop`) is a claim about every `Arg` or every probe and stays at the top of a law. A comparison may be defined by a relation: `A ⊆ B ⟺ B.A == A` gives `Uniton` exactly when the relation holds.
 
 ## Precedence
 
 Tightest first, as the formulas use it:
 
-1. `[ ]` application and `< >` parameters — `@<A>.#` is `(@<A>).#`
-2. `.` composition — `IS<A> = @<A>.#` compares `IS<A>` with the composite
+1. `[ ]` application and `< >` parameters — `#.@<A>` is `#.(@<A>)`
+2. `.` composition — `IS<A> = #.@<A>` compares `IS<A>` with the composite
 3. `·`, `/`, `×`, `∩`
 4. `+`, `−`, `∪`, `∖`
 5. `IS`, `∈`, `∉`, `∋`, `⊆`, `⊄`, `<`, `≤`, `>`, `≥` — `x[A] IS x[B]`, `x ∈ A ∩ B`
 6. `∧`, `∨`, `⟹` — `IEQ<A,B>[x] ∧ EEQ<A,B>[x]`; two different ones need parentheses: `(A ⊆ B ∧ B ⊆ C) ⟹ A ⊆ C`
 7. binders `Σ`, `Π`, `max`, … — the body reaches to the end
-8. `=`, `==`, `===`, `⟺` — `A ⊆ B ⟺ A.B == A`
+8. `=`, `==`, `===`, `⟺` — `A ⊆ B ⟺ B.A == A`
 9. `,` between laws
 10. `::`
+11. `:=` — `Space<Cluster> := S[…] :: …` defines `Space` by the whole law
 
 ## Reserved names
 
 | Name | Azon | Name | Azon |
 | --- | --- | --- | --- |
-| `Z` | `Zero` | `U` | `Unit` |
+| `Z` | `Zeron` | `U` | `Uniton` |
 | `#` | `Indicator` | `!` | `Invertor` |
 | `⊤` | `Verum` | `.` | `Composition` |
 | `∧` `∨` `⟹` | `Conjunction`, `Disjunction`, `Implication` | `@<s>` | `Singleton` |
@@ -192,7 +193,7 @@ Tightest first, as the formulas use it:
 | `X1` `X2` `X3` | the axioms as `Azon` filters | `DOM<A>`, `COD<A>` | `Domain`, `Codomain` |
 | `∈` `∉` `∋` `⊆` | membership, subset | `∩` `∪` `⋂` `⋃` `∁` | intersection, union, complement |
 
-Role words: `Arg` (what is responded to), `Spond` (the response), `empty` / `valent` (a response that is / is not `Zero`), `fixed` / `flexed` (a response that is / is not the `Arg`).
+Role words: `Arg` (what is responded to), `Spond` (the response), `empty` / `valent` (a response that is / is not `Zeron`), `fixed` / `flexed` (a response that is / is not the `Arg`).
 
 ## Layout of a definition
 

@@ -32,7 +32,7 @@ Contradiction
 
 > `⊥ := 0`
 
-*NOTE*: Coincides with `Zero`.
+*NOTE*: Coincides with `Zeron`.
 
 ---
 

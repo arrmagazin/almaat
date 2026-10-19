@@ -40,14 +40,14 @@ Volume (Cartesian product) *(Obshar)*
 View *(Vid)*
 : A `Place` consists of same-`Mask` `Slicea` on ALL `Points` of  (given `Place` := `**Origin**`).
 
-> `View<Place, Mask> := { Mask.Point :: ∀ Point ∈ Place }`
+> `View<Place, Mask> := { Point.Mask :: ∀ Point ∈ Place }`
 
 ---
 
 Subspace *(Padshyr\*)*
 : `Slice` of `Space`.
 
-> `Subspace<Space, Mask> := Mask.Space`
+> `Subspace<Space, Mask> := Space.Mask`
 
 ---
 

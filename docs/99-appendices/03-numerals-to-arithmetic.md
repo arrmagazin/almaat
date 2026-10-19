@@ -8,7 +8,7 @@ Arithmetic is not introduced as a new primitive — it is *recovered* from `Numb
 ---
 
 0
-: `Zero` : `0 := Zero`
+: `Zeron` : `0 := Zero`
 
 ---
 
@@ -18,7 +18,7 @@ Successor
 ---
 
 1
-: The successor of `Zero` : `1 := succ(0) = {0}`
+: The successor of `Zeron` : `1 := succ(0) = {0}`
 
 ---
 
