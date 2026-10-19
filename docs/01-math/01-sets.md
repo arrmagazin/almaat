@@ -3,6 +3,7 @@ title: "Sets, Equivalence, Topology"
 description: "Set and its Elements, the equivalence relations that compare Azons, and the topological structures over Collections of Sets."
 keywords: [math, sets]
 ---
+
 ## Sets
 
 Set *(Sito)*

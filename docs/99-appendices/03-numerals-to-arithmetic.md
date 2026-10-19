@@ -8,7 +8,7 @@ Arithmetic is not introduced as a new primitive — it is *recovered* from `Numb
 ---
 
 0
-: `Zeron` : `0 := Zero`
+: `Zeron` : `0 := Zeron`
 
 ---
 

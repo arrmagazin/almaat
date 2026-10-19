@@ -26,7 +26,7 @@ Azon
 Zeron *(Puston)*
 : `Azon` that *always* responds with itself.
 
-> `Z{ * -> Z }`
+> `Zeron{ * -> Zeron }` - short `Z`
 
 **Def**: `Azon` defined recursively by itself, thus notates *non-constructuctiveness*.
 
@@ -39,7 +39,7 @@ Zeron *(Puston)*
 Uniton *(Proston)*
 : `Azon` that *always* responds with `Arg`.
 
-> `U{  *  ->  * }`
+> `Uniton{  *  ->  * }` - short `U`
 
 **DEF**: response with the `Arg` itself *called* **`fixed`**, *otherwise* **`flexed`**.
 
@@ -57,7 +57,7 @@ Arrow *(Strelka)*
 Composition *(Tvor)*
 : The `Azon` built on top of `Arrow` by using the `Sponds` of the `Object` as the `Args` of the `Subject`.
 
-> `.<A,B> { x -> A[B[x]] }`
+> `.<A,B> { x -> A[B[x]] }` - in short `A.B`
 
 **NOTE**: `Composition` is **`associative`** by construction.
 
@@ -129,14 +129,14 @@ AXIOM-1 (Halt)
 
 ---
 
-AXIOM-2 (Non-Self-Valent)
+AXIOM-2 (Anti-Self-Valent)
 : The response to the `Azon` itself is *always* `Zeron`.
 
 > `X2<A> { A | * -> Z | A[*] }`
 
 ---
 
-AXIOM-3 (Non-Self-Generation)
+AXIOM-3 (Anti-Self-Generation)
 : non-zero `Azon` cannot respond with itself
 
 > `X3<A> { - | *  -> A | A[*] }`
@@ -199,7 +199,7 @@ Total Equality *(Pownaja Rownasc\*)*
 - [Extensional and intensional definitions (Wikipedia)](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) — the same contrast applied to definitions: listing instances versus stating conditions.
 - [Extensional type theory (nLab)](https://ncatlab.org/nlab/show/extensional+type+theory) — intensional identity is so named because it does *not* validate function extensionality; the reason `==` is the extensional criterion.
 - [Equality (mathematics) (Wikipedia)](https://en.wikipedia.org/wiki/Equality_(mathematics)) — broader survey of equality notions.
-- [Russell's paradox (Wikipedia)](https://en.wikipedia.org/wiki/Russell%27s_paradox) — `R = {x | x ∉ x} ⟹ (R ∈ R ⟺ R ∉ R)`; the contradiction from unrestricted self-membership that `AXIOM-2` forecloses by fixing `A[A] IS Zero`.
+- [Russell's paradox (Wikipedia)](https://en.wikipedia.org/wiki/Russell%27s_paradox) — `R = {x | x ∉ x} ⟹ (R ∈ R ⟺ R ∉ R)`; the contradiction from unrestricted self-membership that `AXIOM-2` forecloses by fixing `A[A] IS Zeron`.
 - [Bisimulation (Wikipedia)](https://en.wikipedia.org/wiki/Bisimulation) — bisimilarity is the union of all bisimulations, the greatest fixed point; the only solution of a recursive `EQ` over `Azon`.
 - [Coinduction (Wikipedia)](https://en.wikipedia.org/wiki/Coinduction) — `μF` as the intersection of `F`-closed sets, `νF` as the union of `F`-consistent sets; why a recursive equation names two relations.
 - [Non-well-founded set theory (Wikipedia)](https://en.wikipedia.org/wiki/Non-well-founded_set_theory) — AFA: bisimilar sets are equal; the set theory whose equality a recursive `EQ` would reproduce.

@@ -87,7 +87,7 @@ Axiom *(Padvalina\*)*
 Terminal *(Nazva)*
 : `Word` that nothing can be derived from in given `Grammar`.
 
-> `Terminal<Grammar> := Word :: Theory<Word, Grammar> = Zero`
+> `Terminal<Grammar> := Word :: Theory<Word, Grammar> = Zeron`
 
 ---
 

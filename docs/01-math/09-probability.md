@@ -46,7 +46,7 @@ Event *(Zjava)*
 Context *(Ataqenne\*)*
 : the `Text<SampleSpace>` of `Outcomes` preceding an `Event`, or `Zeron` where there is none.
 
-> `Context := Text<SampleSpace> | Zero`
+> `Context := Text<SampleSpace> | Zeron`
 
 ---
 
@@ -55,7 +55,7 @@ Conditional Event *(Umownaja Zjava\*)*
 
 > `Conditional Event<SampleSpace> := [Context, Event]`
 
-*NOTE*: read as *the `Event` given the `Context`* — written `A | Context`. It lives on the space of `Texts` one `Word` longer than the `Context`; with `Context = Zero` it is the plain `Event`.
+*NOTE*: read as *the `Event` given the `Context`* — written `A | Context`. It lives on the space of `Texts` one `Word` longer than the `Context`; with `Context = Zeron` it is the plain `Event`.
 
 ---
 
@@ -66,9 +66,7 @@ MutuallyExclusiveEvents *(Nesumiashqalnyja Zjavy\*)*
 
 *NOTE*: the classical *complete group of events*, carried at a `Context` — mutually exclusive *and* exhaustive, so exactly one of its `Events` occurs. The finest one is the `Cluster` of `Singletons`, one per `Outcome`.
 
-## Measure
-
-*(Mera)*
+## Measure *(Mera)*
 
 Probability *(Veragodnasc\*)*
 : a `Rational` from 0 to 1.

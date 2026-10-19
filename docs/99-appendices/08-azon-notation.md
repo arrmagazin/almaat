@@ -201,11 +201,11 @@ Each entry of the text around the formulas follows one layout:
 
 | Element | Markdown | Example |
 | --- | --- | --- |
-| term, with its native name | definition-list term, native name in italics | `Zero *(Puston)*` |
+| term, with its native name | definition-list term, native name in italics | `Zeron *(Puston)*` |
 | native name under consideration | `\*` after the name | `Nil *(Nishto\*)*` |
 | meaning | definition line `: …` | `: Azon that always responds with itself.` |
 | formula | blockquote of one code span | `` > `Z{ * -> Z }` `` |
-| derived term or rule | `**DEF**:` paragraph | `**DEF**: response with Zero called empty` |
+| derived term or rule | `**DEF**:` paragraph | `**DEF**: response with Zeron called empty` |
 | axiom | `AXIOM-n (Name)` term | `AXIOM-1 (Halt)` |
 | remark | `*NOTE*:` paragraph | |
 | next entry | `---` | |
