@@ -10,9 +10,9 @@ Chronic bad luck is not a curse. It is largely a side effect of **perceptual bli
 Honesty first: at the level of large numbers, chance is disciplined and cannot be out-played inside the standard field.
 
 - **Talent loses to luck.** In a fair-start agent simulation (Pluchino, Rapisarda & Biondo, 2018), the wealthiest agents were not the most talented but **mediocrities who caught an early streak of random positive events**. A first random nudge compounds into *cumulative advantage* — the *Matthew effect* — and swamps personal merit.
-- **Survivorship bias.** Studying the biographies of winners — the Forbes list — teaches the shape of luck, not a repeatable method. (See [Biases and Fallacies → Survivorship Bias](../03-mind/14-biases.md#evaluation).)
+- **Survivorship bias.** Studying the biographies of winners — the Forbes list — teaches the shape of luck, not a repeatable method. (See [Biases and Fallacies → Survivorship Bias](../04-human/34-biases.md#evaluation).)
 - **Chance is regular in bulk.** Rare independent events follow a Poisson distribution. On large numbers the macro-statistic takes its due.
-- **Black swans dominate the tail.** Taleb's warning: crises and regulatory shocks grind up plans regardless of anyone's inner state, and crediting your own intuition for a random hit is the [*Texas sharpshooter*](../03-mind/14-biases.md#contextual-fallacies) fallacy.
+- **Black swans dominate the tail.** Taleb's warning: crises and regulatory shocks grind up plans regardless of anyone's inner state, and crediting your own intuition for a random hit is the [*Texas sharpshooter*](../04-human/34-biases.md#contextual-fallacies) fallacy.
 
 ## The Tunable Interface
 
@@ -35,7 +35,7 @@ Luck does not create chances; it **assimilates** them (Busch). The macro-lottery
 
 ## The Honest Caveat
 
-None of this defeats the macro-lottery, and that openness is a scarce luxury. In turbulent, low-trust environments, background anxiety is not a personal defect but an evolutionarily rational defense — the system punishes relaxedness, and the tighter you clamp, the blinder you go, a vicious loop. Worse, turning serendipity into another anxious optimization ("am I searching for luck efficiently enough?") spikes stress and re-clamps the very filter you meant to open. And the capacity to relax is itself partly set by the safety of one's past. 
+None of this defeats the macro-lottery, and that openness is a scarce luxury. In turbulent, low-trust environments, background anxiety is not a personal defect but an evolutionarily rational defense — the system punishes relaxedness, and the tighter you clamp, the blinder you go, a vicious loop. Worse, turning serendipity into another anxious optimization ("am I searching for luck efficiently enough?") spikes stress and re-clamps the very filter you meant to open. And the capacity to relax is itself partly set by the safety of one's past.
 Both hold: blind chance cannot be out-played, and permanent tension guarantees blindness to the chance that does arrive. Stay open to it anyway, without gripping the result — the same effort-and-release balance as [Approaching Rajdo → Force and Surrender](../04-human/24-approach.md#the-mirror-and-the-two-intentions).
 
 ## Sources

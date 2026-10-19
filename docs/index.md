@@ -45,11 +45,8 @@ The framework's cognitive core: Content → Form → Mechanism → Process → P
 - [Computation](03-mind/07-computation.md) — Reasoning mechanized: Data carried through Transformers by a Runtime, expressed as a Program, prescribed by an Algorithm, and judged against a Specification.
 - [Reasoning](03-mind/08-reasoning.md) — Generating new a priori Knowledge from existing Knowledge — the Inference path, and the nine modes a Mind reasons in.
 - [Agency & Teleology](03-mind/09-teleos.md) — The anatomy of intentional action: who the Agent is, what drives motion toward a Future, what means are deployed, and how the outcome is judged.
-- [Free Will](03-mind/10-free-will.md) — Whether the Solution an Agent reaches is freely authored, or a determined output of a prior physical State that the Agent only reports after the fact.
 - [Intellect](03-mind/11-intellect.md) — The capacity to form, validate, and apply one's own Reality — cognition, validation, learning, skill, bias, and judgment under uncertainty.
 - [Mind](03-mind/12-mind.md) — Mind as a System of Neuron and Sensor — thought as state, memory as disposition, and the social origin of the inner voice.
-- [The Predictive Brain](03-mind/13-predictive.md) — The brain as a prediction engine: perception is constructed from a running model and corrected by sensory data, not received.
-- [Biases and Fallacies](03-mind/14-biases.md) — Systematic errors in thinking — the biases and fallacies that corrupt judgment, and the names that make them visible.
 - [The Scientific Method](03-mind/90-scientific.md) — The empirical route to Scientific Knowledge: the nine criteria a claim must meet, and the five phases that produce it.
 
 ## 04 — Human · The Individual
@@ -63,6 +60,7 @@ The human as a layered composition of body and psyche, and what lies beyond: Com
 - [Happiness, Mission and Greatness](04-human/26-greatness.md) — What a life is measured by: the saturation Happiness reports, the Mission chosen to pursue it, the Greatness earned by persisting, and Kapot — the line past which Dignity is abandoned.
 - [Animal](04-human/28-animal.md) — **Animal** := the intertwined psychic, energetic, and hormonal processes aimed at satisfying animalistic needs.
 - [The Self and Death](04-human/29-self.md) — What survives death depends on what the self actually is: the Self-role, the Self-observer, and the Self-`Consciousness` beneath both.
+- [Biases and Fallacies](04-human/34-biases.md) — Systematic errors in thinking — the biases and fallacies that corrupt judgment, and the names that make them visible.
 - [Manifesto of Humankind](04-human/98-manifesto.md) — Each Human Being is a manifestation of God, born equal in Dignity: the rights that unfold it, the freedoms that exercise it, and the duty to defend both.
 
 ## 05 — Mastery · The Disciplines

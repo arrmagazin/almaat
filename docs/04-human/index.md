@@ -1,6 +1,6 @@
 ---
 title: "Human"
-description: "The human as a layered composition of body and psyche, and what lies beyond: Rajdo, truth and faith, happiness and greatness, the Animal, the self, and the Manifesto."
+description: "The human as a layered composition of body and psyche, and what lies beyond: Rajdo, truth and faith, happiness and greatness, the Animal, the self, biases and fallacies, and the Manifesto."
 keywords: [human]
 ---
 The human as a layered composition of body and psyche, and what lies beyond: Composition → Opening → Truth → Life → Substrate → Self → Charter.
@@ -12,4 +12,5 @@ The human as a layered composition of body and psyche, and what lies beyond: Com
 - [Happiness, Mission and Greatness](26-greatness.md) — What a life is measured by: the saturation Happiness reports, the Mission chosen to pursue it, the Greatness earned by persisting, and Kapot — the line past which Dignity is abandoned.
 - [Animal](28-animal.md) — **Animal** := the intertwined psychic, energetic, and hormonal processes aimed at satisfying animalistic needs.
 - [The Self and Death](29-self.md) — What survives death depends on what the self actually is: the Self-role, the Self-observer, and the Self-`Consciousness` beneath both.
+- [Biases and Fallacies](34-biases.md) — Systematic errors in thinking — the biases and fallacies that corrupt judgment, and the names that make them visible.
 - [Manifesto of Humankind](98-manifesto.md) — Each Human Being is a manifestation of God, born equal in Dignity: the rights that unfold it, the freedoms that exercise it, and the duty to defend both.

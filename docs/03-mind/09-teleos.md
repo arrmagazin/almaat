@@ -152,10 +152,10 @@ Cost *(Cana\*)*
 
 *NOTE*: Deducted when evaluating whether an `Outcome` is `Success`. `Cost` is the bridge between `Resources` (a stock) and `Outcome` (a flow).
 
-Whether the `Agent` authored the `Solution` at all is taken up in [Free Will](10-free-will.md).
+Whether the `Agent` authored the `Solution` at all is taken up below, in `Free-Will`.
 
 ---
----
+
 Free-Will *(Svabodnaja Volia\*)*
 : The claimed capacity of an `Agent` to select a `Solution` independent of its prior `State`.
 

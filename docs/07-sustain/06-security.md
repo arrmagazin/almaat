@@ -6,7 +6,7 @@ keywords: [sustain, security]
 - **Social** — coercion, manipulation, boundary violation. The attack on your judgment and autonomy: [Frame](07-frame.md), [De-escalation](08-de-escalation.md), [Manipulation](09-manipulation.md), [Reading People](10-reading.md), [Hidden Hostility](11-hostility.md), [Boundaries](12-boundaries.md).
 - **Physical** — intimidation and violence. The attack on your body: [Physical Security](13-defense.md).
 
-Both rest on the same [Animal](../04-human/28-animal.md) that reacts before thought and the same [biases](../03-mind/14-biases.md) that get people hurt. Both are won mostly *before* contact. And both are **defense, not domination** — the goal is to stay intact and free, not to make others lose. See [Ethics](../06-socium/31-ecology.md#ethics).
+Both rest on the same [Animal](../04-human/28-animal.md) that reacts before thought and the same [biases](../04-human/34-biases.md) that get people hurt. Both are won mostly *before* contact. And both are **defense, not domination** — the goal is to stay intact and free, not to make others lose. See [Ethics](../06-socium/31-ecology.md#ethics).
 
 *NOTE*: This page is educational. It is not legal advice or a fight manual. The lawful purpose of force is to stop an imminent threat and escape — nothing more.
 
@@ -71,7 +71,7 @@ Under threat the **sympathetic nervous system** floods the body with catecholami
 
 ## Biases That Get You Hurt
 
-Why prepared people still freeze. Each is a [cognitive bias](../03-mind/14-biases.md) turned dangerous; the bystander effect is treated in [Conformism](../06-socium/36-conformism.md), and each stalls both the boundary you don't enforce and the exit you don't take.
+Why prepared people still freeze. Each is a [cognitive bias](../04-human/34-biases.md) turned dangerous; the bystander effect is treated in [Conformism](../06-socium/36-conformism.md), and each stalls both the boundary you don't enforce and the exit you don't take.
 
 | Bias | Failure it causes |
 | ---- | ----------------- |

@@ -26,7 +26,7 @@ The quarterly cadence belongs to direction rather than execution — see [Vision
 Advance through steady, successful steps by iterating: Observe → Reflect → Decide → Plan → Act → Repeat. This runs the [OODA loop](../07-sustain/06-security.md#the-ooda-loop) on a longer timescale, with a planning step added.
 
 - **Check the map against the ground, not the ground against the map.** A plan is a model made under past `Circumstances`; when they change, the plan yields. When a plan collapses, drop it and read the new ground — the question is not how to prevent every failure but how to stay useful when one comes.
-- **Persistence, not obsession.** Persistence keeps moving toward the aim and changes route when a road closes; obsession keeps to one road after it has become a dead end — the [Sunk Cost Fallacy](../03-mind/14-biases.md#evaluation) in motion.
+- **Persistence, not obsession.** Persistence keeps moving toward the aim and changes route when a road closes; obsession keeps to one road after it has become a dead end — the [Sunk Cost Fallacy](../04-human/34-biases.md#evaluation) in motion.
 - **Score the position, not the round.** A failed attempt still counts if it raised skill, `Leverage`, `Information`, or options. While those grow, a lost round does not define the run.
 
 *Mastery is forged in trials and feedback. Success at the universal level cannot be taught — only earned through overcoming.*

@@ -5,7 +5,7 @@ keywords: [mind, bias, fallacy]
 ---
 ## What is Cognitive Bias?
 
-A [`Bias`](11-intellect.md) is a systematic error in thinking that occurs while processing and interpreting information, affecting the decisions and judgments that follow.
+A [`Bias`](../03-mind/11-intellect.md) is a systematic error in thinking that occurs while processing and interpreting information, affecting the decisions and judgments that follow.
 
 Biases occur due to limitations of the human brain:
 
