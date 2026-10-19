@@ -126,6 +126,6 @@ Correspondences from the formal core to the classical disciplines it recovers (`
 - [Correspondence to Combinatorics](99-appendices/04-numerals-to-combinatorics.md) — Counting over finite Sets and Tuples: every classical count reduced to the Cardinality of a constructed Set.
 - [Fundamental Data Structures](99-appendices/05-data-structures.md) — The data structures of computing as Azons already available from Set, Graph, and Numerals, each narrowed by one constraint.
 - [Common Structures](99-appendices/06-common-structures.md) — The standard algebras built on Structure — setoids, magmas, ringoids, and lattices.
-- [Correspondence to Data Normalization](99-appendices/06-data-normalization.md) — The relational normal forms 1NF to BCNF stated over Schema, Type, Presentation, and Relation.
-- [Branches of Intellectual Work](99-appendices/07-science-branches.md) — A map of the scientific, applied, and humanistic disciplines, each given by what it studies.
-- [Azon Notation](99-appendices/08-azon-notation.md) — The formal grammar of the Azon formulas: literal, pattern and response, parameters, application, composition, relations, and the layout of a definition.
+- [Correspondence to Data Normalization](99-appendices/07-data-normalization.md) — The relational normal forms 1NF to BCNF stated over Schema, Type, Presentation, and Relation.
+- [Branches of Intellectual Work](99-appendices/08-science-branches.md) — A map of the scientific, applied, and humanistic disciplines, each given by what it studies.
+- [Azon Notation](99-appendices/09-azon-notation.md) — The formal grammar of the Azon formulas: literal, pattern and response, parameters, application, composition, relations, and the layout of a definition.

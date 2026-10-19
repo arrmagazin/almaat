@@ -17,7 +17,7 @@ Atos
 Azon
 : one of *plentitude*, represented as *assignments*
 : made from every (`Azon` =: **`Arg`**) to corresponding (`Azon` =: **`Spond`**).
-: and noted with syntax defined in [Azon Notation](../99-appendices/08-azon-notation.md)
+: and noted with syntax defined in [Azon Notation](../99-appendices/09-azon-notation.md)
 
 > `A<x>{ - | x | * -> N | A[x] | A[*] }` - formula sample
 
@@ -191,7 +191,7 @@ Total Equality *(Pownaja Rownasc\*)*
 
 ## SEE ALSO
 
-- [Azon Notation](../99-appendices/08-azon-notation.md) — the grammar of the formulas on this page.
+- [Azon Notation](../99-appendices/09-azon-notation.md) — the grammar of the formulas on this page.
 - [Identity of Indiscernibles (Wikipedia)](https://en.wikipedia.org/wiki/Identity_of_indiscernibles) — `∀x∀y[∀F(Fx ⟺ Fy) -> x = y]`; grounds `≠` and `=`.
 - [Axiom of Extensionality (Wikipedia)](https://en.wikipedia.org/wiki/Axiom_of_extensionality) — `∀x∀y[∀z(z ∈ x ⟺ z ∈ y) -> x = y]`; grounds `==` for a `Set`.
 - [Extensionality (Wikipedia)](https://en.wikipedia.org/wiki/Extensionality) — the general principle, including function extensionality: equality by external behaviour rather than internal definition.
