@@ -4,3 +4,7 @@ done
 node_modules
 *.log
 **/.claude/autoharness/
+build/
+.firebase/
+firebase-debug*.log
+www/dist/

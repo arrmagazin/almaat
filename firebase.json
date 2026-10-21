@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "site": "almaat",
+    "public": "www",
+    "ignore": [
+      "**/.*"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -2,18 +2,46 @@
   "name": "almaat",
   "type": "module",
   "displayName": "Almaat",
-  "description": "A layered knowledge base of foundational terms, from a single primitive to mastery and the collective.",
-  "version": "1.0.7",
+  "description": "A layered knowledge base of foundational terms",
+  "version": "1.0.8",
   "author": "Company, Inc",
   "keywords": [
     "knowledge",
     "almaat"
   ],
+  "logo": "/favicon.svg",
   "email": "contact@company.com",
   "copyright": "© 2025. All rights reserved.",
-  "theme": "caramellatte",
-  "themeColor": "#4e51ea",
+  "book": {
+    "title": "ALMAAT",
+    "subtitle": "A general-purpose framework for cognitive modeling",
+    "author": "Almaat",
+    "language": "en-GB",
+    "rights": "© 2025 Almaat. All rights reserved.",
+    "description": "One ontology built from a single primitive, then applied to the human, the collective, and daily practice.",
+    "subject": [
+      "Cognitive modeling",
+      "Ontology",
+      "Philosophy of mind"
+    ],
+    "coverPhoto": "cover.png"
+  },
   "scripts": {
-    "version:patch": "npm version patch && git push --tags"
+    "start": "export PORT=${PORT:-8091} && npm run stop && npx --yes npm-run-all --parallel start:*",
+    "start:serve": "bun ../arrmatura-books/site/serve.ts",
+    "start:css": "npm run build:css -- --watch",
+    "start:open": "npx --yes wait-on http://localhost:${PORT:-8091} && open http://localhost:${PORT:-8091}/",
+    "stop": "lsof -t -sTCP:LISTEN -i tcp:${PORT:-8091} | xargs -r kill -9",
+    "build": "npx --yes npm-run-all --parallel build:*",
+    "build:ts": "bun ../arrmatura-books/scripts/build.ts",
+    "build:css": "npx --yes @tailwindcss/cli --cwd ../arrmatura-books -i index.css -o \"$PWD/www/dist/index.css\"",
+    "book": "bun ../arrmatura-books/book/build.ts",
+    "predeploy": "npm run build",
+    "deploy": "firebase deploy --only hosting -P parlang"
+  },
+  "esbuild": {
+    "entryPoints": [
+      "index.ts"
+    ]
   }
 }
