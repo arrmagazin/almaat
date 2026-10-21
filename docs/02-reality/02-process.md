@@ -59,7 +59,7 @@ context-free
 ---
 
 TransitionMatrix *(Mantra Perexodaw\*)*
-: a [`Stochastic Matrix`](../01-math/09-probability.md#measure) of transition probabilities between `State`s.
+: a [`Stochastic Matrix`](../01-math/09-probability.md#measure-mera) of transition probabilities between `State`s.
 
 > `TransitionMatrix<T> :: T[i][j] = P<i>[j], i ∈ DOM<T> ⟹ (Σk ∈ DOM<T[i]>: T[i][k]) IS 1`
 
@@ -68,7 +68,7 @@ TransitionMatrix *(Mantra Perexodaw\*)*
 ---
 
 deterministic
-: a `Circuit` whose distribution is a [`Point Mass`](../01-math/09-probability.md#measure) — one `State` carries all the probability.
+: a `Circuit` whose distribution is a [`Point Mass`](../01-math/09-probability.md#measure-mera) — one `State` carries all the probability.
 
 > `deterministic<C> :: |support<C[i]>| IS 1`
 
@@ -114,7 +114,7 @@ Halt / Absorbing State *(Krant)*
 ---
 
 Bifurcation *(Razvoda\*)*
-: a `State` whose `Circuit` distribution has more than one `State` in its [`Support`](../01-math/09-probability.md#measure).
+: a `State` whose `Circuit` distribution has more than one `State` in its [`Support`](../01-math/09-probability.md#measure-mera).
 
 > `Bifurcation<s> :: |support<C[s]>| > 1`
 
