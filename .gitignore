@@ -8,3 +8,4 @@ build/
 .firebase/
 firebase-debug*.log
 www/dist/
+www/index.json
