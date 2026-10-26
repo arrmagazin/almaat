@@ -19,7 +19,7 @@ Constraint *(Skuta)*
 
 *NOTE*: `Accessible<A,c>` is the `Set` of `Plan`s open to `A` under the `Communication` `c`, and `Accessible<A,Z>` the ones open with none: `c` limits `A` when some `Plan` open without it is closed under it.
 
-*NOTE*: dual to `Freedom`. Growth occurs through navigating constraints, not by eliminating them. Useful `Constraint` becomes the scaffold of [`Mastery`](../05-mastery/01-mastery.md).
+*NOTE*: dual to `Freedom`. Growth occurs through navigating constraints, not by eliminating them. Useful `Constraint` becomes the scaffold of `Mastery`.
 
 ## The Ceiling
 

@@ -60,7 +60,7 @@ Learning *(Vuqba\*)*
 
 > `Learning :: (Knowledge, Experience) ⇒ Knowledge'` where `Knowledge'` better predicts further `Experience`
 
-*NOTE*: The dynamic that makes `Evolution` possible at the cognitive level; complements `Validation`. Applied side: [Learning](../05-mastery/09-learning.md).
+*NOTE*: The dynamic that makes `Evolution` possible at the cognitive level; complements `Validation`. Applied side: Learning.
 
 ---
 
@@ -78,7 +78,7 @@ Skill *(Navyk)*
 
 > `Skill :: Knowledge + Experience ⇒ Behavior reliable under Circumstances`
 
-*NOTE*: `Skill` lives in the *structure* of the `Mind` — modified `Neuron` weights, i.e., `Memory` shaped by `Learning`. Verified by execution under novel conditions, not by description. `Skill` is at the `Behavior` scope; **`Mastery`** (in [Mastery](../05-mastery/01-mastery.md)) is the corresponding `Paradigm`-scope concept.
+*NOTE*: `Skill` lives in the *structure* of the `Mind` — modified `Neuron` weights, i.e., `Memory` shaped by `Learning`. Verified by execution under novel conditions, not by description. `Skill` is at the `Behavior` scope; **`Mastery`** (in Mastery) is the corresponding `Paradigm`-scope concept.
 
 ---
 
