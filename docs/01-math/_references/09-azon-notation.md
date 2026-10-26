@@ -3,7 +3,7 @@ title: "Azon Notation"
 description: "The formal grammar of the Azon formulas: literal, pattern and response, parameters, application, composition, binders, every and some, arithmetic, relations, and the layout of a definition."
 keywords: [appendices, notation, grammar, azon]
 ---
-The formal grammar of the formulas written in [Azon](../01-math/00-azon.md) and [Sets](../01-math/01-sets.md): how an `Azon` is written down, applied, composed, quantified and compared.
+The formal grammar of the formulas written in [Azon](../00-azon.md) and [Sets](../01-sets.md): how an `Azon` is written down, applied, composed, quantified and compared.
 
 ## Grammar
 
@@ -134,7 +134,7 @@ There are no quantifiers. *Every* and *some* come from the `Azon` itself:
 
 | Form | Reading |
 | --- | --- |
-| `0`, `1`, `n` | a `Number`: `n` is `Plus^n`, so `0` is `Uniton` (see [Numerals](../01-math/04-numerals.md)) |
+| `0`, `1`, `n` | a `Number`: `n` is `Plus^n`, so `0` is `Uniton` (see [Numerals](../04-numerals.md)) |
 | `A^n`, `A²` | `A` composed with itself `n` times; a superscript is the same power |
 | `a + b`, `a − b`, `a · b`, `a / b` | the arithmetic of `Numerals` |
 | `a < b`, `a ≤ b`, `a > b`, `a ≥ b` | comparisons of `Numerals` |
@@ -212,8 +212,8 @@ Each entry of the text around the formulas follows one layout:
 
 ## SEE ALSO
 
-- [Azon](../01-math/00-azon.md) — the definitions this notation writes.
-- [Formal Language](../01-math/08-language.md) — `Grammar` and `Rules` as `Azons`; the grammar above is one instance.
+- [Azon](../00-azon.md) — the definitions this notation writes.
+- [Formal Language](../08-language.md) — `Grammar` and `Rules` as `Azons`; the grammar above is one instance.
 - [Extended Backus–Naur form (Wikipedia)](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form) — the metasyntax used in the grammar block.
 - [Pattern matching (Wikipedia)](https://en.wikipedia.org/wiki/Pattern_matching) — first-match clauses with a catch-all, the reading of a literal.
 - [Currying (Wikipedia)](https://en.wikipedia.org/wiki/Currying) — `A[x][y]`: a response that is itself applied.

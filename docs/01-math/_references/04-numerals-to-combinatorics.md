@@ -59,7 +59,7 @@ Binomial Coefficient
 ---
 
 Power-Count
-: The `Cardinality` of the `Power-Set` of a finite `Set` (see [Sets](../01-math/01-sets.md)).
+: The `Cardinality` of the `Power-Set` of a finite `Set` (see [Sets](../01-sets.md)).
 
 > `|2^S| = 2^|S| = ∑_{k=0}^n C(n, k)`
 
@@ -79,7 +79,7 @@ Composition-of-Number
 
 > `[n₁, ..., nₖ] : ∑nᵢ = n, nᵢ > 0`
 
-*NOTE*: An ordered partition of `n`. Distinct from `Composition` of [Graphs](../01-math/03-graphs.md).
+*NOTE*: An ordered partition of `n`. Distinct from `Composition` of [Graphs](../03-graphs.md).
 
 ---
 
@@ -98,7 +98,7 @@ Partition-of-Number
   - is it *surjective*? (every target hit)
   - is the source *quotiented by permutation*? (order ignored)
   - is the target *quotiented by permutation*? (labels ignored)
-- **Pascal's identity** `C(n, k) = C(n−1, k−1) + C(n−1, k)` corresponds to partitioning the `Subset` of size `k` by whether they contain a chosen `Element` — i.e., a `Cluster` (see [Sets](../01-math/01-sets.md)) of the `Power-Set` indexed by membership.
+- **Pascal's identity** `C(n, k) = C(n−1, k−1) + C(n−1, k)` corresponds to partitioning the `Subset` of size `k` by whether they contain a chosen `Element` — i.e., a `Cluster` (see [Sets](../01-sets.md)) of the `Power-Set` indexed by membership.
 - **Bijective proof.** Equalities between counts (`C(n, k) = C(n, n−k)`, the binomial theorem) are most naturally expressed as bijective `Tuple` between the two `Set` being counted — staying inside the framework rather than appealing to algebraic manipulation.
 
 *SEE ALSO*:

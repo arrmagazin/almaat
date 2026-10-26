@@ -4,14 +4,14 @@ description: "The data structures of computing as Azons already available from S
 keywords: [appendices, data-structures, array, tree, map]
 ---
 The concrete data structures used in computing — each an `Azon` already available from
-[Azon](../01-math/00-azon.md), [Sets](../01-math/01-sets.md),
-[Graphs](../01-math/03-graphs.md) and [Numerals](../01-math/04-numerals.md),
+[Azon](../00-azon.md), [Sets](../01-sets.md),
+[Graphs](../03-graphs.md) and [Numerals](../04-numerals.md),
 narrowed by a constraint.
 
 Five carriers are defined upstream and are *not* redefined here:
-[`Set`](../01-math/01-sets.md), [`Graph`](../01-math/03-graphs.md),
-[`Path`](../01-math/03-graphs.md), [`Cycle`](../01-math/03-graphs.md) and
-[`Tree`](../01-math/03-graphs.md).
+[`Set`](../01-sets.md), [`Graph`](../03-graphs.md),
+[`Path`](../03-graphs.md), [`Cycle`](../03-graphs.md) and
+[`Tree`](../03-graphs.md).
 
 *NOTE*: the CS-sense FIFO is named `Fifo` here, because `Queue` is already taken — in the
 framework a `Queue` is an `Azon` over a `Ray`, an unbounded sequence, not a discipline of ends.
@@ -65,7 +65,7 @@ Map<K,V>
 
 > `Map<M,K,V> :: M: K ⇒ V`
 
-*NOTE*: `K` must carry a [`KeyMask`](../01-math/06-structures.md) — no two entries share a
+*NOTE*: `K` must carry a [`KeyMask`](../06-structures.md) — no two entries share a
 `Key`. An `Array` is the `Map` whose `K` is an `Interval`; a dictionary is the `Map` whose `K` is a
 `Set` of `Words`.
 

@@ -11,7 +11,7 @@ Category
 ---
 
 Object *(Pradmet\*)*
-: A `Domain` or `Codomain` of some `Azon` in `C` — itself a `Set` (hence an `Azon`, see [Sets](../01-math/01-sets.md)).
+: A `Domain` or `Codomain` of some `Azon` in `C` — itself a `Set` (hence an `Azon`, see [Sets](../01-sets.md)).
 
 > `Obj(C) := {DOM(A) : A ∈ C} ∪ {COD(A) : A ∈ C}`
 
@@ -27,7 +27,7 @@ Morphism
 ---
 
 Identity Morphism
-: The `Azon` that fixes every `Element` of an `Object` `X` and is empty elsewhere — `Uniton` localized to `X` (see [Azon](../01-math/00-azon.md)).
+: The `Azon` that fixes every `Element` of an `Object` `X` and is empty elsewhere — `Uniton` localized to `X` (see [Azon](../00-azon.md)).
 
 > `1_X(a) := (a ∈ X ? a : 0)`
 
@@ -43,14 +43,14 @@ Isomorphism
 ---
 
 Monoid
-: A `Category` over a single `Object` `X` — every member is endogenous on `X` (see [Sets](../01-math/01-sets.md)).
+: A `Category` over a single `Object` `X` — every member is endogenous on `X` (see [Sets](../01-sets.md)).
 
 > `∀A ∈ M: DOM(A) = COD(A) = X`
 
 ---
 
 Functor
-: An `Azon` that maps one `Category` into another, preserving `Composition` and `Uniton` — equivalent to a **relational `Translation`** (see [Graphs](../01-math/03-graphs.md)).
+: An `Azon` that maps one `Category` into another, preserving `Composition` and `Uniton` — equivalent to a **relational `Translation`** (see [Graphs](../03-graphs.md)).
 
 > `F(A.B) = F(A).F(B)`, `F(1_X) = 1_{F(X)}`
 
@@ -64,9 +64,9 @@ Natural Transformation
 **Notes:**
 
 - A `Category` is *itself* an `Azon` — specifically a `Set` of `Azon`. Nothing leaves the framework.
-- An `Object` is not a separate kind of entity: it is a `Set`, which is an `Azon` (see [Sets](../01-math/01-sets.md)).
+- An `Object` is not a separate kind of entity: it is a `Set`, which is an `Azon` (see [Sets](../01-sets.md)).
 - The categorical axioms (left/right unit, associativity, chain-composability) are exactly the properties of `Composition` listed above — re-named, not re-asserted.
-- `Functor` ≡ **relational `Translation`** of [Graphs](../01-math/03-graphs.md): preserving `Path` is the same condition as preserving `Composition`.
+- `Functor` ≡ **relational `Translation`** of [Graphs](../03-graphs.md): preserving `Path` is the same condition as preserving `Composition`.
 - ALMA does not depend on category theory — but every `Composition`-based chapter (`Derivation` in `Language`, successor in `Number`, `Feedback` in `System`, `Validation` in `Mind`) inherits categorical structure for free.
 
 ## References

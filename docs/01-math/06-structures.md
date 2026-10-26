@@ -83,4 +83,4 @@ Structure *(Stroj)*
 
 ## SEE ALSO
 
-- [Common Structures](../99-appendices/06-common-structures.md) — the standard algebras built on Structure: setoids, magmas, ringoids, and lattices.
+- [Common Structures](_references/06-common-structures.md) — the standard algebras built on Structure: setoids, magmas, ringoids, and lattices.
