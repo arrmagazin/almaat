@@ -4,6 +4,7 @@
 
 @source "../arrmatura-books/node_modules/arrmatura-web/**/*.xml";
 @source "../arrmatura-books/cml/**/*.xml";
+@source "../arrmatura-books/node_modules/arrmatura-markdown/cml/**/*.xml";
 @source "./www/index.html";
 
 @plugin "daisyui" {
