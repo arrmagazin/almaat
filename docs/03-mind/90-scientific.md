@@ -41,14 +41,22 @@ Scientific Process *(Navukovy Praces\*)*
 4. **Experiments** — tests of the predictions under described conditions.
 5. **Review** — independent scrutiny of all of the above.
 
-```mermaid
-stateDiagram-v2
-  [*] --> Characterizations
-  Characterizations --> Hypotheses: observed View
-  Hypotheses --> Predictions: Reasoning
-  Predictions --> Experiments: test design
-  Experiments --> Characterizations: refine / falsify
-  Experiments --> Knowledge: validated
-  Knowledge --> Hypotheses: Doubt
-  Knowledge --> [*]
+```svg
+<Panel flow="LR">
+  <Node key="start" col="0" row="1" shape="point" />
+  <Node key="char" col="1" row="1" label="Characterizations" shape="round" />
+  <Node key="hyp" col="2" row="0" label="Hypotheses" shape="round" />
+  <Node key="pred" col="2" row="1" label="Predictions" shape="round" />
+  <Node key="exp" col="2" row="2" label="Experiments" shape="round" />
+  <Node key="know" col="3" row="1" label="Knowledge" shape="round" />
+  <Node key="end" col="4" row="1" shape="point" />
+  <Edge from="start" to="char" />
+  <Edge from="char" to="hyp" label="observed View" fromSide="top" />
+  <Edge from="hyp" to="pred" label="Reasoning" />
+  <Edge from="pred" to="exp" label="test design" />
+  <Edge from="exp" to="char" label="refine / falsify" toSide="bottom" />
+  <Edge from="exp" to="know" label="validated" toSide="bottom" />
+  <Edge from="know" to="hyp" label="Doubt" fromSide="top" />
+  <Edge from="know" to="end" />
+</Panel>
 ```

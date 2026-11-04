@@ -97,22 +97,36 @@ Existential
 
 *NOTE*: Non-empty `Intersection`.
 
-```mermaid
-mindmap
-  root((Predicate))
-    Constants
-      Tautology ⊤ = P
-      Contradiction ⊥ = 0
-    Connectives
-      Conjunction A ∩ B
-      Disjunction A ∪ B
-      Negation !A
-    Relations
-      Implication A ⊆ B
-      Biconditional A = B
-    Quantifiers
-      Universal A ⊆ P
-      Existential A ∩ P ≠ 0
+```svg
+<Panel>
+  <Node key="predicate" col="2" row="1" rowspan="3" label="Predicate" shape="circle" tone="primary" />
+  <Node key="constants" col="1" row="0" label="Constants" shape="round" />
+  <Node key="tautology" col="0" row="0" label="Tautology&#10;⊤ = P" shape="pill" />
+  <Node key="contradiction" col="0" row="1" label="Contradiction&#10;⊥ = 0" shape="pill" />
+  <Node key="connectives" col="1" row="3" label="Connectives" shape="round" />
+  <Node key="conjunction" col="0" row="2" label="Conjunction&#10;A ∩ B" shape="pill" />
+  <Node key="disjunction" col="0" row="3" label="Disjunction&#10;A ∪ B" shape="pill" />
+  <Node key="negation" col="0" row="4" label="Negation&#10;!A" shape="pill" />
+  <Node key="relations" col="3" row="0" label="Relations" shape="round" />
+  <Node key="implication" col="4" row="0" label="Implication&#10;A ⊆ B" shape="pill" />
+  <Node key="biconditional" col="4" row="1" label="Biconditional&#10;A = B" shape="pill" />
+  <Node key="quantifiers" col="3" row="3" label="Quantifiers" shape="round" />
+  <Node key="universal" col="4" row="3" label="Universal&#10;A ⊆ P" shape="pill" />
+  <Node key="existential" col="4" row="4" label="Existential&#10;A ∩ P ≠ 0" shape="pill" />
+  <Edge from="predicate" to="constants" arrow="none" />
+  <Edge from="predicate" to="connectives" arrow="none" />
+  <Edge from="predicate" to="relations" arrow="none" />
+  <Edge from="predicate" to="quantifiers" arrow="none" />
+  <Edge from="constants" to="tautology" arrow="none" />
+  <Edge from="constants" to="contradiction" arrow="none" />
+  <Edge from="connectives" to="conjunction" arrow="none" />
+  <Edge from="connectives" to="disjunction" arrow="none" />
+  <Edge from="connectives" to="negation" arrow="none" />
+  <Edge from="relations" to="implication" arrow="none" />
+  <Edge from="relations" to="biconditional" arrow="none" />
+  <Edge from="quantifiers" to="universal" arrow="none" />
+  <Edge from="quantifiers" to="existential" arrow="none" />
+</Panel>
 ```
 
 *NOTES*:

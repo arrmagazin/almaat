@@ -35,11 +35,18 @@ BCNF
 
 A fully normalized `Schema` is therefore a `Structure` of `Type` in BCNF, with every inter-table link expressed as a `Relation` over `Key` Attributes and every `Tuple` denoting one inter-entity connection.
 
-```mermaid
-flowchart LR
-    Raw["Unnormalized"] --> NF1["1NF<br/>atomic values"]
-    NF1 --> NF2["2NF<br/>full Key dependency"]
-    NF2 --> NF3["3NF<br/>no transitive dependency"]
-    NF3 --> BCNF["BCNF<br/>determinant is Key"]
-    BCNF --> Schema["Schema of Type<br/>linked by Relation"]
+```svg
+<Panel flow="LR">
+  <Node key="raw" col="0" row="0" label="Unnormalized" />
+  <Node key="nf1" col="1" row="0" label="1NF" note="atomic values" />
+  <Node key="nf2" col="2" row="0" label="2NF" note="full Key dependency" />
+  <Node key="nf3" col="2" row="1" label="3NF" note="no transitive dependency" />
+  <Node key="bcnf" col="1" row="1" label="BCNF" note="determinant is Key" />
+  <Node key="schema" col="0" row="1" label="Schema of Type" note="linked by Relation" />
+  <Edge from="raw" to="nf1" />
+  <Edge from="nf1" to="nf2" />
+  <Edge from="nf2" to="nf3" />
+  <Edge from="nf3" to="bcnf" />
+  <Edge from="bcnf" to="schema" />
+</Panel>
 ```
