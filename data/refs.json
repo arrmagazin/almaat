@@ -1,0 +1,10 @@
+{
+  "refs": [
+    {
+      "id": "almaat-001",
+      "name": "Almaat (web app)",
+      "url": "https://almaat.web.app/#/",
+      "type": "web"
+    }
+  ]
+}
