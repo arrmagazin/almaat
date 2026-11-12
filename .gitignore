@@ -9,3 +9,4 @@ build/
 firebase-debug*.log
 www/dist/
 www/index.json
+www/sitemap.xml

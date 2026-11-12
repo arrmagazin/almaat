@@ -1,5 +1,5 @@
 {
-  "extends": "../proton/configs/tsconfig.json",
+  "extends": "./node_modules/proton/configs/tsconfig.json",
   "compilerOptions": {
     "noImplicitAny": false,
     "checkJs": true,

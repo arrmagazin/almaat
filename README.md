@@ -4,6 +4,16 @@ A general-purpose layered knowledge base and vocabulary for cognitive modeling.
 
 Read it at <https://almaat.web.app>.
 
+## Purpose
+
+Give parlang and related projects one shared base of terms.
+
+## Goals
+
+- Define foundational terminology for a personal ontology / cognitive KB
+- Provide a browsable reference web app for the core concepts
+- Serve as the terminology base for parlang and related projects
+
 ## Site and book
 
 This repo hosts the site and builds the book, with tooling from the sibling checkouts `../arrmatura-books` (book, checks), `../proton` (`ops/build.ts`, `ops/serve.ts`, `ops/index-docs.ts`, base `tsconfig.json`) and `../arrmatura-web` (the hot reload server).
@@ -12,7 +22,7 @@ This repo hosts the site and builds the book, with tooling from the sibling chec
 | --- | --- |
 | `npm run book` | `build/almaat.epub` and `.pdf` from `docs/` |
 | `npm start` / `npm run stop` | Serves `www/` on :8091, rebuilds the UI and the docs index on change, hot-reloads the page over `hotPort`, opens the browser / frees both ports |
-| `npm run build` | `www/dist/` (the UI bundle from `index.ts` and its CSS) and `www/index.json` (the docs tree); both gitignored |
+| `npm run build` | `www/dist/` (the UI bundle from `index.ts` and its CSS), `www/index.json` (the docs tree) and `www/sitemap.xml` (one url per page the tree shows); all gitignored |
 | `npm run deploy` | Builds, then deploys `www/` to Firebase Hosting |
 
 - `www/` is the Firebase public root. `index.html`, `service-worker.js` and `onload.js` are

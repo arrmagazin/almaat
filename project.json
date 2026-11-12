@@ -2,12 +2,6 @@
   "id": "almaat",
   "name": "Almatura",
   "description": "A layered knowledge base of foundational terms",
-  "purpose": "Give parlang and related projects one shared base of terms.",
-  "goals": [
-    "Define foundational terminology for a personal ontology / cognitive KB",
-    "Provide a browsable reference web app for the core concepts",
-    "Serve as the terminology base for parlang and related projects"
-  ],
   "status": "maintain",
   "repoUrl": "https://github.com/arrmagazin/almaat",
   "prodUrl": "https://almaat.web.app/#/",

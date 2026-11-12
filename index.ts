@@ -1,4 +1,4 @@
-import { launchBook } from "../arrmatura-books";
+import { launchBook } from "../../libs/arrmatura-books";
 import pkg from "./package.json";
 
 const { author, copyright, description, displayName, hotPort, logo, keywords, name, version } = pkg;
