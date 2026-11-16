@@ -28,20 +28,20 @@
   },
   "hotPort": 8191,
   "scripts": {
-    "link": "../../libs/proton/ops/link-modules.sh",
+    "link": "proton link-modules",
     "postinstall": "npm run link",
     "start": "export PORT=${PORT:-8091} && npm run stop && npx --yes npm-run-all --parallel start:*",
-    "start:serve": "bun node_modules/proton/ops/serve.ts",
+    "start:serve": "proton serve",
     "start:css": "npm run build:css -- --watch",
     "start:index": "npm run build:index -- --watch",
-    "start:hot": "bun node_modules/proton/hot/server/main.ts www/dist $(jq .hotPort package.json)",
+    "start:hot": "proton hot www/dist $(jq .hotPort package.json)",
     "start:open": "npx --yes wait-on http://localhost:${PORT:-8091} && open http://localhost:${PORT:-8091}/",
     "stop": "lsof -t -sTCP:LISTEN -i tcp:${PORT:-8091},$(jq .hotPort package.json) | xargs -r kill -9",
     "build": "npx --yes npm-run-all --parallel build:*",
-    "build:ts": "bun node_modules/proton/ops/build.ts",
-    "build:index": "bun node_modules/proton/ops/index-docs.ts docs",
-    "build:sitemap": "bun node_modules/proton/ops/sitemap.ts https://almaat.web.app docs",
-    "build:css": "npx --yes @tailwindcss/cli -i index.css -o \"$PWD/www/dist/index.css\"",
+    "build:ts": "proton build",
+    "build:index": "proton index-docs docs",
+    "build:sitemap": "proton sitemap https://almaat.web.app docs",
+    "build:css": "proton build-css",
     "book": "bun ../../libs/arrmatura-books/book/build.ts",
     "predeploy": "npm run build",
     "deploy": "firebase deploy --only hosting -P parlang",
@@ -54,8 +54,8 @@
     ]
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.3.5",
     "daisyui": "^5.7.50",
+    "proton": "file://../../libs/proton",
     "tailwindcss": "^4.3.3"
   }
 }
