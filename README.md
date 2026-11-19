@@ -21,7 +21,7 @@ This repo hosts the site and builds the book, with tooling from the sibling chec
 | Command | What it does |
 | --- | --- |
 | `npm run book` | `build/almaat.epub` and `.pdf` from `docs/` |
-| `npm start` / `npm run stop` | Serves `www/` on :8091, rebuilds the UI and the docs index on change, hot-reloads the page over `hotPort`, opens the browser / frees both ports |
+| `npm start` / `npm run stop` | Serves `www/` on :8091, rebuilds the UI and the docs index on change, hot-reloads the page (`proton serve --hot`), opens the browser / frees the port |
 | `npm run build` | `www/dist/` (the UI bundle from `index.ts` and its CSS), `www/index.json` (the docs tree) and `www/sitemap.xml` (one url per page the tree shows); all gitignored |
 | `npm run deploy` | Builds, then deploys `www/` to Firebase Hosting |
 
