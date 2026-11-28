@@ -16,12 +16,12 @@ Give parlang and related projects one shared base of terms.
 
 ## Site and book
 
-This repo hosts the site and builds the book, with tooling from the sibling checkouts `../arrmatura-books` (book, checks), `../proton` (`ops/build.ts`, `ops/serve.ts`, `ops/index-docs.ts`, base `tsconfig.json`) and `../arrmatura-web` (the hot reload server).
+This repo hosts the site and builds the book, with tooling from the sibling checkouts `../arrmatura-books` (book, checks), `../arrmatura-support` (`ops/index-docs.ts`, base `tsconfig.json`) and `../arrmatura-web` (`arrmatura-web build` and `serve`, the hot reload server).
 
 | Command | What it does |
 | --- | --- |
 | `npm run book` | `build/almaat.epub` and `.pdf` from `docs/` |
-| `npm start` / `npm run stop` | Serves `www/` on :8091, rebuilds the UI and the docs index on change, hot-reloads the page (`proton serve --hot`), opens the browser / frees the port |
+| `npm start` / `npm run stop` | Serves `www/` on :8091, rebuilds the UI and the docs index on change, hot-reloads the page (`arrmatura-web serve --hot`), opens the browser / frees the port |
 | `npm run build` | `www/dist/` (the UI bundle from `index.ts` and its CSS), `www/index.json` (the docs tree) and `www/sitemap.xml` (one url per page the tree shows); all gitignored |
 | `npm run deploy` | Builds, then deploys `www/` to Firebase Hosting |
 
